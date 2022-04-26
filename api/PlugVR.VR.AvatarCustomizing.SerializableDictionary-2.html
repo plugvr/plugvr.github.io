@@ -88,14 +88,15 @@
   <div class="inheritance">
     <h5>Inheritance</h5>
     <div class="level0"><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object">Object</a></div>
-    <div class="level1"><span class="xref">SerializableDictionary&lt;TKey, TValue&gt;</span></div>
+    <div class="level1"><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.collections.generic.dictionary-2">Dictionary</a>&lt;TKey, TValue&gt;</div>
+    <div class="level2"><span class="xref">SerializableDictionary&lt;TKey, TValue&gt;</span></div>
   </div>
   <h6><strong>Namespace</strong>: <a class="xref" href="PlugVR.VR.AvatarCustomizing.html">PlugVR.VR.AvatarCustomizing</a></h6>
   <h6><strong>Assembly</strong>: cs.temp.dll.dll</h6>
   <h5 id="PlugVR_VR_AvatarCustomizing_SerializableDictionary_2_syntax">Syntax</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">[Serializable]
-public class SerializableDictionary&lt;TKey, TValue&gt; : Dictionary&lt;TKey, TValue&gt;</code></pre>
+public class SerializableDictionary&lt;TKey, TValue&gt; : Dictionary&lt;TKey, TValue&gt;, IDictionary&lt;TKey, TValue&gt;, ICollection&lt;KeyValuePair&lt;TKey, TValue&gt;&gt;, IDictionary, ICollection, IReadOnlyDictionary&lt;TKey, TValue&gt;, IReadOnlyCollection&lt;KeyValuePair&lt;TKey, TValue&gt;&gt;, IEnumerable&lt;KeyValuePair&lt;TKey, TValue&gt;&gt;, IEnumerable, ISerializable, IDeserializationCallback</code></pre>
   </div>
   <h5 class="typeParameters">Type Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">

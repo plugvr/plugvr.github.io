@@ -2,11 +2,11 @@
   "sitemap": {
     "fileOptions": {
       "api/*": {
-        "baseUrl": "https://normanderwan.github.io/DocFxForUnity/",
+        "baseUrl": "https://plugvr.github.io/",
         "changefreq": "daily"
       }
     },
-    "baseUrl": "https://normanderwan.github.io/DocFxForUnity/",
+    "baseUrl": "https://plugvr.github.io/",
     "changefreq": "weekly"
   },
   "homepages": [],
@@ -14,13 +14,328 @@
   "xrefmap": "xrefmap.yml",
   "files": [
     {
-      "type": "Resource",
+      "type": "ManagedReference",
+      "source_relative_path": "api/PlugVR.Network.ErrorResult.yml",
       "output": {
-        "resource": {
-          "relative_path": "index.json"
+        ".html": {
+          "relative_path": "api/PlugVR.Network.ErrorResult.html",
+          "hash": "I/a4FkQlGth5yXCWpnF9BK1guG0hKwV8SS2R2rYeGlE="
         }
       },
-      "is_incremental": false
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PlugVR.Network.InRoomType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PlugVR.Network.InRoomType.html",
+          "hash": "nxa67yz0XaEMRtX3aLg2qI3E6Em4zswMstwyzwZzqnM="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PlugVR.Network.LoginResult.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PlugVR.Network.LoginResult.html",
+          "hash": "YNcspZ3f8C0hJqqbB4KtCNI9wJTUcD42WcscDmOCH8Q="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PlugVR.Network.MatchType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PlugVR.Network.MatchType.html",
+          "hash": "31f8tX1rBqEw8wafYpi7tidqFpxKKLw1gzq9VRjAYak="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PlugVR.Network.NetworkManager.Region.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PlugVR.Network.NetworkManager.Region.html",
+          "hash": "XCI0ntkZHNu7Wh0a8PqOKhcg9airA4NY/4GBXjj1S3o="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PlugVR.Network.NetworkManager.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PlugVR.Network.NetworkManager.html",
+          "hash": "45Gf/z5ciILgkPdjjCx0+0l3/7w5mAjHMkg8HSuwd3I="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PlugVR.Network.PermissionType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PlugVR.Network.PermissionType.html",
+          "hash": "Up9uR0gD/7j/xAI5V6vq6n+Tn7G14mbYr3wGfYZqbwM="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PlugVR.Network.PhotonExtension.PhotonCallbacks.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PlugVR.Network.PhotonExtension.PhotonCallbacks.html",
+          "hash": "YpdVFYmvJldQLsfY02i8yUcd1x/3GmFepkM/DIuRpf8="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PlugVR.Network.PhotonExtension.PhotonExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PlugVR.Network.PhotonExtension.PhotonExtensions.html",
+          "hash": "Ur+Gm7gR5lvat5HsWOWcQfx3PuGSq9OP3VkvVoLh6oU="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PlugVR.Network.PhotonExtension.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PlugVR.Network.PhotonExtension.html",
+          "hash": "2rWNaxWIk3BAuA3cIeMMmVjzjLouD16lnCxvujonvaA="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PlugVR.Network.PhotonInstanceData.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PlugVR.Network.PhotonInstanceData.html",
+          "hash": "IvkMcCh6vraDr+R6kWqSOjELOcuNz+TrclHbFl3MyLA="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PlugVR.Network.PhotonRoomList.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PlugVR.Network.PhotonRoomList.html",
+          "hash": "og0DFLggdhPgjTgeagAK3q8+5bps3sPvkFigTZjb9TM="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PlugVR.Network.PlayFabBase.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PlugVR.Network.PlayFabBase.html",
+          "hash": "0ypll3f4wsxAW52zkxrklTO/Wt5auSQekHInFpVReA8="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PlugVR.Network.PlayFabCustom.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PlugVR.Network.PlayFabCustom.html",
+          "hash": "J3AW6LuDM+fsK8apz5i4y0EU4zZe1Bl50MtpPYiNsKM="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PlugVR.Network.PlayFabOculus.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PlugVR.Network.PlayFabOculus.html",
+          "hash": "u9pYt2pzmZF/N5wpecMUSBDAKPafiygC2iPIBYGTr8A="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PlugVR.Network.Result.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PlugVR.Network.Result.html",
+          "hash": "ep8zhnC2Lx+q9LPKsk2wt+Ad5yRBkepPZ9cEjk5Zpug="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PlugVR.Network.RoomInfo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PlugVR.Network.RoomInfo.html",
+          "hash": "KJzS6QwknLnkTtPvIo5a1Sc2UWA2vdy6KXFel+ST3C8="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PlugVR.Network.RoomListType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PlugVR.Network.RoomListType.html",
+          "hash": "11pBRZFVR12XrRAZ0blebbMKmbIbFsM0jB7XhpJ1EiU="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PlugVR.Network.RoomPermission.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PlugVR.Network.RoomPermission.html",
+          "hash": "qGmN7U87xFu3E5GKfzpDBxWp9g4VfPVo7IbXmPt8cVA="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PlugVR.Network.RoomPropertyKey.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PlugVR.Network.RoomPropertyKey.html",
+          "hash": "BwFamwIIauK8EnTBJJjH8geUyhSxxuB1y1FgNZ9wFlE="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PlugVR.Network.WebRTC.IRTCDataChannel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PlugVR.Network.WebRTC.IRTCDataChannel.html",
+          "hash": "m7hPsqd54enaiXE9nzjFYhektHzg+nEN8rREj4LHfJI="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PlugVR.Network.WebRTC.IRTCPeerConnection.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PlugVR.Network.WebRTC.IRTCPeerConnection.html",
+          "hash": "Ua3M7VQFIKtA7TdR2Mucp4Jng03X/5b8jsZGORxnLPc="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PlugVR.Network.WebRTC.RTCConnection.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PlugVR.Network.WebRTC.RTCConnection.html",
+          "hash": "kucDYLD07ySvqwW7xsaAK2g7CoH1125UWH15mvTleUA="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PlugVR.Network.WebRTC.RTCOption.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PlugVR.Network.WebRTC.RTCOption.html",
+          "hash": "GPRk1uwHnO9Jt24CXRztXnYm4OookxYWkxTg7Sh+p4s="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PlugVR.Network.WebRTC.WebRtcManager.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PlugVR.Network.WebRTC.WebRtcManager.html",
+          "hash": "DlhSfuK2waEtdkStwzLrHF5+ZZR90mzVw7cio2axBcI="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PlugVR.Network.WebRTC.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PlugVR.Network.WebRTC.html",
+          "hash": "jzsrWoZZS4KP73IWIZnB9zeWYJijBzjAIptGiza3S5s="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PlugVR.Network.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PlugVR.Network.html",
+          "hash": "adLSekMzSM0/ab6mIv80d15EkG/oTQqo49nN82YT+yM="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
     },
     {
       "type": "ManagedReference",
@@ -28,7 +343,7 @@
       "output": {
         ".html": {
           "relative_path": "api/PlugVR.VR.AvatarCustomizing.AccessoryItem.html",
-          "hash": "y4YE9vxMkhXG2adM11NA8u/9e/G2aWPmOagsm2mwDbE="
+          "hash": "khSzxLKWyUdC2Ub2sIUFZkF/gXVUni7M+UsIKl4mh4o="
         }
       },
       "is_incremental": false,
@@ -40,7 +355,7 @@
       "output": {
         ".html": {
           "relative_path": "api/PlugVR.VR.AvatarCustomizing.Appearance.html",
-          "hash": "kSeu8tyPEPfR0oH12Irn8FOjpDUrK6AW9rNEGMxtPoc="
+          "hash": "HdXAMGHnEOBLeLdJHDruM6oUGopm1Hgwgh9Ud8EGuK8="
         }
       },
       "is_incremental": false,
@@ -52,7 +367,7 @@
       "output": {
         ".html": {
           "relative_path": "api/PlugVR.VR.AvatarCustomizing.AvatarCreator.html",
-          "hash": "MUb+1jKvv6cBS2ljAK+jcw+1jZVLoun/litWPOELP/g="
+          "hash": "Px7Yp5MHcuEFumza0WHoADyyzu0m/hCroNIUDGI1giA="
         }
       },
       "is_incremental": false,
@@ -64,7 +379,7 @@
       "output": {
         ".html": {
           "relative_path": "api/PlugVR.VR.AvatarCustomizing.AvatarCustomizeBase.History.html",
-          "hash": "hyxtKm4OtCU2Jelaoj4qy+wTYS2VSCBveHbV1hJbA+Q="
+          "hash": "aj7yM3UIm9xkCv4FRguyv6g/K4fRi+8mZkjDm/f77us="
         }
       },
       "is_incremental": false,
@@ -76,7 +391,7 @@
       "output": {
         ".html": {
           "relative_path": "api/PlugVR.VR.AvatarCustomizing.AvatarCustomizeBase.html",
-          "hash": "mERj/2/sNnNFUaVr6Ot35r6r/vs2NAhpgv5G7ldxMw4="
+          "hash": "nzHSDiJmoMS21xgq5uJJU9rQc5TrvJQ2/RgY6Ix+asI="
         }
       },
       "is_incremental": false,
@@ -88,7 +403,7 @@
       "output": {
         ".html": {
           "relative_path": "api/PlugVR.VR.AvatarCustomizing.AvatarData.html",
-          "hash": "yWDsQ1IlBnCw0dEe3Hh1DqU5ttxEyR/1FbPKDbD6SQM="
+          "hash": "W8NqF9Io00y8FUXOb5s8YUbLbiS7Fl4V6iT+1Q43jIQ="
         }
       },
       "is_incremental": false,
@@ -100,7 +415,7 @@
       "output": {
         ".html": {
           "relative_path": "api/PlugVR.VR.AvatarCustomizing.AvatarDatabase.html",
-          "hash": "RN3utmpFSKI/px5KahIKlKSoMwGiTSHscfKqCjjq3UU="
+          "hash": "/uAoY3UAZO0T4wtEIWuZ5/M0xpxVeIUlhZSRQkHweVU="
         }
       },
       "is_incremental": false,
@@ -112,7 +427,7 @@
       "output": {
         ".html": {
           "relative_path": "api/PlugVR.VR.AvatarCustomizing.AvatarDressingTable.html",
-          "hash": "vCbHWFqY7hJEWB4K17Xfe0Ln2mA7/8qeqeh8yUYhPuU="
+          "hash": "wf/ALZM4Zm5NjvxkQ9EC6GxZxngXIuVeP0yjyMk0ciw="
         }
       },
       "is_incremental": false,
@@ -124,7 +439,7 @@
       "output": {
         ".html": {
           "relative_path": "api/PlugVR.VR.AvatarCustomizing.ClothItem.html",
-          "hash": "csajTBjo26/vddf1i0s63LrpB6yhmH3CbJ5UP+NdYUw="
+          "hash": "or8w+aJsliH+WdCmTR5FsSobwX1slIVB2i4voQlRJv8="
         }
       },
       "is_incremental": false,
@@ -136,7 +451,7 @@
       "output": {
         ".html": {
           "relative_path": "api/PlugVR.VR.AvatarCustomizing.CustomItemData.html",
-          "hash": "lyHmF2eWuJ6fRhkpj0qUH5rV5CiWRxCNjH5KMxgF5wc="
+          "hash": "m8SqXx5IOhRf1GFh3mpZVCybR+dgevcpLBz//oGP9YY="
         }
       },
       "is_incremental": false,
@@ -148,7 +463,7 @@
       "output": {
         ".html": {
           "relative_path": "api/PlugVR.VR.AvatarCustomizing.DressingTableAppearance.html",
-          "hash": "CurSLknNS0qyXOSKuW4hw/RqdIqXQEbq6P2Y18imUe8="
+          "hash": "N7slmt+dqGN7+ilgoMV6Pexl6x0qnhR1Fhqizs+i4RI="
         }
       },
       "is_incremental": false,
@@ -160,7 +475,7 @@
       "output": {
         ".html": {
           "relative_path": "api/PlugVR.VR.AvatarCustomizing.DressingTableColor.html",
-          "hash": "AJ/V7Kth6LNXeE31efzYVIDnqg/Vp7zDiIfPnRlnng4="
+          "hash": "XQ0YxUM/J1WBglxz9Lux1PJ+gT6yun74RRCP02vz6fA="
         }
       },
       "is_incremental": false,
@@ -172,7 +487,7 @@
       "output": {
         ".html": {
           "relative_path": "api/PlugVR.VR.AvatarCustomizing.DressingTableItem.html",
-          "hash": "HMzYgyrhqn+RwpthS8RMFV2hjvVW0RskmLcEI1TiVBg="
+          "hash": "Pk8YeHOX1oDegWbkBrPuWPFAp0XGC1rd3LYMCw4422g="
         }
       },
       "is_incremental": false,
@@ -184,7 +499,7 @@
       "output": {
         ".html": {
           "relative_path": "api/PlugVR.VR.AvatarCustomizing.DressingTableItemPoint.html",
-          "hash": "NuIE0jmkXF9pOypAf8YnMoQod2kiIMSWgx5xKLJXVpQ="
+          "hash": "F5jUBjYcOhy0cxrBCgEDEbzJ5OkgnuHPiPjBapvkenQ="
         }
       },
       "is_incremental": false,
@@ -196,7 +511,7 @@
       "output": {
         ".html": {
           "relative_path": "api/PlugVR.VR.AvatarCustomizing.DressingTableMenu.html",
-          "hash": "tS+PYYtqI4hoF2MdiuZXfwT+fYZm6RokSUUNUd+9ksU="
+          "hash": "9fx71P4haja7sg043+dUv1xScfc1O+prCLHE56BwfR4="
         }
       },
       "is_incremental": false,
@@ -208,7 +523,7 @@
       "output": {
         ".html": {
           "relative_path": "api/PlugVR.VR.AvatarCustomizing.DressingTablePalette.html",
-          "hash": "Eq8fbuaEMz5CaVo/4AFjIEHgTjw80tXtuavvVL0G9qs="
+          "hash": "HR8GUxT+uaDRgz07IYzQv08p8W/PlpC3zb23fvZ0Vac="
         }
       },
       "is_incremental": false,
@@ -220,7 +535,7 @@
       "output": {
         ".html": {
           "relative_path": "api/PlugVR.VR.AvatarCustomizing.FaceItem.html",
-          "hash": "0k76nuE2bjdbrNnsmZNR4Inx3OcZzs6eqEoGmWOhUl0="
+          "hash": "O95/rvvCNGaREA/pogFaWcxYRKD5EcuQ6Ii5nks8unM="
         }
       },
       "is_incremental": false,
@@ -232,7 +547,7 @@
       "output": {
         ".html": {
           "relative_path": "api/PlugVR.VR.AvatarCustomizing.Gender.html",
-          "hash": "XKYbKji1ZywKGSDXIdhgVUpgLUL/PC8er2EqAAsly6w="
+          "hash": "V8t0mI8ygZsZWxvx1diaUixBI4ORbb3NDwiXlPFcIeo="
         }
       },
       "is_incremental": false,
@@ -244,19 +559,7 @@
       "output": {
         ".html": {
           "relative_path": "api/PlugVR.VR.AvatarCustomizing.HairItem.html",
-          "hash": "jiWU5mp1Z+Te7kesVhJoUmhxp9mhFmcV3RDh6hTCYQM="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/PlugVR.VR.AvatarCustomizing.IEnumerableExtention.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/PlugVR.VR.AvatarCustomizing.IEnumerableExtention.html",
-          "hash": "HXRk94byqfdQlRCEsK7FacK0yxPZ7DwNEyUe560O5Jo="
+          "hash": "roYfE6E1QHg8si4pvpvwHJpd8nXb5IWT3/YofbqtOeA="
         }
       },
       "is_incremental": false,
@@ -268,7 +571,7 @@
       "output": {
         ".html": {
           "relative_path": "api/PlugVR.VR.AvatarCustomizing.ItemBase.html",
-          "hash": "9+Fzq1dDxiKmnV/ZFs+UsKzxej3/JwBBqT7+UIKJLPg="
+          "hash": "Fpgc2VdSJCqERhne3A7w1dsVatufK7r+AvqjHeevxTs="
         }
       },
       "is_incremental": false,
@@ -280,7 +583,7 @@
       "output": {
         ".html": {
           "relative_path": "api/PlugVR.VR.AvatarCustomizing.ObjectItem.html",
-          "hash": "ssSVQWkaNIna4sUHDx7Rd7FfcQBYdsK8RCaxgygwTZ8="
+          "hash": "umFb6TsmyT6ih8Z2iiPAs8R+1ivoLwWTkj2aUnf1ld8="
         }
       },
       "is_incremental": false,
@@ -292,7 +595,19 @@
       "output": {
         ".html": {
           "relative_path": "api/PlugVR.VR.AvatarCustomizing.SerializableDictionary-2.html",
-          "hash": "jLlcRYIVK/gYCt5kXbw/Y468Km8EnEvm0FAdg3LyTZg="
+          "hash": "Y7GdkUhccj352Do0eUQptEnHm7TIzesRzGA0uymmX3o="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PlugVR.VR.AvatarCustomizing.SingletonMonoBehaviour-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PlugVR.VR.AvatarCustomizing.SingletonMonoBehaviour-1.html",
+          "hash": "kTcZ2/MAL4YVOnfDh3LaRl0BquoPqgjtbgZ4WNUzejw="
         }
       },
       "is_incremental": false,
@@ -304,7 +619,7 @@
       "output": {
         ".html": {
           "relative_path": "api/PlugVR.VR.AvatarCustomizing.TableAppearanceInspector.html",
-          "hash": "xC4X7bFXZjCpkmgmbZTFtDukNRVwIk1n5uhd626T6KU="
+          "hash": "VoBlr8/Zx/ImAImHvLxdH4QPF6U+LSHgrbQRv5eJzds="
         }
       },
       "is_incremental": false,
@@ -316,7 +631,7 @@
       "output": {
         ".html": {
           "relative_path": "api/PlugVR.VR.AvatarCustomizing.TableColorInspector.html",
-          "hash": "KNyeuT9UC8Gh28tNeO+zpB8mUNBoJhCM6bMU37LKL/k="
+          "hash": "Adv0Ag+VCuJ7+yefC7+LiLXZZuaA9SgFM36tNs5unOo="
         }
       },
       "is_incremental": false,
@@ -328,7 +643,7 @@
       "output": {
         ".html": {
           "relative_path": "api/PlugVR.VR.AvatarCustomizing.TableDressingInspector.html",
-          "hash": "WRrgcPVeyyp4pGkbcdAeFyTBfSlRITKApbiyFLt+A/I="
+          "hash": "M4acl8n1eKHEApp/nGodmaxDsXzSfkQyzsKokEmgNfk="
         }
       },
       "is_incremental": false,
@@ -340,7 +655,7 @@
       "output": {
         ".html": {
           "relative_path": "api/PlugVR.VR.AvatarCustomizing.TableItemInspector.html",
-          "hash": "o+UvS+i41yujT2GUkcJZ8Wo33vxLkUroBXXQOgt0Iow="
+          "hash": "Nwy6H6AvqOHUX1c0Wp2iQs0OiC99rCS4I8JtpMLeWAE="
         }
       },
       "is_incremental": false,
@@ -352,7 +667,7 @@
       "output": {
         ".html": {
           "relative_path": "api/PlugVR.VR.AvatarCustomizing.TableMenuInspector.html",
-          "hash": "UT2KOPkPFZUSQkM/e2Wqd695czxJXb0LdZ0lYw53ENQ="
+          "hash": "FYbIDYtxpzYBAzROFeoaPdLtqB3P1zIKCb0b6WJhsjA="
         }
       },
       "is_incremental": false,
@@ -364,7 +679,7 @@
       "output": {
         ".html": {
           "relative_path": "api/PlugVR.VR.AvatarCustomizing.TablePaletteInspector.html",
-          "hash": "7LkBMeq7ncvbBn3vp0BFUSeYyqBdzSjU5QyFHqlLl80="
+          "hash": "oirkcgE3S3SxyUFI6uawl7QQsUElo49qGfUWG4s7wIQ="
         }
       },
       "is_incremental": false,
@@ -376,31 +691,7 @@
       "output": {
         ".html": {
           "relative_path": "api/PlugVR.VR.AvatarCustomizing.html",
-          "hash": "nTgItDJEzB0DbK65KSWfez1eD/GXyjBYMyKFoNaT0jA="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/PlugVR.VR.SingletonMonoBehaviour-1.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/PlugVR.VR.SingletonMonoBehaviour-1.html",
-          "hash": "/WLuIIROvGexki4XPOgk1x65dJEr6UXDn8QI/RJXgn4="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/PlugVR.VR.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/PlugVR.VR.html",
-          "hash": "uaPYlVunRdXBayl+tpemgPAnPjAJPvBK6bXhCfbSowE="
+          "hash": "OLVm+9aed3xW6t+az/fAlD8x8vZx72UEpJVSNXYKcj8="
         }
       },
       "is_incremental": false,
@@ -412,7 +703,7 @@
       "output": {
         ".html": {
           "relative_path": "api/toc.html",
-          "hash": "aR9NydQb4KBXBjFNuEeXz+4rSDD02KVpFRuefoJv5AE="
+          "hash": "EDuhuMwk5wYoDEUY6VIesGfU4eBsfkm/cjILK5BZxKc="
         }
       },
       "is_incremental": false,
@@ -424,7 +715,7 @@
       "output": {
         ".html": {
           "relative_path": "index.html",
-          "hash": "2lmHS0PWMCPJhhD+aqjpBMI2OJX9gBhqOYQb5hg2Sz0="
+          "hash": "fdNZnQG/MN9jAJOXJ+tDrGyzYOiYzJOLSi9HauoQQxI="
         }
       },
       "is_incremental": false,
@@ -432,23 +723,11 @@
     },
     {
       "type": "Conceptual",
-      "source_relative_path": "manual/coniunctis.md",
+      "source_relative_path": "manual/test.md",
       "output": {
         ".html": {
-          "relative_path": "manual/coniunctis.html",
-          "hash": "IG5wx7Mj8Dik3uTKdrbIyLYPP8EvfpoYG0WRY/5eqfU="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "manual/etiam.md",
-      "output": {
-        ".html": {
-          "relative_path": "manual/etiam.html",
-          "hash": "tYDgBNIjrE2dpe66Uh5fByn/naKctO/sRLS/TBc7Sx4="
+          "relative_path": "manual/test.html",
+          "hash": "aj5Wj+oWztIak4DrDp25iRBcOfKnXnxjuaguoefSPk0="
         }
       },
       "is_incremental": false,
@@ -460,7 +739,7 @@
       "output": {
         ".html": {
           "relative_path": "manual/toc.html",
-          "hash": "rP+c9KPLMLO+q5u7rC7ci/iMYXqbmZC8g5PeGCEXGU4="
+          "hash": "v+rLLlyt+ik1uVOvNRuoAeBCRB+E4Fi5BLQIAmsm5+g="
         }
       },
       "is_incremental": false,
@@ -494,7 +773,7 @@
       "output": {
         ".html": {
           "relative_path": "toc.html",
-          "hash": "Q+xjoBBl3/3NMzc6fCTOg7Nnv8HqxNxlYN1gNl02XKk="
+          "hash": "WTfsMoXXQDhAROZtSXvbVVuA8ItqxnWfVekHeOd16ec="
         }
       },
       "is_incremental": false,
@@ -515,13 +794,13 @@
         "ConceptualDocumentProcessor": {
           "can_incremental": false,
           "incrementalPhase": "build",
-          "total_file_count": 3,
+          "total_file_count": 2,
           "skipped_file_count": 0
         },
         "ManagedReferenceDocumentProcessor": {
           "can_incremental": false,
           "incrementalPhase": "build",
-          "total_file_count": 32,
+          "total_file_count": 57,
           "skipped_file_count": 0
         },
         "ResourceDocumentProcessor": {

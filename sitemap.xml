@@ -2,475 +2,475 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://plugvr.github.io/api/PlugVR.BoardGame.AdditionalBoardManager.html</loc>
-    <lastmod>2022-04-27T02:15:21+00:00</lastmod>
+    <lastmod>2022-04-27T05:55:22+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://plugvr.github.io/api/PlugVR.BoardGame.AdditionalPointBase.html</loc>
-    <lastmod>2022-04-27T02:15:21+00:00</lastmod>
+    <lastmod>2022-04-27T05:55:22+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://plugvr.github.io/api/PlugVR.BoardGame.BoardGameExtensions.html</loc>
-    <lastmod>2022-04-27T02:15:21+00:00</lastmod>
+    <lastmod>2022-04-27T05:55:22+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://plugvr.github.io/api/PlugVR.BoardGame.BoardGameManager.html</loc>
-    <lastmod>2022-04-27T02:15:21+00:00</lastmod>
+    <lastmod>2022-04-27T05:55:22+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://plugvr.github.io/api/PlugVR.BoardGame.BoardPlayer.html</loc>
-    <lastmod>2022-04-27T02:15:21+00:00</lastmod>
+    <lastmod>2022-04-27T05:55:22+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://plugvr.github.io/api/PlugVR.BoardGame.FinishedInfo.html</loc>
-    <lastmod>2022-04-27T02:15:21+00:00</lastmod>
+    <lastmod>2022-04-27T05:55:22+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://plugvr.github.io/api/PlugVR.BoardGame.GameData.html</loc>
-    <lastmod>2022-04-27T02:15:21+00:00</lastmod>
+    <lastmod>2022-04-27T05:55:22+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://plugvr.github.io/api/PlugVR.BoardGame.GameInfo.html</loc>
-    <lastmod>2022-04-27T02:15:21+00:00</lastmod>
+    <lastmod>2022-04-27T05:55:22+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://plugvr.github.io/api/PlugVR.BoardGame.GameState.html</loc>
-    <lastmod>2022-04-27T02:15:21+00:00</lastmod>
+    <lastmod>2022-04-27T05:55:22+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://plugvr.github.io/api/PlugVR.BoardGame.MessagePackDictionary.html</loc>
-    <lastmod>2022-04-27T02:15:21+00:00</lastmod>
+    <lastmod>2022-04-27T05:55:22+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://plugvr.github.io/api/PlugVR.BoardGame.MsgPackIntIntDictionary.html</loc>
-    <lastmod>2022-04-27T02:15:21+00:00</lastmod>
+    <lastmod>2022-04-27T05:55:22+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://plugvr.github.io/api/PlugVR.BoardGame.PlayerInfo.html</loc>
-    <lastmod>2022-04-27T02:15:21+00:00</lastmod>
+    <lastmod>2022-04-27T05:55:22+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://plugvr.github.io/api/PlugVR.BoardGame.PointBase.html</loc>
-    <lastmod>2022-04-27T02:15:21+00:00</lastmod>
+    <lastmod>2022-04-27T05:55:22+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://plugvr.github.io/api/PlugVR.BoardGame.PointBasePun.html</loc>
-    <lastmod>2022-04-27T02:15:21+00:00</lastmod>
+    <lastmod>2022-04-27T05:55:22+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://plugvr.github.io/api/PlugVR.BoardGame.TimeInfo.html</loc>
-    <lastmod>2022-04-27T02:15:21+00:00</lastmod>
+    <lastmod>2022-04-27T05:55:22+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://plugvr.github.io/api/PlugVR.BoardGame.TurnExtensions.html</loc>
-    <lastmod>2022-04-27T02:15:21+00:00</lastmod>
+    <lastmod>2022-04-27T05:55:22+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://plugvr.github.io/api/PlugVR.BoardGame.TurnGameManager.html</loc>
-    <lastmod>2022-04-27T02:15:21+00:00</lastmod>
+    <lastmod>2022-04-27T05:55:22+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://plugvr.github.io/api/PlugVR.BoardGame.TurnInfo.html</loc>
-    <lastmod>2022-04-27T02:15:21+00:00</lastmod>
+    <lastmod>2022-04-27T05:55:22+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://plugvr.github.io/api/PlugVR.BoardGame.TurnPointBase.html</loc>
-    <lastmod>2022-04-27T02:15:21+00:00</lastmod>
+    <lastmod>2022-04-27T05:55:22+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://plugvr.github.io/api/PlugVR.BoardGame.html</loc>
-    <lastmod>2022-04-27T02:15:21+00:00</lastmod>
+    <lastmod>2022-04-27T05:55:22+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://plugvr.github.io/api/PlugVR.Network.ErrorResult.html</loc>
-    <lastmod>2022-04-27T02:15:21+00:00</lastmod>
+    <lastmod>2022-04-27T05:55:22+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://plugvr.github.io/api/PlugVR.Network.InRoomType.html</loc>
-    <lastmod>2022-04-27T02:15:21+00:00</lastmod>
+    <lastmod>2022-04-27T05:55:22+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://plugvr.github.io/api/PlugVR.Network.LoginResult.html</loc>
-    <lastmod>2022-04-27T02:15:21+00:00</lastmod>
+    <lastmod>2022-04-27T05:55:22+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://plugvr.github.io/api/PlugVR.Network.MatchType.html</loc>
-    <lastmod>2022-04-27T02:15:21+00:00</lastmod>
+    <lastmod>2022-04-27T05:55:22+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://plugvr.github.io/api/PlugVR.Network.NetworkManager.Region.html</loc>
-    <lastmod>2022-04-27T02:15:21+00:00</lastmod>
+    <lastmod>2022-04-27T05:55:22+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://plugvr.github.io/api/PlugVR.Network.NetworkManager.html</loc>
-    <lastmod>2022-04-27T02:15:21+00:00</lastmod>
+    <lastmod>2022-04-27T05:55:22+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://plugvr.github.io/api/PlugVR.Network.PermissionType.html</loc>
-    <lastmod>2022-04-27T02:15:21+00:00</lastmod>
+    <lastmod>2022-04-27T05:55:22+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://plugvr.github.io/api/PlugVR.Network.PhotonExtension.PhotonCallbacks.html</loc>
-    <lastmod>2022-04-27T02:15:21+00:00</lastmod>
+    <lastmod>2022-04-27T05:55:22+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://plugvr.github.io/api/PlugVR.Network.PhotonExtension.PhotonExtensions.html</loc>
-    <lastmod>2022-04-27T02:15:21+00:00</lastmod>
+    <lastmod>2022-04-27T05:55:22+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://plugvr.github.io/api/PlugVR.Network.PhotonExtension.html</loc>
-    <lastmod>2022-04-27T02:15:21+00:00</lastmod>
+    <lastmod>2022-04-27T05:55:22+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://plugvr.github.io/api/PlugVR.Network.PhotonInstanceData.html</loc>
-    <lastmod>2022-04-27T02:15:21+00:00</lastmod>
+    <lastmod>2022-04-27T05:55:22+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://plugvr.github.io/api/PlugVR.Network.PhotonRoomList.html</loc>
-    <lastmod>2022-04-27T02:15:21+00:00</lastmod>
+    <lastmod>2022-04-27T05:55:22+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://plugvr.github.io/api/PlugVR.Network.PlayFabBase.html</loc>
-    <lastmod>2022-04-27T02:15:21+00:00</lastmod>
+    <lastmod>2022-04-27T05:55:22+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://plugvr.github.io/api/PlugVR.Network.PlayFabCustom.html</loc>
-    <lastmod>2022-04-27T02:15:21+00:00</lastmod>
+    <lastmod>2022-04-27T05:55:22+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://plugvr.github.io/api/PlugVR.Network.PlayFabOculus.html</loc>
-    <lastmod>2022-04-27T02:15:21+00:00</lastmod>
+    <lastmod>2022-04-27T05:55:22+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://plugvr.github.io/api/PlugVR.Network.Result.html</loc>
-    <lastmod>2022-04-27T02:15:21+00:00</lastmod>
+    <lastmod>2022-04-27T05:55:22+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://plugvr.github.io/api/PlugVR.Network.RoomInfo.html</loc>
-    <lastmod>2022-04-27T02:15:21+00:00</lastmod>
+    <lastmod>2022-04-27T05:55:22+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://plugvr.github.io/api/PlugVR.Network.RoomListType.html</loc>
-    <lastmod>2022-04-27T02:15:21+00:00</lastmod>
+    <lastmod>2022-04-27T05:55:22+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://plugvr.github.io/api/PlugVR.Network.RoomPermission.html</loc>
-    <lastmod>2022-04-27T02:15:21+00:00</lastmod>
+    <lastmod>2022-04-27T05:55:22+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://plugvr.github.io/api/PlugVR.Network.RoomPropertyKey.html</loc>
-    <lastmod>2022-04-27T02:15:21+00:00</lastmod>
+    <lastmod>2022-04-27T05:55:22+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://plugvr.github.io/api/PlugVR.Network.WebRTC.IRTCDataChannel.html</loc>
-    <lastmod>2022-04-27T02:15:21+00:00</lastmod>
+    <lastmod>2022-04-27T05:55:22+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://plugvr.github.io/api/PlugVR.Network.WebRTC.IRTCPeerConnection.html</loc>
-    <lastmod>2022-04-27T02:15:21+00:00</lastmod>
+    <lastmod>2022-04-27T05:55:22+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://plugvr.github.io/api/PlugVR.Network.WebRTC.RTCConnection.html</loc>
-    <lastmod>2022-04-27T02:15:21+00:00</lastmod>
+    <lastmod>2022-04-27T05:55:22+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://plugvr.github.io/api/PlugVR.Network.WebRTC.RTCOption.html</loc>
-    <lastmod>2022-04-27T02:15:21+00:00</lastmod>
+    <lastmod>2022-04-27T05:55:22+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://plugvr.github.io/api/PlugVR.Network.WebRTC.WebRtcManager.html</loc>
-    <lastmod>2022-04-27T02:15:21+00:00</lastmod>
+    <lastmod>2022-04-27T05:55:22+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://plugvr.github.io/api/PlugVR.Network.WebRTC.html</loc>
-    <lastmod>2022-04-27T02:15:21+00:00</lastmod>
+    <lastmod>2022-04-27T05:55:22+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://plugvr.github.io/api/PlugVR.Network.html</loc>
-    <lastmod>2022-04-27T02:15:21+00:00</lastmod>
+    <lastmod>2022-04-27T05:55:22+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://plugvr.github.io/api/PlugVR.VR.AvatarCustomizing.AccessoryItem.html</loc>
-    <lastmod>2022-04-27T02:15:21+00:00</lastmod>
+    <lastmod>2022-04-27T05:55:22+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://plugvr.github.io/api/PlugVR.VR.AvatarCustomizing.Appearance.html</loc>
-    <lastmod>2022-04-27T02:15:21+00:00</lastmod>
+    <lastmod>2022-04-27T05:55:22+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://plugvr.github.io/api/PlugVR.VR.AvatarCustomizing.AvatarCreator.html</loc>
-    <lastmod>2022-04-27T02:15:21+00:00</lastmod>
+    <lastmod>2022-04-27T05:55:22+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://plugvr.github.io/api/PlugVR.VR.AvatarCustomizing.AvatarCustomizeBase.History.html</loc>
-    <lastmod>2022-04-27T02:15:21+00:00</lastmod>
+    <lastmod>2022-04-27T05:55:22+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://plugvr.github.io/api/PlugVR.VR.AvatarCustomizing.AvatarCustomizeBase.html</loc>
-    <lastmod>2022-04-27T02:15:21+00:00</lastmod>
+    <lastmod>2022-04-27T05:55:22+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://plugvr.github.io/api/PlugVR.VR.AvatarCustomizing.AvatarData.html</loc>
-    <lastmod>2022-04-27T02:15:21+00:00</lastmod>
+    <lastmod>2022-04-27T05:55:22+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://plugvr.github.io/api/PlugVR.VR.AvatarCustomizing.AvatarDatabase.html</loc>
-    <lastmod>2022-04-27T02:15:21+00:00</lastmod>
+    <lastmod>2022-04-27T05:55:22+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://plugvr.github.io/api/PlugVR.VR.AvatarCustomizing.AvatarDressingTable.html</loc>
-    <lastmod>2022-04-27T02:15:21+00:00</lastmod>
+    <lastmod>2022-04-27T05:55:22+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://plugvr.github.io/api/PlugVR.VR.AvatarCustomizing.ClothItem.html</loc>
-    <lastmod>2022-04-27T02:15:21+00:00</lastmod>
+    <lastmod>2022-04-27T05:55:22+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://plugvr.github.io/api/PlugVR.VR.AvatarCustomizing.CustomItemData.html</loc>
-    <lastmod>2022-04-27T02:15:21+00:00</lastmod>
+    <lastmod>2022-04-27T05:55:22+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://plugvr.github.io/api/PlugVR.VR.AvatarCustomizing.DressingTableAppearance.html</loc>
-    <lastmod>2022-04-27T02:15:21+00:00</lastmod>
+    <lastmod>2022-04-27T05:55:22+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://plugvr.github.io/api/PlugVR.VR.AvatarCustomizing.DressingTableColor.html</loc>
-    <lastmod>2022-04-27T02:15:21+00:00</lastmod>
+    <lastmod>2022-04-27T05:55:22+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://plugvr.github.io/api/PlugVR.VR.AvatarCustomizing.DressingTableItem.html</loc>
-    <lastmod>2022-04-27T02:15:21+00:00</lastmod>
+    <lastmod>2022-04-27T05:55:22+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://plugvr.github.io/api/PlugVR.VR.AvatarCustomizing.DressingTableItemPoint.html</loc>
-    <lastmod>2022-04-27T02:15:21+00:00</lastmod>
+    <lastmod>2022-04-27T05:55:22+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://plugvr.github.io/api/PlugVR.VR.AvatarCustomizing.DressingTableMenu.html</loc>
-    <lastmod>2022-04-27T02:15:21+00:00</lastmod>
+    <lastmod>2022-04-27T05:55:22+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://plugvr.github.io/api/PlugVR.VR.AvatarCustomizing.DressingTablePalette.html</loc>
-    <lastmod>2022-04-27T02:15:21+00:00</lastmod>
+    <lastmod>2022-04-27T05:55:22+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://plugvr.github.io/api/PlugVR.VR.AvatarCustomizing.FaceItem.html</loc>
-    <lastmod>2022-04-27T02:15:21+00:00</lastmod>
+    <lastmod>2022-04-27T05:55:22+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://plugvr.github.io/api/PlugVR.VR.AvatarCustomizing.Gender.html</loc>
-    <lastmod>2022-04-27T02:15:21+00:00</lastmod>
+    <lastmod>2022-04-27T05:55:22+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://plugvr.github.io/api/PlugVR.VR.AvatarCustomizing.HairItem.html</loc>
-    <lastmod>2022-04-27T02:15:21+00:00</lastmod>
+    <lastmod>2022-04-27T05:55:22+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://plugvr.github.io/api/PlugVR.VR.AvatarCustomizing.ItemBase.html</loc>
-    <lastmod>2022-04-27T02:15:21+00:00</lastmod>
+    <lastmod>2022-04-27T05:55:22+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://plugvr.github.io/api/PlugVR.VR.AvatarCustomizing.ObjectItem.html</loc>
-    <lastmod>2022-04-27T02:15:21+00:00</lastmod>
+    <lastmod>2022-04-27T05:55:22+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://plugvr.github.io/api/PlugVR.VR.AvatarCustomizing.SerializableDictionary-2.html</loc>
-    <lastmod>2022-04-27T02:15:21+00:00</lastmod>
+    <lastmod>2022-04-27T05:55:22+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://plugvr.github.io/api/PlugVR.VR.AvatarCustomizing.SingletonMonoBehaviour-1.html</loc>
-    <lastmod>2022-04-27T02:15:21+00:00</lastmod>
+    <lastmod>2022-04-27T05:55:22+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://plugvr.github.io/api/PlugVR.VR.AvatarCustomizing.TableAppearanceInspector.html</loc>
-    <lastmod>2022-04-27T02:15:21+00:00</lastmod>
+    <lastmod>2022-04-27T05:55:22+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://plugvr.github.io/api/PlugVR.VR.AvatarCustomizing.TableColorInspector.html</loc>
-    <lastmod>2022-04-27T02:15:21+00:00</lastmod>
+    <lastmod>2022-04-27T05:55:22+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://plugvr.github.io/api/PlugVR.VR.AvatarCustomizing.TableDressingInspector.html</loc>
-    <lastmod>2022-04-27T02:15:21+00:00</lastmod>
+    <lastmod>2022-04-27T05:55:22+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://plugvr.github.io/api/PlugVR.VR.AvatarCustomizing.TableItemInspector.html</loc>
-    <lastmod>2022-04-27T02:15:21+00:00</lastmod>
+    <lastmod>2022-04-27T05:55:22+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://plugvr.github.io/api/PlugVR.VR.AvatarCustomizing.TableMenuInspector.html</loc>
-    <lastmod>2022-04-27T02:15:21+00:00</lastmod>
+    <lastmod>2022-04-27T05:55:22+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://plugvr.github.io/api/PlugVR.VR.AvatarCustomizing.TablePaletteInspector.html</loc>
-    <lastmod>2022-04-27T02:15:21+00:00</lastmod>
+    <lastmod>2022-04-27T05:55:22+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://plugvr.github.io/api/PlugVR.VR.AvatarCustomizing.html</loc>
-    <lastmod>2022-04-27T02:15:21+00:00</lastmod>
+    <lastmod>2022-04-27T05:55:22+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://plugvr.github.io/index.html</loc>
-    <lastmod>2022-04-27T02:15:21+00:00</lastmod>
+    <lastmod>2022-04-27T05:55:22+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://plugvr.github.io/manual/test.html</loc>
-    <lastmod>2022-04-27T02:15:21+00:00</lastmod>
+    <lastmod>2022-04-27T05:55:22+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>

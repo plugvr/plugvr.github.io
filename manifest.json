@@ -2,11 +2,11 @@
   "sitemap": {
     "fileOptions": {
       "api/*": {
-        "baseUrl": "https://normanderwan.github.io/DocFxForUnity/",
+        "baseUrl": "https://plugvr.github.io/",
         "changefreq": "daily"
       }
     },
-    "baseUrl": "https://normanderwan.github.io/DocFxForUnity/",
+    "baseUrl": "https://plugvr.github.io/",
     "changefreq": "weekly"
   },
   "homepages": [],
@@ -14,21 +14,12 @@
   "xrefmap": "xrefmap.yml",
   "files": [
     {
-      "type": "Resource",
-      "output": {
-        "resource": {
-          "relative_path": "index.json"
-        }
-      },
-      "is_incremental": false
-    },
-    {
       "type": "ManagedReference",
       "source_relative_path": "api/PlugVR.Network.ErrorResult.yml",
       "output": {
         ".html": {
           "relative_path": "api/PlugVR.Network.ErrorResult.html",
-          "hash": "L06JWhnSj7REXSNCdrqItAYg66jvB3QoAgCla/SyxQY="
+          "hash": "IXsXfXLXMT7z/b0l64tpGiUql5d1I+bxqOmp1ISbcJU="
         }
       },
       "is_incremental": false,
@@ -40,7 +31,7 @@
       "output": {
         ".html": {
           "relative_path": "api/PlugVR.Network.InRoomType.html",
-          "hash": "V6OjCJKL/l6CLAu7XLRI8R+T1+ZFUeClq6e4cMDgi/U="
+          "hash": "wW8ZmQYJf+BNJQ5gcLbKYfrHuqz6zahdjFDvNgvTki0="
         }
       },
       "is_incremental": false,
@@ -52,7 +43,7 @@
       "output": {
         ".html": {
           "relative_path": "api/PlugVR.Network.LoginResult.html",
-          "hash": "UqzgAYuj/FcCtSwcWkRm3UeSefEUkGaR3ReVJXtKwjI="
+          "hash": "9/LIJPy2H5GJch1K+efAivI6e/j23XA9gphZqLvKfX8="
         }
       },
       "is_incremental": false,
@@ -64,7 +55,7 @@
       "output": {
         ".html": {
           "relative_path": "api/PlugVR.Network.MatchType.html",
-          "hash": "mdnxnYuYvzH7J6jjhwOwez3fQxoHdPjQn4MmA0sGmeE="
+          "hash": "sQ5yjR4OiPvOFRSpxNYBS8cwLp7xdpUXHuh2uwgy9fs="
         }
       },
       "is_incremental": false,
@@ -76,7 +67,7 @@
       "output": {
         ".html": {
           "relative_path": "api/PlugVR.Network.NetworkManager.Region.html",
-          "hash": "2/9D82Istd/odJHw4aA5SDocCyj8vhWK8L+tJ3uawEc="
+          "hash": "Cc3RyfRb0J+2pBonvGQhAkl2zRttZbc9T0ICkLReNNY="
         }
       },
       "is_incremental": false,
@@ -88,7 +79,7 @@
       "output": {
         ".html": {
           "relative_path": "api/PlugVR.Network.NetworkManager.html",
-          "hash": "Oe1Qwd7Sa3YJaGL2WjE6aziGXDYCU51LCrlteX3EtYM="
+          "hash": "tBg13KN5olT5XDGHZb/YHjL5d7BYitfh4hku16at2BY="
         }
       },
       "is_incremental": false,
@@ -100,7 +91,7 @@
       "output": {
         ".html": {
           "relative_path": "api/PlugVR.Network.PermissionType.html",
-          "hash": "ZSkyiyzj7g43iG01cZ3tZ/pUWlOY5V+qsvjcqximQQo="
+          "hash": "3H3zcM60PJDBoqX5U8RanwJO3yrNhVUq5bOkYiG7SBQ="
         }
       },
       "is_incremental": false,
@@ -112,7 +103,7 @@
       "output": {
         ".html": {
           "relative_path": "api/PlugVR.Network.PhotonExtension.PhotonCallbacks.html",
-          "hash": "mqX1tNBjc0fVzD80PBIe8NnPMJbCQ8USQHK7JFFAsXM="
+          "hash": "+hAKsxWkFR60EMo2Zwh4vcoBbcL3fOe0suwmfI7YVa0="
         }
       },
       "is_incremental": false,
@@ -124,7 +115,7 @@
       "output": {
         ".html": {
           "relative_path": "api/PlugVR.Network.PhotonExtension.PhotonExtensions.html",
-          "hash": "PIsSRsrp+oQNJN2NyuPEjLJkGa/zFCRRs0n6bX024Vw="
+          "hash": "k86Y2+3HAH4uUsEASVd+Y708KbFMB6IBLdkxByGLCSg="
         }
       },
       "is_incremental": false,
@@ -136,7 +127,7 @@
       "output": {
         ".html": {
           "relative_path": "api/PlugVR.Network.PhotonExtension.html",
-          "hash": "zg3MVmN2NkDzPOggaCvcexe1v0+23tedGCjU3WxRJgw="
+          "hash": "evBsxMs/gHrbnKArPjqF/kVBwmQDM+hgA6WTiZRy9c8="
         }
       },
       "is_incremental": false,
@@ -148,7 +139,7 @@
       "output": {
         ".html": {
           "relative_path": "api/PlugVR.Network.PhotonInstanceData.html",
-          "hash": "cGbkdAnDG0rHqikXn+QHrTB2ukcBD/GonyzdjfJwChY="
+          "hash": "wJkYgk/phjlHQ1qestX5PQV9eNZTDh4ZVmfIOLrXm5w="
         }
       },
       "is_incremental": false,
@@ -160,7 +151,7 @@
       "output": {
         ".html": {
           "relative_path": "api/PlugVR.Network.PhotonRoomList.html",
-          "hash": "E0Jq1LZnd7rOkJzQxF7Y19iwPE14L+fZK687M1hbJPM="
+          "hash": "c0CZz9Ih9C4FWImNnFbgpPNjt7xymLpEjrmS4xG1jKM="
         }
       },
       "is_incremental": false,
@@ -172,7 +163,7 @@
       "output": {
         ".html": {
           "relative_path": "api/PlugVR.Network.PlayFabBase.html",
-          "hash": "rVyQIKTbXWwwVTzWE6mU20g0YqNspKjcXH2I6u8wB44="
+          "hash": "q897TP/w8MxFj1PaSQXCppQ9Fd8ITnlJib61+dbiGkY="
         }
       },
       "is_incremental": false,
@@ -184,7 +175,7 @@
       "output": {
         ".html": {
           "relative_path": "api/PlugVR.Network.PlayFabCustom.html",
-          "hash": "eGnxDhPd0mf50INk8UMq1jNDCD5919JfUrCIqEC8+K4="
+          "hash": "EGm8RUgZOPv5JjPKp+pvXZjxT9Zd9+wz0OwTZfHNsYU="
         }
       },
       "is_incremental": false,
@@ -196,7 +187,7 @@
       "output": {
         ".html": {
           "relative_path": "api/PlugVR.Network.PlayFabOculus.html",
-          "hash": "c8hoiet1Oi79wl/dUvvFpMCTXZww8LsffbC/PpGxlCw="
+          "hash": "opfCHfFjMg8HWTAlh+tY37mJtU/cP1Khtn1CnmnTk/0="
         }
       },
       "is_incremental": false,
@@ -208,7 +199,7 @@
       "output": {
         ".html": {
           "relative_path": "api/PlugVR.Network.Result.html",
-          "hash": "wq5tgWls+gQa/E1BK1N6moseGtNsyuJi8CbMqDCBcj0="
+          "hash": "P4Z4GWOPymOys9pU/VfH+VVxn8JL0FP02oFTgK2qik0="
         }
       },
       "is_incremental": false,
@@ -220,7 +211,7 @@
       "output": {
         ".html": {
           "relative_path": "api/PlugVR.Network.RoomInfo.html",
-          "hash": "qvjfFF3glj3SiPMNNfEn3bImH0U+fEco1IFtbaNEBPc="
+          "hash": "Tx/9ib0TFtKcV/M4xRG+ON4byvZggWAUOpzH3c24E4g="
         }
       },
       "is_incremental": false,
@@ -232,7 +223,7 @@
       "output": {
         ".html": {
           "relative_path": "api/PlugVR.Network.RoomListType.html",
-          "hash": "LB+WkcfAqpjQXwxUp8bJHJlA4KF+exzlmh+MpMEHr+g="
+          "hash": "1C8eLzlNikPO579O/5uyhbWsQOkffIMs7f7tTxd0qWM="
         }
       },
       "is_incremental": false,
@@ -244,7 +235,7 @@
       "output": {
         ".html": {
           "relative_path": "api/PlugVR.Network.RoomPermission.html",
-          "hash": "pyFejNtUgrPGga2HTRiIVPKSgDAtSXuHsHu/ITv8L6s="
+          "hash": "hfGTnvRrINELG7gqB/WudFgUXl55RerdhxY4vvypf+A="
         }
       },
       "is_incremental": false,
@@ -256,7 +247,7 @@
       "output": {
         ".html": {
           "relative_path": "api/PlugVR.Network.RoomPropertyKey.html",
-          "hash": "RTITgMR7TDADsyzAGZE9wHAiBGva/2FMIRYRPPf7rHc="
+          "hash": "1zy2MJTsYzghLvOKhBlvkeuSuNjWa1XJisTC9dTOmmE="
         }
       },
       "is_incremental": false,
@@ -268,7 +259,7 @@
       "output": {
         ".html": {
           "relative_path": "api/PlugVR.Network.WebRTC.IRTCDataChannel.html",
-          "hash": "gjo3GeYJGeD7A5XnRk2Anx1gE0AkIIHWZlKGQs23+SQ="
+          "hash": "wPFFHfEKrpOMmEq9jwMhxj9XF1p0IDdD2yXDcrXaVzI="
         }
       },
       "is_incremental": false,
@@ -280,7 +271,7 @@
       "output": {
         ".html": {
           "relative_path": "api/PlugVR.Network.WebRTC.IRTCPeerConnection.html",
-          "hash": "r8X4XCa7KbRduKvY5WWtHUTmfPZwTMdLtZtjDUTu/28="
+          "hash": "QZmESfPWgqe+0a1IHNtdxhxntsiVD++facrJj3Bv5lQ="
         }
       },
       "is_incremental": false,
@@ -292,7 +283,7 @@
       "output": {
         ".html": {
           "relative_path": "api/PlugVR.Network.WebRTC.RTCConnection.html",
-          "hash": "NiEZCSfB7z0tIjV8QWngZMzbSiSw7DaU0dz/xmM1Hxk="
+          "hash": "+tyN8c0AxRu/RNneteFbImABeOfn2mzMSdWdZwXFfs4="
         }
       },
       "is_incremental": false,
@@ -304,7 +295,7 @@
       "output": {
         ".html": {
           "relative_path": "api/PlugVR.Network.WebRTC.RTCOption.html",
-          "hash": "Ubvx2B96sWxgs18NteeiRERWFnjSIYeuvztw8X0UDcM="
+          "hash": "X7hsMIZd04LHIMxsC7ctkreCpniWgMn7ZPTspXy0LIo="
         }
       },
       "is_incremental": false,
@@ -316,7 +307,7 @@
       "output": {
         ".html": {
           "relative_path": "api/PlugVR.Network.WebRTC.WebRtcManager.html",
-          "hash": "Rk0LCprbuRZZTlvWRxKApt+5Lbj63JcmCIQ3Fp19r10="
+          "hash": "9x6bwIXRBLMDmjIgt0inLHFlJBke5knibbjYcZbjeFs="
         }
       },
       "is_incremental": false,
@@ -328,7 +319,7 @@
       "output": {
         ".html": {
           "relative_path": "api/PlugVR.Network.WebRTC.html",
-          "hash": "mjB5hlTMaHVjZ/5iXIFxIjGC9H13XdlJhxzUBvRKJME="
+          "hash": "kh1cWs2kzWf9Zscb+y8p0VDdnP18nVtelKAsXu9oNnU="
         }
       },
       "is_incremental": false,
@@ -340,7 +331,7 @@
       "output": {
         ".html": {
           "relative_path": "api/PlugVR.Network.html",
-          "hash": "WjFOYEMvUFeVeZrt1KS0AHW9vBZTztJOffr1qJpKiDU="
+          "hash": "1UO8TM69u06uvm79ecUSce6rXHqrEH/fTVU3iJT89Rg="
         }
       },
       "is_incremental": false,
@@ -352,7 +343,7 @@
       "output": {
         ".html": {
           "relative_path": "api/PlugVR.VR.AvatarCustomizing.AccessoryItem.html",
-          "hash": "JiHFLvOrwA0n3D0VlWWFzhkP+v5tT/ingfcsn171NxA="
+          "hash": "7w/PaLzf0YR9c6AoZ6Tw5w+Hm8SabTTvBPBdQtaJGb4="
         }
       },
       "is_incremental": false,
@@ -364,7 +355,7 @@
       "output": {
         ".html": {
           "relative_path": "api/PlugVR.VR.AvatarCustomizing.Appearance.html",
-          "hash": "kSeu8tyPEPfR0oH12Irn8FOjpDUrK6AW9rNEGMxtPoc="
+          "hash": "BCajYlfEm4YOkLzYqDKv/xn+xNSgcjaXwzZqniO2iOs="
         }
       },
       "is_incremental": false,
@@ -376,7 +367,7 @@
       "output": {
         ".html": {
           "relative_path": "api/PlugVR.VR.AvatarCustomizing.AvatarCreator.html",
-          "hash": "MUb+1jKvv6cBS2ljAK+jcw+1jZVLoun/litWPOELP/g="
+          "hash": "xrjibEyDGNWmOo9mU0hboI3gmoCcrDjVNw5vd8xmGug="
         }
       },
       "is_incremental": false,
@@ -388,7 +379,7 @@
       "output": {
         ".html": {
           "relative_path": "api/PlugVR.VR.AvatarCustomizing.AvatarCustomizeBase.History.html",
-          "hash": "hyxtKm4OtCU2Jelaoj4qy+wTYS2VSCBveHbV1hJbA+Q="
+          "hash": "rwAUdeH7gS16IlYD1R8n9XB8RUCcmfPfYEgtL+EPYxA="
         }
       },
       "is_incremental": false,
@@ -400,7 +391,7 @@
       "output": {
         ".html": {
           "relative_path": "api/PlugVR.VR.AvatarCustomizing.AvatarCustomizeBase.html",
-          "hash": "rYTyGoEwgXzbsd0R4OZxWIjnPqQipd+5K/7DW6JoKAg="
+          "hash": "Xlu6UVKzwgCUiIZMZeWSt+luz3EtU1Iwqfqd+2bzS4Y="
         }
       },
       "is_incremental": false,
@@ -412,7 +403,7 @@
       "output": {
         ".html": {
           "relative_path": "api/PlugVR.VR.AvatarCustomizing.AvatarData.html",
-          "hash": "yWDsQ1IlBnCw0dEe3Hh1DqU5ttxEyR/1FbPKDbD6SQM="
+          "hash": "y1yU7rlTJITGBmaClilUARcXaDXSmdUU8eGLO9IqxBs="
         }
       },
       "is_incremental": false,
@@ -424,7 +415,7 @@
       "output": {
         ".html": {
           "relative_path": "api/PlugVR.VR.AvatarCustomizing.AvatarDatabase.html",
-          "hash": "qd/KZMEkV//5xphwtbQHEZ/NG920c6xpnb4RRrwjeKE="
+          "hash": "Kb3OcVEi/7nC/NnPTVWz7/8Y1zmKhn9xsNzKGmhfu+A="
         }
       },
       "is_incremental": false,
@@ -436,7 +427,7 @@
       "output": {
         ".html": {
           "relative_path": "api/PlugVR.VR.AvatarCustomizing.AvatarDressingTable.html",
-          "hash": "vCbHWFqY7hJEWB4K17Xfe0Ln2mA7/8qeqeh8yUYhPuU="
+          "hash": "aCu2xZolxQCUt2BXNIxvlfRRSgel1WkxWXPkWNEtzoQ="
         }
       },
       "is_incremental": false,
@@ -448,7 +439,7 @@
       "output": {
         ".html": {
           "relative_path": "api/PlugVR.VR.AvatarCustomizing.ClothItem.html",
-          "hash": "csajTBjo26/vddf1i0s63LrpB6yhmH3CbJ5UP+NdYUw="
+          "hash": "WVgcLwUecc0Eg7hqosVTyUDDyL+sz24JfOi1Dvx/y9A="
         }
       },
       "is_incremental": false,
@@ -460,7 +451,7 @@
       "output": {
         ".html": {
           "relative_path": "api/PlugVR.VR.AvatarCustomizing.CustomItemData.html",
-          "hash": "lyHmF2eWuJ6fRhkpj0qUH5rV5CiWRxCNjH5KMxgF5wc="
+          "hash": "uxTli2HhjPfFp4yHe2SPB41IwmVhkyk5NK+LFgfMJaE="
         }
       },
       "is_incremental": false,
@@ -472,7 +463,7 @@
       "output": {
         ".html": {
           "relative_path": "api/PlugVR.VR.AvatarCustomizing.DressingTableAppearance.html",
-          "hash": "CurSLknNS0qyXOSKuW4hw/RqdIqXQEbq6P2Y18imUe8="
+          "hash": "7lovuvz3HNXrxsX9jFlzmyuqHPJqjSxMGeD85+ieFBA="
         }
       },
       "is_incremental": false,
@@ -484,7 +475,7 @@
       "output": {
         ".html": {
           "relative_path": "api/PlugVR.VR.AvatarCustomizing.DressingTableColor.html",
-          "hash": "AJ/V7Kth6LNXeE31efzYVIDnqg/Vp7zDiIfPnRlnng4="
+          "hash": "nB5PNCEUbqOQBE8at9mj5xorbu//kPV8mtCDlr8age8="
         }
       },
       "is_incremental": false,
@@ -496,7 +487,7 @@
       "output": {
         ".html": {
           "relative_path": "api/PlugVR.VR.AvatarCustomizing.DressingTableItem.html",
-          "hash": "HMzYgyrhqn+RwpthS8RMFV2hjvVW0RskmLcEI1TiVBg="
+          "hash": "eK/xWSEi2PKMJR7mJgV/mtBhgIGpezD/uNabz3vu0Ek="
         }
       },
       "is_incremental": false,
@@ -508,7 +499,7 @@
       "output": {
         ".html": {
           "relative_path": "api/PlugVR.VR.AvatarCustomizing.DressingTableItemPoint.html",
-          "hash": "NuIE0jmkXF9pOypAf8YnMoQod2kiIMSWgx5xKLJXVpQ="
+          "hash": "lMtRdOp93+XCOTMm0+bxn1b0bQf+uqSCML1dgzjY3uw="
         }
       },
       "is_incremental": false,
@@ -520,7 +511,7 @@
       "output": {
         ".html": {
           "relative_path": "api/PlugVR.VR.AvatarCustomizing.DressingTableMenu.html",
-          "hash": "tS+PYYtqI4hoF2MdiuZXfwT+fYZm6RokSUUNUd+9ksU="
+          "hash": "IWCs9YCinm3dv7zdCZo7PZoE4JuVkqCkBvXpWDaIORw="
         }
       },
       "is_incremental": false,
@@ -532,7 +523,7 @@
       "output": {
         ".html": {
           "relative_path": "api/PlugVR.VR.AvatarCustomizing.DressingTablePalette.html",
-          "hash": "Eq8fbuaEMz5CaVo/4AFjIEHgTjw80tXtuavvVL0G9qs="
+          "hash": "4sOPWHU9AhZHSgvY0JhRkHw2YBLR9J241gj6rXaeLnQ="
         }
       },
       "is_incremental": false,
@@ -544,7 +535,7 @@
       "output": {
         ".html": {
           "relative_path": "api/PlugVR.VR.AvatarCustomizing.FaceItem.html",
-          "hash": "0k76nuE2bjdbrNnsmZNR4Inx3OcZzs6eqEoGmWOhUl0="
+          "hash": "KUzN+JR2U3t3fBnvW/c7ZLqxUSLGm9I6GJ0tSypWVRc="
         }
       },
       "is_incremental": false,
@@ -556,7 +547,7 @@
       "output": {
         ".html": {
           "relative_path": "api/PlugVR.VR.AvatarCustomizing.Gender.html",
-          "hash": "XKYbKji1ZywKGSDXIdhgVUpgLUL/PC8er2EqAAsly6w="
+          "hash": "UYtgebnmj91jxc3+KoG0IjlpwWAZJCHb6QgNYpEsciU="
         }
       },
       "is_incremental": false,
@@ -568,7 +559,7 @@
       "output": {
         ".html": {
           "relative_path": "api/PlugVR.VR.AvatarCustomizing.HairItem.html",
-          "hash": "jiWU5mp1Z+Te7kesVhJoUmhxp9mhFmcV3RDh6hTCYQM="
+          "hash": "0iUA62X7jhcKt9GjLSVIL4iT+eNINkz53jxvtLe9x0Q="
         }
       },
       "is_incremental": false,
@@ -580,7 +571,7 @@
       "output": {
         ".html": {
           "relative_path": "api/PlugVR.VR.AvatarCustomizing.ItemBase.html",
-          "hash": "9+Fzq1dDxiKmnV/ZFs+UsKzxej3/JwBBqT7+UIKJLPg="
+          "hash": "00kpzEYbjtW7VT97/MPLchlyE5D4d+Mg5SzuE7IK7/k="
         }
       },
       "is_incremental": false,
@@ -592,7 +583,7 @@
       "output": {
         ".html": {
           "relative_path": "api/PlugVR.VR.AvatarCustomizing.ObjectItem.html",
-          "hash": "ssSVQWkaNIna4sUHDx7Rd7FfcQBYdsK8RCaxgygwTZ8="
+          "hash": "CC995FKLHq3ZLDN8dj+P0W4dmF9bcrNzAfpUsykrL7s="
         }
       },
       "is_incremental": false,
@@ -604,7 +595,7 @@
       "output": {
         ".html": {
           "relative_path": "api/PlugVR.VR.AvatarCustomizing.SerializableDictionary-2.html",
-          "hash": "GGHId6fN1dQ1OcYlgqD8U1l1N5/Bq6nW3mUrryER1a4="
+          "hash": "TxYazlz3V8CTdYo3EHARI8XePS7WVeO5MfEVjeE2Y+s="
         }
       },
       "is_incremental": false,
@@ -616,7 +607,7 @@
       "output": {
         ".html": {
           "relative_path": "api/PlugVR.VR.AvatarCustomizing.SingletonMonoBehaviour-1.html",
-          "hash": "oGmuBeGXQMHMnQhasskYdWJVPardTSmECo/ifqMIk98="
+          "hash": "zlfN+gsaw+g2nma2OQVjRhDuLhVTY644SqjE5sccr1k="
         }
       },
       "is_incremental": false,
@@ -628,7 +619,7 @@
       "output": {
         ".html": {
           "relative_path": "api/PlugVR.VR.AvatarCustomizing.TableAppearanceInspector.html",
-          "hash": "xC4X7bFXZjCpkmgmbZTFtDukNRVwIk1n5uhd626T6KU="
+          "hash": "NT0AHfkZJbHbFNqoe1DaRzaVFJX8JD8Nvtgl770hX4Q="
         }
       },
       "is_incremental": false,
@@ -640,7 +631,7 @@
       "output": {
         ".html": {
           "relative_path": "api/PlugVR.VR.AvatarCustomizing.TableColorInspector.html",
-          "hash": "KNyeuT9UC8Gh28tNeO+zpB8mUNBoJhCM6bMU37LKL/k="
+          "hash": "zpMr+mqHGeJJYXd4cnwqwwHexYRA8GJcNAX6Miv0Dug="
         }
       },
       "is_incremental": false,
@@ -652,7 +643,7 @@
       "output": {
         ".html": {
           "relative_path": "api/PlugVR.VR.AvatarCustomizing.TableDressingInspector.html",
-          "hash": "WRrgcPVeyyp4pGkbcdAeFyTBfSlRITKApbiyFLt+A/I="
+          "hash": "60reIsa2NNAqkoMUPJNoGbD0+jHr701h8uM6ttggb44="
         }
       },
       "is_incremental": false,
@@ -664,7 +655,7 @@
       "output": {
         ".html": {
           "relative_path": "api/PlugVR.VR.AvatarCustomizing.TableItemInspector.html",
-          "hash": "o+UvS+i41yujT2GUkcJZ8Wo33vxLkUroBXXQOgt0Iow="
+          "hash": "zKcGbuVEHFSKg+gJhMdZUNNdEOCti6vZwjp9J8Syin4="
         }
       },
       "is_incremental": false,
@@ -676,7 +667,7 @@
       "output": {
         ".html": {
           "relative_path": "api/PlugVR.VR.AvatarCustomizing.TableMenuInspector.html",
-          "hash": "UT2KOPkPFZUSQkM/e2Wqd695czxJXb0LdZ0lYw53ENQ="
+          "hash": "53g2UUXJjsO5ZkGhyhRtO5x+Y69uAY6NKij4+B5auhQ="
         }
       },
       "is_incremental": false,
@@ -688,7 +679,7 @@
       "output": {
         ".html": {
           "relative_path": "api/PlugVR.VR.AvatarCustomizing.TablePaletteInspector.html",
-          "hash": "7LkBMeq7ncvbBn3vp0BFUSeYyqBdzSjU5QyFHqlLl80="
+          "hash": "GG5qv5DEcsEvWTZ8r1JomXXYg5T4pCzltc808liCPSY="
         }
       },
       "is_incremental": false,
@@ -700,7 +691,7 @@
       "output": {
         ".html": {
           "relative_path": "api/PlugVR.VR.AvatarCustomizing.html",
-          "hash": "gfL1l0kUVRqKxqL9qTZUdqAnGZJamijrLoWnuq4hB1E="
+          "hash": "HBgFYb5Eh2EdTpp2Zc0WfdtEtAJj/iwL6Dz2eB0nJXE="
         }
       },
       "is_incremental": false,
@@ -724,7 +715,7 @@
       "output": {
         ".html": {
           "relative_path": "index.html",
-          "hash": "tJW25tCJcXxOUoI71Iq4BrEkUaQ6KK8ANLa/DQ5oL2g="
+          "hash": "ejbuuvxw/v7Q7kWGBjiBHPUcmk6CogES6EXmRNrEwM4="
         }
       },
       "is_incremental": false,
@@ -736,7 +727,7 @@
       "output": {
         ".html": {
           "relative_path": "manual/test.html",
-          "hash": "jssylUp493jxdLU1xmx4LGtXfbYa6RUph24L9mI19ys="
+          "hash": "nGDVZ8IHdptoWYbabu1FGr6MThjLvUibWjgOWuYvA6Q="
         }
       },
       "is_incremental": false,

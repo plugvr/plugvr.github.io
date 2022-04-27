@@ -5,10 +5,10 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Class SerializableDictionary&lt;TKey, TValue&gt;
+    <title>Struct Result
    | Example Unity documentation </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Class SerializableDictionary&lt;TKey, TValue&gt;
+    <meta name="title" content="Struct Result
    | Example Unity documentation ">
     <meta name="generator" content="docfx 2.59.2.0">
     
@@ -78,66 +78,162 @@
         </div>
         <div class="article row grid-right">
           <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="PlugVR.VR.AvatarCustomizing.SerializableDictionary`2">
+            <article class="content wrap" id="_content" data-uid="PlugVR.Network.Result">
   
   
-  <h1 id="PlugVR_VR_AvatarCustomizing_SerializableDictionary_2" data-uid="PlugVR.VR.AvatarCustomizing.SerializableDictionary`2" class="text-break">Class SerializableDictionary&lt;TKey, TValue&gt;
+  <h1 id="PlugVR_Network_Result" data-uid="PlugVR.Network.Result" class="text-break">Struct Result
   </h1>
   <div class="markdown level0 summary"></div>
   <div class="markdown level0 conceptual"></div>
-  <div class="inheritance">
-    <h5>Inheritance</h5>
-    <div class="level0"><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object">Object</a></div>
-    <div class="level1"><span class="xref">SerializableDictionary&lt;TKey, TValue&gt;</span></div>
-  </div>
-  <h6><strong>Namespace</strong>: <a class="xref" href="PlugVR.VR.AvatarCustomizing.html">PlugVR.VR.AvatarCustomizing</a></h6>
+  <h6><strong>Namespace</strong>: <a class="xref" href="PlugVR.Network.html">PlugVR.Network</a></h6>
   <h6><strong>Assembly</strong>: cs.temp.dll.dll</h6>
-  <h5 id="PlugVR_VR_AvatarCustomizing_SerializableDictionary_2_syntax">Syntax</h5>
+  <h5 id="PlugVR_Network_Result_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[Serializable]
-public class SerializableDictionary&lt;TKey, TValue&gt; : Dictionary&lt;TKey, TValue&gt;</code></pre>
+    <pre><code class="lang-csharp hljs">public struct Result</code></pre>
   </div>
-  <h5 class="typeParameters">Type Parameters</h5>
+  <h3 id="constructors">Constructors
+  </h3>
+  
+  
+  <a id="PlugVR_Network_Result__ctor_" data-uid="PlugVR.Network.Result.#ctor*"></a>
+  <h4 id="PlugVR_Network_Result__ctor_System_Boolean_" data-uid="PlugVR.Network.Result.#ctor(System.Boolean)">Result(Boolean)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Result(bool success)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
       <tr>
+        <th>Type</th>
         <th>Name</th>
         <th>Description</th>
       </tr>
     </thead>
     <tbody>
       <tr>
-        <td><span class="parametername">TKey</span></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td><span class="parametername">TValue</span></td>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+        <td><span class="parametername">success</span></td>
         <td></td>
       </tr>
     </tbody>
   </table>
-  <h3 id="methods">Methods
+  
+  
+  <a id="PlugVR_Network_Result__ctor_" data-uid="PlugVR.Network.Result.#ctor*"></a>
+  <h4 id="PlugVR_Network_Result__ctor_System_Boolean_System_Int32_System_String_" data-uid="PlugVR.Network.Result.#ctor(System.Boolean,System.Int32,System.String)">Result(Boolean, Int32, String)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Result(bool success, int returnCode, string message)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+        <td><span class="parametername">success</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+        <td><span class="parametername">returnCode</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td><span class="parametername">message</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="properties">Properties
   </h3>
   
   
-  <a id="PlugVR_VR_AvatarCustomizing_SerializableDictionary_2_OnAfterDeserialize_" data-uid="PlugVR.VR.AvatarCustomizing.SerializableDictionary`2.OnAfterDeserialize*"></a>
-  <h4 id="PlugVR_VR_AvatarCustomizing_SerializableDictionary_2_OnAfterDeserialize" data-uid="PlugVR.VR.AvatarCustomizing.SerializableDictionary`2.OnAfterDeserialize">OnAfterDeserialize()</h4>
+  <a id="PlugVR_Network_Result_IsSuccess_" data-uid="PlugVR.Network.Result.IsSuccess*"></a>
+  <h4 id="PlugVR_Network_Result_IsSuccess" data-uid="PlugVR.Network.Result.IsSuccess">IsSuccess</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void OnAfterDeserialize()</code></pre>
+    <pre><code class="lang-csharp hljs">public readonly bool IsSuccess { get; }</code></pre>
   </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
   
   
-  <a id="PlugVR_VR_AvatarCustomizing_SerializableDictionary_2_OnBeforeSerialize_" data-uid="PlugVR.VR.AvatarCustomizing.SerializableDictionary`2.OnBeforeSerialize*"></a>
-  <h4 id="PlugVR_VR_AvatarCustomizing_SerializableDictionary_2_OnBeforeSerialize" data-uid="PlugVR.VR.AvatarCustomizing.SerializableDictionary`2.OnBeforeSerialize">OnBeforeSerialize()</h4>
+  <a id="PlugVR_Network_Result_Message_" data-uid="PlugVR.Network.Result.Message*"></a>
+  <h4 id="PlugVR_Network_Result_Message" data-uid="PlugVR.Network.Result.Message">Message</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void OnBeforeSerialize()</code></pre>
+    <pre><code class="lang-csharp hljs">public readonly string Message { get; }</code></pre>
   </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="PlugVR_Network_Result_ReturnCode_" data-uid="PlugVR.Network.Result.ReturnCode*"></a>
+  <h4 id="PlugVR_Network_Result_ReturnCode" data-uid="PlugVR.Network.Result.ReturnCode">ReturnCode</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public readonly int ReturnCode { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
 </article>
           </div>
           

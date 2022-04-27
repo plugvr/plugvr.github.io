@@ -5,10 +5,10 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Class AccessoryItem
+    <title>Class PhotonRoomList
    | Example Unity documentation </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Class AccessoryItem
+    <meta name="title" content="Class PhotonRoomList
    | Example Unity documentation ">
     <meta name="generator" content="docfx 2.59.2.0">
     
@@ -78,74 +78,47 @@
         </div>
         <div class="article row grid-right">
           <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="PlugVR.VR.AvatarCustomizing.AccessoryItem">
+            <article class="content wrap" id="_content" data-uid="PlugVR.Network.PhotonRoomList">
   
   
-  <h1 id="PlugVR_VR_AvatarCustomizing_AccessoryItem" data-uid="PlugVR.VR.AvatarCustomizing.AccessoryItem" class="text-break">Class AccessoryItem
+  <h1 id="PlugVR_Network_PhotonRoomList" data-uid="PlugVR.Network.PhotonRoomList" class="text-break">Class PhotonRoomList
   </h1>
   <div class="markdown level0 summary"></div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
     <h5>Inheritance</h5>
     <div class="level0"><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object">Object</a></div>
-    <div class="level1"><a class="xref" href="PlugVR.VR.AvatarCustomizing.ItemBase.html">ItemBase</a></div>
-    <div class="level2"><span class="xref">AccessoryItem</span></div>
+    <div class="level1"><span class="xref">PhotonRoomList</span></div>
   </div>
-  <div class="inheritedMembers">
-    <h5>Inherited Members</h5>
-    <div>
-      <a class="xref" href="PlugVR.VR.AvatarCustomizing.ItemBase.html#PlugVR_VR_AvatarCustomizing_ItemBase_appearance">ItemBase.appearance</a>
-    </div>
-    <div>
-      <a class="xref" href="PlugVR.VR.AvatarCustomizing.ItemBase.html#PlugVR_VR_AvatarCustomizing_ItemBase_appearanceIndex">ItemBase.appearanceIndex</a>
-    </div>
-    <div>
-      <a class="xref" href="PlugVR.VR.AvatarCustomizing.ItemBase.html#PlugVR_VR_AvatarCustomizing_ItemBase_LocalPosition">ItemBase.LocalPosition</a>
-    </div>
-    <div>
-      <a class="xref" href="PlugVR.VR.AvatarCustomizing.ItemBase.html#PlugVR_VR_AvatarCustomizing_ItemBase_LocalRotation">ItemBase.LocalRotation</a>
-    </div>
-    <div>
-      <a class="xref" href="PlugVR.VR.AvatarCustomizing.ItemBase.html#PlugVR_VR_AvatarCustomizing_ItemBase_WorldPosition">ItemBase.WorldPosition</a>
-    </div>
-    <div>
-      <a class="xref" href="PlugVR.VR.AvatarCustomizing.ItemBase.html#PlugVR_VR_AvatarCustomizing_ItemBase_WorldRotation">ItemBase.WorldRotation</a>
-    </div>
-    <div>
-      <a class="xref" href="PlugVR.VR.AvatarCustomizing.ItemBase.html#PlugVR_VR_AvatarCustomizing_ItemBase_SetParent_PlugVR_VR_AvatarCustomizing_ItemBase_">ItemBase.SetParent(ItemBase)</a>
-    </div>
-  </div>
-  <h6><strong>Namespace</strong>: <a class="xref" href="PlugVR.VR.AvatarCustomizing.html">PlugVR.VR.AvatarCustomizing</a></h6>
+  <h6><strong>Namespace</strong>: <a class="xref" href="PlugVR.Network.html">PlugVR.Network</a></h6>
   <h6><strong>Assembly</strong>: cs.temp.dll.dll</h6>
-  <h5 id="PlugVR_VR_AvatarCustomizing_AccessoryItem_syntax">Syntax</h5>
+  <h5 id="PlugVR_Network_PhotonRoomList_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class AccessoryItem : ItemBase</code></pre>
+    <pre><code class="lang-csharp hljs">public class PhotonRoomList</code></pre>
   </div>
-  <h3 id="constructors">Constructors
+  <h3 id="properties">Properties
   </h3>
   
   
-  <a id="PlugVR_VR_AvatarCustomizing_AccessoryItem__ctor_" data-uid="PlugVR.VR.AvatarCustomizing.AccessoryItem.#ctor*"></a>
-  <h4 id="PlugVR_VR_AvatarCustomizing_AccessoryItem__ctor_List_Texture2D__" data-uid="PlugVR.VR.AvatarCustomizing.AccessoryItem.#ctor(List{Texture2D})">AccessoryItem(List&lt;Texture2D&gt;)</h4>
+  <a id="PlugVR_Network_PhotonRoomList_Data_" data-uid="PlugVR.Network.PhotonRoomList.Data*"></a>
+  <h4 id="PlugVR_Network_PhotonRoomList_Data" data-uid="PlugVR.Network.PhotonRoomList.Data">Data</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public AccessoryItem(List&lt;Texture2D&gt; textureList)</code></pre>
+    <pre><code class="lang-csharp hljs">public List&lt;RoomInfo&gt; Data { get; }</code></pre>
   </div>
-  <h5 class="parameters">Parameters</h5>
+  <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
       <tr>
         <th>Type</th>
-        <th>Name</th>
         <th>Description</th>
       </tr>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">List</span>&lt;<span class="xref">Texture2D</span>&gt;</td>
-        <td><span class="parametername">textureList</span></td>
+        <td><span class="xref">List</span>&lt;<a class="xref" href="PlugVR.Network.RoomInfo.html">RoomInfo</a>&gt;</td>
         <td></td>
       </tr>
     </tbody>
@@ -154,13 +127,25 @@
   </h3>
   
   
-  <a id="PlugVR_VR_AvatarCustomizing_AccessoryItem_Initialize_" data-uid="PlugVR.VR.AvatarCustomizing.AccessoryItem.Initialize*"></a>
-  <h4 id="PlugVR_VR_AvatarCustomizing_AccessoryItem_Initialize_System_Int32___" data-uid="PlugVR.VR.AvatarCustomizing.AccessoryItem.Initialize(System.Int32[])">Initialize(Int32[])</h4>
-  <div class="markdown level1 summary"></div>
+  <a id="PlugVR_Network_PhotonRoomList_Clear_" data-uid="PlugVR.Network.PhotonRoomList.Clear*"></a>
+  <h4 id="PlugVR_Network_PhotonRoomList_Clear" data-uid="PlugVR.Network.PhotonRoomList.Clear">Clear()</h4>
+  <div class="markdown level1 summary"><p>방 데이터 초기화</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void Initialize(int[] itemArray)</code></pre>
+    <pre><code class="lang-csharp hljs">public void Clear()</code></pre>
+  </div>
+  
+  
+  <a id="PlugVR_Network_PhotonRoomList_Update_" data-uid="PlugVR.Network.PhotonRoomList.Update*"></a>
+  <h4 id="PlugVR_Network_PhotonRoomList_Update_List_Photon_Realtime_RoomInfo__" data-uid="PlugVR.Network.PhotonRoomList.Update(List{Photon.Realtime.RoomInfo})">Update(List&lt;RoomInfo&gt;)</h4>
+  <div class="markdown level1 summary"><p>방 데이터 업데이트</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Update(List&lt;RoomInfo&gt; roomList)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -173,89 +158,86 @@
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a>[]</td>
-        <td><span class="parametername">itemArray</span></td>
+        <td><span class="xref">List</span>&lt;<span class="xref">Photon.Realtime.RoomInfo</span>&gt;</td>
+        <td><span class="parametername">roomList</span></td>
+        <td><p>포톤의 방 정보</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="events">Events
+  </h3>
+  
+  
+  <h4 id="PlugVR_Network_PhotonRoomList_AddRoomCallback" data-uid="PlugVR.Network.PhotonRoomList.AddRoomCallback">AddRoomCallback</h4>
+  <div class="markdown level1 summary"><p>룸이 추가되면 발생하는 이벤트</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public event Action&lt;RoomInfo&gt; AddRoomCallback</code></pre>
+  </div>
+  <h5 class="eventType">Event Type</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Action</span>&lt;<a class="xref" href="PlugVR.Network.RoomInfo.html">RoomInfo</a>&gt;</td>
         <td></td>
       </tr>
     </tbody>
   </table>
   
   
-  <a id="PlugVR_VR_AvatarCustomizing_AccessoryItem_SetAcc_" data-uid="PlugVR.VR.AvatarCustomizing.AccessoryItem.SetAcc*"></a>
-  <h4 id="PlugVR_VR_AvatarCustomizing_AccessoryItem_SetAcc_Color_" data-uid="PlugVR.VR.AvatarCustomizing.AccessoryItem.SetAcc(Color)">SetAcc(Color)</h4>
-  <div class="markdown level1 summary"></div>
+  <h4 id="PlugVR_Network_PhotonRoomList_RemoveRoomCallback" data-uid="PlugVR.Network.PhotonRoomList.RemoveRoomCallback">RemoveRoomCallback</h4>
+  <div class="markdown level1 summary"><p>룸이 제거되면 발생하는 이벤트</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void SetAcc(Color changeColor)</code></pre>
+    <pre><code class="lang-csharp hljs">public event Action&lt;RoomInfo&gt; RemoveRoomCallback</code></pre>
   </div>
-  <h5 class="parameters">Parameters</h5>
+  <h5 class="eventType">Event Type</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
       <tr>
         <th>Type</th>
-        <th>Name</th>
         <th>Description</th>
       </tr>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">Color</span></td>
-        <td><span class="parametername">changeColor</span></td>
+        <td><span class="xref">Action</span>&lt;<a class="xref" href="PlugVR.Network.RoomInfo.html">RoomInfo</a>&gt;</td>
         <td></td>
       </tr>
     </tbody>
   </table>
   
   
-  <a id="PlugVR_VR_AvatarCustomizing_AccessoryItem_SetHat_" data-uid="PlugVR.VR.AvatarCustomizing.AccessoryItem.SetHat*"></a>
-  <h4 id="PlugVR_VR_AvatarCustomizing_AccessoryItem_SetHat_System_Int32_" data-uid="PlugVR.VR.AvatarCustomizing.AccessoryItem.SetHat(System.Int32)">SetHat(Int32)</h4>
-  <div class="markdown level1 summary"></div>
+  <h4 id="PlugVR_Network_PhotonRoomList_UpdateRoomCallback" data-uid="PlugVR.Network.PhotonRoomList.UpdateRoomCallback">UpdateRoomCallback</h4>
+  <div class="markdown level1 summary"><p>룸이 업데이트되면 발생하는 이벤트</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void SetHat(int index)</code></pre>
+    <pre><code class="lang-csharp hljs">public event Action&lt;RoomInfo&gt; UpdateRoomCallback</code></pre>
   </div>
-  <h5 class="parameters">Parameters</h5>
+  <h5 class="eventType">Event Type</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
       <tr>
         <th>Type</th>
-        <th>Name</th>
         <th>Description</th>
       </tr>
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
-        <td><span class="parametername">index</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <a id="PlugVR_VR_AvatarCustomizing_AccessoryItem_SetTexture_" data-uid="PlugVR.VR.AvatarCustomizing.AccessoryItem.SetTexture*"></a>
-  <h4 id="PlugVR_VR_AvatarCustomizing_AccessoryItem_SetTexture_Texture2D_" data-uid="PlugVR.VR.AvatarCustomizing.AccessoryItem.SetTexture(Texture2D)">SetTexture(Texture2D)</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void SetTexture(Texture2D texture)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">Texture2D</span></td>
-        <td><span class="parametername">texture</span></td>
+        <td><span class="xref">Action</span>&lt;<a class="xref" href="PlugVR.Network.RoomInfo.html">RoomInfo</a>&gt;</td>
         <td></td>
       </tr>
     </tbody>

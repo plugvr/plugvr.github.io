@@ -5,10 +5,10 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Class SerializableDictionary&lt;TKey, TValue&gt;
+    <title>Class PlayFabCustom
    | Example Unity documentation </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Class SerializableDictionary&lt;TKey, TValue&gt;
+    <meta name="title" content="Class PlayFabCustom
    | Example Unity documentation ">
     <meta name="generator" content="docfx 2.59.2.0">
     
@@ -78,40 +78,98 @@
         </div>
         <div class="article row grid-right">
           <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="PlugVR.VR.AvatarCustomizing.SerializableDictionary`2">
+            <article class="content wrap" id="_content" data-uid="PlugVR.Network.PlayFabCustom">
   
   
-  <h1 id="PlugVR_VR_AvatarCustomizing_SerializableDictionary_2" data-uid="PlugVR.VR.AvatarCustomizing.SerializableDictionary`2" class="text-break">Class SerializableDictionary&lt;TKey, TValue&gt;
+  <h1 id="PlugVR_Network_PlayFabCustom" data-uid="PlugVR.Network.PlayFabCustom" class="text-break">Class PlayFabCustom
   </h1>
   <div class="markdown level0 summary"></div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
     <h5>Inheritance</h5>
     <div class="level0"><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object">Object</a></div>
-    <div class="level1"><span class="xref">SerializableDictionary&lt;TKey, TValue&gt;</span></div>
+    <div class="level1"><a class="xref" href="PlugVR.Network.PlayFabBase.html">PlayFabBase</a></div>
+    <div class="level2"><span class="xref">PlayFabCustom</span></div>
   </div>
-  <h6><strong>Namespace</strong>: <a class="xref" href="PlugVR.VR.AvatarCustomizing.html">PlugVR.VR.AvatarCustomizing</a></h6>
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <a class="xref" href="PlugVR.Network.PlayFabBase.html#PlugVR_Network_PlayFabBase_IsLogin">PlayFabBase.IsLogin</a>
+    </div>
+    <div>
+      <a class="xref" href="PlugVR.Network.PlayFabBase.html#PlugVR_Network_PlayFabBase_EntityId">PlayFabBase.EntityId</a>
+    </div>
+    <div>
+      <a class="xref" href="PlugVR.Network.PlayFabBase.html#PlugVR_Network_PlayFabBase_EntityType">PlayFabBase.EntityType</a>
+    </div>
+    <div>
+      <a class="xref" href="PlugVR.Network.PlayFabBase.html#PlugVR_Network_PlayFabBase_Login_Action_PlugVR_Network_LoginResult__">PlayFabBase.Login(Action&lt;LoginResult&gt;)</a>
+    </div>
+    <div>
+      <a class="xref" href="PlugVR.Network.PlayFabBase.html#PlugVR_Network_PlayFabBase_Logout">PlayFabBase.Logout()</a>
+    </div>
+    <div>
+      <a class="xref" href="PlugVR.Network.PlayFabBase.html#PlugVR_Network_PlayFabBase_OnPlayFabLoginError_PlayFabError_">PlayFabBase.OnPlayFabLoginError(PlayFabError)</a>
+    </div>
+    <div>
+      <a class="xref" href="PlugVR.Network.PlayFabBase.html#PlugVR_Network_PlayFabBase_LoginResultCallBack_System_Boolean_System_Object_System_String_">PlayFabBase.LoginResultCallBack(Boolean, Object, String)</a>
+    </div>
+    <div>
+      <a class="xref" href="PlugVR.Network.PlayFabBase.html#PlugVR_Network_PlayFabBase_UpdateNickName_System_String_Action_System_Boolean_PlugVR_Network_ErrorResult__">PlayFabBase.UpdateNickName(String, Action&lt;Boolean, ErrorResult&gt;)</a>
+    </div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="PlugVR.Network.html">PlugVR.Network</a></h6>
   <h6><strong>Assembly</strong>: cs.temp.dll.dll</h6>
-  <h5 id="PlugVR_VR_AvatarCustomizing_SerializableDictionary_2_syntax">Syntax</h5>
+  <h5 id="PlugVR_Network_PlayFabCustom_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[Serializable]
-public class SerializableDictionary&lt;TKey, TValue&gt; : Dictionary&lt;TKey, TValue&gt;</code></pre>
+    <pre><code class="lang-csharp hljs">public class PlayFabCustom : PlayFabBase</code></pre>
   </div>
-  <h5 class="typeParameters">Type Parameters</h5>
+  <h3 id="fields">Fields
+  </h3>
+  
+  
+  <h4 id="PlugVR_Network_PlayFabCustom_customId" data-uid="PlugVR.Network.PlayFabCustom.customId">customId</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string customId</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
       <tr>
-        <th>Name</th>
+        <th>Type</th>
         <th>Description</th>
       </tr>
     </thead>
     <tbody>
       <tr>
-        <td><span class="parametername">TKey</span></td>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
         <td></td>
       </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="PlugVR_Network_PlayFabCustom_useDeviceId" data-uid="PlugVR.Network.PlayFabCustom.useDeviceId">useDeviceId</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool useDeviceId</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
       <tr>
-        <td><span class="parametername">TValue</span></td>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
         <td></td>
       </tr>
     </tbody>
@@ -120,24 +178,45 @@ public class SerializableDictionary&lt;TKey, TValue&gt; : Dictionary&lt;TKey, TV
   </h3>
   
   
-  <a id="PlugVR_VR_AvatarCustomizing_SerializableDictionary_2_OnAfterDeserialize_" data-uid="PlugVR.VR.AvatarCustomizing.SerializableDictionary`2.OnAfterDeserialize*"></a>
-  <h4 id="PlugVR_VR_AvatarCustomizing_SerializableDictionary_2_OnAfterDeserialize" data-uid="PlugVR.VR.AvatarCustomizing.SerializableDictionary`2.OnAfterDeserialize">OnAfterDeserialize()</h4>
+  <a id="PlugVR_Network_PlayFabCustom_LoginInProgress_" data-uid="PlugVR.Network.PlayFabCustom.LoginInProgress*"></a>
+  <h4 id="PlugVR_Network_PlayFabCustom_LoginInProgress" data-uid="PlugVR.Network.PlayFabCustom.LoginInProgress">LoginInProgress()</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void OnAfterDeserialize()</code></pre>
+    <pre><code class="lang-csharp hljs">protected override void LoginInProgress()</code></pre>
   </div>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="PlugVR.Network.PlayFabBase.html#PlugVR_Network_PlayFabBase_LoginInProgress">PlayFabBase.LoginInProgress()</a></div>
   
   
-  <a id="PlugVR_VR_AvatarCustomizing_SerializableDictionary_2_OnBeforeSerialize_" data-uid="PlugVR.VR.AvatarCustomizing.SerializableDictionary`2.OnBeforeSerialize*"></a>
-  <h4 id="PlugVR_VR_AvatarCustomizing_SerializableDictionary_2_OnBeforeSerialize" data-uid="PlugVR.VR.AvatarCustomizing.SerializableDictionary`2.OnBeforeSerialize">OnBeforeSerialize()</h4>
+  <a id="PlugVR_Network_PlayFabCustom_OnLoginSuccess_" data-uid="PlugVR.Network.PlayFabCustom.OnLoginSuccess*"></a>
+  <h4 id="PlugVR_Network_PlayFabCustom_OnLoginSuccess_PlayFab_ClientModels_LoginResult_" data-uid="PlugVR.Network.PlayFabCustom.OnLoginSuccess(PlayFab.ClientModels.LoginResult)">OnLoginSuccess(LoginResult)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void OnBeforeSerialize()</code></pre>
+    <pre><code class="lang-csharp hljs">protected override void OnLoginSuccess(LoginResult result)</code></pre>
   </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">PlayFab.ClientModels.LoginResult</span></td>
+        <td><span class="parametername">result</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="PlugVR.Network.PlayFabBase.html#PlugVR_Network_PlayFabBase_OnLoginSuccess_PlayFab_ClientModels_LoginResult_">PlayFabBase.OnLoginSuccess(LoginResult)</a></div>
 </article>
           </div>
           

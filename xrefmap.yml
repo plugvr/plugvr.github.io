@@ -1658,69 +1658,6 @@ references:
   fullName.vb: PlugVR.AvatarCustomizing.SingletonMonoBehaviour(Of T).Instance
   nameWithType: SingletonMonoBehaviour<T>.Instance
   nameWithType.vb: SingletonMonoBehaviour(Of T).Instance
-- uid: PlugVR.AvatarCustomizing.TestAvatarCreator
-  name: TestAvatarCreator
-  href: api/PlugVR.AvatarCustomizing.TestAvatarCreator.html
-  commentId: T:PlugVR.AvatarCustomizing.TestAvatarCreator
-  fullName: PlugVR.AvatarCustomizing.TestAvatarCreator
-  nameWithType: TestAvatarCreator
-- uid: PlugVR.AvatarCustomizing.TestAvatarCreator.CreateAvatar(Transform,System.Int32[],System.Boolean)
-  name: CreateAvatar(Transform, Int32[], Boolean)
-  href: api/PlugVR.AvatarCustomizing.TestAvatarCreator.html#PlugVR_AvatarCustomizing_TestAvatarCreator_CreateAvatar_Transform_System_Int32___System_Boolean_
-  commentId: M:PlugVR.AvatarCustomizing.TestAvatarCreator.CreateAvatar(Transform,System.Int32[],System.Boolean)
-  name.vb: CreateAvatar(Transform, Int32(), Boolean)
-  fullName: PlugVR.AvatarCustomizing.TestAvatarCreator.CreateAvatar(Transform, System.Int32[], System.Boolean)
-  fullName.vb: PlugVR.AvatarCustomizing.TestAvatarCreator.CreateAvatar(Transform, System.Int32(), System.Boolean)
-  nameWithType: TestAvatarCreator.CreateAvatar(Transform, Int32[], Boolean)
-  nameWithType.vb: TestAvatarCreator.CreateAvatar(Transform, Int32(), Boolean)
-- uid: PlugVR.AvatarCustomizing.TestAvatarCreator.CreateAvatar(Transform,System.Int32[],System.Int32,System.Boolean)
-  name: CreateAvatar(Transform, Int32[], Int32, Boolean)
-  href: api/PlugVR.AvatarCustomizing.TestAvatarCreator.html#PlugVR_AvatarCustomizing_TestAvatarCreator_CreateAvatar_Transform_System_Int32___System_Int32_System_Boolean_
-  commentId: M:PlugVR.AvatarCustomizing.TestAvatarCreator.CreateAvatar(Transform,System.Int32[],System.Int32,System.Boolean)
-  name.vb: CreateAvatar(Transform, Int32(), Int32, Boolean)
-  fullName: PlugVR.AvatarCustomizing.TestAvatarCreator.CreateAvatar(Transform, System.Int32[], System.Int32, System.Boolean)
-  fullName.vb: PlugVR.AvatarCustomizing.TestAvatarCreator.CreateAvatar(Transform, System.Int32(), System.Int32, System.Boolean)
-  nameWithType: TestAvatarCreator.CreateAvatar(Transform, Int32[], Int32, Boolean)
-  nameWithType.vb: TestAvatarCreator.CreateAvatar(Transform, Int32(), Int32, Boolean)
-- uid: PlugVR.AvatarCustomizing.TestAvatarCreator.CreateAvatar*
-  name: CreateAvatar
-  href: api/PlugVR.AvatarCustomizing.TestAvatarCreator.html#PlugVR_AvatarCustomizing_TestAvatarCreator_CreateAvatar_
-  commentId: Overload:PlugVR.AvatarCustomizing.TestAvatarCreator.CreateAvatar
-  isSpec: "True"
-  fullName: PlugVR.AvatarCustomizing.TestAvatarCreator.CreateAvatar
-  nameWithType: TestAvatarCreator.CreateAvatar
-- uid: PlugVR.AvatarCustomizing.TestAvatarCustomizing
-  name: TestAvatarCustomizing
-  href: api/PlugVR.AvatarCustomizing.TestAvatarCustomizing.html
-  commentId: T:PlugVR.AvatarCustomizing.TestAvatarCustomizing
-  fullName: PlugVR.AvatarCustomizing.TestAvatarCustomizing
-  nameWithType: TestAvatarCustomizing
-- uid: PlugVR.AvatarCustomizing.TestAvatarCustomizing.SetColor(PlugVR.AvatarCustomizing.Appearance,System.Int32,System.Boolean)
-  name: SetColor(Appearance, Int32, Boolean)
-  href: api/PlugVR.AvatarCustomizing.TestAvatarCustomizing.html#PlugVR_AvatarCustomizing_TestAvatarCustomizing_SetColor_PlugVR_AvatarCustomizing_Appearance_System_Int32_System_Boolean_
-  commentId: M:PlugVR.AvatarCustomizing.TestAvatarCustomizing.SetColor(PlugVR.AvatarCustomizing.Appearance,System.Int32,System.Boolean)
-  fullName: PlugVR.AvatarCustomizing.TestAvatarCustomizing.SetColor(PlugVR.AvatarCustomizing.Appearance, System.Int32, System.Boolean)
-  nameWithType: TestAvatarCustomizing.SetColor(Appearance, Int32, Boolean)
-- uid: PlugVR.AvatarCustomizing.TestAvatarCustomizing.SetColor*
-  name: SetColor
-  href: api/PlugVR.AvatarCustomizing.TestAvatarCustomizing.html#PlugVR_AvatarCustomizing_TestAvatarCustomizing_SetColor_
-  commentId: Overload:PlugVR.AvatarCustomizing.TestAvatarCustomizing.SetColor
-  isSpec: "True"
-  fullName: PlugVR.AvatarCustomizing.TestAvatarCustomizing.SetColor
-  nameWithType: TestAvatarCustomizing.SetColor
-- uid: PlugVR.AvatarCustomizing.TestAvatarCustomizing.SetItem(PlugVR.AvatarCustomizing.Appearance,System.Int32,System.Boolean,System.Boolean)
-  name: SetItem(Appearance, Int32, Boolean, Boolean)
-  href: api/PlugVR.AvatarCustomizing.TestAvatarCustomizing.html#PlugVR_AvatarCustomizing_TestAvatarCustomizing_SetItem_PlugVR_AvatarCustomizing_Appearance_System_Int32_System_Boolean_System_Boolean_
-  commentId: M:PlugVR.AvatarCustomizing.TestAvatarCustomizing.SetItem(PlugVR.AvatarCustomizing.Appearance,System.Int32,System.Boolean,System.Boolean)
-  fullName: PlugVR.AvatarCustomizing.TestAvatarCustomizing.SetItem(PlugVR.AvatarCustomizing.Appearance, System.Int32, System.Boolean, System.Boolean)
-  nameWithType: TestAvatarCustomizing.SetItem(Appearance, Int32, Boolean, Boolean)
-- uid: PlugVR.AvatarCustomizing.TestAvatarCustomizing.SetItem*
-  name: SetItem
-  href: api/PlugVR.AvatarCustomizing.TestAvatarCustomizing.html#PlugVR_AvatarCustomizing_TestAvatarCustomizing_SetItem_
-  commentId: Overload:PlugVR.AvatarCustomizing.TestAvatarCustomizing.SetItem
-  isSpec: "True"
-  fullName: PlugVR.AvatarCustomizing.TestAvatarCustomizing.SetItem
-  nameWithType: TestAvatarCustomizing.SetItem
 - uid: PlugVR.BoardGame
   name: PlugVR.BoardGame
   href: api/PlugVR.BoardGame.html
@@ -13384,38 +13321,6 @@ references:
   isSpec: "True"
   fullName: PlugVR.VRModule.PXRTeleporterLineRendererController.ChangeMaterialEnable
   nameWithType: PXRTeleporterLineRendererController.ChangeMaterialEnable
-- uid: PlugVR.VRModule.PXRTeleportPoint
-  name: PXRTeleportPoint
-  href: api/PlugVR.VRModule.PXRTeleportPoint.html
-  commentId: T:PlugVR.VRModule.PXRTeleportPoint
-  fullName: PlugVR.VRModule.PXRTeleportPoint
-  nameWithType: PXRTeleportPoint
-- uid: PlugVR.VRModule.PXRTeleportPoint.EnteredPlayerToArea
-  name: EnteredPlayerToArea()
-  href: api/PlugVR.VRModule.PXRTeleportPoint.html#PlugVR_VRModule_PXRTeleportPoint_EnteredPlayerToArea
-  commentId: M:PlugVR.VRModule.PXRTeleportPoint.EnteredPlayerToArea
-  fullName: PlugVR.VRModule.PXRTeleportPoint.EnteredPlayerToArea()
-  nameWithType: PXRTeleportPoint.EnteredPlayerToArea()
-- uid: PlugVR.VRModule.PXRTeleportPoint.EnteredPlayerToArea*
-  name: EnteredPlayerToArea
-  href: api/PlugVR.VRModule.PXRTeleportPoint.html#PlugVR_VRModule_PXRTeleportPoint_EnteredPlayerToArea_
-  commentId: Overload:PlugVR.VRModule.PXRTeleportPoint.EnteredPlayerToArea
-  isSpec: "True"
-  fullName: PlugVR.VRModule.PXRTeleportPoint.EnteredPlayerToArea
-  nameWithType: PXRTeleportPoint.EnteredPlayerToArea
-- uid: PlugVR.VRModule.PXRTeleportPoint.ExitedPlayerToArea
-  name: ExitedPlayerToArea()
-  href: api/PlugVR.VRModule.PXRTeleportPoint.html#PlugVR_VRModule_PXRTeleportPoint_ExitedPlayerToArea
-  commentId: M:PlugVR.VRModule.PXRTeleportPoint.ExitedPlayerToArea
-  fullName: PlugVR.VRModule.PXRTeleportPoint.ExitedPlayerToArea()
-  nameWithType: PXRTeleportPoint.ExitedPlayerToArea()
-- uid: PlugVR.VRModule.PXRTeleportPoint.ExitedPlayerToArea*
-  name: ExitedPlayerToArea
-  href: api/PlugVR.VRModule.PXRTeleportPoint.html#PlugVR_VRModule_PXRTeleportPoint_ExitedPlayerToArea_
-  commentId: Overload:PlugVR.VRModule.PXRTeleportPoint.ExitedPlayerToArea
-  isSpec: "True"
-  fullName: PlugVR.VRModule.PXRTeleportPoint.ExitedPlayerToArea
-  nameWithType: PXRTeleportPoint.ExitedPlayerToArea
 - uid: PlugVR.VRModule.PXRTracker
   name: PXRTracker
   href: api/PlugVR.VRModule.PXRTracker.html

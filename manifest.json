@@ -43,7 +43,7 @@
       "output": {
         ".html": {
           "relative_path": "api/PlugVR.AvatarCustomizing.AvatarCreator.html",
-          "hash": "Novat0tuF8jut4wL+NUsKoV0gVAlswuLYxpij8aunUU="
+          "hash": "67mi+X4mRaVZGGb0Qo/kTi5f/RDvqGFgmHaFKNoih30="
         }
       },
       "is_incremental": false,
@@ -67,7 +67,7 @@
       "output": {
         ".html": {
           "relative_path": "api/PlugVR.AvatarCustomizing.AvatarCustomizeBase.html",
-          "hash": "Y47A4pcBDHuaQLwb2adFSE3/01XIHwlZNd0IkK/DSxE="
+          "hash": "3VW6E56JPyjgpaU61CCWTbTWc0Amh25xWOqOx0TN6fg="
         }
       },
       "is_incremental": false,
@@ -279,35 +279,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/PlugVR.AvatarCustomizing.TestAvatarCreator.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/PlugVR.AvatarCustomizing.TestAvatarCreator.html",
-          "hash": "ewV1Ra3mLoxeBnamUbg7uFkBSUHi9dHREkWdCG3e9EA="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/PlugVR.AvatarCustomizing.TestAvatarCustomizing.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/PlugVR.AvatarCustomizing.TestAvatarCustomizing.html",
-          "hash": "HHsisvywlIq5g6n69UjsJVtp27pr5YdG7i/Ut5p/my4="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
       "source_relative_path": "api/PlugVR.AvatarCustomizing.yml",
       "output": {
         ".html": {
           "relative_path": "api/PlugVR.AvatarCustomizing.html",
-          "hash": "Pq7eYukt4XyPIvzkHAGUJXyQjghb2Ze6a4DuEgszyuA="
+          "hash": "Z/W/lolggNQ5GbZQY0AM0escZUJ2bGlQxNFCPk6CFoQ="
         }
       },
       "is_incremental": false,
@@ -1851,18 +1827,6 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/PlugVR.VRModule.PXRTeleportPoint.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/PlugVR.VRModule.PXRTeleportPoint.html",
-          "hash": "qVEm34WGYaCca0A/pNQjzZ3+22cf4PET68rR+HIHE/4="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
       "source_relative_path": "api/PlugVR.VRModule.PXRTeleporterLineRendererController.yml",
       "output": {
         ".html": {
@@ -1939,7 +1903,7 @@
       "output": {
         ".html": {
           "relative_path": "api/PlugVR.VRModule.html",
-          "hash": "Fw3dqAn4j//AGZ2JezL6boPCjE96XMMx/joRns5VSh4="
+          "hash": "PvHHT5hGshzPKzGn7XpkBnX1ToaXuJR4jVgDRfjzKWY="
         }
       },
       "is_incremental": false,
@@ -1951,7 +1915,7 @@
       "output": {
         ".html": {
           "relative_path": "api/toc.html",
-          "hash": "J6+btZmtuOpAKalfBX9awFcj9ZgB7XnikLip0M/S8jg="
+          "hash": "PKM3QKzYOmiMG3gfhVPFhrT7nBK7iTPkWDliUx7XOPI="
         }
       },
       "is_incremental": false,
@@ -2048,7 +2012,7 @@
         "ManagedReferenceDocumentProcessor": {
           "can_incremental": false,
           "incrementalPhase": "build",
-          "total_file_count": 173,
+          "total_file_count": 170,
           "skipped_file_count": 0
         },
         "ResourceDocumentProcessor": {

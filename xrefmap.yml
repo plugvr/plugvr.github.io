@@ -7,67 +7,6 @@ references:
   commentId: N:PlugVR.AvatarCustomizing
   fullName: PlugVR.AvatarCustomizing
   nameWithType: PlugVR.AvatarCustomizing
-- uid: PlugVR.AvatarCustomizing.AccessoryItem
-  name: AccessoryItem
-  href: api/PlugVR.AvatarCustomizing.AccessoryItem.html
-  commentId: T:PlugVR.AvatarCustomizing.AccessoryItem
-  fullName: PlugVR.AvatarCustomizing.AccessoryItem
-  nameWithType: AccessoryItem
-- uid: PlugVR.AvatarCustomizing.AccessoryItem.AddTexture(Texture2D)
-  name: AddTexture(Texture2D)
-  href: api/PlugVR.AvatarCustomizing.AccessoryItem.html#PlugVR_AvatarCustomizing_AccessoryItem_AddTexture_Texture2D_
-  commentId: M:PlugVR.AvatarCustomizing.AccessoryItem.AddTexture(Texture2D)
-  fullName: PlugVR.AvatarCustomizing.AccessoryItem.AddTexture(Texture2D)
-  nameWithType: AccessoryItem.AddTexture(Texture2D)
-- uid: PlugVR.AvatarCustomizing.AccessoryItem.AddTexture*
-  name: AddTexture
-  href: api/PlugVR.AvatarCustomizing.AccessoryItem.html#PlugVR_AvatarCustomizing_AccessoryItem_AddTexture_
-  commentId: Overload:PlugVR.AvatarCustomizing.AccessoryItem.AddTexture
-  isSpec: "True"
-  fullName: PlugVR.AvatarCustomizing.AccessoryItem.AddTexture
-  nameWithType: AccessoryItem.AddTexture
-- uid: PlugVR.AvatarCustomizing.AccessoryItem.Initialize(System.Int32[])
-  name: Initialize(Int32[])
-  href: api/PlugVR.AvatarCustomizing.AccessoryItem.html#PlugVR_AvatarCustomizing_AccessoryItem_Initialize_System_Int32___
-  commentId: M:PlugVR.AvatarCustomizing.AccessoryItem.Initialize(System.Int32[])
-  name.vb: Initialize(Int32())
-  fullName: PlugVR.AvatarCustomizing.AccessoryItem.Initialize(System.Int32[])
-  fullName.vb: PlugVR.AvatarCustomizing.AccessoryItem.Initialize(System.Int32())
-  nameWithType: AccessoryItem.Initialize(Int32[])
-  nameWithType.vb: AccessoryItem.Initialize(Int32())
-- uid: PlugVR.AvatarCustomizing.AccessoryItem.Initialize*
-  name: Initialize
-  href: api/PlugVR.AvatarCustomizing.AccessoryItem.html#PlugVR_AvatarCustomizing_AccessoryItem_Initialize_
-  commentId: Overload:PlugVR.AvatarCustomizing.AccessoryItem.Initialize
-  isSpec: "True"
-  fullName: PlugVR.AvatarCustomizing.AccessoryItem.Initialize
-  nameWithType: AccessoryItem.Initialize
-- uid: PlugVR.AvatarCustomizing.AccessoryItem.SetAcc(Color)
-  name: SetAcc(Color)
-  href: api/PlugVR.AvatarCustomizing.AccessoryItem.html#PlugVR_AvatarCustomizing_AccessoryItem_SetAcc_Color_
-  commentId: M:PlugVR.AvatarCustomizing.AccessoryItem.SetAcc(Color)
-  fullName: PlugVR.AvatarCustomizing.AccessoryItem.SetAcc(Color)
-  nameWithType: AccessoryItem.SetAcc(Color)
-- uid: PlugVR.AvatarCustomizing.AccessoryItem.SetAcc*
-  name: SetAcc
-  href: api/PlugVR.AvatarCustomizing.AccessoryItem.html#PlugVR_AvatarCustomizing_AccessoryItem_SetAcc_
-  commentId: Overload:PlugVR.AvatarCustomizing.AccessoryItem.SetAcc
-  isSpec: "True"
-  fullName: PlugVR.AvatarCustomizing.AccessoryItem.SetAcc
-  nameWithType: AccessoryItem.SetAcc
-- uid: PlugVR.AvatarCustomizing.AccessoryItem.SetHat(System.Int32)
-  name: SetHat(Int32)
-  href: api/PlugVR.AvatarCustomizing.AccessoryItem.html#PlugVR_AvatarCustomizing_AccessoryItem_SetHat_System_Int32_
-  commentId: M:PlugVR.AvatarCustomizing.AccessoryItem.SetHat(System.Int32)
-  fullName: PlugVR.AvatarCustomizing.AccessoryItem.SetHat(System.Int32)
-  nameWithType: AccessoryItem.SetHat(Int32)
-- uid: PlugVR.AvatarCustomizing.AccessoryItem.SetHat*
-  name: SetHat
-  href: api/PlugVR.AvatarCustomizing.AccessoryItem.html#PlugVR_AvatarCustomizing_AccessoryItem_SetHat_
-  commentId: Overload:PlugVR.AvatarCustomizing.AccessoryItem.SetHat
-  isSpec: "True"
-  fullName: PlugVR.AvatarCustomizing.AccessoryItem.SetHat
-  nameWithType: AccessoryItem.SetHat
 - uid: PlugVR.AvatarCustomizing.Appearance
   name: Appearance
   href: api/PlugVR.AvatarCustomizing.Appearance.html
@@ -459,12 +398,6 @@ references:
   commentId: T:PlugVR.AvatarCustomizing.AvatarData
   fullName: PlugVR.AvatarCustomizing.AvatarData
   nameWithType: AvatarData
-- uid: PlugVR.AvatarCustomizing.AvatarData.accessoryItem
-  name: accessoryItem
-  href: api/PlugVR.AvatarCustomizing.AvatarData.html#PlugVR_AvatarCustomizing_AvatarData_accessoryItem
-  commentId: F:PlugVR.AvatarCustomizing.AvatarData.accessoryItem
-  fullName: PlugVR.AvatarCustomizing.AvatarData.accessoryItem
-  nameWithType: AvatarData.accessoryItem
 - uid: PlugVR.AvatarCustomizing.AvatarData.accessoryObj
   name: accessoryObj
   href: api/PlugVR.AvatarCustomizing.AvatarData.html#PlugVR_AvatarCustomizing_AvatarData_accessoryObj
@@ -489,18 +422,6 @@ references:
   commentId: F:PlugVR.AvatarCustomizing.AvatarData.clothObj
   fullName: PlugVR.AvatarCustomizing.AvatarData.clothObj
   nameWithType: AvatarData.clothObj
-- uid: PlugVR.AvatarCustomizing.AvatarData.faceItem
-  name: faceItem
-  href: api/PlugVR.AvatarCustomizing.AvatarData.html#PlugVR_AvatarCustomizing_AvatarData_faceItem
-  commentId: F:PlugVR.AvatarCustomizing.AvatarData.faceItem
-  fullName: PlugVR.AvatarCustomizing.AvatarData.faceItem
-  nameWithType: AvatarData.faceItem
-- uid: PlugVR.AvatarCustomizing.AvatarData.hairItem
-  name: hairItem
-  href: api/PlugVR.AvatarCustomizing.AvatarData.html#PlugVR_AvatarCustomizing_AvatarData_hairItem
-  commentId: F:PlugVR.AvatarCustomizing.AvatarData.hairItem
-  fullName: PlugVR.AvatarCustomizing.AvatarData.hairItem
-  nameWithType: AvatarData.hairItem
 - uid: PlugVR.AvatarCustomizing.AvatarData.hairOriginPosition
   name: hairOriginPosition
   href: api/PlugVR.AvatarCustomizing.AvatarData.html#PlugVR_AvatarCustomizing_AvatarData_hairOriginPosition
@@ -513,6 +434,24 @@ references:
   commentId: F:PlugVR.AvatarCustomizing.AvatarData.hairOriginRotation
   fullName: PlugVR.AvatarCustomizing.AvatarData.hairOriginRotation
   nameWithType: AvatarData.hairOriginRotation
+- uid: PlugVR.AvatarCustomizing.AvatarData.itemAccessory
+  name: itemAccessory
+  href: api/PlugVR.AvatarCustomizing.AvatarData.html#PlugVR_AvatarCustomizing_AvatarData_itemAccessory
+  commentId: F:PlugVR.AvatarCustomizing.AvatarData.itemAccessory
+  fullName: PlugVR.AvatarCustomizing.AvatarData.itemAccessory
+  nameWithType: AvatarData.itemAccessory
+- uid: PlugVR.AvatarCustomizing.AvatarData.itemFace
+  name: itemFace
+  href: api/PlugVR.AvatarCustomizing.AvatarData.html#PlugVR_AvatarCustomizing_AvatarData_itemFace
+  commentId: F:PlugVR.AvatarCustomizing.AvatarData.itemFace
+  fullName: PlugVR.AvatarCustomizing.AvatarData.itemFace
+  nameWithType: AvatarData.itemFace
+- uid: PlugVR.AvatarCustomizing.AvatarData.itemHair
+  name: itemHair
+  href: api/PlugVR.AvatarCustomizing.AvatarData.html#PlugVR_AvatarCustomizing_AvatarData_itemHair
+  commentId: F:PlugVR.AvatarCustomizing.AvatarData.itemHair
+  fullName: PlugVR.AvatarCustomizing.AvatarData.itemHair
+  nameWithType: AvatarData.itemHair
 - uid: PlugVR.AvatarCustomizing.AvatarData.morphTarget
   name: morphTarget
   href: api/PlugVR.AvatarCustomizing.AvatarData.html#PlugVR_AvatarCustomizing_AvatarData_morphTarget
@@ -849,12 +788,6 @@ references:
   isSpec: "True"
   fullName: PlugVR.AvatarCustomizing.AvatarDressingTable.OnShowTable
   nameWithType: AvatarDressingTable.OnShowTable
-- uid: PlugVR.AvatarCustomizing.ClothItem
-  name: ClothItem
-  href: api/PlugVR.AvatarCustomizing.ClothItem.html
-  commentId: T:PlugVR.AvatarCustomizing.ClothItem
-  fullName: PlugVR.AvatarCustomizing.ClothItem
-  nameWithType: ClothItem
 - uid: PlugVR.AvatarCustomizing.CustomItemData
   name: CustomItemData
   href: api/PlugVR.AvatarCustomizing.CustomItemData.html
@@ -1380,67 +1313,6 @@ references:
   isSpec: "True"
   fullName: PlugVR.AvatarCustomizing.DressingTablePalette.Show
   nameWithType: DressingTablePalette.Show
-- uid: PlugVR.AvatarCustomizing.FaceItem
-  name: FaceItem
-  href: api/PlugVR.AvatarCustomizing.FaceItem.html
-  commentId: T:PlugVR.AvatarCustomizing.FaceItem
-  fullName: PlugVR.AvatarCustomizing.FaceItem
-  nameWithType: FaceItem
-- uid: PlugVR.AvatarCustomizing.FaceItem.Initialize(System.Int32[])
-  name: Initialize(Int32[])
-  href: api/PlugVR.AvatarCustomizing.FaceItem.html#PlugVR_AvatarCustomizing_FaceItem_Initialize_System_Int32___
-  commentId: M:PlugVR.AvatarCustomizing.FaceItem.Initialize(System.Int32[])
-  name.vb: Initialize(Int32())
-  fullName: PlugVR.AvatarCustomizing.FaceItem.Initialize(System.Int32[])
-  fullName.vb: PlugVR.AvatarCustomizing.FaceItem.Initialize(System.Int32())
-  nameWithType: FaceItem.Initialize(Int32[])
-  nameWithType.vb: FaceItem.Initialize(Int32())
-- uid: PlugVR.AvatarCustomizing.FaceItem.Initialize*
-  name: Initialize
-  href: api/PlugVR.AvatarCustomizing.FaceItem.html#PlugVR_AvatarCustomizing_FaceItem_Initialize_
-  commentId: Overload:PlugVR.AvatarCustomizing.FaceItem.Initialize
-  isSpec: "True"
-  fullName: PlugVR.AvatarCustomizing.FaceItem.Initialize
-  nameWithType: FaceItem.Initialize
-- uid: PlugVR.AvatarCustomizing.FaceItem.SetEye(System.Int32)
-  name: SetEye(Int32)
-  href: api/PlugVR.AvatarCustomizing.FaceItem.html#PlugVR_AvatarCustomizing_FaceItem_SetEye_System_Int32_
-  commentId: M:PlugVR.AvatarCustomizing.FaceItem.SetEye(System.Int32)
-  fullName: PlugVR.AvatarCustomizing.FaceItem.SetEye(System.Int32)
-  nameWithType: FaceItem.SetEye(Int32)
-- uid: PlugVR.AvatarCustomizing.FaceItem.SetEye*
-  name: SetEye
-  href: api/PlugVR.AvatarCustomizing.FaceItem.html#PlugVR_AvatarCustomizing_FaceItem_SetEye_
-  commentId: Overload:PlugVR.AvatarCustomizing.FaceItem.SetEye
-  isSpec: "True"
-  fullName: PlugVR.AvatarCustomizing.FaceItem.SetEye
-  nameWithType: FaceItem.SetEye
-- uid: PlugVR.AvatarCustomizing.FaceItem.SetEyebrow(Color)
-  name: SetEyebrow(Color)
-  href: api/PlugVR.AvatarCustomizing.FaceItem.html#PlugVR_AvatarCustomizing_FaceItem_SetEyebrow_Color_
-  commentId: M:PlugVR.AvatarCustomizing.FaceItem.SetEyebrow(Color)
-  fullName: PlugVR.AvatarCustomizing.FaceItem.SetEyebrow(Color)
-  nameWithType: FaceItem.SetEyebrow(Color)
-- uid: PlugVR.AvatarCustomizing.FaceItem.SetEyebrow*
-  name: SetEyebrow
-  href: api/PlugVR.AvatarCustomizing.FaceItem.html#PlugVR_AvatarCustomizing_FaceItem_SetEyebrow_
-  commentId: Overload:PlugVR.AvatarCustomizing.FaceItem.SetEyebrow
-  isSpec: "True"
-  fullName: PlugVR.AvatarCustomizing.FaceItem.SetEyebrow
-  nameWithType: FaceItem.SetEyebrow
-- uid: PlugVR.AvatarCustomizing.FaceItem.SetSkin(Color)
-  name: SetSkin(Color)
-  href: api/PlugVR.AvatarCustomizing.FaceItem.html#PlugVR_AvatarCustomizing_FaceItem_SetSkin_Color_
-  commentId: M:PlugVR.AvatarCustomizing.FaceItem.SetSkin(Color)
-  fullName: PlugVR.AvatarCustomizing.FaceItem.SetSkin(Color)
-  nameWithType: FaceItem.SetSkin(Color)
-- uid: PlugVR.AvatarCustomizing.FaceItem.SetSkin*
-  name: SetSkin
-  href: api/PlugVR.AvatarCustomizing.FaceItem.html#PlugVR_AvatarCustomizing_FaceItem_SetSkin_
-  commentId: Overload:PlugVR.AvatarCustomizing.FaceItem.SetSkin
-  isSpec: "True"
-  fullName: PlugVR.AvatarCustomizing.FaceItem.SetSkin
-  nameWithType: FaceItem.SetSkin
 - uid: PlugVR.AvatarCustomizing.Gender
   name: Gender
   href: api/PlugVR.AvatarCustomizing.Gender.html
@@ -1471,41 +1343,67 @@ references:
   commentId: F:PlugVR.AvatarCustomizing.Gender.None
   fullName: PlugVR.AvatarCustomizing.Gender.None
   nameWithType: Gender.None
-- uid: PlugVR.AvatarCustomizing.HairItem
-  name: HairItem
-  href: api/PlugVR.AvatarCustomizing.HairItem.html
-  commentId: T:PlugVR.AvatarCustomizing.HairItem
-  fullName: PlugVR.AvatarCustomizing.HairItem
-  nameWithType: HairItem
-- uid: PlugVR.AvatarCustomizing.HairItem.Initialize(System.Int32[])
+- uid: PlugVR.AvatarCustomizing.ItemAccessory
+  name: ItemAccessory
+  href: api/PlugVR.AvatarCustomizing.ItemAccessory.html
+  commentId: T:PlugVR.AvatarCustomizing.ItemAccessory
+  fullName: PlugVR.AvatarCustomizing.ItemAccessory
+  nameWithType: ItemAccessory
+- uid: PlugVR.AvatarCustomizing.ItemAccessory.AddTexture(Texture2D)
+  name: AddTexture(Texture2D)
+  href: api/PlugVR.AvatarCustomizing.ItemAccessory.html#PlugVR_AvatarCustomizing_ItemAccessory_AddTexture_Texture2D_
+  commentId: M:PlugVR.AvatarCustomizing.ItemAccessory.AddTexture(Texture2D)
+  fullName: PlugVR.AvatarCustomizing.ItemAccessory.AddTexture(Texture2D)
+  nameWithType: ItemAccessory.AddTexture(Texture2D)
+- uid: PlugVR.AvatarCustomizing.ItemAccessory.AddTexture*
+  name: AddTexture
+  href: api/PlugVR.AvatarCustomizing.ItemAccessory.html#PlugVR_AvatarCustomizing_ItemAccessory_AddTexture_
+  commentId: Overload:PlugVR.AvatarCustomizing.ItemAccessory.AddTexture
+  isSpec: "True"
+  fullName: PlugVR.AvatarCustomizing.ItemAccessory.AddTexture
+  nameWithType: ItemAccessory.AddTexture
+- uid: PlugVR.AvatarCustomizing.ItemAccessory.Initialize(System.Int32[])
   name: Initialize(Int32[])
-  href: api/PlugVR.AvatarCustomizing.HairItem.html#PlugVR_AvatarCustomizing_HairItem_Initialize_System_Int32___
-  commentId: M:PlugVR.AvatarCustomizing.HairItem.Initialize(System.Int32[])
+  href: api/PlugVR.AvatarCustomizing.ItemAccessory.html#PlugVR_AvatarCustomizing_ItemAccessory_Initialize_System_Int32___
+  commentId: M:PlugVR.AvatarCustomizing.ItemAccessory.Initialize(System.Int32[])
   name.vb: Initialize(Int32())
-  fullName: PlugVR.AvatarCustomizing.HairItem.Initialize(System.Int32[])
-  fullName.vb: PlugVR.AvatarCustomizing.HairItem.Initialize(System.Int32())
-  nameWithType: HairItem.Initialize(Int32[])
-  nameWithType.vb: HairItem.Initialize(Int32())
-- uid: PlugVR.AvatarCustomizing.HairItem.Initialize*
+  fullName: PlugVR.AvatarCustomizing.ItemAccessory.Initialize(System.Int32[])
+  fullName.vb: PlugVR.AvatarCustomizing.ItemAccessory.Initialize(System.Int32())
+  nameWithType: ItemAccessory.Initialize(Int32[])
+  nameWithType.vb: ItemAccessory.Initialize(Int32())
+- uid: PlugVR.AvatarCustomizing.ItemAccessory.Initialize*
   name: Initialize
-  href: api/PlugVR.AvatarCustomizing.HairItem.html#PlugVR_AvatarCustomizing_HairItem_Initialize_
-  commentId: Overload:PlugVR.AvatarCustomizing.HairItem.Initialize
+  href: api/PlugVR.AvatarCustomizing.ItemAccessory.html#PlugVR_AvatarCustomizing_ItemAccessory_Initialize_
+  commentId: Overload:PlugVR.AvatarCustomizing.ItemAccessory.Initialize
   isSpec: "True"
-  fullName: PlugVR.AvatarCustomizing.HairItem.Initialize
-  nameWithType: HairItem.Initialize
-- uid: PlugVR.AvatarCustomizing.HairItem.SetHair(Color)
-  name: SetHair(Color)
-  href: api/PlugVR.AvatarCustomizing.HairItem.html#PlugVR_AvatarCustomizing_HairItem_SetHair_Color_
-  commentId: M:PlugVR.AvatarCustomizing.HairItem.SetHair(Color)
-  fullName: PlugVR.AvatarCustomizing.HairItem.SetHair(Color)
-  nameWithType: HairItem.SetHair(Color)
-- uid: PlugVR.AvatarCustomizing.HairItem.SetHair*
-  name: SetHair
-  href: api/PlugVR.AvatarCustomizing.HairItem.html#PlugVR_AvatarCustomizing_HairItem_SetHair_
-  commentId: Overload:PlugVR.AvatarCustomizing.HairItem.SetHair
+  fullName: PlugVR.AvatarCustomizing.ItemAccessory.Initialize
+  nameWithType: ItemAccessory.Initialize
+- uid: PlugVR.AvatarCustomizing.ItemAccessory.SetAcc(Color)
+  name: SetAcc(Color)
+  href: api/PlugVR.AvatarCustomizing.ItemAccessory.html#PlugVR_AvatarCustomizing_ItemAccessory_SetAcc_Color_
+  commentId: M:PlugVR.AvatarCustomizing.ItemAccessory.SetAcc(Color)
+  fullName: PlugVR.AvatarCustomizing.ItemAccessory.SetAcc(Color)
+  nameWithType: ItemAccessory.SetAcc(Color)
+- uid: PlugVR.AvatarCustomizing.ItemAccessory.SetAcc*
+  name: SetAcc
+  href: api/PlugVR.AvatarCustomizing.ItemAccessory.html#PlugVR_AvatarCustomizing_ItemAccessory_SetAcc_
+  commentId: Overload:PlugVR.AvatarCustomizing.ItemAccessory.SetAcc
   isSpec: "True"
-  fullName: PlugVR.AvatarCustomizing.HairItem.SetHair
-  nameWithType: HairItem.SetHair
+  fullName: PlugVR.AvatarCustomizing.ItemAccessory.SetAcc
+  nameWithType: ItemAccessory.SetAcc
+- uid: PlugVR.AvatarCustomizing.ItemAccessory.SetHat(System.Int32)
+  name: SetHat(Int32)
+  href: api/PlugVR.AvatarCustomizing.ItemAccessory.html#PlugVR_AvatarCustomizing_ItemAccessory_SetHat_System_Int32_
+  commentId: M:PlugVR.AvatarCustomizing.ItemAccessory.SetHat(System.Int32)
+  fullName: PlugVR.AvatarCustomizing.ItemAccessory.SetHat(System.Int32)
+  nameWithType: ItemAccessory.SetHat(Int32)
+- uid: PlugVR.AvatarCustomizing.ItemAccessory.SetHat*
+  name: SetHat
+  href: api/PlugVR.AvatarCustomizing.ItemAccessory.html#PlugVR_AvatarCustomizing_ItemAccessory_SetHat_
+  commentId: Overload:PlugVR.AvatarCustomizing.ItemAccessory.SetHat
+  isSpec: "True"
+  fullName: PlugVR.AvatarCustomizing.ItemAccessory.SetHat
+  nameWithType: ItemAccessory.SetHat
 - uid: PlugVR.AvatarCustomizing.ItemBase
   name: ItemBase
   href: api/PlugVR.AvatarCustomizing.ItemBase.html
@@ -1589,6 +1487,108 @@ references:
   isSpec: "True"
   fullName: PlugVR.AvatarCustomizing.ItemBase.WorldRotation
   nameWithType: ItemBase.WorldRotation
+- uid: PlugVR.AvatarCustomizing.ItemCloth
+  name: ItemCloth
+  href: api/PlugVR.AvatarCustomizing.ItemCloth.html
+  commentId: T:PlugVR.AvatarCustomizing.ItemCloth
+  fullName: PlugVR.AvatarCustomizing.ItemCloth
+  nameWithType: ItemCloth
+- uid: PlugVR.AvatarCustomizing.ItemFace
+  name: ItemFace
+  href: api/PlugVR.AvatarCustomizing.ItemFace.html
+  commentId: T:PlugVR.AvatarCustomizing.ItemFace
+  fullName: PlugVR.AvatarCustomizing.ItemFace
+  nameWithType: ItemFace
+- uid: PlugVR.AvatarCustomizing.ItemFace.Initialize(System.Int32[])
+  name: Initialize(Int32[])
+  href: api/PlugVR.AvatarCustomizing.ItemFace.html#PlugVR_AvatarCustomizing_ItemFace_Initialize_System_Int32___
+  commentId: M:PlugVR.AvatarCustomizing.ItemFace.Initialize(System.Int32[])
+  name.vb: Initialize(Int32())
+  fullName: PlugVR.AvatarCustomizing.ItemFace.Initialize(System.Int32[])
+  fullName.vb: PlugVR.AvatarCustomizing.ItemFace.Initialize(System.Int32())
+  nameWithType: ItemFace.Initialize(Int32[])
+  nameWithType.vb: ItemFace.Initialize(Int32())
+- uid: PlugVR.AvatarCustomizing.ItemFace.Initialize*
+  name: Initialize
+  href: api/PlugVR.AvatarCustomizing.ItemFace.html#PlugVR_AvatarCustomizing_ItemFace_Initialize_
+  commentId: Overload:PlugVR.AvatarCustomizing.ItemFace.Initialize
+  isSpec: "True"
+  fullName: PlugVR.AvatarCustomizing.ItemFace.Initialize
+  nameWithType: ItemFace.Initialize
+- uid: PlugVR.AvatarCustomizing.ItemFace.SetEye(System.Int32)
+  name: SetEye(Int32)
+  href: api/PlugVR.AvatarCustomizing.ItemFace.html#PlugVR_AvatarCustomizing_ItemFace_SetEye_System_Int32_
+  commentId: M:PlugVR.AvatarCustomizing.ItemFace.SetEye(System.Int32)
+  fullName: PlugVR.AvatarCustomizing.ItemFace.SetEye(System.Int32)
+  nameWithType: ItemFace.SetEye(Int32)
+- uid: PlugVR.AvatarCustomizing.ItemFace.SetEye*
+  name: SetEye
+  href: api/PlugVR.AvatarCustomizing.ItemFace.html#PlugVR_AvatarCustomizing_ItemFace_SetEye_
+  commentId: Overload:PlugVR.AvatarCustomizing.ItemFace.SetEye
+  isSpec: "True"
+  fullName: PlugVR.AvatarCustomizing.ItemFace.SetEye
+  nameWithType: ItemFace.SetEye
+- uid: PlugVR.AvatarCustomizing.ItemFace.SetEyebrow(Color)
+  name: SetEyebrow(Color)
+  href: api/PlugVR.AvatarCustomizing.ItemFace.html#PlugVR_AvatarCustomizing_ItemFace_SetEyebrow_Color_
+  commentId: M:PlugVR.AvatarCustomizing.ItemFace.SetEyebrow(Color)
+  fullName: PlugVR.AvatarCustomizing.ItemFace.SetEyebrow(Color)
+  nameWithType: ItemFace.SetEyebrow(Color)
+- uid: PlugVR.AvatarCustomizing.ItemFace.SetEyebrow*
+  name: SetEyebrow
+  href: api/PlugVR.AvatarCustomizing.ItemFace.html#PlugVR_AvatarCustomizing_ItemFace_SetEyebrow_
+  commentId: Overload:PlugVR.AvatarCustomizing.ItemFace.SetEyebrow
+  isSpec: "True"
+  fullName: PlugVR.AvatarCustomizing.ItemFace.SetEyebrow
+  nameWithType: ItemFace.SetEyebrow
+- uid: PlugVR.AvatarCustomizing.ItemFace.SetSkin(Color)
+  name: SetSkin(Color)
+  href: api/PlugVR.AvatarCustomizing.ItemFace.html#PlugVR_AvatarCustomizing_ItemFace_SetSkin_Color_
+  commentId: M:PlugVR.AvatarCustomizing.ItemFace.SetSkin(Color)
+  fullName: PlugVR.AvatarCustomizing.ItemFace.SetSkin(Color)
+  nameWithType: ItemFace.SetSkin(Color)
+- uid: PlugVR.AvatarCustomizing.ItemFace.SetSkin*
+  name: SetSkin
+  href: api/PlugVR.AvatarCustomizing.ItemFace.html#PlugVR_AvatarCustomizing_ItemFace_SetSkin_
+  commentId: Overload:PlugVR.AvatarCustomizing.ItemFace.SetSkin
+  isSpec: "True"
+  fullName: PlugVR.AvatarCustomizing.ItemFace.SetSkin
+  nameWithType: ItemFace.SetSkin
+- uid: PlugVR.AvatarCustomizing.ItemHair
+  name: ItemHair
+  href: api/PlugVR.AvatarCustomizing.ItemHair.html
+  commentId: T:PlugVR.AvatarCustomizing.ItemHair
+  fullName: PlugVR.AvatarCustomizing.ItemHair
+  nameWithType: ItemHair
+- uid: PlugVR.AvatarCustomizing.ItemHair.Initialize(System.Int32[])
+  name: Initialize(Int32[])
+  href: api/PlugVR.AvatarCustomizing.ItemHair.html#PlugVR_AvatarCustomizing_ItemHair_Initialize_System_Int32___
+  commentId: M:PlugVR.AvatarCustomizing.ItemHair.Initialize(System.Int32[])
+  name.vb: Initialize(Int32())
+  fullName: PlugVR.AvatarCustomizing.ItemHair.Initialize(System.Int32[])
+  fullName.vb: PlugVR.AvatarCustomizing.ItemHair.Initialize(System.Int32())
+  nameWithType: ItemHair.Initialize(Int32[])
+  nameWithType.vb: ItemHair.Initialize(Int32())
+- uid: PlugVR.AvatarCustomizing.ItemHair.Initialize*
+  name: Initialize
+  href: api/PlugVR.AvatarCustomizing.ItemHair.html#PlugVR_AvatarCustomizing_ItemHair_Initialize_
+  commentId: Overload:PlugVR.AvatarCustomizing.ItemHair.Initialize
+  isSpec: "True"
+  fullName: PlugVR.AvatarCustomizing.ItemHair.Initialize
+  nameWithType: ItemHair.Initialize
+- uid: PlugVR.AvatarCustomizing.ItemHair.SetHair(Color)
+  name: SetHair(Color)
+  href: api/PlugVR.AvatarCustomizing.ItemHair.html#PlugVR_AvatarCustomizing_ItemHair_SetHair_Color_
+  commentId: M:PlugVR.AvatarCustomizing.ItemHair.SetHair(Color)
+  fullName: PlugVR.AvatarCustomizing.ItemHair.SetHair(Color)
+  nameWithType: ItemHair.SetHair(Color)
+- uid: PlugVR.AvatarCustomizing.ItemHair.SetHair*
+  name: SetHair
+  href: api/PlugVR.AvatarCustomizing.ItemHair.html#PlugVR_AvatarCustomizing_ItemHair_SetHair_
+  commentId: Overload:PlugVR.AvatarCustomizing.ItemHair.SetHair
+  isSpec: "True"
+  fullName: PlugVR.AvatarCustomizing.ItemHair.SetHair
+  nameWithType: ItemHair.SetHair
 - uid: PlugVR.AvatarCustomizing.SerializableDictionary`2
   name: SerializableDictionary<TKey, TValue>
   href: api/PlugVR.AvatarCustomizing.SerializableDictionary-2.html

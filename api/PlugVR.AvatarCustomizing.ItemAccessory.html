@@ -5,10 +5,10 @@
     <head>
       <meta charset="utf-8">
       <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-      <title>Class ClothItem
+      <title>Class ItemAccessory
      | PlugVR documentation </title>
       <meta name="viewport" content="width=device-width">
-      <meta name="title" content="Class ClothItem
+      <meta name="title" content="Class ItemAccessory
      | PlugVR documentation ">
       <meta name="generator" content="docfx 2.59.2.0">
       
@@ -78,19 +78,19 @@
                           </div>
                         </div>
 
-                    <article class="content wrap" id="_content" data-uid="PlugVR.AvatarCustomizing.ClothItem">
+                    <article class="content wrap" id="_content" data-uid="PlugVR.AvatarCustomizing.ItemAccessory">
   
   
-  <h1 id="PlugVR_AvatarCustomizing_ClothItem" data-uid="PlugVR.AvatarCustomizing.ClothItem" class="text-break">Class ClothItem
+  <h1 id="PlugVR_AvatarCustomizing_ItemAccessory" data-uid="PlugVR.AvatarCustomizing.ItemAccessory" class="text-break">Class ItemAccessory
   </h1>
-  <div class="markdown level0 summary"><p>생성된 옷 아이템 오브젝트의 데이터</p>
+  <div class="markdown level0 summary"><p>생성된 액세서리 아이템 오브젝트의 데이터</p>
 </div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
     <h5>Inheritance</h5>
     <div class="level0"><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object">Object</a></div>
     <div class="level1"><a class="xref" href="PlugVR.AvatarCustomizing.ItemBase.html">ItemBase</a></div>
-    <div class="level2"><span class="xref">ClothItem</span></div>
+    <div class="level2"><span class="xref">ItemAccessory</span></div>
   </div>
   <div class="inheritedMembers">
     <h5>Inherited Members</h5>
@@ -118,10 +118,128 @@
   </div>
   <h6><strong>Namespace</strong>: <a class="xref" href="PlugVR.AvatarCustomizing.html">PlugVR.AvatarCustomizing</a></h6>
   <h6><strong>Assembly</strong>: cs.temp.dll.dll</h6>
-  <h5 id="PlugVR_AvatarCustomizing_ClothItem_syntax">Syntax</h5>
+  <h5 id="PlugVR_AvatarCustomizing_ItemAccessory_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class ClothItem : ItemBase</code></pre>
+    <pre><code class="lang-csharp hljs">public class ItemAccessory : ItemBase</code></pre>
   </div>
+  <h3 id="methods">Methods
+  </h3>
+  
+  
+  <a id="PlugVR_AvatarCustomizing_ItemAccessory_AddTexture_" data-uid="PlugVR.AvatarCustomizing.ItemAccessory.AddTexture*"></a>
+  <h4 id="PlugVR_AvatarCustomizing_ItemAccessory_AddTexture_Texture2D_" data-uid="PlugVR.AvatarCustomizing.ItemAccessory.AddTexture(Texture2D)">AddTexture(Texture2D)</h4>
+  <div class="markdown level1 summary"><p>아이템의 텍스쳐를 초기화</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void AddTexture(Texture2D texture)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Texture2D</span></td>
+        <td><span class="parametername">texture</span></td>
+        <td><p>추가할 텍스쳐</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="PlugVR_AvatarCustomizing_ItemAccessory_Initialize_" data-uid="PlugVR.AvatarCustomizing.ItemAccessory.Initialize*"></a>
+  <h4 id="PlugVR_AvatarCustomizing_ItemAccessory_Initialize_System_Int32___" data-uid="PlugVR.AvatarCustomizing.ItemAccessory.Initialize(System.Int32[])">Initialize(Int32[])</h4>
+  <div class="markdown level1 summary"><p>액세서리 아이템 데이터 세팅</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Initialize(int[] itemArray)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a>[]</td>
+        <td><span class="parametername">itemArray</span></td>
+        <td><p>아이템 배열</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="PlugVR_AvatarCustomizing_ItemAccessory_SetAcc_" data-uid="PlugVR.AvatarCustomizing.ItemAccessory.SetAcc*"></a>
+  <h4 id="PlugVR_AvatarCustomizing_ItemAccessory_SetAcc_Color_" data-uid="PlugVR.AvatarCustomizing.ItemAccessory.SetAcc(Color)">SetAcc(Color)</h4>
+  <div class="markdown level1 summary"><p>액세서리 아이템의 색상 변경</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SetAcc(Color changeColor)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Color</span></td>
+        <td><span class="parametername">changeColor</span></td>
+        <td><p>변경 색</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="PlugVR_AvatarCustomizing_ItemAccessory_SetHat_" data-uid="PlugVR.AvatarCustomizing.ItemAccessory.SetHat*"></a>
+  <h4 id="PlugVR_AvatarCustomizing_ItemAccessory_SetHat_System_Int32_" data-uid="PlugVR.AvatarCustomizing.ItemAccessory.SetHat(System.Int32)">SetHat(Int32)</h4>
+  <div class="markdown level1 summary"><p>모자 아이템의 텍스쳐 변경</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SetHat(int index)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+        <td><span class="parametername">index</span></td>
+        <td><p>변경할 텍스쳐 인덱스</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
 </article>
                 </div>
 

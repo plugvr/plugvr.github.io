@@ -15,23 +15,11 @@
   "files": [
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/PlugVR.AvatarCustomizing.AccessoryItem.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/PlugVR.AvatarCustomizing.AccessoryItem.html",
-          "hash": "XyNQWYoKt0YlgfzBMfNxvhEuzFVMaeJbDacnnDmDEFU="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
       "source_relative_path": "api/PlugVR.AvatarCustomizing.Appearance.yml",
       "output": {
         ".html": {
           "relative_path": "api/PlugVR.AvatarCustomizing.Appearance.html",
-          "hash": "pZji6pLxL/MAeNC/XHFScX9wSSlSuygJ1Xe2SJalj+4="
+          "hash": "sfnSGyczoBhmuHmJ6f0HBveqc6B4GnfnGxhH+XKZ8Ws="
         }
       },
       "is_incremental": false,
@@ -43,7 +31,7 @@
       "output": {
         ".html": {
           "relative_path": "api/PlugVR.AvatarCustomizing.AvatarCreator.html",
-          "hash": "67mi+X4mRaVZGGb0Qo/kTi5f/RDvqGFgmHaFKNoih30="
+          "hash": "Zsb62q5I/ZyfT9g8aZmhJcM4vNJVlQDwaXdqn2mgSOs="
         }
       },
       "is_incremental": false,
@@ -55,7 +43,7 @@
       "output": {
         ".html": {
           "relative_path": "api/PlugVR.AvatarCustomizing.AvatarCustomizeBase.History.html",
-          "hash": "3B62kw3R9oMR4JMT8lxShnaV5JUTFxtZvSxPPV1/J9k="
+          "hash": "TUUjszjVqJiuPBXrlHKGltgbpWfTaU2oHz1PMmaSzLs="
         }
       },
       "is_incremental": false,
@@ -67,7 +55,7 @@
       "output": {
         ".html": {
           "relative_path": "api/PlugVR.AvatarCustomizing.AvatarCustomizeBase.html",
-          "hash": "3VW6E56JPyjgpaU61CCWTbTWc0Amh25xWOqOx0TN6fg="
+          "hash": "RuP2SNpY4ByWZU2yJDOGhJuORj66W9rb/w/+UEsdbp8="
         }
       },
       "is_incremental": false,
@@ -79,7 +67,7 @@
       "output": {
         ".html": {
           "relative_path": "api/PlugVR.AvatarCustomizing.AvatarData.html",
-          "hash": "HZ0Sk9KHhOCJPwZznbSqCbgxk/ELSRBx20mEcydIejA="
+          "hash": "VQqb/FLXjyuCyd3WJ/qjZtZ1ux3FGkgkirWCJkGypRo="
         }
       },
       "is_incremental": false,
@@ -104,18 +92,6 @@
         ".html": {
           "relative_path": "api/PlugVR.AvatarCustomizing.AvatarDressingTable.html",
           "hash": "2rBF7NDS3mdq4rZl3YIXEHR7bKTQc802uGp551MlGFM="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/PlugVR.AvatarCustomizing.ClothItem.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/PlugVR.AvatarCustomizing.ClothItem.html",
-          "hash": "Yp3FbPDUZUsaMN9hdquOvdhTJX96XLjHdfFXqHL5g9I="
         }
       },
       "is_incremental": false,
@@ -207,23 +183,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/PlugVR.AvatarCustomizing.FaceItem.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/PlugVR.AvatarCustomizing.FaceItem.html",
-          "hash": "STRqBND/NzBiP/nr//GSCE2DbDmY+w4zEXPN+WcEYkc="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
       "source_relative_path": "api/PlugVR.AvatarCustomizing.Gender.yml",
       "output": {
         ".html": {
           "relative_path": "api/PlugVR.AvatarCustomizing.Gender.html",
-          "hash": "K+Qg2WCvBVAQpkbwMSaBALqmfklEXVkWk1OqTPdPe6E="
+          "hash": "eNOQykb1nTCrE+SUrDMWIuNGz7CMsD1xyVxpfViMEaU="
         }
       },
       "is_incremental": false,
@@ -231,11 +195,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/PlugVR.AvatarCustomizing.HairItem.yml",
+      "source_relative_path": "api/PlugVR.AvatarCustomizing.ItemAccessory.yml",
       "output": {
         ".html": {
-          "relative_path": "api/PlugVR.AvatarCustomizing.HairItem.html",
-          "hash": "+A4XGhyjgJn3p/WE5eftapw2LVb8aEpjOenhp/Kz9UI="
+          "relative_path": "api/PlugVR.AvatarCustomizing.ItemAccessory.html",
+          "hash": "bZS8tcTYu9YJMLtUHFDHLiK+Etn0DXUXNqhmwR5131E="
         }
       },
       "is_incremental": false,
@@ -247,7 +211,43 @@
       "output": {
         ".html": {
           "relative_path": "api/PlugVR.AvatarCustomizing.ItemBase.html",
-          "hash": "On7GZMJhw4FtKKjjIwZeJyOUeCcuaRxV3eKw8dkxI+k="
+          "hash": "dfpZk82LkJaMvgKz2bRqAGFkT5i8BHCkyCVLaZWisis="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PlugVR.AvatarCustomizing.ItemCloth.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PlugVR.AvatarCustomizing.ItemCloth.html",
+          "hash": "cYROqq2fVJucda5JiQ5w8knRETzKQb/3u6eeIQl8iQs="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PlugVR.AvatarCustomizing.ItemFace.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PlugVR.AvatarCustomizing.ItemFace.html",
+          "hash": "uLmfWKrIRRUE3HqAajwiCydKogibjf4jA6r5btJqtLM="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PlugVR.AvatarCustomizing.ItemHair.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PlugVR.AvatarCustomizing.ItemHair.html",
+          "hash": "OZGt2QtJo944i3qugLww2xljyN8YpZVEUryP76fu4XQ="
         }
       },
       "is_incremental": false,
@@ -283,7 +283,7 @@
       "output": {
         ".html": {
           "relative_path": "api/PlugVR.AvatarCustomizing.html",
-          "hash": "Z/W/lolggNQ5GbZQY0AM0escZUJ2bGlQxNFCPk6CFoQ="
+          "hash": "LtN4y+JZOt3YLLVBbtZYENMom9WLfMXf2tPOXp6D09I="
         }
       },
       "is_incremental": false,
@@ -1915,7 +1915,7 @@
       "output": {
         ".html": {
           "relative_path": "api/toc.html",
-          "hash": "PKM3QKzYOmiMG3gfhVPFhrT7nBK7iTPkWDliUx7XOPI="
+          "hash": "fa2/VimIp88zMhXDfkCUxRKBy0v9NAPPNDqb+px3TH8="
         }
       },
       "is_incremental": false,

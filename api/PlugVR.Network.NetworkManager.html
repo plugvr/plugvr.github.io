@@ -403,6 +403,34 @@
   </h3>
   
   
+  <a id="PlugVR_Network_NetworkManager_AcceptFriendRequest_" data-uid="PlugVR.Network.NetworkManager.AcceptFriendRequest*"></a>
+  <h4 id="PlugVR_Network_NetworkManager_AcceptFriendRequest_System_String_" data-uid="PlugVR.Network.NetworkManager.AcceptFriendRequest(System.String)">AcceptFriendRequest(String)</h4>
+  <div class="markdown level1 summary"><p>친구 요청 수락</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void AcceptFriendRequest(string friendPlayFabId)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td><span class="parametername">friendPlayFabId</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
   <a id="PlugVR_Network_NetworkManager_AddMembers_" data-uid="PlugVR.Network.NetworkManager.AddMembers*"></a>
   <h4 id="PlugVR_Network_NetworkManager_AddMembers_Action_System_Boolean__System_String_" data-uid="PlugVR.Network.NetworkManager.AddMembers(Action{System.Boolean},System.String)">AddMembers(Action&lt;Boolean&gt;, String)</h4>
   <div class="markdown level1 summary"></div>
@@ -944,6 +972,34 @@
   </table>
   
   
+  <a id="PlugVR_Network_NetworkManager_DenyFriendRequest_" data-uid="PlugVR.Network.NetworkManager.DenyFriendRequest*"></a>
+  <h4 id="PlugVR_Network_NetworkManager_DenyFriendRequest_System_String_" data-uid="PlugVR.Network.NetworkManager.DenyFriendRequest(System.String)">DenyFriendRequest(String)</h4>
+  <div class="markdown level1 summary"><p>친구 요청 거절</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void DenyFriendRequest(string friendPlayFabId)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td><span class="parametername">friendPlayFabId</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
   <a id="PlugVR_Network_NetworkManager_Disconnect_" data-uid="PlugVR.Network.NetworkManager.Disconnect*"></a>
   <h4 id="PlugVR_Network_NetworkManager_Disconnect" data-uid="PlugVR.Network.NetworkManager.Disconnect">Disconnect()</h4>
   <div class="markdown level1 summary"></div>
@@ -991,6 +1047,34 @@
   </table>
   
   
+  <a id="PlugVR_Network_NetworkManager_GetFriendsList_" data-uid="PlugVR.Network.NetworkManager.GetFriendsList*"></a>
+  <h4 id="PlugVR_Network_NetworkManager_GetFriendsList_Action_List_FriendInfo___" data-uid="PlugVR.Network.NetworkManager.GetFriendsList(Action{List{FriendInfo}})">GetFriendsList(Action&lt;List&lt;FriendInfo&gt;&gt;)</h4>
+  <div class="markdown level1 summary"><p>친구 목록을 불러옵니다.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void GetFriendsList(Action&lt;List&lt;FriendInfo&gt;&gt; result)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Action</span>&lt;<span class="xref">List</span>&lt;<span class="xref">FriendInfo</span>&gt;&gt;</td>
+        <td><span class="parametername">result</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
   <a id="PlugVR_Network_NetworkManager_GetObjects_" data-uid="PlugVR.Network.NetworkManager.GetObjects*"></a>
   <h4 id="PlugVR_Network_NetworkManager_GetObjects_Action_GetObjectsResponse__System_String_System_String_" data-uid="PlugVR.Network.NetworkManager.GetObjects(Action{GetObjectsResponse},System.String,System.String)">GetObjects(Action&lt;GetObjectsResponse&gt;, String, String)</h4>
   <div class="markdown level1 summary"><p>데이터 불러오기</p>
@@ -1023,6 +1107,43 @@
       <tr>
         <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
         <td><span class="parametername">type</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="PlugVR_Network_NetworkManager_GetPlayFabIDsFromGenericIDs_" data-uid="PlugVR.Network.NetworkManager.GetPlayFabIDsFromGenericIDs*"></a>
+  <h4 id="PlugVR_Network_NetworkManager_GetPlayFabIDsFromGenericIDs_System_String_IEnumerable_System_String__Action_Dictionary_System_String_System_String___" data-uid="PlugVR.Network.NetworkManager.GetPlayFabIDsFromGenericIDs(System.String,IEnumerable{System.String},Action{Dictionary{System.String,System.String}})">GetPlayFabIDsFromGenericIDs(String, IEnumerable&lt;String&gt;, Action&lt;Dictionary&lt;String, String&gt;&gt;)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void GetPlayFabIDsFromGenericIDs(string serviceName, IEnumerable&lt;string&gt; userIds, Action&lt;Dictionary&lt;string, string&gt;&gt; genericPlayFabIdPair)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td><span class="parametername">serviceName</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">IEnumerable</span>&lt;<a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a>&gt;</td>
+        <td><span class="parametername">userIds</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">Action</span>&lt;<span class="xref">Dictionary</span>&lt;<a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a>, <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a>&gt;&gt;</td>
+        <td><span class="parametername">genericPlayFabIdPair</span></td>
         <td></td>
       </tr>
     </tbody>
@@ -1712,6 +1833,34 @@
       <tr>
         <td><span class="xref">Hashtable</span></td>
         <td><span class="parametername">propertiesThatChanged</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="PlugVR_Network_NetworkManager_SendFriendRequest_" data-uid="PlugVR.Network.NetworkManager.SendFriendRequest*"></a>
+  <h4 id="PlugVR_Network_NetworkManager_SendFriendRequest_System_String_" data-uid="PlugVR.Network.NetworkManager.SendFriendRequest(System.String)">SendFriendRequest(String)</h4>
+  <div class="markdown level1 summary"><p>친구 요청</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void SendFriendRequest(string friendPlayFabId)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td><span class="parametername">friendPlayFabId</span></td>
         <td></td>
       </tr>
     </tbody>

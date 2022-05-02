@@ -4272,6 +4272,19 @@ references:
   commentId: T:PlugVR.Network.NetworkManager
   fullName: PlugVR.Network.NetworkManager
   nameWithType: NetworkManager
+- uid: PlugVR.Network.NetworkManager.AcceptFriendRequest(System.String)
+  name: AcceptFriendRequest(String)
+  href: api/PlugVR.Network.NetworkManager.html#PlugVR_Network_NetworkManager_AcceptFriendRequest_System_String_
+  commentId: M:PlugVR.Network.NetworkManager.AcceptFriendRequest(System.String)
+  fullName: PlugVR.Network.NetworkManager.AcceptFriendRequest(System.String)
+  nameWithType: NetworkManager.AcceptFriendRequest(String)
+- uid: PlugVR.Network.NetworkManager.AcceptFriendRequest*
+  name: AcceptFriendRequest
+  href: api/PlugVR.Network.NetworkManager.html#PlugVR_Network_NetworkManager_AcceptFriendRequest_
+  commentId: Overload:PlugVR.Network.NetworkManager.AcceptFriendRequest
+  isSpec: "True"
+  fullName: PlugVR.Network.NetworkManager.AcceptFriendRequest
+  nameWithType: NetworkManager.AcceptFriendRequest
 - uid: PlugVR.Network.NetworkManager.AddMembers(Action{System.Boolean},System.String)
   name: AddMembers(Action<Boolean>, String)
   href: api/PlugVR.Network.NetworkManager.html#PlugVR_Network_NetworkManager_AddMembers_Action_System_Boolean__System_String_
@@ -4392,6 +4405,19 @@ references:
   isSpec: "True"
   fullName: PlugVR.Network.NetworkManager.CurrentTimeStamp
   nameWithType: NetworkManager.CurrentTimeStamp
+- uid: PlugVR.Network.NetworkManager.DenyFriendRequest(System.String)
+  name: DenyFriendRequest(String)
+  href: api/PlugVR.Network.NetworkManager.html#PlugVR_Network_NetworkManager_DenyFriendRequest_System_String_
+  commentId: M:PlugVR.Network.NetworkManager.DenyFriendRequest(System.String)
+  fullName: PlugVR.Network.NetworkManager.DenyFriendRequest(System.String)
+  nameWithType: NetworkManager.DenyFriendRequest(String)
+- uid: PlugVR.Network.NetworkManager.DenyFriendRequest*
+  name: DenyFriendRequest
+  href: api/PlugVR.Network.NetworkManager.html#PlugVR_Network_NetworkManager_DenyFriendRequest_
+  commentId: Overload:PlugVR.Network.NetworkManager.DenyFriendRequest
+  isSpec: "True"
+  fullName: PlugVR.Network.NetworkManager.DenyFriendRequest
+  nameWithType: NetworkManager.DenyFriendRequest
 - uid: PlugVR.Network.NetworkManager.Disconnect
   name: Disconnect()
   href: api/PlugVR.Network.NetworkManager.html#PlugVR_Network_NetworkManager_Disconnect
@@ -4447,6 +4473,22 @@ references:
   isSpec: "True"
   fullName: PlugVR.Network.NetworkManager.ExecuteCloudScript
   nameWithType: NetworkManager.ExecuteCloudScript
+- uid: PlugVR.Network.NetworkManager.GetFriendsList(Action{List{FriendInfo}})
+  name: GetFriendsList(Action<List<FriendInfo>>)
+  href: api/PlugVR.Network.NetworkManager.html#PlugVR_Network_NetworkManager_GetFriendsList_Action_List_FriendInfo___
+  commentId: M:PlugVR.Network.NetworkManager.GetFriendsList(Action{List{FriendInfo}})
+  name.vb: GetFriendsList(Action(Of List(Of FriendInfo)))
+  fullName: PlugVR.Network.NetworkManager.GetFriendsList(Action<List<FriendInfo>>)
+  fullName.vb: PlugVR.Network.NetworkManager.GetFriendsList(Action(Of List(Of FriendInfo)))
+  nameWithType: NetworkManager.GetFriendsList(Action<List<FriendInfo>>)
+  nameWithType.vb: NetworkManager.GetFriendsList(Action(Of List(Of FriendInfo)))
+- uid: PlugVR.Network.NetworkManager.GetFriendsList*
+  name: GetFriendsList
+  href: api/PlugVR.Network.NetworkManager.html#PlugVR_Network_NetworkManager_GetFriendsList_
+  commentId: Overload:PlugVR.Network.NetworkManager.GetFriendsList
+  isSpec: "True"
+  fullName: PlugVR.Network.NetworkManager.GetFriendsList
+  nameWithType: NetworkManager.GetFriendsList
 - uid: PlugVR.Network.NetworkManager.GetObjects(Action{GetObjectsResponse},System.String,System.String)
   name: GetObjects(Action<GetObjectsResponse>, String, String)
   href: api/PlugVR.Network.NetworkManager.html#PlugVR_Network_NetworkManager_GetObjects_Action_GetObjectsResponse__System_String_System_String_
@@ -4463,6 +4505,22 @@ references:
   isSpec: "True"
   fullName: PlugVR.Network.NetworkManager.GetObjects
   nameWithType: NetworkManager.GetObjects
+- uid: PlugVR.Network.NetworkManager.GetPlayFabIDsFromGenericIDs(System.String,IEnumerable{System.String},Action{Dictionary{System.String,System.String}})
+  name: GetPlayFabIDsFromGenericIDs(String, IEnumerable<String>, Action<Dictionary<String, String>>)
+  href: api/PlugVR.Network.NetworkManager.html#PlugVR_Network_NetworkManager_GetPlayFabIDsFromGenericIDs_System_String_IEnumerable_System_String__Action_Dictionary_System_String_System_String___
+  commentId: M:PlugVR.Network.NetworkManager.GetPlayFabIDsFromGenericIDs(System.String,IEnumerable{System.String},Action{Dictionary{System.String,System.String}})
+  name.vb: GetPlayFabIDsFromGenericIDs(String, IEnumerable(Of String), Action(Of Dictionary(Of String, String)))
+  fullName: PlugVR.Network.NetworkManager.GetPlayFabIDsFromGenericIDs(System.String, IEnumerable<System.String>, Action<Dictionary<System.String, System.String>>)
+  fullName.vb: PlugVR.Network.NetworkManager.GetPlayFabIDsFromGenericIDs(System.String, IEnumerable(Of System.String), Action(Of Dictionary(Of System.String, System.String)))
+  nameWithType: NetworkManager.GetPlayFabIDsFromGenericIDs(String, IEnumerable<String>, Action<Dictionary<String, String>>)
+  nameWithType.vb: NetworkManager.GetPlayFabIDsFromGenericIDs(String, IEnumerable(Of String), Action(Of Dictionary(Of String, String)))
+- uid: PlugVR.Network.NetworkManager.GetPlayFabIDsFromGenericIDs*
+  name: GetPlayFabIDsFromGenericIDs
+  href: api/PlugVR.Network.NetworkManager.html#PlugVR_Network_NetworkManager_GetPlayFabIDsFromGenericIDs_
+  commentId: Overload:PlugVR.Network.NetworkManager.GetPlayFabIDsFromGenericIDs
+  isSpec: "True"
+  fullName: PlugVR.Network.NetworkManager.GetPlayFabIDsFromGenericIDs
+  nameWithType: NetworkManager.GetPlayFabIDsFromGenericIDs
 - uid: PlugVR.Network.NetworkManager.GetRegionIndex
   name: GetRegionIndex()
   href: api/PlugVR.Network.NetworkManager.html#PlugVR_Network_NetworkManager_GetRegionIndex
@@ -4956,6 +5014,19 @@ references:
   commentId: E:PlugVR.Network.NetworkManager.RoomListCallback
   fullName: PlugVR.Network.NetworkManager.RoomListCallback
   nameWithType: NetworkManager.RoomListCallback
+- uid: PlugVR.Network.NetworkManager.SendFriendRequest(System.String)
+  name: SendFriendRequest(String)
+  href: api/PlugVR.Network.NetworkManager.html#PlugVR_Network_NetworkManager_SendFriendRequest_System_String_
+  commentId: M:PlugVR.Network.NetworkManager.SendFriendRequest(System.String)
+  fullName: PlugVR.Network.NetworkManager.SendFriendRequest(System.String)
+  nameWithType: NetworkManager.SendFriendRequest(String)
+- uid: PlugVR.Network.NetworkManager.SendFriendRequest*
+  name: SendFriendRequest
+  href: api/PlugVR.Network.NetworkManager.html#PlugVR_Network_NetworkManager_SendFriendRequest_
+  commentId: Overload:PlugVR.Network.NetworkManager.SendFriendRequest
+  isSpec: "True"
+  fullName: PlugVR.Network.NetworkManager.SendFriendRequest
+  nameWithType: NetworkManager.SendFriendRequest
 - uid: PlugVR.Network.NetworkManager.SetNickname(System.String,Action{System.Boolean,PlugVR.Network.ErrorResult})
   name: SetNickname(String, Action<Boolean, ErrorResult>)
   href: api/PlugVR.Network.NetworkManager.html#PlugVR_Network_NetworkManager_SetNickname_System_String_Action_System_Boolean_PlugVR_Network_ErrorResult__
@@ -5682,25 +5753,6 @@ references:
   commentId: F:PlugVR.Network.PlayFabCustom.useDeviceId
   fullName: PlugVR.Network.PlayFabCustom.useDeviceId
   nameWithType: PlayFabCustom.useDeviceId
-- uid: PlugVR.Network.PlayFabOculus
-  name: PlayFabOculus
-  href: api/PlugVR.Network.PlayFabOculus.html
-  commentId: T:PlugVR.Network.PlayFabOculus
-  fullName: PlugVR.Network.PlayFabOculus
-  nameWithType: PlayFabOculus
-- uid: PlugVR.Network.PlayFabOculus.LoginInProgress
-  name: LoginInProgress()
-  href: api/PlugVR.Network.PlayFabOculus.html#PlugVR_Network_PlayFabOculus_LoginInProgress
-  commentId: M:PlugVR.Network.PlayFabOculus.LoginInProgress
-  fullName: PlugVR.Network.PlayFabOculus.LoginInProgress()
-  nameWithType: PlayFabOculus.LoginInProgress()
-- uid: PlugVR.Network.PlayFabOculus.LoginInProgress*
-  name: LoginInProgress
-  href: api/PlugVR.Network.PlayFabOculus.html#PlugVR_Network_PlayFabOculus_LoginInProgress_
-  commentId: Overload:PlugVR.Network.PlayFabOculus.LoginInProgress
-  isSpec: "True"
-  fullName: PlugVR.Network.PlayFabOculus.LoginInProgress
-  nameWithType: PlayFabOculus.LoginInProgress
 - uid: PlugVR.Network.Result
   name: Result
   href: api/PlugVR.Network.Result.html

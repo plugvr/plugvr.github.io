@@ -83,7 +83,8 @@
   
   <h1 id="PlugVR_Network_PhotonRoomList" data-uid="PlugVR.Network.PhotonRoomList" class="text-break">Class PhotonRoomList
   </h1>
-  <div class="markdown level0 summary"></div>
+  <div class="markdown level0 summary"><p>포톤 룸 관리</p>
+</div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
     <h5>Inheritance</h5>
@@ -169,13 +170,13 @@
   </h3>
   
   
-  <h4 id="PlugVR_Network_PhotonRoomList_AddRoomCallback" data-uid="PlugVR.Network.PhotonRoomList.AddRoomCallback">AddRoomCallback</h4>
+  <h4 id="PlugVR_Network_PhotonRoomList_OnAddRoomEvent" data-uid="PlugVR.Network.PhotonRoomList.OnAddRoomEvent">OnAddRoomEvent</h4>
   <div class="markdown level1 summary"><p>룸이 추가되면 발생하는 이벤트</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public event Action&lt;RoomInfo&gt; AddRoomCallback</code></pre>
+    <pre><code class="lang-csharp hljs">public event Action&lt;RoomInfo&gt; OnAddRoomEvent</code></pre>
   </div>
   <h5 class="eventType">Event Type</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -194,13 +195,13 @@
   </table>
   
   
-  <h4 id="PlugVR_Network_PhotonRoomList_RemoveRoomCallback" data-uid="PlugVR.Network.PhotonRoomList.RemoveRoomCallback">RemoveRoomCallback</h4>
+  <h4 id="PlugVR_Network_PhotonRoomList_OnRemoveRoomEvent" data-uid="PlugVR.Network.PhotonRoomList.OnRemoveRoomEvent">OnRemoveRoomEvent</h4>
   <div class="markdown level1 summary"><p>룸이 제거되면 발생하는 이벤트</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public event Action&lt;RoomInfo&gt; RemoveRoomCallback</code></pre>
+    <pre><code class="lang-csharp hljs">public event Action&lt;RoomInfo&gt; OnRemoveRoomEvent</code></pre>
   </div>
   <h5 class="eventType">Event Type</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -219,13 +220,13 @@
   </table>
   
   
-  <h4 id="PlugVR_Network_PhotonRoomList_UpdateRoomCallback" data-uid="PlugVR.Network.PhotonRoomList.UpdateRoomCallback">UpdateRoomCallback</h4>
+  <h4 id="PlugVR_Network_PhotonRoomList_OnUpdateRoomEvent" data-uid="PlugVR.Network.PhotonRoomList.OnUpdateRoomEvent">OnUpdateRoomEvent</h4>
   <div class="markdown level1 summary"><p>룸이 업데이트되면 발생하는 이벤트</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public event Action&lt;RoomInfo&gt; UpdateRoomCallback</code></pre>
+    <pre><code class="lang-csharp hljs">public event Action&lt;RoomInfo&gt; OnUpdateRoomEvent</code></pre>
   </div>
   <h5 class="eventType">Event Type</h5>
   <table class="table table-bordered table-striped table-condensed">

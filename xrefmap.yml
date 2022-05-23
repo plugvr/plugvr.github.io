@@ -725,6 +725,19 @@ references:
   commentId: F:PlugVR.AvatarCustomizing.AvatarDatabase.hairItemDic
   fullName: PlugVR.AvatarCustomizing.AvatarDatabase.hairItemDic
   nameWithType: AvatarDatabase.hairItemDic
+- uid: PlugVR.AvatarCustomizing.AvatarDatabase.Instance
+  name: Instance
+  href: api/PlugVR.AvatarCustomizing.AvatarDatabase.html#PlugVR_AvatarCustomizing_AvatarDatabase_Instance
+  commentId: P:PlugVR.AvatarCustomizing.AvatarDatabase.Instance
+  fullName: PlugVR.AvatarCustomizing.AvatarDatabase.Instance
+  nameWithType: AvatarDatabase.Instance
+- uid: PlugVR.AvatarCustomizing.AvatarDatabase.Instance*
+  name: Instance
+  href: api/PlugVR.AvatarCustomizing.AvatarDatabase.html#PlugVR_AvatarCustomizing_AvatarDatabase_Instance_
+  commentId: Overload:PlugVR.AvatarCustomizing.AvatarDatabase.Instance
+  isSpec: "True"
+  fullName: PlugVR.AvatarCustomizing.AvatarDatabase.Instance
+  nameWithType: AvatarDatabase.Instance
 - uid: PlugVR.AvatarCustomizing.AvatarDatabase.skinDic
   name: skinDic
   href: api/PlugVR.AvatarCustomizing.AvatarDatabase.html#PlugVR_AvatarCustomizing_AvatarDatabase_skinDic
@@ -1589,75 +1602,6 @@ references:
   isSpec: "True"
   fullName: PlugVR.AvatarCustomizing.ItemHair.SetHair
   nameWithType: ItemHair.SetHair
-- uid: PlugVR.AvatarCustomizing.SerializableDictionary`2
-  name: SerializableDictionary<TKey, TValue>
-  href: api/PlugVR.AvatarCustomizing.SerializableDictionary-2.html
-  commentId: T:PlugVR.AvatarCustomizing.SerializableDictionary`2
-  name.vb: SerializableDictionary(Of TKey, TValue)
-  fullName: PlugVR.AvatarCustomizing.SerializableDictionary<TKey, TValue>
-  fullName.vb: PlugVR.AvatarCustomizing.SerializableDictionary(Of TKey, TValue)
-  nameWithType: SerializableDictionary<TKey, TValue>
-  nameWithType.vb: SerializableDictionary(Of TKey, TValue)
-- uid: PlugVR.AvatarCustomizing.SerializableDictionary`2.OnAfterDeserialize
-  name: OnAfterDeserialize()
-  href: api/PlugVR.AvatarCustomizing.SerializableDictionary-2.html#PlugVR_AvatarCustomizing_SerializableDictionary_2_OnAfterDeserialize
-  commentId: M:PlugVR.AvatarCustomizing.SerializableDictionary`2.OnAfterDeserialize
-  fullName: PlugVR.AvatarCustomizing.SerializableDictionary<TKey, TValue>.OnAfterDeserialize()
-  fullName.vb: PlugVR.AvatarCustomizing.SerializableDictionary(Of TKey, TValue).OnAfterDeserialize()
-  nameWithType: SerializableDictionary<TKey, TValue>.OnAfterDeserialize()
-  nameWithType.vb: SerializableDictionary(Of TKey, TValue).OnAfterDeserialize()
-- uid: PlugVR.AvatarCustomizing.SerializableDictionary`2.OnAfterDeserialize*
-  name: OnAfterDeserialize
-  href: api/PlugVR.AvatarCustomizing.SerializableDictionary-2.html#PlugVR_AvatarCustomizing_SerializableDictionary_2_OnAfterDeserialize_
-  commentId: Overload:PlugVR.AvatarCustomizing.SerializableDictionary`2.OnAfterDeserialize
-  isSpec: "True"
-  fullName: PlugVR.AvatarCustomizing.SerializableDictionary<TKey, TValue>.OnAfterDeserialize
-  fullName.vb: PlugVR.AvatarCustomizing.SerializableDictionary(Of TKey, TValue).OnAfterDeserialize
-  nameWithType: SerializableDictionary<TKey, TValue>.OnAfterDeserialize
-  nameWithType.vb: SerializableDictionary(Of TKey, TValue).OnAfterDeserialize
-- uid: PlugVR.AvatarCustomizing.SerializableDictionary`2.OnBeforeSerialize
-  name: OnBeforeSerialize()
-  href: api/PlugVR.AvatarCustomizing.SerializableDictionary-2.html#PlugVR_AvatarCustomizing_SerializableDictionary_2_OnBeforeSerialize
-  commentId: M:PlugVR.AvatarCustomizing.SerializableDictionary`2.OnBeforeSerialize
-  fullName: PlugVR.AvatarCustomizing.SerializableDictionary<TKey, TValue>.OnBeforeSerialize()
-  fullName.vb: PlugVR.AvatarCustomizing.SerializableDictionary(Of TKey, TValue).OnBeforeSerialize()
-  nameWithType: SerializableDictionary<TKey, TValue>.OnBeforeSerialize()
-  nameWithType.vb: SerializableDictionary(Of TKey, TValue).OnBeforeSerialize()
-- uid: PlugVR.AvatarCustomizing.SerializableDictionary`2.OnBeforeSerialize*
-  name: OnBeforeSerialize
-  href: api/PlugVR.AvatarCustomizing.SerializableDictionary-2.html#PlugVR_AvatarCustomizing_SerializableDictionary_2_OnBeforeSerialize_
-  commentId: Overload:PlugVR.AvatarCustomizing.SerializableDictionary`2.OnBeforeSerialize
-  isSpec: "True"
-  fullName: PlugVR.AvatarCustomizing.SerializableDictionary<TKey, TValue>.OnBeforeSerialize
-  fullName.vb: PlugVR.AvatarCustomizing.SerializableDictionary(Of TKey, TValue).OnBeforeSerialize
-  nameWithType: SerializableDictionary<TKey, TValue>.OnBeforeSerialize
-  nameWithType.vb: SerializableDictionary(Of TKey, TValue).OnBeforeSerialize
-- uid: PlugVR.AvatarCustomizing.SingletonMonoBehaviour`1
-  name: SingletonMonoBehaviour<T>
-  href: api/PlugVR.AvatarCustomizing.SingletonMonoBehaviour-1.html
-  commentId: T:PlugVR.AvatarCustomizing.SingletonMonoBehaviour`1
-  name.vb: SingletonMonoBehaviour(Of T)
-  fullName: PlugVR.AvatarCustomizing.SingletonMonoBehaviour<T>
-  fullName.vb: PlugVR.AvatarCustomizing.SingletonMonoBehaviour(Of T)
-  nameWithType: SingletonMonoBehaviour<T>
-  nameWithType.vb: SingletonMonoBehaviour(Of T)
-- uid: PlugVR.AvatarCustomizing.SingletonMonoBehaviour`1.Instance
-  name: Instance
-  href: api/PlugVR.AvatarCustomizing.SingletonMonoBehaviour-1.html#PlugVR_AvatarCustomizing_SingletonMonoBehaviour_1_Instance
-  commentId: P:PlugVR.AvatarCustomizing.SingletonMonoBehaviour`1.Instance
-  fullName: PlugVR.AvatarCustomizing.SingletonMonoBehaviour<T>.Instance
-  fullName.vb: PlugVR.AvatarCustomizing.SingletonMonoBehaviour(Of T).Instance
-  nameWithType: SingletonMonoBehaviour<T>.Instance
-  nameWithType.vb: SingletonMonoBehaviour(Of T).Instance
-- uid: PlugVR.AvatarCustomizing.SingletonMonoBehaviour`1.Instance*
-  name: Instance
-  href: api/PlugVR.AvatarCustomizing.SingletonMonoBehaviour-1.html#PlugVR_AvatarCustomizing_SingletonMonoBehaviour_1_Instance_
-  commentId: Overload:PlugVR.AvatarCustomizing.SingletonMonoBehaviour`1.Instance
-  isSpec: "True"
-  fullName: PlugVR.AvatarCustomizing.SingletonMonoBehaviour<T>.Instance
-  fullName.vb: PlugVR.AvatarCustomizing.SingletonMonoBehaviour(Of T).Instance
-  nameWithType: SingletonMonoBehaviour<T>.Instance
-  nameWithType.vb: SingletonMonoBehaviour(Of T).Instance
 - uid: PlugVR.BoardGame
   name: PlugVR.BoardGame
   href: api/PlugVR.BoardGame.html
@@ -4169,6 +4113,37 @@ references:
   commentId: F:PlugVR.Network.ErrorResult.message
   fullName: PlugVR.Network.ErrorResult.message
   nameWithType: ErrorResult.message
+- uid: PlugVR.Network.FriendRequest
+  name: FriendRequest
+  href: api/PlugVR.Network.FriendRequest.html
+  commentId: T:PlugVR.Network.FriendRequest
+  fullName: PlugVR.Network.FriendRequest
+  nameWithType: FriendRequest
+- uid: PlugVR.Network.FriendRequest.#ctor(System.Boolean,System.Boolean)
+  name: FriendRequest(Boolean, Boolean)
+  href: api/PlugVR.Network.FriendRequest.html#PlugVR_Network_FriendRequest__ctor_System_Boolean_System_Boolean_
+  commentId: M:PlugVR.Network.FriendRequest.#ctor(System.Boolean,System.Boolean)
+  fullName: PlugVR.Network.FriendRequest.FriendRequest(System.Boolean, System.Boolean)
+  nameWithType: FriendRequest.FriendRequest(Boolean, Boolean)
+- uid: PlugVR.Network.FriendRequest.#ctor*
+  name: FriendRequest
+  href: api/PlugVR.Network.FriendRequest.html#PlugVR_Network_FriendRequest__ctor_
+  commentId: Overload:PlugVR.Network.FriendRequest.#ctor
+  isSpec: "True"
+  fullName: PlugVR.Network.FriendRequest.FriendRequest
+  nameWithType: FriendRequest.FriendRequest
+- uid: PlugVR.Network.FriendRequest.Cancel
+  name: Cancel
+  href: api/PlugVR.Network.FriendRequest.html#PlugVR_Network_FriendRequest_Cancel
+  commentId: F:PlugVR.Network.FriendRequest.Cancel
+  fullName: PlugVR.Network.FriendRequest.Cancel
+  nameWithType: FriendRequest.Cancel
+- uid: PlugVR.Network.FriendRequest.SendRequest
+  name: SendRequest
+  href: api/PlugVR.Network.FriendRequest.html#PlugVR_Network_FriendRequest_SendRequest
+  commentId: F:PlugVR.Network.FriendRequest.SendRequest
+  fullName: PlugVR.Network.FriendRequest.SendRequest
+  nameWithType: FriendRequest.SendRequest
 - uid: PlugVR.Network.InRoomType
   name: InRoomType
   href: api/PlugVR.Network.InRoomType.html
@@ -4285,28 +4260,6 @@ references:
   isSpec: "True"
   fullName: PlugVR.Network.NetworkManager.AcceptFriendRequest
   nameWithType: NetworkManager.AcceptFriendRequest
-- uid: PlugVR.Network.NetworkManager.AddMembers(Action{System.Boolean},System.String)
-  name: AddMembers(Action<Boolean>, String)
-  href: api/PlugVR.Network.NetworkManager.html#PlugVR_Network_NetworkManager_AddMembers_Action_System_Boolean__System_String_
-  commentId: M:PlugVR.Network.NetworkManager.AddMembers(Action{System.Boolean},System.String)
-  name.vb: AddMembers(Action(Of Boolean), String)
-  fullName: PlugVR.Network.NetworkManager.AddMembers(Action<System.Boolean>, System.String)
-  fullName.vb: PlugVR.Network.NetworkManager.AddMembers(Action(Of System.Boolean), System.String)
-  nameWithType: NetworkManager.AddMembers(Action<Boolean>, String)
-  nameWithType.vb: NetworkManager.AddMembers(Action(Of Boolean), String)
-- uid: PlugVR.Network.NetworkManager.AddMembers*
-  name: AddMembers
-  href: api/PlugVR.Network.NetworkManager.html#PlugVR_Network_NetworkManager_AddMembers_
-  commentId: Overload:PlugVR.Network.NetworkManager.AddMembers
-  isSpec: "True"
-  fullName: PlugVR.Network.NetworkManager.AddMembers
-  nameWithType: NetworkManager.AddMembers
-- uid: PlugVR.Network.NetworkManager.AvatarProfileKey
-  name: AvatarProfileKey
-  href: api/PlugVR.Network.NetworkManager.html#PlugVR_Network_NetworkManager_AvatarProfileKey
-  commentId: F:PlugVR.Network.NetworkManager.AvatarProfileKey
-  fullName: PlugVR.Network.NetworkManager.AvatarProfileKey
-  nameWithType: NetworkManager.AvatarProfileKey
 - uid: PlugVR.Network.NetworkManager.Connect
   name: Connect()
   href: api/PlugVR.Network.NetworkManager.html#PlugVR_Network_NetworkManager_Connect
@@ -4320,12 +4273,6 @@ references:
   isSpec: "True"
   fullName: PlugVR.Network.NetworkManager.Connect
   nameWithType: NetworkManager.Connect
-- uid: PlugVR.Network.NetworkManager.ConnectedCallback
-  name: ConnectedCallback
-  href: api/PlugVR.Network.NetworkManager.html#PlugVR_Network_NetworkManager_ConnectedCallback
-  commentId: E:PlugVR.Network.NetworkManager.ConnectedCallback
-  fullName: PlugVR.Network.NetworkManager.ConnectedCallback
-  nameWithType: NetworkManager.ConnectedCallback
 - uid: PlugVR.Network.NetworkManager.CreateOrJoinRoom(System.Int32,System.String,System.String,System.Int32,System.Byte,PlugVR.Network.RoomPermission)
   name: CreateOrJoinRoom(Int32, String, String, Int32, Byte, RoomPermission)
   href: api/PlugVR.Network.NetworkManager.html#PlugVR_Network_NetworkManager_CreateOrJoinRoom_System_Int32_System_String_System_String_System_Int32_System_Byte_PlugVR_Network_RoomPermission_
@@ -4473,6 +4420,19 @@ references:
   isSpec: "True"
   fullName: PlugVR.Network.NetworkManager.ExecuteCloudScript
   nameWithType: NetworkManager.ExecuteCloudScript
+- uid: PlugVR.Network.NetworkManager.GeneratePassword(System.String)
+  name: GeneratePassword(String)
+  href: api/PlugVR.Network.NetworkManager.html#PlugVR_Network_NetworkManager_GeneratePassword_System_String_
+  commentId: M:PlugVR.Network.NetworkManager.GeneratePassword(System.String)
+  fullName: PlugVR.Network.NetworkManager.GeneratePassword(System.String)
+  nameWithType: NetworkManager.GeneratePassword(String)
+- uid: PlugVR.Network.NetworkManager.GeneratePassword*
+  name: GeneratePassword
+  href: api/PlugVR.Network.NetworkManager.html#PlugVR_Network_NetworkManager_GeneratePassword_
+  commentId: Overload:PlugVR.Network.NetworkManager.GeneratePassword
+  isSpec: "True"
+  fullName: PlugVR.Network.NetworkManager.GeneratePassword
+  nameWithType: NetworkManager.GeneratePassword
 - uid: PlugVR.Network.NetworkManager.GetFriendsList(Action{List{FriendInfo}})
   name: GetFriendsList(Action<List<FriendInfo>>)
   href: api/PlugVR.Network.NetworkManager.html#PlugVR_Network_NetworkManager_GetFriendsList_Action_List_FriendInfo___
@@ -4547,6 +4507,19 @@ references:
   isSpec: "True"
   fullName: PlugVR.Network.NetworkManager.GetRoomInfo
   nameWithType: NetworkManager.GetRoomInfo
+- uid: PlugVR.Network.NetworkManager.GetRoomNumber(System.String)
+  name: GetRoomNumber(String)
+  href: api/PlugVR.Network.NetworkManager.html#PlugVR_Network_NetworkManager_GetRoomNumber_System_String_
+  commentId: M:PlugVR.Network.NetworkManager.GetRoomNumber(System.String)
+  fullName: PlugVR.Network.NetworkManager.GetRoomNumber(System.String)
+  nameWithType: NetworkManager.GetRoomNumber(String)
+- uid: PlugVR.Network.NetworkManager.GetRoomNumber*
+  name: GetRoomNumber
+  href: api/PlugVR.Network.NetworkManager.html#PlugVR_Network_NetworkManager_GetRoomNumber_
+  commentId: Overload:PlugVR.Network.NetworkManager.GetRoomNumber
+  isSpec: "True"
+  fullName: PlugVR.Network.NetworkManager.GetRoomNumber
+  nameWithType: NetworkManager.GetRoomNumber
 - uid: PlugVR.Network.NetworkManager.GetSecond(System.Int32)
   name: GetSecond(Int32)
   href: api/PlugVR.Network.NetworkManager.html#PlugVR_Network_NetworkManager_GetSecond_System_Int32_
@@ -4599,12 +4572,6 @@ references:
   isSpec: "True"
   fullName: PlugVR.Network.NetworkManager.InRoom
   nameWithType: NetworkManager.InRoom
-- uid: PlugVR.Network.NetworkManager.InRoomCallback
-  name: InRoomCallback
-  href: api/PlugVR.Network.NetworkManager.html#PlugVR_Network_NetworkManager_InRoomCallback
-  commentId: E:PlugVR.Network.NetworkManager.InRoomCallback
-  fullName: PlugVR.Network.NetworkManager.InRoomCallback
-  nameWithType: NetworkManager.InRoomCallback
 - uid: PlugVR.Network.NetworkManager.IsConnected
   name: IsConnected
   href: api/PlugVR.Network.NetworkManager.html#PlugVR_Network_NetworkManager_IsConnected
@@ -4670,12 +4637,6 @@ references:
   isSpec: "True"
   fullName: PlugVR.Network.NetworkManager.JoinLobby
   nameWithType: NetworkManager.JoinLobby
-- uid: PlugVR.Network.NetworkManager.JoinLobbyCallback
-  name: JoinLobbyCallback
-  href: api/PlugVR.Network.NetworkManager.html#PlugVR_Network_NetworkManager_JoinLobbyCallback
-  commentId: E:PlugVR.Network.NetworkManager.JoinLobbyCallback
-  fullName: PlugVR.Network.NetworkManager.JoinLobbyCallback
-  nameWithType: NetworkManager.JoinLobbyCallback
 - uid: PlugVR.Network.NetworkManager.JoinRoom(System.Int32,System.String,System.String)
   name: JoinRoom(Int32, String, String)
   href: api/PlugVR.Network.NetworkManager.html#PlugVR_Network_NetworkManager_JoinRoom_System_Int32_System_String_System_String_
@@ -4730,12 +4691,6 @@ references:
   isSpec: "True"
   fullName: PlugVR.Network.NetworkManager.Login
   nameWithType: NetworkManager.Login
-- uid: PlugVR.Network.NetworkManager.LoginResultCallback
-  name: LoginResultCallback
-  href: api/PlugVR.Network.NetworkManager.html#PlugVR_Network_NetworkManager_LoginResultCallback
-  commentId: E:PlugVR.Network.NetworkManager.LoginResultCallback
-  fullName: PlugVR.Network.NetworkManager.LoginResultCallback
-  nameWithType: NetworkManager.LoginResultCallback
 - uid: PlugVR.Network.NetworkManager.Logout
   name: Logout()
   href: api/PlugVR.Network.NetworkManager.html#PlugVR_Network_NetworkManager_Logout
@@ -4749,216 +4704,122 @@ references:
   isSpec: "True"
   fullName: PlugVR.Network.NetworkManager.Logout
   nameWithType: NetworkManager.Logout
-- uid: PlugVR.Network.NetworkManager.MatchmakingCallback
-  name: MatchmakingCallback
-  href: api/PlugVR.Network.NetworkManager.html#PlugVR_Network_NetworkManager_MatchmakingCallback
-  commentId: E:PlugVR.Network.NetworkManager.MatchmakingCallback
-  fullName: PlugVR.Network.NetworkManager.MatchmakingCallback
-  nameWithType: NetworkManager.MatchmakingCallback
-- uid: PlugVR.Network.NetworkManager.OnConnectedToMaster
-  name: OnConnectedToMaster()
-  href: api/PlugVR.Network.NetworkManager.html#PlugVR_Network_NetworkManager_OnConnectedToMaster
-  commentId: M:PlugVR.Network.NetworkManager.OnConnectedToMaster
-  fullName: PlugVR.Network.NetworkManager.OnConnectedToMaster()
-  nameWithType: NetworkManager.OnConnectedToMaster()
-- uid: PlugVR.Network.NetworkManager.OnConnectedToMaster*
-  name: OnConnectedToMaster
-  href: api/PlugVR.Network.NetworkManager.html#PlugVR_Network_NetworkManager_OnConnectedToMaster_
-  commentId: Overload:PlugVR.Network.NetworkManager.OnConnectedToMaster
+- uid: PlugVR.Network.NetworkManager.OculusModule
+  name: NetworkManager.OculusModule
+  href: api/PlugVR.Network.NetworkManager.OculusModule.html
+  commentId: T:PlugVR.Network.NetworkManager.OculusModule
+  fullName: PlugVR.Network.NetworkManager.OculusModule
+  nameWithType: NetworkManager.OculusModule
+- uid: PlugVR.Network.NetworkManager.OculusModule.GetLoggedInUser
+  name: GetLoggedInUser()
+  href: api/PlugVR.Network.NetworkManager.OculusModule.html#PlugVR_Network_NetworkManager_OculusModule_GetLoggedInUser
+  commentId: M:PlugVR.Network.NetworkManager.OculusModule.GetLoggedInUser
+  fullName: PlugVR.Network.NetworkManager.OculusModule.GetLoggedInUser()
+  nameWithType: NetworkManager.OculusModule.GetLoggedInUser()
+- uid: PlugVR.Network.NetworkManager.OculusModule.GetLoggedInUser*
+  name: GetLoggedInUser
+  href: api/PlugVR.Network.NetworkManager.OculusModule.html#PlugVR_Network_NetworkManager_OculusModule_GetLoggedInUser_
+  commentId: Overload:PlugVR.Network.NetworkManager.OculusModule.GetLoggedInUser
   isSpec: "True"
-  fullName: PlugVR.Network.NetworkManager.OnConnectedToMaster
-  nameWithType: NetworkManager.OnConnectedToMaster
-- uid: PlugVR.Network.NetworkManager.OnCreatedRoom
-  name: OnCreatedRoom()
-  href: api/PlugVR.Network.NetworkManager.html#PlugVR_Network_NetworkManager_OnCreatedRoom
-  commentId: M:PlugVR.Network.NetworkManager.OnCreatedRoom
-  fullName: PlugVR.Network.NetworkManager.OnCreatedRoom()
-  nameWithType: NetworkManager.OnCreatedRoom()
-- uid: PlugVR.Network.NetworkManager.OnCreatedRoom*
-  name: OnCreatedRoom
-  href: api/PlugVR.Network.NetworkManager.html#PlugVR_Network_NetworkManager_OnCreatedRoom_
-  commentId: Overload:PlugVR.Network.NetworkManager.OnCreatedRoom
+  fullName: PlugVR.Network.NetworkManager.OculusModule.GetLoggedInUser
+  nameWithType: NetworkManager.OculusModule.GetLoggedInUser
+- uid: PlugVR.Network.NetworkManager.OculusModule.GetLoggedInUserFriends
+  name: GetLoggedInUserFriends()
+  href: api/PlugVR.Network.NetworkManager.OculusModule.html#PlugVR_Network_NetworkManager_OculusModule_GetLoggedInUserFriends
+  commentId: M:PlugVR.Network.NetworkManager.OculusModule.GetLoggedInUserFriends
+  fullName: PlugVR.Network.NetworkManager.OculusModule.GetLoggedInUserFriends()
+  nameWithType: NetworkManager.OculusModule.GetLoggedInUserFriends()
+- uid: PlugVR.Network.NetworkManager.OculusModule.GetLoggedInUserFriends*
+  name: GetLoggedInUserFriends
+  href: api/PlugVR.Network.NetworkManager.OculusModule.html#PlugVR_Network_NetworkManager_OculusModule_GetLoggedInUserFriends_
+  commentId: Overload:PlugVR.Network.NetworkManager.OculusModule.GetLoggedInUserFriends
   isSpec: "True"
-  fullName: PlugVR.Network.NetworkManager.OnCreatedRoom
-  nameWithType: NetworkManager.OnCreatedRoom
-- uid: PlugVR.Network.NetworkManager.OnCreateRoomFailed(System.Int16,System.String)
-  name: OnCreateRoomFailed(Int16, String)
-  href: api/PlugVR.Network.NetworkManager.html#PlugVR_Network_NetworkManager_OnCreateRoomFailed_System_Int16_System_String_
-  commentId: M:PlugVR.Network.NetworkManager.OnCreateRoomFailed(System.Int16,System.String)
-  fullName: PlugVR.Network.NetworkManager.OnCreateRoomFailed(System.Int16, System.String)
-  nameWithType: NetworkManager.OnCreateRoomFailed(Int16, String)
-- uid: PlugVR.Network.NetworkManager.OnCreateRoomFailed*
-  name: OnCreateRoomFailed
-  href: api/PlugVR.Network.NetworkManager.html#PlugVR_Network_NetworkManager_OnCreateRoomFailed_
-  commentId: Overload:PlugVR.Network.NetworkManager.OnCreateRoomFailed
+  fullName: PlugVR.Network.NetworkManager.OculusModule.GetLoggedInUserFriends
+  nameWithType: NetworkManager.OculusModule.GetLoggedInUserFriends
+- uid: PlugVR.Network.NetworkManager.OculusModule.GetOculusUser(System.String,Action{PlugVR.Network.OculusUser})
+  name: GetOculusUser(String, Action<OculusUser>)
+  href: api/PlugVR.Network.NetworkManager.OculusModule.html#PlugVR_Network_NetworkManager_OculusModule_GetOculusUser_System_String_Action_PlugVR_Network_OculusUser__
+  commentId: M:PlugVR.Network.NetworkManager.OculusModule.GetOculusUser(System.String,Action{PlugVR.Network.OculusUser})
+  name.vb: GetOculusUser(String, Action(Of OculusUser))
+  fullName: PlugVR.Network.NetworkManager.OculusModule.GetOculusUser(System.String, Action<PlugVR.Network.OculusUser>)
+  fullName.vb: PlugVR.Network.NetworkManager.OculusModule.GetOculusUser(System.String, Action(Of PlugVR.Network.OculusUser))
+  nameWithType: NetworkManager.OculusModule.GetOculusUser(String, Action<OculusUser>)
+  nameWithType.vb: NetworkManager.OculusModule.GetOculusUser(String, Action(Of OculusUser))
+- uid: PlugVR.Network.NetworkManager.OculusModule.GetOculusUser*
+  name: GetOculusUser
+  href: api/PlugVR.Network.NetworkManager.OculusModule.html#PlugVR_Network_NetworkManager_OculusModule_GetOculusUser_
+  commentId: Overload:PlugVR.Network.NetworkManager.OculusModule.GetOculusUser
   isSpec: "True"
-  fullName: PlugVR.Network.NetworkManager.OnCreateRoomFailed
-  nameWithType: NetworkManager.OnCreateRoomFailed
-- uid: PlugVR.Network.NetworkManager.OnDisconnected(DisconnectCause)
-  name: OnDisconnected(DisconnectCause)
-  href: api/PlugVR.Network.NetworkManager.html#PlugVR_Network_NetworkManager_OnDisconnected_DisconnectCause_
-  commentId: M:PlugVR.Network.NetworkManager.OnDisconnected(DisconnectCause)
-  fullName: PlugVR.Network.NetworkManager.OnDisconnected(DisconnectCause)
-  nameWithType: NetworkManager.OnDisconnected(DisconnectCause)
-- uid: PlugVR.Network.NetworkManager.OnDisconnected*
-  name: OnDisconnected
-  href: api/PlugVR.Network.NetworkManager.html#PlugVR_Network_NetworkManager_OnDisconnected_
-  commentId: Overload:PlugVR.Network.NetworkManager.OnDisconnected
+  fullName: PlugVR.Network.NetworkManager.OculusModule.GetOculusUser
+  nameWithType: NetworkManager.OculusModule.GetOculusUser
+- uid: PlugVR.Network.NetworkManager.OculusModule.GetPlayFabIDsFromOculusIDs(IEnumerable{System.String},Action{Dictionary{System.String,System.String}})
+  name: GetPlayFabIDsFromOculusIDs(IEnumerable<String>, Action<Dictionary<String, String>>)
+  href: api/PlugVR.Network.NetworkManager.OculusModule.html#PlugVR_Network_NetworkManager_OculusModule_GetPlayFabIDsFromOculusIDs_IEnumerable_System_String__Action_Dictionary_System_String_System_String___
+  commentId: M:PlugVR.Network.NetworkManager.OculusModule.GetPlayFabIDsFromOculusIDs(IEnumerable{System.String},Action{Dictionary{System.String,System.String}})
+  name.vb: GetPlayFabIDsFromOculusIDs(IEnumerable(Of String), Action(Of Dictionary(Of String, String)))
+  fullName: PlugVR.Network.NetworkManager.OculusModule.GetPlayFabIDsFromOculusIDs(IEnumerable<System.String>, Action<Dictionary<System.String, System.String>>)
+  fullName.vb: PlugVR.Network.NetworkManager.OculusModule.GetPlayFabIDsFromOculusIDs(IEnumerable(Of System.String), Action(Of Dictionary(Of System.String, System.String)))
+  nameWithType: NetworkManager.OculusModule.GetPlayFabIDsFromOculusIDs(IEnumerable<String>, Action<Dictionary<String, String>>)
+  nameWithType.vb: NetworkManager.OculusModule.GetPlayFabIDsFromOculusIDs(IEnumerable(Of String), Action(Of Dictionary(Of String, String)))
+- uid: PlugVR.Network.NetworkManager.OculusModule.GetPlayFabIDsFromOculusIDs*
+  name: GetPlayFabIDsFromOculusIDs
+  href: api/PlugVR.Network.NetworkManager.OculusModule.html#PlugVR_Network_NetworkManager_OculusModule_GetPlayFabIDsFromOculusIDs_
+  commentId: Overload:PlugVR.Network.NetworkManager.OculusModule.GetPlayFabIDsFromOculusIDs
   isSpec: "True"
-  fullName: PlugVR.Network.NetworkManager.OnDisconnected
-  nameWithType: NetworkManager.OnDisconnected
-- uid: PlugVR.Network.NetworkManager.OnEvent(EventData)
-  name: OnEvent(EventData)
-  href: api/PlugVR.Network.NetworkManager.html#PlugVR_Network_NetworkManager_OnEvent_EventData_
-  commentId: M:PlugVR.Network.NetworkManager.OnEvent(EventData)
-  fullName: PlugVR.Network.NetworkManager.OnEvent(EventData)
-  nameWithType: NetworkManager.OnEvent(EventData)
-- uid: PlugVR.Network.NetworkManager.OnEvent*
-  name: OnEvent
-  href: api/PlugVR.Network.NetworkManager.html#PlugVR_Network_NetworkManager_OnEvent_
-  commentId: Overload:PlugVR.Network.NetworkManager.OnEvent
+  fullName: PlugVR.Network.NetworkManager.OculusModule.GetPlayFabIDsFromOculusIDs
+  nameWithType: NetworkManager.OculusModule.GetPlayFabIDsFromOculusIDs
+- uid: PlugVR.Network.NetworkManager.OculusModule.LaunchFriendRequestFlow(System.String,Action{PlugVR.Network.FriendRequest})
+  name: LaunchFriendRequestFlow(String, Action<FriendRequest>)
+  href: api/PlugVR.Network.NetworkManager.OculusModule.html#PlugVR_Network_NetworkManager_OculusModule_LaunchFriendRequestFlow_System_String_Action_PlugVR_Network_FriendRequest__
+  commentId: M:PlugVR.Network.NetworkManager.OculusModule.LaunchFriendRequestFlow(System.String,Action{PlugVR.Network.FriendRequest})
+  name.vb: LaunchFriendRequestFlow(String, Action(Of FriendRequest))
+  fullName: PlugVR.Network.NetworkManager.OculusModule.LaunchFriendRequestFlow(System.String, Action<PlugVR.Network.FriendRequest>)
+  fullName.vb: PlugVR.Network.NetworkManager.OculusModule.LaunchFriendRequestFlow(System.String, Action(Of PlugVR.Network.FriendRequest))
+  nameWithType: NetworkManager.OculusModule.LaunchFriendRequestFlow(String, Action<FriendRequest>)
+  nameWithType.vb: NetworkManager.OculusModule.LaunchFriendRequestFlow(String, Action(Of FriendRequest))
+- uid: PlugVR.Network.NetworkManager.OculusModule.LaunchFriendRequestFlow*
+  name: LaunchFriendRequestFlow
+  href: api/PlugVR.Network.NetworkManager.OculusModule.html#PlugVR_Network_NetworkManager_OculusModule_LaunchFriendRequestFlow_
+  commentId: Overload:PlugVR.Network.NetworkManager.OculusModule.LaunchFriendRequestFlow
   isSpec: "True"
-  fullName: PlugVR.Network.NetworkManager.OnEvent
-  nameWithType: NetworkManager.OnEvent
-- uid: PlugVR.Network.NetworkManager.OnJoinedLobby
-  name: OnJoinedLobby()
-  href: api/PlugVR.Network.NetworkManager.html#PlugVR_Network_NetworkManager_OnJoinedLobby
-  commentId: M:PlugVR.Network.NetworkManager.OnJoinedLobby
-  fullName: PlugVR.Network.NetworkManager.OnJoinedLobby()
-  nameWithType: NetworkManager.OnJoinedLobby()
-- uid: PlugVR.Network.NetworkManager.OnJoinedLobby*
-  name: OnJoinedLobby
-  href: api/PlugVR.Network.NetworkManager.html#PlugVR_Network_NetworkManager_OnJoinedLobby_
-  commentId: Overload:PlugVR.Network.NetworkManager.OnJoinedLobby
-  isSpec: "True"
-  fullName: PlugVR.Network.NetworkManager.OnJoinedLobby
-  nameWithType: NetworkManager.OnJoinedLobby
-- uid: PlugVR.Network.NetworkManager.OnJoinedRoom
-  name: OnJoinedRoom()
-  href: api/PlugVR.Network.NetworkManager.html#PlugVR_Network_NetworkManager_OnJoinedRoom
-  commentId: M:PlugVR.Network.NetworkManager.OnJoinedRoom
-  fullName: PlugVR.Network.NetworkManager.OnJoinedRoom()
-  nameWithType: NetworkManager.OnJoinedRoom()
-- uid: PlugVR.Network.NetworkManager.OnJoinedRoom*
-  name: OnJoinedRoom
-  href: api/PlugVR.Network.NetworkManager.html#PlugVR_Network_NetworkManager_OnJoinedRoom_
-  commentId: Overload:PlugVR.Network.NetworkManager.OnJoinedRoom
-  isSpec: "True"
-  fullName: PlugVR.Network.NetworkManager.OnJoinedRoom
-  nameWithType: NetworkManager.OnJoinedRoom
-- uid: PlugVR.Network.NetworkManager.OnJoinRandomFailed(System.Int16,System.String)
-  name: OnJoinRandomFailed(Int16, String)
-  href: api/PlugVR.Network.NetworkManager.html#PlugVR_Network_NetworkManager_OnJoinRandomFailed_System_Int16_System_String_
-  commentId: M:PlugVR.Network.NetworkManager.OnJoinRandomFailed(System.Int16,System.String)
-  fullName: PlugVR.Network.NetworkManager.OnJoinRandomFailed(System.Int16, System.String)
-  nameWithType: NetworkManager.OnJoinRandomFailed(Int16, String)
-- uid: PlugVR.Network.NetworkManager.OnJoinRandomFailed*
-  name: OnJoinRandomFailed
-  href: api/PlugVR.Network.NetworkManager.html#PlugVR_Network_NetworkManager_OnJoinRandomFailed_
-  commentId: Overload:PlugVR.Network.NetworkManager.OnJoinRandomFailed
-  isSpec: "True"
-  fullName: PlugVR.Network.NetworkManager.OnJoinRandomFailed
-  nameWithType: NetworkManager.OnJoinRandomFailed
-- uid: PlugVR.Network.NetworkManager.OnLeftRoom
-  name: OnLeftRoom()
-  href: api/PlugVR.Network.NetworkManager.html#PlugVR_Network_NetworkManager_OnLeftRoom
-  commentId: M:PlugVR.Network.NetworkManager.OnLeftRoom
-  fullName: PlugVR.Network.NetworkManager.OnLeftRoom()
-  nameWithType: NetworkManager.OnLeftRoom()
-- uid: PlugVR.Network.NetworkManager.OnLeftRoom*
-  name: OnLeftRoom
-  href: api/PlugVR.Network.NetworkManager.html#PlugVR_Network_NetworkManager_OnLeftRoom_
-  commentId: Overload:PlugVR.Network.NetworkManager.OnLeftRoom
-  isSpec: "True"
-  fullName: PlugVR.Network.NetworkManager.OnLeftRoom
-  nameWithType: NetworkManager.OnLeftRoom
-- uid: PlugVR.Network.NetworkManager.OnMasterClientSwitched(Player)
-  name: OnMasterClientSwitched(Player)
-  href: api/PlugVR.Network.NetworkManager.html#PlugVR_Network_NetworkManager_OnMasterClientSwitched_Player_
-  commentId: M:PlugVR.Network.NetworkManager.OnMasterClientSwitched(Player)
-  fullName: PlugVR.Network.NetworkManager.OnMasterClientSwitched(Player)
-  nameWithType: NetworkManager.OnMasterClientSwitched(Player)
-- uid: PlugVR.Network.NetworkManager.OnMasterClientSwitched*
-  name: OnMasterClientSwitched
-  href: api/PlugVR.Network.NetworkManager.html#PlugVR_Network_NetworkManager_OnMasterClientSwitched_
-  commentId: Overload:PlugVR.Network.NetworkManager.OnMasterClientSwitched
-  isSpec: "True"
-  fullName: PlugVR.Network.NetworkManager.OnMasterClientSwitched
-  nameWithType: NetworkManager.OnMasterClientSwitched
-- uid: PlugVR.Network.NetworkManager.OnPlayerEnteredRoom(Player)
-  name: OnPlayerEnteredRoom(Player)
-  href: api/PlugVR.Network.NetworkManager.html#PlugVR_Network_NetworkManager_OnPlayerEnteredRoom_Player_
-  commentId: M:PlugVR.Network.NetworkManager.OnPlayerEnteredRoom(Player)
-  fullName: PlugVR.Network.NetworkManager.OnPlayerEnteredRoom(Player)
-  nameWithType: NetworkManager.OnPlayerEnteredRoom(Player)
-- uid: PlugVR.Network.NetworkManager.OnPlayerEnteredRoom*
-  name: OnPlayerEnteredRoom
-  href: api/PlugVR.Network.NetworkManager.html#PlugVR_Network_NetworkManager_OnPlayerEnteredRoom_
-  commentId: Overload:PlugVR.Network.NetworkManager.OnPlayerEnteredRoom
-  isSpec: "True"
-  fullName: PlugVR.Network.NetworkManager.OnPlayerEnteredRoom
-  nameWithType: NetworkManager.OnPlayerEnteredRoom
-- uid: PlugVR.Network.NetworkManager.OnPlayerLeftRoom(Player)
-  name: OnPlayerLeftRoom(Player)
-  href: api/PlugVR.Network.NetworkManager.html#PlugVR_Network_NetworkManager_OnPlayerLeftRoom_Player_
-  commentId: M:PlugVR.Network.NetworkManager.OnPlayerLeftRoom(Player)
-  fullName: PlugVR.Network.NetworkManager.OnPlayerLeftRoom(Player)
-  nameWithType: NetworkManager.OnPlayerLeftRoom(Player)
-- uid: PlugVR.Network.NetworkManager.OnPlayerLeftRoom*
-  name: OnPlayerLeftRoom
-  href: api/PlugVR.Network.NetworkManager.html#PlugVR_Network_NetworkManager_OnPlayerLeftRoom_
-  commentId: Overload:PlugVR.Network.NetworkManager.OnPlayerLeftRoom
-  isSpec: "True"
-  fullName: PlugVR.Network.NetworkManager.OnPlayerLeftRoom
-  nameWithType: NetworkManager.OnPlayerLeftRoom
-- uid: PlugVR.Network.NetworkManager.OnPlayerPropertiesUpdate(Player,Hashtable)
-  name: OnPlayerPropertiesUpdate(Player, Hashtable)
-  href: api/PlugVR.Network.NetworkManager.html#PlugVR_Network_NetworkManager_OnPlayerPropertiesUpdate_Player_Hashtable_
-  commentId: M:PlugVR.Network.NetworkManager.OnPlayerPropertiesUpdate(Player,Hashtable)
-  fullName: PlugVR.Network.NetworkManager.OnPlayerPropertiesUpdate(Player, Hashtable)
-  nameWithType: NetworkManager.OnPlayerPropertiesUpdate(Player, Hashtable)
-- uid: PlugVR.Network.NetworkManager.OnPlayerPropertiesUpdate*
-  name: OnPlayerPropertiesUpdate
-  href: api/PlugVR.Network.NetworkManager.html#PlugVR_Network_NetworkManager_OnPlayerPropertiesUpdate_
-  commentId: Overload:PlugVR.Network.NetworkManager.OnPlayerPropertiesUpdate
-  isSpec: "True"
-  fullName: PlugVR.Network.NetworkManager.OnPlayerPropertiesUpdate
-  nameWithType: NetworkManager.OnPlayerPropertiesUpdate
-- uid: PlugVR.Network.NetworkManager.OnRoomListUpdate(List{Photon.Realtime.RoomInfo})
-  name: OnRoomListUpdate(List<RoomInfo>)
-  href: api/PlugVR.Network.NetworkManager.html#PlugVR_Network_NetworkManager_OnRoomListUpdate_List_Photon_Realtime_RoomInfo__
-  commentId: M:PlugVR.Network.NetworkManager.OnRoomListUpdate(List{Photon.Realtime.RoomInfo})
-  name.vb: OnRoomListUpdate(List(Of RoomInfo))
-  fullName: PlugVR.Network.NetworkManager.OnRoomListUpdate(List<Photon.Realtime.RoomInfo>)
-  fullName.vb: PlugVR.Network.NetworkManager.OnRoomListUpdate(List(Of Photon.Realtime.RoomInfo))
-  nameWithType: NetworkManager.OnRoomListUpdate(List<RoomInfo>)
-  nameWithType.vb: NetworkManager.OnRoomListUpdate(List(Of RoomInfo))
-- uid: PlugVR.Network.NetworkManager.OnRoomListUpdate*
-  name: OnRoomListUpdate
-  href: api/PlugVR.Network.NetworkManager.html#PlugVR_Network_NetworkManager_OnRoomListUpdate_
-  commentId: Overload:PlugVR.Network.NetworkManager.OnRoomListUpdate
-  isSpec: "True"
-  fullName: PlugVR.Network.NetworkManager.OnRoomListUpdate
-  nameWithType: NetworkManager.OnRoomListUpdate
-- uid: PlugVR.Network.NetworkManager.OnRoomPropertiesUpdate(Hashtable)
-  name: OnRoomPropertiesUpdate(Hashtable)
-  href: api/PlugVR.Network.NetworkManager.html#PlugVR_Network_NetworkManager_OnRoomPropertiesUpdate_Hashtable_
-  commentId: M:PlugVR.Network.NetworkManager.OnRoomPropertiesUpdate(Hashtable)
-  fullName: PlugVR.Network.NetworkManager.OnRoomPropertiesUpdate(Hashtable)
-  nameWithType: NetworkManager.OnRoomPropertiesUpdate(Hashtable)
-- uid: PlugVR.Network.NetworkManager.OnRoomPropertiesUpdate*
-  name: OnRoomPropertiesUpdate
-  href: api/PlugVR.Network.NetworkManager.html#PlugVR_Network_NetworkManager_OnRoomPropertiesUpdate_
-  commentId: Overload:PlugVR.Network.NetworkManager.OnRoomPropertiesUpdate
-  isSpec: "True"
-  fullName: PlugVR.Network.NetworkManager.OnRoomPropertiesUpdate
-  nameWithType: NetworkManager.OnRoomPropertiesUpdate
-- uid: PlugVR.Network.NetworkManager.PlayerProfileKey
-  name: PlayerProfileKey
-  href: api/PlugVR.Network.NetworkManager.html#PlugVR_Network_NetworkManager_PlayerProfileKey
-  commentId: F:PlugVR.Network.NetworkManager.PlayerProfileKey
-  fullName: PlugVR.Network.NetworkManager.PlayerProfileKey
-  nameWithType: NetworkManager.PlayerProfileKey
+  fullName: PlugVR.Network.NetworkManager.OculusModule.LaunchFriendRequestFlow
+  nameWithType: NetworkManager.OculusModule.LaunchFriendRequestFlow
+- uid: PlugVR.Network.NetworkManager.OnConnectedEvent
+  name: OnConnectedEvent
+  href: api/PlugVR.Network.NetworkManager.html#PlugVR_Network_NetworkManager_OnConnectedEvent
+  commentId: E:PlugVR.Network.NetworkManager.OnConnectedEvent
+  fullName: PlugVR.Network.NetworkManager.OnConnectedEvent
+  nameWithType: NetworkManager.OnConnectedEvent
+- uid: PlugVR.Network.NetworkManager.OnInRoomEvent
+  name: OnInRoomEvent
+  href: api/PlugVR.Network.NetworkManager.html#PlugVR_Network_NetworkManager_OnInRoomEvent
+  commentId: E:PlugVR.Network.NetworkManager.OnInRoomEvent
+  fullName: PlugVR.Network.NetworkManager.OnInRoomEvent
+  nameWithType: NetworkManager.OnInRoomEvent
+- uid: PlugVR.Network.NetworkManager.OnJoinLobbyEvent
+  name: OnJoinLobbyEvent
+  href: api/PlugVR.Network.NetworkManager.html#PlugVR_Network_NetworkManager_OnJoinLobbyEvent
+  commentId: E:PlugVR.Network.NetworkManager.OnJoinLobbyEvent
+  fullName: PlugVR.Network.NetworkManager.OnJoinLobbyEvent
+  nameWithType: NetworkManager.OnJoinLobbyEvent
+- uid: PlugVR.Network.NetworkManager.OnLoginResultEvent
+  name: OnLoginResultEvent
+  href: api/PlugVR.Network.NetworkManager.html#PlugVR_Network_NetworkManager_OnLoginResultEvent
+  commentId: E:PlugVR.Network.NetworkManager.OnLoginResultEvent
+  fullName: PlugVR.Network.NetworkManager.OnLoginResultEvent
+  nameWithType: NetworkManager.OnLoginResultEvent
+- uid: PlugVR.Network.NetworkManager.OnMatchmakingEvent
+  name: OnMatchmakingEvent
+  href: api/PlugVR.Network.NetworkManager.html#PlugVR_Network_NetworkManager_OnMatchmakingEvent
+  commentId: E:PlugVR.Network.NetworkManager.OnMatchmakingEvent
+  fullName: PlugVR.Network.NetworkManager.OnMatchmakingEvent
+  nameWithType: NetworkManager.OnMatchmakingEvent
+- uid: PlugVR.Network.NetworkManager.OnRoomListEvent
+  name: OnRoomListEvent
+  href: api/PlugVR.Network.NetworkManager.html#PlugVR_Network_NetworkManager_OnRoomListEvent
+  commentId: E:PlugVR.Network.NetworkManager.OnRoomListEvent
+  fullName: PlugVR.Network.NetworkManager.OnRoomListEvent
+  nameWithType: NetworkManager.OnRoomListEvent
 - uid: PlugVR.Network.NetworkManager.Region
   name: NetworkManager.Region
   href: api/PlugVR.Network.NetworkManager.Region.html
@@ -5008,12 +4869,6 @@ references:
   isSpec: "True"
   fullName: PlugVR.Network.NetworkManager.RoomList
   nameWithType: NetworkManager.RoomList
-- uid: PlugVR.Network.NetworkManager.RoomListCallback
-  name: RoomListCallback
-  href: api/PlugVR.Network.NetworkManager.html#PlugVR_Network_NetworkManager_RoomListCallback
-  commentId: E:PlugVR.Network.NetworkManager.RoomListCallback
-  fullName: PlugVR.Network.NetworkManager.RoomListCallback
-  nameWithType: NetworkManager.RoomListCallback
 - uid: PlugVR.Network.NetworkManager.SendFriendRequest(System.String)
   name: SendFriendRequest(String)
   href: api/PlugVR.Network.NetworkManager.html#PlugVR_Network_NetworkManager_SendFriendRequest_System_String_
@@ -5088,6 +4943,43 @@ references:
   isSpec: "True"
   fullName: PlugVR.Network.NetworkManager.SetRegion
   nameWithType: NetworkManager.SetRegion
+- uid: PlugVR.Network.OculusUser
+  name: OculusUser
+  href: api/PlugVR.Network.OculusUser.html
+  commentId: T:PlugVR.Network.OculusUser
+  fullName: PlugVR.Network.OculusUser
+  nameWithType: OculusUser
+- uid: PlugVR.Network.OculusUser.#ctor(System.String,System.UInt64,System.String)
+  name: OculusUser(String, UInt64, String)
+  href: api/PlugVR.Network.OculusUser.html#PlugVR_Network_OculusUser__ctor_System_String_System_UInt64_System_String_
+  commentId: M:PlugVR.Network.OculusUser.#ctor(System.String,System.UInt64,System.String)
+  fullName: PlugVR.Network.OculusUser.OculusUser(System.String, System.UInt64, System.String)
+  nameWithType: OculusUser.OculusUser(String, UInt64, String)
+- uid: PlugVR.Network.OculusUser.#ctor*
+  name: OculusUser
+  href: api/PlugVR.Network.OculusUser.html#PlugVR_Network_OculusUser__ctor_
+  commentId: Overload:PlugVR.Network.OculusUser.#ctor
+  isSpec: "True"
+  fullName: PlugVR.Network.OculusUser.OculusUser
+  nameWithType: OculusUser.OculusUser
+- uid: PlugVR.Network.OculusUser.DisplayName
+  name: DisplayName
+  href: api/PlugVR.Network.OculusUser.html#PlugVR_Network_OculusUser_DisplayName
+  commentId: F:PlugVR.Network.OculusUser.DisplayName
+  fullName: PlugVR.Network.OculusUser.DisplayName
+  nameWithType: OculusUser.DisplayName
+- uid: PlugVR.Network.OculusUser.OculusId
+  name: OculusId
+  href: api/PlugVR.Network.OculusUser.html#PlugVR_Network_OculusUser_OculusId
+  commentId: F:PlugVR.Network.OculusUser.OculusId
+  fullName: PlugVR.Network.OculusUser.OculusId
+  nameWithType: OculusUser.OculusId
+- uid: PlugVR.Network.OculusUser.OculusNonce
+  name: OculusNonce
+  href: api/PlugVR.Network.OculusUser.html#PlugVR_Network_OculusUser_OculusNonce
+  commentId: F:PlugVR.Network.OculusUser.OculusNonce
+  fullName: PlugVR.Network.OculusUser.OculusNonce
+  nameWithType: OculusUser.OculusNonce
 - uid: PlugVR.Network.PermissionType
   name: PermissionType
   href: api/PlugVR.Network.PermissionType.html
@@ -5118,370 +5010,6 @@ references:
   commentId: F:PlugVR.Network.PermissionType.Restrictions
   fullName: PlugVR.Network.PermissionType.Restrictions
   nameWithType: PermissionType.Restrictions
-- uid: PlugVR.Network.PhotonExtension
-  name: PlugVR.Network.PhotonExtension
-  href: api/PlugVR.Network.PhotonExtension.html
-  commentId: N:PlugVR.Network.PhotonExtension
-  fullName: PlugVR.Network.PhotonExtension
-  nameWithType: PlugVR.Network.PhotonExtension
-- uid: PlugVR.Network.PhotonExtension.PhotonCallbacks
-  name: PhotonCallbacks
-  href: api/PlugVR.Network.PhotonExtension.PhotonCallbacks.html
-  commentId: T:PlugVR.Network.PhotonExtension.PhotonCallbacks
-  fullName: PlugVR.Network.PhotonExtension.PhotonCallbacks
-  nameWithType: PhotonCallbacks
-- uid: PlugVR.Network.PhotonExtension.PhotonCallbacks.OnConnected
-  name: OnConnected()
-  href: api/PlugVR.Network.PhotonExtension.PhotonCallbacks.html#PlugVR_Network_PhotonExtension_PhotonCallbacks_OnConnected
-  commentId: M:PlugVR.Network.PhotonExtension.PhotonCallbacks.OnConnected
-  fullName: PlugVR.Network.PhotonExtension.PhotonCallbacks.OnConnected()
-  nameWithType: PhotonCallbacks.OnConnected()
-- uid: PlugVR.Network.PhotonExtension.PhotonCallbacks.OnConnected*
-  name: OnConnected
-  href: api/PlugVR.Network.PhotonExtension.PhotonCallbacks.html#PlugVR_Network_PhotonExtension_PhotonCallbacks_OnConnected_
-  commentId: Overload:PlugVR.Network.PhotonExtension.PhotonCallbacks.OnConnected
-  isSpec: "True"
-  fullName: PlugVR.Network.PhotonExtension.PhotonCallbacks.OnConnected
-  nameWithType: PhotonCallbacks.OnConnected
-- uid: PlugVR.Network.PhotonExtension.PhotonCallbacks.OnConnectedToMaster
-  name: OnConnectedToMaster()
-  href: api/PlugVR.Network.PhotonExtension.PhotonCallbacks.html#PlugVR_Network_PhotonExtension_PhotonCallbacks_OnConnectedToMaster
-  commentId: M:PlugVR.Network.PhotonExtension.PhotonCallbacks.OnConnectedToMaster
-  fullName: PlugVR.Network.PhotonExtension.PhotonCallbacks.OnConnectedToMaster()
-  nameWithType: PhotonCallbacks.OnConnectedToMaster()
-- uid: PlugVR.Network.PhotonExtension.PhotonCallbacks.OnConnectedToMaster*
-  name: OnConnectedToMaster
-  href: api/PlugVR.Network.PhotonExtension.PhotonCallbacks.html#PlugVR_Network_PhotonExtension_PhotonCallbacks_OnConnectedToMaster_
-  commentId: Overload:PlugVR.Network.PhotonExtension.PhotonCallbacks.OnConnectedToMaster
-  isSpec: "True"
-  fullName: PlugVR.Network.PhotonExtension.PhotonCallbacks.OnConnectedToMaster
-  nameWithType: PhotonCallbacks.OnConnectedToMaster
-- uid: PlugVR.Network.PhotonExtension.PhotonCallbacks.OnCreatedRoom
-  name: OnCreatedRoom()
-  href: api/PlugVR.Network.PhotonExtension.PhotonCallbacks.html#PlugVR_Network_PhotonExtension_PhotonCallbacks_OnCreatedRoom
-  commentId: M:PlugVR.Network.PhotonExtension.PhotonCallbacks.OnCreatedRoom
-  fullName: PlugVR.Network.PhotonExtension.PhotonCallbacks.OnCreatedRoom()
-  nameWithType: PhotonCallbacks.OnCreatedRoom()
-- uid: PlugVR.Network.PhotonExtension.PhotonCallbacks.OnCreatedRoom*
-  name: OnCreatedRoom
-  href: api/PlugVR.Network.PhotonExtension.PhotonCallbacks.html#PlugVR_Network_PhotonExtension_PhotonCallbacks_OnCreatedRoom_
-  commentId: Overload:PlugVR.Network.PhotonExtension.PhotonCallbacks.OnCreatedRoom
-  isSpec: "True"
-  fullName: PlugVR.Network.PhotonExtension.PhotonCallbacks.OnCreatedRoom
-  nameWithType: PhotonCallbacks.OnCreatedRoom
-- uid: PlugVR.Network.PhotonExtension.PhotonCallbacks.OnCreateRoomFailed(System.Int16,System.String)
-  name: OnCreateRoomFailed(Int16, String)
-  href: api/PlugVR.Network.PhotonExtension.PhotonCallbacks.html#PlugVR_Network_PhotonExtension_PhotonCallbacks_OnCreateRoomFailed_System_Int16_System_String_
-  commentId: M:PlugVR.Network.PhotonExtension.PhotonCallbacks.OnCreateRoomFailed(System.Int16,System.String)
-  fullName: PlugVR.Network.PhotonExtension.PhotonCallbacks.OnCreateRoomFailed(System.Int16, System.String)
-  nameWithType: PhotonCallbacks.OnCreateRoomFailed(Int16, String)
-- uid: PlugVR.Network.PhotonExtension.PhotonCallbacks.OnCreateRoomFailed*
-  name: OnCreateRoomFailed
-  href: api/PlugVR.Network.PhotonExtension.PhotonCallbacks.html#PlugVR_Network_PhotonExtension_PhotonCallbacks_OnCreateRoomFailed_
-  commentId: Overload:PlugVR.Network.PhotonExtension.PhotonCallbacks.OnCreateRoomFailed
-  isSpec: "True"
-  fullName: PlugVR.Network.PhotonExtension.PhotonCallbacks.OnCreateRoomFailed
-  nameWithType: PhotonCallbacks.OnCreateRoomFailed
-- uid: PlugVR.Network.PhotonExtension.PhotonCallbacks.OnCustomAuthenticationFailed(System.String)
-  name: OnCustomAuthenticationFailed(String)
-  href: api/PlugVR.Network.PhotonExtension.PhotonCallbacks.html#PlugVR_Network_PhotonExtension_PhotonCallbacks_OnCustomAuthenticationFailed_System_String_
-  commentId: M:PlugVR.Network.PhotonExtension.PhotonCallbacks.OnCustomAuthenticationFailed(System.String)
-  fullName: PlugVR.Network.PhotonExtension.PhotonCallbacks.OnCustomAuthenticationFailed(System.String)
-  nameWithType: PhotonCallbacks.OnCustomAuthenticationFailed(String)
-- uid: PlugVR.Network.PhotonExtension.PhotonCallbacks.OnCustomAuthenticationFailed*
-  name: OnCustomAuthenticationFailed
-  href: api/PlugVR.Network.PhotonExtension.PhotonCallbacks.html#PlugVR_Network_PhotonExtension_PhotonCallbacks_OnCustomAuthenticationFailed_
-  commentId: Overload:PlugVR.Network.PhotonExtension.PhotonCallbacks.OnCustomAuthenticationFailed
-  isSpec: "True"
-  fullName: PlugVR.Network.PhotonExtension.PhotonCallbacks.OnCustomAuthenticationFailed
-  nameWithType: PhotonCallbacks.OnCustomAuthenticationFailed
-- uid: PlugVR.Network.PhotonExtension.PhotonCallbacks.OnCustomAuthenticationResponse(Dictionary{System.String,System.Object})
-  name: OnCustomAuthenticationResponse(Dictionary<String, Object>)
-  href: api/PlugVR.Network.PhotonExtension.PhotonCallbacks.html#PlugVR_Network_PhotonExtension_PhotonCallbacks_OnCustomAuthenticationResponse_Dictionary_System_String_System_Object__
-  commentId: M:PlugVR.Network.PhotonExtension.PhotonCallbacks.OnCustomAuthenticationResponse(Dictionary{System.String,System.Object})
-  name.vb: OnCustomAuthenticationResponse(Dictionary(Of String, Object))
-  fullName: PlugVR.Network.PhotonExtension.PhotonCallbacks.OnCustomAuthenticationResponse(Dictionary<System.String, System.Object>)
-  fullName.vb: PlugVR.Network.PhotonExtension.PhotonCallbacks.OnCustomAuthenticationResponse(Dictionary(Of System.String, System.Object))
-  nameWithType: PhotonCallbacks.OnCustomAuthenticationResponse(Dictionary<String, Object>)
-  nameWithType.vb: PhotonCallbacks.OnCustomAuthenticationResponse(Dictionary(Of String, Object))
-- uid: PlugVR.Network.PhotonExtension.PhotonCallbacks.OnCustomAuthenticationResponse*
-  name: OnCustomAuthenticationResponse
-  href: api/PlugVR.Network.PhotonExtension.PhotonCallbacks.html#PlugVR_Network_PhotonExtension_PhotonCallbacks_OnCustomAuthenticationResponse_
-  commentId: Overload:PlugVR.Network.PhotonExtension.PhotonCallbacks.OnCustomAuthenticationResponse
-  isSpec: "True"
-  fullName: PlugVR.Network.PhotonExtension.PhotonCallbacks.OnCustomAuthenticationResponse
-  nameWithType: PhotonCallbacks.OnCustomAuthenticationResponse
-- uid: PlugVR.Network.PhotonExtension.PhotonCallbacks.OnDisconnected(DisconnectCause)
-  name: OnDisconnected(DisconnectCause)
-  href: api/PlugVR.Network.PhotonExtension.PhotonCallbacks.html#PlugVR_Network_PhotonExtension_PhotonCallbacks_OnDisconnected_DisconnectCause_
-  commentId: M:PlugVR.Network.PhotonExtension.PhotonCallbacks.OnDisconnected(DisconnectCause)
-  fullName: PlugVR.Network.PhotonExtension.PhotonCallbacks.OnDisconnected(DisconnectCause)
-  nameWithType: PhotonCallbacks.OnDisconnected(DisconnectCause)
-- uid: PlugVR.Network.PhotonExtension.PhotonCallbacks.OnDisconnected*
-  name: OnDisconnected
-  href: api/PlugVR.Network.PhotonExtension.PhotonCallbacks.html#PlugVR_Network_PhotonExtension_PhotonCallbacks_OnDisconnected_
-  commentId: Overload:PlugVR.Network.PhotonExtension.PhotonCallbacks.OnDisconnected
-  isSpec: "True"
-  fullName: PlugVR.Network.PhotonExtension.PhotonCallbacks.OnDisconnected
-  nameWithType: PhotonCallbacks.OnDisconnected
-- uid: PlugVR.Network.PhotonExtension.PhotonCallbacks.OnEvent(EventData)
-  name: OnEvent(EventData)
-  href: api/PlugVR.Network.PhotonExtension.PhotonCallbacks.html#PlugVR_Network_PhotonExtension_PhotonCallbacks_OnEvent_EventData_
-  commentId: M:PlugVR.Network.PhotonExtension.PhotonCallbacks.OnEvent(EventData)
-  fullName: PlugVR.Network.PhotonExtension.PhotonCallbacks.OnEvent(EventData)
-  nameWithType: PhotonCallbacks.OnEvent(EventData)
-- uid: PlugVR.Network.PhotonExtension.PhotonCallbacks.OnEvent*
-  name: OnEvent
-  href: api/PlugVR.Network.PhotonExtension.PhotonCallbacks.html#PlugVR_Network_PhotonExtension_PhotonCallbacks_OnEvent_
-  commentId: Overload:PlugVR.Network.PhotonExtension.PhotonCallbacks.OnEvent
-  isSpec: "True"
-  fullName: PlugVR.Network.PhotonExtension.PhotonCallbacks.OnEvent
-  nameWithType: PhotonCallbacks.OnEvent
-- uid: PlugVR.Network.PhotonExtension.PhotonCallbacks.OnFriendListUpdate(List{FriendInfo})
-  name: OnFriendListUpdate(List<FriendInfo>)
-  href: api/PlugVR.Network.PhotonExtension.PhotonCallbacks.html#PlugVR_Network_PhotonExtension_PhotonCallbacks_OnFriendListUpdate_List_FriendInfo__
-  commentId: M:PlugVR.Network.PhotonExtension.PhotonCallbacks.OnFriendListUpdate(List{FriendInfo})
-  name.vb: OnFriendListUpdate(List(Of FriendInfo))
-  fullName: PlugVR.Network.PhotonExtension.PhotonCallbacks.OnFriendListUpdate(List<FriendInfo>)
-  fullName.vb: PlugVR.Network.PhotonExtension.PhotonCallbacks.OnFriendListUpdate(List(Of FriendInfo))
-  nameWithType: PhotonCallbacks.OnFriendListUpdate(List<FriendInfo>)
-  nameWithType.vb: PhotonCallbacks.OnFriendListUpdate(List(Of FriendInfo))
-- uid: PlugVR.Network.PhotonExtension.PhotonCallbacks.OnFriendListUpdate*
-  name: OnFriendListUpdate
-  href: api/PlugVR.Network.PhotonExtension.PhotonCallbacks.html#PlugVR_Network_PhotonExtension_PhotonCallbacks_OnFriendListUpdate_
-  commentId: Overload:PlugVR.Network.PhotonExtension.PhotonCallbacks.OnFriendListUpdate
-  isSpec: "True"
-  fullName: PlugVR.Network.PhotonExtension.PhotonCallbacks.OnFriendListUpdate
-  nameWithType: PhotonCallbacks.OnFriendListUpdate
-- uid: PlugVR.Network.PhotonExtension.PhotonCallbacks.OnJoinedLobby
-  name: OnJoinedLobby()
-  href: api/PlugVR.Network.PhotonExtension.PhotonCallbacks.html#PlugVR_Network_PhotonExtension_PhotonCallbacks_OnJoinedLobby
-  commentId: M:PlugVR.Network.PhotonExtension.PhotonCallbacks.OnJoinedLobby
-  fullName: PlugVR.Network.PhotonExtension.PhotonCallbacks.OnJoinedLobby()
-  nameWithType: PhotonCallbacks.OnJoinedLobby()
-- uid: PlugVR.Network.PhotonExtension.PhotonCallbacks.OnJoinedLobby*
-  name: OnJoinedLobby
-  href: api/PlugVR.Network.PhotonExtension.PhotonCallbacks.html#PlugVR_Network_PhotonExtension_PhotonCallbacks_OnJoinedLobby_
-  commentId: Overload:PlugVR.Network.PhotonExtension.PhotonCallbacks.OnJoinedLobby
-  isSpec: "True"
-  fullName: PlugVR.Network.PhotonExtension.PhotonCallbacks.OnJoinedLobby
-  nameWithType: PhotonCallbacks.OnJoinedLobby
-- uid: PlugVR.Network.PhotonExtension.PhotonCallbacks.OnJoinedRoom
-  name: OnJoinedRoom()
-  href: api/PlugVR.Network.PhotonExtension.PhotonCallbacks.html#PlugVR_Network_PhotonExtension_PhotonCallbacks_OnJoinedRoom
-  commentId: M:PlugVR.Network.PhotonExtension.PhotonCallbacks.OnJoinedRoom
-  fullName: PlugVR.Network.PhotonExtension.PhotonCallbacks.OnJoinedRoom()
-  nameWithType: PhotonCallbacks.OnJoinedRoom()
-- uid: PlugVR.Network.PhotonExtension.PhotonCallbacks.OnJoinedRoom*
-  name: OnJoinedRoom
-  href: api/PlugVR.Network.PhotonExtension.PhotonCallbacks.html#PlugVR_Network_PhotonExtension_PhotonCallbacks_OnJoinedRoom_
-  commentId: Overload:PlugVR.Network.PhotonExtension.PhotonCallbacks.OnJoinedRoom
-  isSpec: "True"
-  fullName: PlugVR.Network.PhotonExtension.PhotonCallbacks.OnJoinedRoom
-  nameWithType: PhotonCallbacks.OnJoinedRoom
-- uid: PlugVR.Network.PhotonExtension.PhotonCallbacks.OnJoinRandomFailed(System.Int16,System.String)
-  name: OnJoinRandomFailed(Int16, String)
-  href: api/PlugVR.Network.PhotonExtension.PhotonCallbacks.html#PlugVR_Network_PhotonExtension_PhotonCallbacks_OnJoinRandomFailed_System_Int16_System_String_
-  commentId: M:PlugVR.Network.PhotonExtension.PhotonCallbacks.OnJoinRandomFailed(System.Int16,System.String)
-  fullName: PlugVR.Network.PhotonExtension.PhotonCallbacks.OnJoinRandomFailed(System.Int16, System.String)
-  nameWithType: PhotonCallbacks.OnJoinRandomFailed(Int16, String)
-- uid: PlugVR.Network.PhotonExtension.PhotonCallbacks.OnJoinRandomFailed*
-  name: OnJoinRandomFailed
-  href: api/PlugVR.Network.PhotonExtension.PhotonCallbacks.html#PlugVR_Network_PhotonExtension_PhotonCallbacks_OnJoinRandomFailed_
-  commentId: Overload:PlugVR.Network.PhotonExtension.PhotonCallbacks.OnJoinRandomFailed
-  isSpec: "True"
-  fullName: PlugVR.Network.PhotonExtension.PhotonCallbacks.OnJoinRandomFailed
-  nameWithType: PhotonCallbacks.OnJoinRandomFailed
-- uid: PlugVR.Network.PhotonExtension.PhotonCallbacks.OnJoinRoomFailed(System.Int16,System.String)
-  name: OnJoinRoomFailed(Int16, String)
-  href: api/PlugVR.Network.PhotonExtension.PhotonCallbacks.html#PlugVR_Network_PhotonExtension_PhotonCallbacks_OnJoinRoomFailed_System_Int16_System_String_
-  commentId: M:PlugVR.Network.PhotonExtension.PhotonCallbacks.OnJoinRoomFailed(System.Int16,System.String)
-  fullName: PlugVR.Network.PhotonExtension.PhotonCallbacks.OnJoinRoomFailed(System.Int16, System.String)
-  nameWithType: PhotonCallbacks.OnJoinRoomFailed(Int16, String)
-- uid: PlugVR.Network.PhotonExtension.PhotonCallbacks.OnJoinRoomFailed*
-  name: OnJoinRoomFailed
-  href: api/PlugVR.Network.PhotonExtension.PhotonCallbacks.html#PlugVR_Network_PhotonExtension_PhotonCallbacks_OnJoinRoomFailed_
-  commentId: Overload:PlugVR.Network.PhotonExtension.PhotonCallbacks.OnJoinRoomFailed
-  isSpec: "True"
-  fullName: PlugVR.Network.PhotonExtension.PhotonCallbacks.OnJoinRoomFailed
-  nameWithType: PhotonCallbacks.OnJoinRoomFailed
-- uid: PlugVR.Network.PhotonExtension.PhotonCallbacks.OnLeftLobby
-  name: OnLeftLobby()
-  href: api/PlugVR.Network.PhotonExtension.PhotonCallbacks.html#PlugVR_Network_PhotonExtension_PhotonCallbacks_OnLeftLobby
-  commentId: M:PlugVR.Network.PhotonExtension.PhotonCallbacks.OnLeftLobby
-  fullName: PlugVR.Network.PhotonExtension.PhotonCallbacks.OnLeftLobby()
-  nameWithType: PhotonCallbacks.OnLeftLobby()
-- uid: PlugVR.Network.PhotonExtension.PhotonCallbacks.OnLeftLobby*
-  name: OnLeftLobby
-  href: api/PlugVR.Network.PhotonExtension.PhotonCallbacks.html#PlugVR_Network_PhotonExtension_PhotonCallbacks_OnLeftLobby_
-  commentId: Overload:PlugVR.Network.PhotonExtension.PhotonCallbacks.OnLeftLobby
-  isSpec: "True"
-  fullName: PlugVR.Network.PhotonExtension.PhotonCallbacks.OnLeftLobby
-  nameWithType: PhotonCallbacks.OnLeftLobby
-- uid: PlugVR.Network.PhotonExtension.PhotonCallbacks.OnLeftRoom
-  name: OnLeftRoom()
-  href: api/PlugVR.Network.PhotonExtension.PhotonCallbacks.html#PlugVR_Network_PhotonExtension_PhotonCallbacks_OnLeftRoom
-  commentId: M:PlugVR.Network.PhotonExtension.PhotonCallbacks.OnLeftRoom
-  fullName: PlugVR.Network.PhotonExtension.PhotonCallbacks.OnLeftRoom()
-  nameWithType: PhotonCallbacks.OnLeftRoom()
-- uid: PlugVR.Network.PhotonExtension.PhotonCallbacks.OnLeftRoom*
-  name: OnLeftRoom
-  href: api/PlugVR.Network.PhotonExtension.PhotonCallbacks.html#PlugVR_Network_PhotonExtension_PhotonCallbacks_OnLeftRoom_
-  commentId: Overload:PlugVR.Network.PhotonExtension.PhotonCallbacks.OnLeftRoom
-  isSpec: "True"
-  fullName: PlugVR.Network.PhotonExtension.PhotonCallbacks.OnLeftRoom
-  nameWithType: PhotonCallbacks.OnLeftRoom
-- uid: PlugVR.Network.PhotonExtension.PhotonCallbacks.OnLobbyStatisticsUpdate(List{TypedLobbyInfo})
-  name: OnLobbyStatisticsUpdate(List<TypedLobbyInfo>)
-  href: api/PlugVR.Network.PhotonExtension.PhotonCallbacks.html#PlugVR_Network_PhotonExtension_PhotonCallbacks_OnLobbyStatisticsUpdate_List_TypedLobbyInfo__
-  commentId: M:PlugVR.Network.PhotonExtension.PhotonCallbacks.OnLobbyStatisticsUpdate(List{TypedLobbyInfo})
-  name.vb: OnLobbyStatisticsUpdate(List(Of TypedLobbyInfo))
-  fullName: PlugVR.Network.PhotonExtension.PhotonCallbacks.OnLobbyStatisticsUpdate(List<TypedLobbyInfo>)
-  fullName.vb: PlugVR.Network.PhotonExtension.PhotonCallbacks.OnLobbyStatisticsUpdate(List(Of TypedLobbyInfo))
-  nameWithType: PhotonCallbacks.OnLobbyStatisticsUpdate(List<TypedLobbyInfo>)
-  nameWithType.vb: PhotonCallbacks.OnLobbyStatisticsUpdate(List(Of TypedLobbyInfo))
-- uid: PlugVR.Network.PhotonExtension.PhotonCallbacks.OnLobbyStatisticsUpdate*
-  name: OnLobbyStatisticsUpdate
-  href: api/PlugVR.Network.PhotonExtension.PhotonCallbacks.html#PlugVR_Network_PhotonExtension_PhotonCallbacks_OnLobbyStatisticsUpdate_
-  commentId: Overload:PlugVR.Network.PhotonExtension.PhotonCallbacks.OnLobbyStatisticsUpdate
-  isSpec: "True"
-  fullName: PlugVR.Network.PhotonExtension.PhotonCallbacks.OnLobbyStatisticsUpdate
-  nameWithType: PhotonCallbacks.OnLobbyStatisticsUpdate
-- uid: PlugVR.Network.PhotonExtension.PhotonCallbacks.OnMasterClientSwitched(Player)
-  name: OnMasterClientSwitched(Player)
-  href: api/PlugVR.Network.PhotonExtension.PhotonCallbacks.html#PlugVR_Network_PhotonExtension_PhotonCallbacks_OnMasterClientSwitched_Player_
-  commentId: M:PlugVR.Network.PhotonExtension.PhotonCallbacks.OnMasterClientSwitched(Player)
-  fullName: PlugVR.Network.PhotonExtension.PhotonCallbacks.OnMasterClientSwitched(Player)
-  nameWithType: PhotonCallbacks.OnMasterClientSwitched(Player)
-- uid: PlugVR.Network.PhotonExtension.PhotonCallbacks.OnMasterClientSwitched*
-  name: OnMasterClientSwitched
-  href: api/PlugVR.Network.PhotonExtension.PhotonCallbacks.html#PlugVR_Network_PhotonExtension_PhotonCallbacks_OnMasterClientSwitched_
-  commentId: Overload:PlugVR.Network.PhotonExtension.PhotonCallbacks.OnMasterClientSwitched
-  isSpec: "True"
-  fullName: PlugVR.Network.PhotonExtension.PhotonCallbacks.OnMasterClientSwitched
-  nameWithType: PhotonCallbacks.OnMasterClientSwitched
-- uid: PlugVR.Network.PhotonExtension.PhotonCallbacks.OnPlayerEnteredRoom(Player)
-  name: OnPlayerEnteredRoom(Player)
-  href: api/PlugVR.Network.PhotonExtension.PhotonCallbacks.html#PlugVR_Network_PhotonExtension_PhotonCallbacks_OnPlayerEnteredRoom_Player_
-  commentId: M:PlugVR.Network.PhotonExtension.PhotonCallbacks.OnPlayerEnteredRoom(Player)
-  fullName: PlugVR.Network.PhotonExtension.PhotonCallbacks.OnPlayerEnteredRoom(Player)
-  nameWithType: PhotonCallbacks.OnPlayerEnteredRoom(Player)
-- uid: PlugVR.Network.PhotonExtension.PhotonCallbacks.OnPlayerEnteredRoom*
-  name: OnPlayerEnteredRoom
-  href: api/PlugVR.Network.PhotonExtension.PhotonCallbacks.html#PlugVR_Network_PhotonExtension_PhotonCallbacks_OnPlayerEnteredRoom_
-  commentId: Overload:PlugVR.Network.PhotonExtension.PhotonCallbacks.OnPlayerEnteredRoom
-  isSpec: "True"
-  fullName: PlugVR.Network.PhotonExtension.PhotonCallbacks.OnPlayerEnteredRoom
-  nameWithType: PhotonCallbacks.OnPlayerEnteredRoom
-- uid: PlugVR.Network.PhotonExtension.PhotonCallbacks.OnPlayerLeftRoom(Player)
-  name: OnPlayerLeftRoom(Player)
-  href: api/PlugVR.Network.PhotonExtension.PhotonCallbacks.html#PlugVR_Network_PhotonExtension_PhotonCallbacks_OnPlayerLeftRoom_Player_
-  commentId: M:PlugVR.Network.PhotonExtension.PhotonCallbacks.OnPlayerLeftRoom(Player)
-  fullName: PlugVR.Network.PhotonExtension.PhotonCallbacks.OnPlayerLeftRoom(Player)
-  nameWithType: PhotonCallbacks.OnPlayerLeftRoom(Player)
-- uid: PlugVR.Network.PhotonExtension.PhotonCallbacks.OnPlayerLeftRoom*
-  name: OnPlayerLeftRoom
-  href: api/PlugVR.Network.PhotonExtension.PhotonCallbacks.html#PlugVR_Network_PhotonExtension_PhotonCallbacks_OnPlayerLeftRoom_
-  commentId: Overload:PlugVR.Network.PhotonExtension.PhotonCallbacks.OnPlayerLeftRoom
-  isSpec: "True"
-  fullName: PlugVR.Network.PhotonExtension.PhotonCallbacks.OnPlayerLeftRoom
-  nameWithType: PhotonCallbacks.OnPlayerLeftRoom
-- uid: PlugVR.Network.PhotonExtension.PhotonCallbacks.OnPlayerPropertiesUpdate(Player,Hashtable)
-  name: OnPlayerPropertiesUpdate(Player, Hashtable)
-  href: api/PlugVR.Network.PhotonExtension.PhotonCallbacks.html#PlugVR_Network_PhotonExtension_PhotonCallbacks_OnPlayerPropertiesUpdate_Player_Hashtable_
-  commentId: M:PlugVR.Network.PhotonExtension.PhotonCallbacks.OnPlayerPropertiesUpdate(Player,Hashtable)
-  fullName: PlugVR.Network.PhotonExtension.PhotonCallbacks.OnPlayerPropertiesUpdate(Player, Hashtable)
-  nameWithType: PhotonCallbacks.OnPlayerPropertiesUpdate(Player, Hashtable)
-- uid: PlugVR.Network.PhotonExtension.PhotonCallbacks.OnPlayerPropertiesUpdate*
-  name: OnPlayerPropertiesUpdate
-  href: api/PlugVR.Network.PhotonExtension.PhotonCallbacks.html#PlugVR_Network_PhotonExtension_PhotonCallbacks_OnPlayerPropertiesUpdate_
-  commentId: Overload:PlugVR.Network.PhotonExtension.PhotonCallbacks.OnPlayerPropertiesUpdate
-  isSpec: "True"
-  fullName: PlugVR.Network.PhotonExtension.PhotonCallbacks.OnPlayerPropertiesUpdate
-  nameWithType: PhotonCallbacks.OnPlayerPropertiesUpdate
-- uid: PlugVR.Network.PhotonExtension.PhotonCallbacks.OnRegionListReceived(RegionHandler)
-  name: OnRegionListReceived(RegionHandler)
-  href: api/PlugVR.Network.PhotonExtension.PhotonCallbacks.html#PlugVR_Network_PhotonExtension_PhotonCallbacks_OnRegionListReceived_RegionHandler_
-  commentId: M:PlugVR.Network.PhotonExtension.PhotonCallbacks.OnRegionListReceived(RegionHandler)
-  fullName: PlugVR.Network.PhotonExtension.PhotonCallbacks.OnRegionListReceived(RegionHandler)
-  nameWithType: PhotonCallbacks.OnRegionListReceived(RegionHandler)
-- uid: PlugVR.Network.PhotonExtension.PhotonCallbacks.OnRegionListReceived*
-  name: OnRegionListReceived
-  href: api/PlugVR.Network.PhotonExtension.PhotonCallbacks.html#PlugVR_Network_PhotonExtension_PhotonCallbacks_OnRegionListReceived_
-  commentId: Overload:PlugVR.Network.PhotonExtension.PhotonCallbacks.OnRegionListReceived
-  isSpec: "True"
-  fullName: PlugVR.Network.PhotonExtension.PhotonCallbacks.OnRegionListReceived
-  nameWithType: PhotonCallbacks.OnRegionListReceived
-- uid: PlugVR.Network.PhotonExtension.PhotonCallbacks.OnRoomListUpdate(List{Photon.Realtime.RoomInfo})
-  name: OnRoomListUpdate(List<RoomInfo>)
-  href: api/PlugVR.Network.PhotonExtension.PhotonCallbacks.html#PlugVR_Network_PhotonExtension_PhotonCallbacks_OnRoomListUpdate_List_Photon_Realtime_RoomInfo__
-  commentId: M:PlugVR.Network.PhotonExtension.PhotonCallbacks.OnRoomListUpdate(List{Photon.Realtime.RoomInfo})
-  name.vb: OnRoomListUpdate(List(Of RoomInfo))
-  fullName: PlugVR.Network.PhotonExtension.PhotonCallbacks.OnRoomListUpdate(List<Photon.Realtime.RoomInfo>)
-  fullName.vb: PlugVR.Network.PhotonExtension.PhotonCallbacks.OnRoomListUpdate(List(Of Photon.Realtime.RoomInfo))
-  nameWithType: PhotonCallbacks.OnRoomListUpdate(List<RoomInfo>)
-  nameWithType.vb: PhotonCallbacks.OnRoomListUpdate(List(Of RoomInfo))
-- uid: PlugVR.Network.PhotonExtension.PhotonCallbacks.OnRoomListUpdate*
-  name: OnRoomListUpdate
-  href: api/PlugVR.Network.PhotonExtension.PhotonCallbacks.html#PlugVR_Network_PhotonExtension_PhotonCallbacks_OnRoomListUpdate_
-  commentId: Overload:PlugVR.Network.PhotonExtension.PhotonCallbacks.OnRoomListUpdate
-  isSpec: "True"
-  fullName: PlugVR.Network.PhotonExtension.PhotonCallbacks.OnRoomListUpdate
-  nameWithType: PhotonCallbacks.OnRoomListUpdate
-- uid: PlugVR.Network.PhotonExtension.PhotonCallbacks.OnRoomPropertiesUpdate(Hashtable)
-  name: OnRoomPropertiesUpdate(Hashtable)
-  href: api/PlugVR.Network.PhotonExtension.PhotonCallbacks.html#PlugVR_Network_PhotonExtension_PhotonCallbacks_OnRoomPropertiesUpdate_Hashtable_
-  commentId: M:PlugVR.Network.PhotonExtension.PhotonCallbacks.OnRoomPropertiesUpdate(Hashtable)
-  fullName: PlugVR.Network.PhotonExtension.PhotonCallbacks.OnRoomPropertiesUpdate(Hashtable)
-  nameWithType: PhotonCallbacks.OnRoomPropertiesUpdate(Hashtable)
-- uid: PlugVR.Network.PhotonExtension.PhotonCallbacks.OnRoomPropertiesUpdate*
-  name: OnRoomPropertiesUpdate
-  href: api/PlugVR.Network.PhotonExtension.PhotonCallbacks.html#PlugVR_Network_PhotonExtension_PhotonCallbacks_OnRoomPropertiesUpdate_
-  commentId: Overload:PlugVR.Network.PhotonExtension.PhotonCallbacks.OnRoomPropertiesUpdate
-  isSpec: "True"
-  fullName: PlugVR.Network.PhotonExtension.PhotonCallbacks.OnRoomPropertiesUpdate
-  nameWithType: PhotonCallbacks.OnRoomPropertiesUpdate
-- uid: PlugVR.Network.PhotonExtension.PhotonExtensions
-  name: PhotonExtensions
-  href: api/PlugVR.Network.PhotonExtension.PhotonExtensions.html
-  commentId: T:PlugVR.Network.PhotonExtension.PhotonExtensions
-  fullName: PlugVR.Network.PhotonExtension.PhotonExtensions
-  nameWithType: PhotonExtensions
-- uid: PlugVR.Network.PhotonExtension.PhotonExtensions.GetOrDefault*
-  name: GetOrDefault
-  href: api/PlugVR.Network.PhotonExtension.PhotonExtensions.html#PlugVR_Network_PhotonExtension_PhotonExtensions_GetOrDefault_
-  commentId: Overload:PlugVR.Network.PhotonExtension.PhotonExtensions.GetOrDefault
-  isSpec: "True"
-  fullName: PlugVR.Network.PhotonExtension.PhotonExtensions.GetOrDefault
-  nameWithType: PhotonExtensions.GetOrDefault
-- uid: PlugVR.Network.PhotonExtension.PhotonExtensions.GetOrDefault``1(Hashtable,System.String)
-  name: GetOrDefault<T>(Hashtable, String)
-  href: api/PlugVR.Network.PhotonExtension.PhotonExtensions.html#PlugVR_Network_PhotonExtension_PhotonExtensions_GetOrDefault__1_Hashtable_System_String_
-  commentId: M:PlugVR.Network.PhotonExtension.PhotonExtensions.GetOrDefault``1(Hashtable,System.String)
-  name.vb: GetOrDefault(Of T)(Hashtable, String)
-  fullName: PlugVR.Network.PhotonExtension.PhotonExtensions.GetOrDefault<T>(Hashtable, System.String)
-  fullName.vb: PlugVR.Network.PhotonExtension.PhotonExtensions.GetOrDefault(Of T)(Hashtable, System.String)
-  nameWithType: PhotonExtensions.GetOrDefault<T>(Hashtable, String)
-  nameWithType.vb: PhotonExtensions.GetOrDefault(Of T)(Hashtable, String)
-- uid: PlugVR.Network.PhotonExtension.PhotonExtensions.SetCustomProperty(Player,System.Object,System.Object)
-  name: SetCustomProperty(Player, Object, Object)
-  href: api/PlugVR.Network.PhotonExtension.PhotonExtensions.html#PlugVR_Network_PhotonExtension_PhotonExtensions_SetCustomProperty_Player_System_Object_System_Object_
-  commentId: M:PlugVR.Network.PhotonExtension.PhotonExtensions.SetCustomProperty(Player,System.Object,System.Object)
-  fullName: PlugVR.Network.PhotonExtension.PhotonExtensions.SetCustomProperty(Player, System.Object, System.Object)
-  nameWithType: PhotonExtensions.SetCustomProperty(Player, Object, Object)
-- uid: PlugVR.Network.PhotonExtension.PhotonExtensions.SetCustomProperty(Room,System.Object,System.Object)
-  name: SetCustomProperty(Room, Object, Object)
-  href: api/PlugVR.Network.PhotonExtension.PhotonExtensions.html#PlugVR_Network_PhotonExtension_PhotonExtensions_SetCustomProperty_Room_System_Object_System_Object_
-  commentId: M:PlugVR.Network.PhotonExtension.PhotonExtensions.SetCustomProperty(Room,System.Object,System.Object)
-  fullName: PlugVR.Network.PhotonExtension.PhotonExtensions.SetCustomProperty(Room, System.Object, System.Object)
-  nameWithType: PhotonExtensions.SetCustomProperty(Room, Object, Object)
-- uid: PlugVR.Network.PhotonExtension.PhotonExtensions.SetCustomProperty*
-  name: SetCustomProperty
-  href: api/PlugVR.Network.PhotonExtension.PhotonExtensions.html#PlugVR_Network_PhotonExtension_PhotonExtensions_SetCustomProperty_
-  commentId: Overload:PlugVR.Network.PhotonExtension.PhotonExtensions.SetCustomProperty
-  isSpec: "True"
-  fullName: PlugVR.Network.PhotonExtension.PhotonExtensions.SetCustomProperty
-  nameWithType: PhotonExtensions.SetCustomProperty
 - uid: PlugVR.Network.PhotonInstanceData
   name: PhotonInstanceData
   href: api/PlugVR.Network.PhotonInstanceData.html
@@ -5507,12 +5035,6 @@ references:
   commentId: T:PlugVR.Network.PhotonRoomList
   fullName: PlugVR.Network.PhotonRoomList
   nameWithType: PhotonRoomList
-- uid: PlugVR.Network.PhotonRoomList.AddRoomCallback
-  name: AddRoomCallback
-  href: api/PlugVR.Network.PhotonRoomList.html#PlugVR_Network_PhotonRoomList_AddRoomCallback
-  commentId: E:PlugVR.Network.PhotonRoomList.AddRoomCallback
-  fullName: PlugVR.Network.PhotonRoomList.AddRoomCallback
-  nameWithType: PhotonRoomList.AddRoomCallback
 - uid: PlugVR.Network.PhotonRoomList.Clear
   name: Clear()
   href: api/PlugVR.Network.PhotonRoomList.html#PlugVR_Network_PhotonRoomList_Clear
@@ -5539,12 +5061,24 @@ references:
   isSpec: "True"
   fullName: PlugVR.Network.PhotonRoomList.Data
   nameWithType: PhotonRoomList.Data
-- uid: PlugVR.Network.PhotonRoomList.RemoveRoomCallback
-  name: RemoveRoomCallback
-  href: api/PlugVR.Network.PhotonRoomList.html#PlugVR_Network_PhotonRoomList_RemoveRoomCallback
-  commentId: E:PlugVR.Network.PhotonRoomList.RemoveRoomCallback
-  fullName: PlugVR.Network.PhotonRoomList.RemoveRoomCallback
-  nameWithType: PhotonRoomList.RemoveRoomCallback
+- uid: PlugVR.Network.PhotonRoomList.OnAddRoomEvent
+  name: OnAddRoomEvent
+  href: api/PlugVR.Network.PhotonRoomList.html#PlugVR_Network_PhotonRoomList_OnAddRoomEvent
+  commentId: E:PlugVR.Network.PhotonRoomList.OnAddRoomEvent
+  fullName: PlugVR.Network.PhotonRoomList.OnAddRoomEvent
+  nameWithType: PhotonRoomList.OnAddRoomEvent
+- uid: PlugVR.Network.PhotonRoomList.OnRemoveRoomEvent
+  name: OnRemoveRoomEvent
+  href: api/PlugVR.Network.PhotonRoomList.html#PlugVR_Network_PhotonRoomList_OnRemoveRoomEvent
+  commentId: E:PlugVR.Network.PhotonRoomList.OnRemoveRoomEvent
+  fullName: PlugVR.Network.PhotonRoomList.OnRemoveRoomEvent
+  nameWithType: PhotonRoomList.OnRemoveRoomEvent
+- uid: PlugVR.Network.PhotonRoomList.OnUpdateRoomEvent
+  name: OnUpdateRoomEvent
+  href: api/PlugVR.Network.PhotonRoomList.html#PlugVR_Network_PhotonRoomList_OnUpdateRoomEvent
+  commentId: E:PlugVR.Network.PhotonRoomList.OnUpdateRoomEvent
+  fullName: PlugVR.Network.PhotonRoomList.OnUpdateRoomEvent
+  nameWithType: PhotonRoomList.OnUpdateRoomEvent
 - uid: PlugVR.Network.PhotonRoomList.Update(List{Photon.Realtime.RoomInfo})
   name: Update(List<RoomInfo>)
   href: api/PlugVR.Network.PhotonRoomList.html#PlugVR_Network_PhotonRoomList_Update_List_Photon_Realtime_RoomInfo__
@@ -5561,12 +5095,6 @@ references:
   isSpec: "True"
   fullName: PlugVR.Network.PhotonRoomList.Update
   nameWithType: PhotonRoomList.Update
-- uid: PlugVR.Network.PhotonRoomList.UpdateRoomCallback
-  name: UpdateRoomCallback
-  href: api/PlugVR.Network.PhotonRoomList.html#PlugVR_Network_PhotonRoomList_UpdateRoomCallback
-  commentId: E:PlugVR.Network.PhotonRoomList.UpdateRoomCallback
-  fullName: PlugVR.Network.PhotonRoomList.UpdateRoomCallback
-  nameWithType: PhotonRoomList.UpdateRoomCallback
 - uid: PlugVR.Network.PlayFabBase
   name: PlayFabBase
   href: api/PlugVR.Network.PlayFabBase.html
@@ -6002,6 +5530,12 @@ references:
   commentId: F:PlugVR.Network.RoomPermission.chat
   fullName: PlugVR.Network.RoomPermission.chat
   nameWithType: RoomPermission.chat
+- uid: PlugVR.Network.RoomPermission.Default
+  name: Default
+  href: api/PlugVR.Network.RoomPermission.html#PlugVR_Network_RoomPermission_Default
+  commentId: F:PlugVR.Network.RoomPermission.Default
+  fullName: PlugVR.Network.RoomPermission.Default
+  nameWithType: RoomPermission.Default
 - uid: PlugVR.Network.RoomPermission.emoji
   name: emoji
   href: api/PlugVR.Network.RoomPermission.html#PlugVR_Network_RoomPermission_emoji
@@ -6263,19 +5797,6 @@ references:
   commentId: F:PlugVR.Network.WebRTC.RTCConnection.connectionId
   fullName: PlugVR.Network.WebRTC.RTCConnection.connectionId
   nameWithType: RTCConnection.connectionId
-- uid: PlugVR.Network.WebRTC.RTCConnection.CreateDataChannel(System.String,RTCDataChannelInit)
-  name: CreateDataChannel(String, RTCDataChannelInit)
-  href: api/PlugVR.Network.WebRTC.RTCConnection.html#PlugVR_Network_WebRTC_RTCConnection_CreateDataChannel_System_String_RTCDataChannelInit_
-  commentId: M:PlugVR.Network.WebRTC.RTCConnection.CreateDataChannel(System.String,RTCDataChannelInit)
-  fullName: PlugVR.Network.WebRTC.RTCConnection.CreateDataChannel(System.String, RTCDataChannelInit)
-  nameWithType: RTCConnection.CreateDataChannel(String, RTCDataChannelInit)
-- uid: PlugVR.Network.WebRTC.RTCConnection.CreateDataChannel*
-  name: CreateDataChannel
-  href: api/PlugVR.Network.WebRTC.RTCConnection.html#PlugVR_Network_WebRTC_RTCConnection_CreateDataChannel_
-  commentId: Overload:PlugVR.Network.WebRTC.RTCConnection.CreateDataChannel
-  isSpec: "True"
-  fullName: PlugVR.Network.WebRTC.RTCConnection.CreateDataChannel
-  nameWithType: RTCConnection.CreateDataChannel
 - uid: PlugVR.Network.WebRTC.RTCConnection.Dispose
   name: Dispose()
   href: api/PlugVR.Network.WebRTC.RTCConnection.html#PlugVR_Network_WebRTC_RTCConnection_Dispose
@@ -6315,19 +5836,6 @@ references:
   isSpec: "True"
   fullName: PlugVR.Network.WebRTC.RTCConnection.IsConnected
   nameWithType: RTCConnection.IsConnected
-- uid: PlugVR.Network.WebRTC.RTCConnection.RestartTimerForWaiting
-  name: RestartTimerForWaiting()
-  href: api/PlugVR.Network.WebRTC.RTCConnection.html#PlugVR_Network_WebRTC_RTCConnection_RestartTimerForWaiting
-  commentId: M:PlugVR.Network.WebRTC.RTCConnection.RestartTimerForWaiting
-  fullName: PlugVR.Network.WebRTC.RTCConnection.RestartTimerForWaiting()
-  nameWithType: RTCConnection.RestartTimerForWaiting()
-- uid: PlugVR.Network.WebRTC.RTCConnection.RestartTimerForWaiting*
-  name: RestartTimerForWaiting
-  href: api/PlugVR.Network.WebRTC.RTCConnection.html#PlugVR_Network_WebRTC_RTCConnection_RestartTimerForWaiting_
-  commentId: Overload:PlugVR.Network.WebRTC.RTCConnection.RestartTimerForWaiting
-  isSpec: "True"
-  fullName: PlugVR.Network.WebRTC.RTCConnection.RestartTimerForWaiting
-  nameWithType: RTCConnection.RestartTimerForWaiting
 - uid: PlugVR.Network.WebRTC.RTCConnection.SendMessage(System.Byte[])
   name: SendMessage(Byte[])
   href: api/PlugVR.Network.WebRTC.RTCConnection.html#PlugVR_Network_WebRTC_RTCConnection_SendMessage_System_Byte___
@@ -6377,19 +5885,6 @@ references:
   fullName.vb: PlugVR.Network.WebRTC.RTCConnection.SendMessage(Of T)(NativeSlice(Of T))
   nameWithType: RTCConnection.SendMessage<T>(NativeSlice<T>)
   nameWithType.vb: RTCConnection.SendMessage(Of T)(NativeSlice(Of T))
-- uid: PlugVR.Network.WebRTC.RTCConnection.SetDataChannel(RTCDataChannel)
-  name: SetDataChannel(RTCDataChannel)
-  href: api/PlugVR.Network.WebRTC.RTCConnection.html#PlugVR_Network_WebRTC_RTCConnection_SetDataChannel_RTCDataChannel_
-  commentId: M:PlugVR.Network.WebRTC.RTCConnection.SetDataChannel(RTCDataChannel)
-  fullName: PlugVR.Network.WebRTC.RTCConnection.SetDataChannel(RTCDataChannel)
-  nameWithType: RTCConnection.SetDataChannel(RTCDataChannel)
-- uid: PlugVR.Network.WebRTC.RTCConnection.SetDataChannel*
-  name: SetDataChannel
-  href: api/PlugVR.Network.WebRTC.RTCConnection.html#PlugVR_Network_WebRTC_RTCConnection_SetDataChannel_
-  commentId: Overload:PlugVR.Network.WebRTC.RTCConnection.SetDataChannel
-  isSpec: "True"
-  fullName: PlugVR.Network.WebRTC.RTCConnection.SetDataChannel
-  nameWithType: RTCConnection.SetDataChannel
 - uid: PlugVR.Network.WebRTC.RTCConnection.TryGetValue(System.String,PlugVR.Network.WebRTC.RTCConnection@)
   name: TryGetValue(String, out RTCConnection)
   href: api/PlugVR.Network.WebRTC.RTCConnection.html#PlugVR_Network_WebRTC_RTCConnection_TryGetValue_System_String_PlugVR_Network_WebRTC_RTCConnection__
@@ -6412,15 +5907,15 @@ references:
   commentId: T:PlugVR.Network.WebRTC.RTCOption
   fullName: PlugVR.Network.WebRTC.RTCOption
   nameWithType: RTCOption
-- uid: PlugVR.Network.WebRTC.RTCOption.#ctor(EncoderType,System.Boolean,RTCIceServer[],System.Boolean,Func{IEnumerator,Coroutine})
-  name: RTCOption(EncoderType, Boolean, RTCIceServer[], Boolean, Func<IEnumerator, Coroutine>)
-  href: api/PlugVR.Network.WebRTC.RTCOption.html#PlugVR_Network_WebRTC_RTCOption__ctor_EncoderType_System_Boolean_RTCIceServer___System_Boolean_Func_IEnumerator_Coroutine__
-  commentId: M:PlugVR.Network.WebRTC.RTCOption.#ctor(EncoderType,System.Boolean,RTCIceServer[],System.Boolean,Func{IEnumerator,Coroutine})
-  name.vb: RTCOption(EncoderType, Boolean, RTCIceServer(), Boolean, Func(Of IEnumerator, Coroutine))
-  fullName: PlugVR.Network.WebRTC.RTCOption.RTCOption(EncoderType, System.Boolean, RTCIceServer[], System.Boolean, Func<IEnumerator, Coroutine>)
-  fullName.vb: PlugVR.Network.WebRTC.RTCOption.RTCOption(EncoderType, System.Boolean, RTCIceServer(), System.Boolean, Func(Of IEnumerator, Coroutine))
-  nameWithType: RTCOption.RTCOption(EncoderType, Boolean, RTCIceServer[], Boolean, Func<IEnumerator, Coroutine>)
-  nameWithType.vb: RTCOption.RTCOption(EncoderType, Boolean, RTCIceServer(), Boolean, Func(Of IEnumerator, Coroutine))
+- uid: PlugVR.Network.WebRTC.RTCOption.#ctor(System.Boolean,System.Boolean,RTCIceServer[],System.Boolean,Func{IEnumerator,Coroutine})
+  name: RTCOption(Boolean, Boolean, RTCIceServer[], Boolean, Func<IEnumerator, Coroutine>)
+  href: api/PlugVR.Network.WebRTC.RTCOption.html#PlugVR_Network_WebRTC_RTCOption__ctor_System_Boolean_System_Boolean_RTCIceServer___System_Boolean_Func_IEnumerator_Coroutine__
+  commentId: M:PlugVR.Network.WebRTC.RTCOption.#ctor(System.Boolean,System.Boolean,RTCIceServer[],System.Boolean,Func{IEnumerator,Coroutine})
+  name.vb: RTCOption(Boolean, Boolean, RTCIceServer(), Boolean, Func(Of IEnumerator, Coroutine))
+  fullName: PlugVR.Network.WebRTC.RTCOption.RTCOption(System.Boolean, System.Boolean, RTCIceServer[], System.Boolean, Func<IEnumerator, Coroutine>)
+  fullName.vb: PlugVR.Network.WebRTC.RTCOption.RTCOption(System.Boolean, System.Boolean, RTCIceServer(), System.Boolean, Func(Of IEnumerator, Coroutine))
+  nameWithType: RTCOption.RTCOption(Boolean, Boolean, RTCIceServer[], Boolean, Func<IEnumerator, Coroutine>)
+  nameWithType.vb: RTCOption.RTCOption(Boolean, Boolean, RTCIceServer(), Boolean, Func(Of IEnumerator, Coroutine))
 - uid: PlugVR.Network.WebRTC.RTCOption.#ctor*
   name: RTCOption
   href: api/PlugVR.Network.WebRTC.RTCOption.html#PlugVR_Network_WebRTC_RTCOption__ctor_
@@ -6434,12 +5929,12 @@ references:
   commentId: F:PlugVR.Network.WebRTC.RTCOption.createDataChannel
   fullName: PlugVR.Network.WebRTC.RTCOption.createDataChannel
   nameWithType: RTCOption.createDataChannel
-- uid: PlugVR.Network.WebRTC.RTCOption.encoderType
-  name: encoderType
-  href: api/PlugVR.Network.WebRTC.RTCOption.html#PlugVR_Network_WebRTC_RTCOption_encoderType
-  commentId: F:PlugVR.Network.WebRTC.RTCOption.encoderType
-  fullName: PlugVR.Network.WebRTC.RTCOption.encoderType
-  nameWithType: RTCOption.encoderType
+- uid: PlugVR.Network.WebRTC.RTCOption.enableNativeLog
+  name: enableNativeLog
+  href: api/PlugVR.Network.WebRTC.RTCOption.html#PlugVR_Network_WebRTC_RTCOption_enableNativeLog
+  commentId: F:PlugVR.Network.WebRTC.RTCOption.enableNativeLog
+  fullName: PlugVR.Network.WebRTC.RTCOption.enableNativeLog
+  nameWithType: RTCOption.enableNativeLog
 - uid: PlugVR.Network.WebRTC.RTCOption.iceServers
   name: iceServers
   href: api/PlugVR.Network.WebRTC.RTCOption.html#PlugVR_Network_WebRTC_RTCOption_iceServers
@@ -6452,12 +5947,6 @@ references:
   commentId: F:PlugVR.Network.WebRTC.RTCOption.limitTextureSize
   fullName: PlugVR.Network.WebRTC.RTCOption.limitTextureSize
   nameWithType: RTCOption.limitTextureSize
-- uid: PlugVR.Network.WebRTC.RTCOption.StartCoroutine
-  name: StartCoroutine
-  href: api/PlugVR.Network.WebRTC.RTCOption.html#PlugVR_Network_WebRTC_RTCOption_StartCoroutine
-  commentId: F:PlugVR.Network.WebRTC.RTCOption.StartCoroutine
-  fullName: PlugVR.Network.WebRTC.RTCOption.StartCoroutine
-  nameWithType: RTCOption.StartCoroutine
 - uid: PlugVR.Network.WebRTC.WebRtcManager
   name: WebRtcManager
   href: api/PlugVR.Network.WebRTC.WebRtcManager.html
@@ -6735,28 +6224,6 @@ references:
   commentId: F:PlugVR.VRModule.ControllerAxis.Secondary
   fullName: PlugVR.VRModule.ControllerAxis.Secondary
   nameWithType: ControllerAxis.Secondary
-- uid: PlugVR.VRModule.CustomComposite
-  name: CustomComposite
-  href: api/PlugVR.VRModule.CustomComposite.html
-  commentId: T:PlugVR.VRModule.CustomComposite
-  fullName: PlugVR.VRModule.CustomComposite
-  nameWithType: CustomComposite
-- uid: PlugVR.VRModule.CustomComposite.ReadValue(InputBindingCompositeContext@)
-  name: ReadValue(ref InputBindingCompositeContext)
-  href: api/PlugVR.VRModule.CustomComposite.html#PlugVR_VRModule_CustomComposite_ReadValue_InputBindingCompositeContext__
-  commentId: M:PlugVR.VRModule.CustomComposite.ReadValue(InputBindingCompositeContext@)
-  name.vb: ReadValue(ByRef InputBindingCompositeContext)
-  fullName: PlugVR.VRModule.CustomComposite.ReadValue(ref InputBindingCompositeContext)
-  fullName.vb: PlugVR.VRModule.CustomComposite.ReadValue(ByRef InputBindingCompositeContext)
-  nameWithType: CustomComposite.ReadValue(ref InputBindingCompositeContext)
-  nameWithType.vb: CustomComposite.ReadValue(ByRef InputBindingCompositeContext)
-- uid: PlugVR.VRModule.CustomComposite.ReadValue*
-  name: ReadValue
-  href: api/PlugVR.VRModule.CustomComposite.html#PlugVR_VRModule_CustomComposite_ReadValue_
-  commentId: Overload:PlugVR.VRModule.CustomComposite.ReadValue
-  isSpec: "True"
-  fullName: PlugVR.VRModule.CustomComposite.ReadValue
-  nameWithType: CustomComposite.ReadValue
 - uid: PlugVR.VRModule.DontDestroyObject
   name: DontDestroyObject
   href: api/PlugVR.VRModule.DontDestroyObject.html
@@ -8328,70 +7795,6 @@ references:
   commentId: T:PlugVR.VRModule.PXRAutoLayer
   fullName: PlugVR.VRModule.PXRAutoLayer
   nameWithType: PXRAutoLayer
-- uid: PlugVR.VRModule.PXRAutoLayer.CreateLayer(System.Int32,System.String)
-  name: CreateLayer(Int32, String)
-  href: api/PlugVR.VRModule.PXRAutoLayer.html#PlugVR_VRModule_PXRAutoLayer_CreateLayer_System_Int32_System_String_
-  commentId: M:PlugVR.VRModule.PXRAutoLayer.CreateLayer(System.Int32,System.String)
-  fullName: PlugVR.VRModule.PXRAutoLayer.CreateLayer(System.Int32, System.String)
-  nameWithType: PXRAutoLayer.CreateLayer(Int32, String)
-- uid: PlugVR.VRModule.PXRAutoLayer.CreateLayer(System.String)
-  name: CreateLayer(String)
-  href: api/PlugVR.VRModule.PXRAutoLayer.html#PlugVR_VRModule_PXRAutoLayer_CreateLayer_System_String_
-  commentId: M:PlugVR.VRModule.PXRAutoLayer.CreateLayer(System.String)
-  fullName: PlugVR.VRModule.PXRAutoLayer.CreateLayer(System.String)
-  nameWithType: PXRAutoLayer.CreateLayer(String)
-- uid: PlugVR.VRModule.PXRAutoLayer.CreateLayer*
-  name: CreateLayer
-  href: api/PlugVR.VRModule.PXRAutoLayer.html#PlugVR_VRModule_PXRAutoLayer_CreateLayer_
-  commentId: Overload:PlugVR.VRModule.PXRAutoLayer.CreateLayer
-  isSpec: "True"
-  fullName: PlugVR.VRModule.PXRAutoLayer.CreateLayer
-  nameWithType: PXRAutoLayer.CreateLayer
-- uid: PlugVR.VRModule.PXRAutoLayer.LayerExists(System.String)
-  name: LayerExists(String)
-  href: api/PlugVR.VRModule.PXRAutoLayer.html#PlugVR_VRModule_PXRAutoLayer_LayerExists_System_String_
-  commentId: M:PlugVR.VRModule.PXRAutoLayer.LayerExists(System.String)
-  fullName: PlugVR.VRModule.PXRAutoLayer.LayerExists(System.String)
-  nameWithType: PXRAutoLayer.LayerExists(String)
-- uid: PlugVR.VRModule.PXRAutoLayer.LayerExists*
-  name: LayerExists
-  href: api/PlugVR.VRModule.PXRAutoLayer.html#PlugVR_VRModule_PXRAutoLayer_LayerExists_
-  commentId: Overload:PlugVR.VRModule.PXRAutoLayer.LayerExists
-  isSpec: "True"
-  fullName: PlugVR.VRModule.PXRAutoLayer.LayerExists
-  nameWithType: PXRAutoLayer.LayerExists
-- uid: PlugVR.VRModule.PXRAutoLayer.NewLayer(System.Int32,System.String)
-  name: NewLayer(Int32, String)
-  href: api/PlugVR.VRModule.PXRAutoLayer.html#PlugVR_VRModule_PXRAutoLayer_NewLayer_System_Int32_System_String_
-  commentId: M:PlugVR.VRModule.PXRAutoLayer.NewLayer(System.Int32,System.String)
-  fullName: PlugVR.VRModule.PXRAutoLayer.NewLayer(System.Int32, System.String)
-  nameWithType: PXRAutoLayer.NewLayer(Int32, String)
-- uid: PlugVR.VRModule.PXRAutoLayer.NewLayer(System.String)
-  name: NewLayer(String)
-  href: api/PlugVR.VRModule.PXRAutoLayer.html#PlugVR_VRModule_PXRAutoLayer_NewLayer_System_String_
-  commentId: M:PlugVR.VRModule.PXRAutoLayer.NewLayer(System.String)
-  fullName: PlugVR.VRModule.PXRAutoLayer.NewLayer(System.String)
-  nameWithType: PXRAutoLayer.NewLayer(String)
-- uid: PlugVR.VRModule.PXRAutoLayer.NewLayer*
-  name: NewLayer
-  href: api/PlugVR.VRModule.PXRAutoLayer.html#PlugVR_VRModule_PXRAutoLayer_NewLayer_
-  commentId: Overload:PlugVR.VRModule.PXRAutoLayer.NewLayer
-  isSpec: "True"
-  fullName: PlugVR.VRModule.PXRAutoLayer.NewLayer
-  nameWithType: PXRAutoLayer.NewLayer
-- uid: PlugVR.VRModule.PXRAutoLayer.RemoveLayer(System.String)
-  name: RemoveLayer(String)
-  href: api/PlugVR.VRModule.PXRAutoLayer.html#PlugVR_VRModule_PXRAutoLayer_RemoveLayer_System_String_
-  commentId: M:PlugVR.VRModule.PXRAutoLayer.RemoveLayer(System.String)
-  fullName: PlugVR.VRModule.PXRAutoLayer.RemoveLayer(System.String)
-  nameWithType: PXRAutoLayer.RemoveLayer(String)
-- uid: PlugVR.VRModule.PXRAutoLayer.RemoveLayer*
-  name: RemoveLayer
-  href: api/PlugVR.VRModule.PXRAutoLayer.html#PlugVR_VRModule_PXRAutoLayer_RemoveLayer_
-  commentId: Overload:PlugVR.VRModule.PXRAutoLayer.RemoveLayer
-  isSpec: "True"
-  fullName: PlugVR.VRModule.PXRAutoLayer.RemoveLayer
-  nameWithType: PXRAutoLayer.RemoveLayer
 - uid: PlugVR.VRModule.PXRBaseController
   name: PXRBaseController
   href: api/PlugVR.VRModule.PXRBaseController.html
@@ -9023,12 +8426,12 @@ references:
   commentId: E:PlugVR.VRModule.PXRGrabbable.BeforeGrabEvent
   fullName: PlugVR.VRModule.PXRGrabbable.BeforeGrabEvent
   nameWithType: PXRGrabbable.BeforeGrabEvent
-- uid: PlugVR.VRModule.PXRGrabbable.BeforeReleased
-  name: BeforeReleased
-  href: api/PlugVR.VRModule.PXRGrabbable.html#PlugVR_VRModule_PXRGrabbable_BeforeReleased
-  commentId: E:PlugVR.VRModule.PXRGrabbable.BeforeReleased
-  fullName: PlugVR.VRModule.PXRGrabbable.BeforeReleased
-  nameWithType: PXRGrabbable.BeforeReleased
+- uid: PlugVR.VRModule.PXRGrabbable.BeforeReleasedEvent
+  name: BeforeReleasedEvent
+  href: api/PlugVR.VRModule.PXRGrabbable.html#PlugVR_VRModule_PXRGrabbable_BeforeReleasedEvent
+  commentId: E:PlugVR.VRModule.PXRGrabbable.BeforeReleasedEvent
+  fullName: PlugVR.VRModule.PXRGrabbable.BeforeReleasedEvent
+  nameWithType: PXRGrabbable.BeforeReleasedEvent
 - uid: PlugVR.VRModule.PXRGrabbable.CalculateAngularVelocity
   name: CalculateAngularVelocity()
   href: api/PlugVR.VRModule.PXRGrabbable.html#PlugVR_VRModule_PXRGrabbable_CalculateAngularVelocity
@@ -9383,6 +8786,12 @@ references:
   commentId: F:PlugVR.VRModule.PXRGrabbable.grabbedColor
   fullName: PlugVR.VRModule.PXRGrabbable.grabbedColor
   nameWithType: PXRGrabbable.grabbedColor
+- uid: PlugVR.VRModule.PXRGrabbable.GrabbedEvent
+  name: GrabbedEvent
+  href: api/PlugVR.VRModule.PXRGrabbable.html#PlugVR_VRModule_PXRGrabbable_GrabbedEvent
+  commentId: E:PlugVR.VRModule.PXRGrabbable.GrabbedEvent
+  fullName: PlugVR.VRModule.PXRGrabbable.GrabbedEvent
+  nameWithType: PXRGrabbable.GrabbedEvent
 - uid: PlugVR.VRModule.PXRGrabbable.GrabbedHandPose
   name: GrabbedHandPose
   href: api/PlugVR.VRModule.PXRGrabbable.html#PlugVR_VRModule_PXRGrabbable_GrabbedHandPose
@@ -9409,12 +8818,12 @@ references:
   isSpec: "True"
   fullName: PlugVR.VRModule.PXRGrabbable.grabber
   nameWithType: PXRGrabbable.grabber
-- uid: PlugVR.VRModule.PXRGrabbable.handInteractEvent
-  name: handInteractEvent
-  href: api/PlugVR.VRModule.PXRGrabbable.html#PlugVR_VRModule_PXRGrabbable_handInteractEvent
-  commentId: E:PlugVR.VRModule.PXRGrabbable.handInteractEvent
-  fullName: PlugVR.VRModule.PXRGrabbable.handInteractEvent
-  nameWithType: PXRGrabbable.handInteractEvent
+- uid: PlugVR.VRModule.PXRGrabbable.HandInteractEvent
+  name: HandInteractEvent
+  href: api/PlugVR.VRModule.PXRGrabbable.html#PlugVR_VRModule_PXRGrabbable_HandInteractEvent
+  commentId: E:PlugVR.VRModule.PXRGrabbable.HandInteractEvent
+  fullName: PlugVR.VRModule.PXRGrabbable.HandInteractEvent
+  nameWithType: PXRGrabbable.HandInteractEvent
 - uid: PlugVR.VRModule.PXRGrabbable.HandInteractGrabbable
   name: HandInteractGrabbable()
   href: api/PlugVR.VRModule.PXRGrabbable.html#PlugVR_VRModule_PXRGrabbable_HandInteractGrabbable
@@ -9537,12 +8946,6 @@ references:
   isSpec: "True"
   fullName: PlugVR.VRModule.PXRGrabbable.OnBeforeGrab
   nameWithType: PXRGrabbable.OnBeforeGrab
-- uid: PlugVR.VRModule.PXRGrabbable.OnGrabbed
-  name: OnGrabbed
-  href: api/PlugVR.VRModule.PXRGrabbable.html#PlugVR_VRModule_PXRGrabbable_OnGrabbed
-  commentId: E:PlugVR.VRModule.PXRGrabbable.OnGrabbed
-  fullName: PlugVR.VRModule.PXRGrabbable.OnGrabbed
-  nameWithType: PXRGrabbable.OnGrabbed
 - uid: PlugVR.VRModule.PXRGrabbable.OnPointerEnter(PointerEventData)
   name: OnPointerEnter(PointerEventData)
   href: api/PlugVR.VRModule.PXRGrabbable.html#PlugVR_VRModule_PXRGrabbable_OnPointerEnter_PointerEventData_
@@ -9569,12 +8972,6 @@ references:
   isSpec: "True"
   fullName: PlugVR.VRModule.PXRGrabbable.OnPointerExit
   nameWithType: PXRGrabbable.OnPointerExit
-- uid: PlugVR.VRModule.PXRGrabbable.OnReleased
-  name: OnReleased
-  href: api/PlugVR.VRModule.PXRGrabbable.html#PlugVR_VRModule_PXRGrabbable_OnReleased
-  commentId: E:PlugVR.VRModule.PXRGrabbable.OnReleased
-  fullName: PlugVR.VRModule.PXRGrabbable.OnReleased
-  nameWithType: PXRGrabbable.OnReleased
 - uid: PlugVR.VRModule.PXRGrabbable.overrideLocalPosition
   name: overrideLocalPosition
   href: api/PlugVR.VRModule.PXRGrabbable.html#PlugVR_VRModule_PXRGrabbable_overrideLocalPosition
@@ -9631,6 +9028,12 @@ references:
   isSpec: "True"
   fullName: PlugVR.VRModule.PXRGrabbable.Released
   nameWithType: PXRGrabbable.Released
+- uid: PlugVR.VRModule.PXRGrabbable.ReleasedEvent
+  name: ReleasedEvent
+  href: api/PlugVR.VRModule.PXRGrabbable.html#PlugVR_VRModule_PXRGrabbable_ReleasedEvent
+  commentId: E:PlugVR.VRModule.PXRGrabbable.ReleasedEvent
+  fullName: PlugVR.VRModule.PXRGrabbable.ReleasedEvent
+  nameWithType: PXRGrabbable.ReleasedEvent
 - uid: PlugVR.VRModule.PXRGrabbable.ResetVelocity
   name: ResetVelocity()
   href: api/PlugVR.VRModule.PXRGrabbable.html#PlugVR_VRModule_PXRGrabbable_ResetVelocity
@@ -10157,12 +9560,6 @@ references:
   isSpec: "True"
   fullName: PlugVR.VRModule.PXRHandAnimationController.ActivateController
   nameWithType: PXRHandAnimationController.ActivateController
-- uid: PlugVR.VRModule.PXRHandAnimationController.ANIM_PARAM_NAME_POSE
-  name: ANIM_PARAM_NAME_POSE
-  href: api/PlugVR.VRModule.PXRHandAnimationController.html#PlugVR_VRModule_PXRHandAnimationController_ANIM_PARAM_NAME_POSE
-  commentId: F:PlugVR.VRModule.PXRHandAnimationController.ANIM_PARAM_NAME_POSE
-  fullName: PlugVR.VRModule.PXRHandAnimationController.ANIM_PARAM_NAME_POSE
-  nameWithType: PXRHandAnimationController.ANIM_PARAM_NAME_POSE
 - uid: PlugVR.VRModule.PXRHandAnimationController.controller
   name: controller
   href: api/PlugVR.VRModule.PXRHandAnimationController.html#PlugVR_VRModule_PXRHandAnimationController_controller
@@ -11212,12 +10609,6 @@ references:
   isSpec: "True"
   fullName: PlugVR.VRModule.PXRLineRendererController.EnableLineRenderer
   nameWithType: PXRLineRendererController.EnableLineRenderer
-- uid: PlugVR.VRModule.PXRLineRendererController.lineRenderer
-  name: lineRenderer
-  href: api/PlugVR.VRModule.PXRLineRendererController.html#PlugVR_VRModule_PXRLineRendererController_lineRenderer
-  commentId: F:PlugVR.VRModule.PXRLineRendererController.lineRenderer
-  fullName: PlugVR.VRModule.PXRLineRendererController.lineRenderer
-  nameWithType: PXRLineRendererController.lineRenderer
 - uid: PlugVR.VRModule.PXRLineRendererController.LineRenderer
   name: LineRenderer
   href: api/PlugVR.VRModule.PXRLineRendererController.html#PlugVR_VRModule_PXRLineRendererController_LineRenderer
@@ -11257,19 +10648,19 @@ references:
   isSpec: "True"
   fullName: PlugVR.VRModule.PXRLineRendererController.OriginStartWidth
   nameWithType: PXRLineRendererController.OriginStartWidth
-- uid: PlugVR.VRModule.PXRLineRendererController.SetPoisitionCount(System.Int32)
-  name: SetPoisitionCount(Int32)
-  href: api/PlugVR.VRModule.PXRLineRendererController.html#PlugVR_VRModule_PXRLineRendererController_SetPoisitionCount_System_Int32_
-  commentId: M:PlugVR.VRModule.PXRLineRendererController.SetPoisitionCount(System.Int32)
-  fullName: PlugVR.VRModule.PXRLineRendererController.SetPoisitionCount(System.Int32)
-  nameWithType: PXRLineRendererController.SetPoisitionCount(Int32)
-- uid: PlugVR.VRModule.PXRLineRendererController.SetPoisitionCount*
-  name: SetPoisitionCount
-  href: api/PlugVR.VRModule.PXRLineRendererController.html#PlugVR_VRModule_PXRLineRendererController_SetPoisitionCount_
-  commentId: Overload:PlugVR.VRModule.PXRLineRendererController.SetPoisitionCount
+- uid: PlugVR.VRModule.PXRLineRendererController.SetPositionCount(System.Int32)
+  name: SetPositionCount(Int32)
+  href: api/PlugVR.VRModule.PXRLineRendererController.html#PlugVR_VRModule_PXRLineRendererController_SetPositionCount_System_Int32_
+  commentId: M:PlugVR.VRModule.PXRLineRendererController.SetPositionCount(System.Int32)
+  fullName: PlugVR.VRModule.PXRLineRendererController.SetPositionCount(System.Int32)
+  nameWithType: PXRLineRendererController.SetPositionCount(Int32)
+- uid: PlugVR.VRModule.PXRLineRendererController.SetPositionCount*
+  name: SetPositionCount
+  href: api/PlugVR.VRModule.PXRLineRendererController.html#PlugVR_VRModule_PXRLineRendererController_SetPositionCount_
+  commentId: Overload:PlugVR.VRModule.PXRLineRendererController.SetPositionCount
   isSpec: "True"
-  fullName: PlugVR.VRModule.PXRLineRendererController.SetPoisitionCount
-  nameWithType: PXRLineRendererController.SetPoisitionCount
+  fullName: PlugVR.VRModule.PXRLineRendererController.SetPositionCount
+  nameWithType: PXRLineRendererController.SetPositionCount
 - uid: PlugVR.VRModule.PXRLineRendererController.SetPositions(Vector3[])
   name: SetPositions(Vector3[])
   href: api/PlugVR.VRModule.PXRLineRendererController.html#PlugVR_VRModule_PXRLineRendererController_SetPositions_Vector3___
@@ -11568,102 +10959,102 @@ references:
   commentId: T:PlugVR.VRModule.PXRNameToLayer
   fullName: PlugVR.VRModule.PXRNameToLayer
   nameWithType: PXRNameToLayer
-- uid: PlugVR.VRModule.PXRNameToLayer.avatarBody
-  name: avatarBody
-  href: api/PlugVR.VRModule.PXRNameToLayer.html#PlugVR_VRModule_PXRNameToLayer_avatarBody
-  commentId: F:PlugVR.VRModule.PXRNameToLayer.avatarBody
-  fullName: PlugVR.VRModule.PXRNameToLayer.avatarBody
-  nameWithType: PXRNameToLayer.avatarBody
-- uid: PlugVR.VRModule.PXRNameToLayer.defaultLayer
-  name: defaultLayer
-  href: api/PlugVR.VRModule.PXRNameToLayer.html#PlugVR_VRModule_PXRNameToLayer_defaultLayer
-  commentId: F:PlugVR.VRModule.PXRNameToLayer.defaultLayer
-  fullName: PlugVR.VRModule.PXRNameToLayer.defaultLayer
-  nameWithType: PXRNameToLayer.defaultLayer
-- uid: PlugVR.VRModule.PXRNameToLayer.directInteract
-  name: directInteract
-  href: api/PlugVR.VRModule.PXRNameToLayer.html#PlugVR_VRModule_PXRNameToLayer_directInteract
-  commentId: F:PlugVR.VRModule.PXRNameToLayer.directInteract
-  fullName: PlugVR.VRModule.PXRNameToLayer.directInteract
-  nameWithType: PXRNameToLayer.directInteract
-- uid: PlugVR.VRModule.PXRNameToLayer.drawerInteractable
-  name: drawerInteractable
-  href: api/PlugVR.VRModule.PXRNameToLayer.html#PlugVR_VRModule_PXRNameToLayer_drawerInteractable
-  commentId: F:PlugVR.VRModule.PXRNameToLayer.drawerInteractable
-  fullName: PlugVR.VRModule.PXRNameToLayer.drawerInteractable
-  nameWithType: PXRNameToLayer.drawerInteractable
-- uid: PlugVR.VRModule.PXRNameToLayer.ignoreAvatar
-  name: ignoreAvatar
-  href: api/PlugVR.VRModule.PXRNameToLayer.html#PlugVR_VRModule_PXRNameToLayer_ignoreAvatar
-  commentId: F:PlugVR.VRModule.PXRNameToLayer.ignoreAvatar
-  fullName: PlugVR.VRModule.PXRNameToLayer.ignoreAvatar
-  nameWithType: PXRNameToLayer.ignoreAvatar
-- uid: PlugVR.VRModule.PXRNameToLayer.ignoreMirror
-  name: ignoreMirror
-  href: api/PlugVR.VRModule.PXRNameToLayer.html#PlugVR_VRModule_PXRNameToLayer_ignoreMirror
-  commentId: F:PlugVR.VRModule.PXRNameToLayer.ignoreMirror
-  fullName: PlugVR.VRModule.PXRNameToLayer.ignoreMirror
-  nameWithType: PXRNameToLayer.ignoreMirror
-- uid: PlugVR.VRModule.PXRNameToLayer.ignorePointerCollider
-  name: ignorePointerCollider
-  href: api/PlugVR.VRModule.PXRNameToLayer.html#PlugVR_VRModule_PXRNameToLayer_ignorePointerCollider
-  commentId: F:PlugVR.VRModule.PXRNameToLayer.ignorePointerCollider
-  fullName: PlugVR.VRModule.PXRNameToLayer.ignorePointerCollider
-  nameWithType: PXRNameToLayer.ignorePointerCollider
-- uid: PlugVR.VRModule.PXRNameToLayer.ignoreRaycast
-  name: ignoreRaycast
-  href: api/PlugVR.VRModule.PXRNameToLayer.html#PlugVR_VRModule_PXRNameToLayer_ignoreRaycast
-  commentId: F:PlugVR.VRModule.PXRNameToLayer.ignoreRaycast
-  fullName: PlugVR.VRModule.PXRNameToLayer.ignoreRaycast
-  nameWithType: PXRNameToLayer.ignoreRaycast
-- uid: PlugVR.VRModule.PXRNameToLayer.ignoreTeleport
-  name: ignoreTeleport
-  href: api/PlugVR.VRModule.PXRNameToLayer.html#PlugVR_VRModule_PXRNameToLayer_ignoreTeleport
-  commentId: F:PlugVR.VRModule.PXRNameToLayer.ignoreTeleport
-  fullName: PlugVR.VRModule.PXRNameToLayer.ignoreTeleport
-  nameWithType: PXRNameToLayer.ignoreTeleport
-- uid: PlugVR.VRModule.PXRNameToLayer.interactable
-  name: interactable
-  href: api/PlugVR.VRModule.PXRNameToLayer.html#PlugVR_VRModule_PXRNameToLayer_interactable
-  commentId: F:PlugVR.VRModule.PXRNameToLayer.interactable
-  fullName: PlugVR.VRModule.PXRNameToLayer.interactable
-  nameWithType: PXRNameToLayer.interactable
-- uid: PlugVR.VRModule.PXRNameToLayer.privateInteractable
-  name: privateInteractable
-  href: api/PlugVR.VRModule.PXRNameToLayer.html#PlugVR_VRModule_PXRNameToLayer_privateInteractable
-  commentId: F:PlugVR.VRModule.PXRNameToLayer.privateInteractable
-  fullName: PlugVR.VRModule.PXRNameToLayer.privateInteractable
-  nameWithType: PXRNameToLayer.privateInteractable
-- uid: PlugVR.VRModule.PXRNameToLayer.teleportArea
-  name: teleportArea
-  href: api/PlugVR.VRModule.PXRNameToLayer.html#PlugVR_VRModule_PXRNameToLayer_teleportArea
-  commentId: F:PlugVR.VRModule.PXRNameToLayer.teleportArea
-  fullName: PlugVR.VRModule.PXRNameToLayer.teleportArea
-  nameWithType: PXRNameToLayer.teleportArea
-- uid: PlugVR.VRModule.PXRNameToLayer.teleportNotArea
-  name: teleportNotArea
-  href: api/PlugVR.VRModule.PXRNameToLayer.html#PlugVR_VRModule_PXRNameToLayer_teleportNotArea
-  commentId: F:PlugVR.VRModule.PXRNameToLayer.teleportNotArea
-  fullName: PlugVR.VRModule.PXRNameToLayer.teleportNotArea
-  nameWithType: PXRNameToLayer.teleportNotArea
-- uid: PlugVR.VRModule.PXRNameToLayer.teleportPoint
-  name: teleportPoint
-  href: api/PlugVR.VRModule.PXRNameToLayer.html#PlugVR_VRModule_PXRNameToLayer_teleportPoint
-  commentId: F:PlugVR.VRModule.PXRNameToLayer.teleportPoint
-  fullName: PlugVR.VRModule.PXRNameToLayer.teleportPoint
-  nameWithType: PXRNameToLayer.teleportPoint
-- uid: PlugVR.VRModule.PXRNameToLayer.uiLayer
-  name: uiLayer
-  href: api/PlugVR.VRModule.PXRNameToLayer.html#PlugVR_VRModule_PXRNameToLayer_uiLayer
-  commentId: F:PlugVR.VRModule.PXRNameToLayer.uiLayer
-  fullName: PlugVR.VRModule.PXRNameToLayer.uiLayer
-  nameWithType: PXRNameToLayer.uiLayer
-- uid: PlugVR.VRModule.PXRNameToLayer.water
-  name: water
-  href: api/PlugVR.VRModule.PXRNameToLayer.html#PlugVR_VRModule_PXRNameToLayer_water
-  commentId: F:PlugVR.VRModule.PXRNameToLayer.water
-  fullName: PlugVR.VRModule.PXRNameToLayer.water
-  nameWithType: PXRNameToLayer.water
+- uid: PlugVR.VRModule.PXRNameToLayer.AvatarBody
+  name: AvatarBody
+  href: api/PlugVR.VRModule.PXRNameToLayer.html#PlugVR_VRModule_PXRNameToLayer_AvatarBody
+  commentId: F:PlugVR.VRModule.PXRNameToLayer.AvatarBody
+  fullName: PlugVR.VRModule.PXRNameToLayer.AvatarBody
+  nameWithType: PXRNameToLayer.AvatarBody
+- uid: PlugVR.VRModule.PXRNameToLayer.DefaultLayer
+  name: DefaultLayer
+  href: api/PlugVR.VRModule.PXRNameToLayer.html#PlugVR_VRModule_PXRNameToLayer_DefaultLayer
+  commentId: F:PlugVR.VRModule.PXRNameToLayer.DefaultLayer
+  fullName: PlugVR.VRModule.PXRNameToLayer.DefaultLayer
+  nameWithType: PXRNameToLayer.DefaultLayer
+- uid: PlugVR.VRModule.PXRNameToLayer.DirectInteract
+  name: DirectInteract
+  href: api/PlugVR.VRModule.PXRNameToLayer.html#PlugVR_VRModule_PXRNameToLayer_DirectInteract
+  commentId: F:PlugVR.VRModule.PXRNameToLayer.DirectInteract
+  fullName: PlugVR.VRModule.PXRNameToLayer.DirectInteract
+  nameWithType: PXRNameToLayer.DirectInteract
+- uid: PlugVR.VRModule.PXRNameToLayer.DrawerInteractable
+  name: DrawerInteractable
+  href: api/PlugVR.VRModule.PXRNameToLayer.html#PlugVR_VRModule_PXRNameToLayer_DrawerInteractable
+  commentId: F:PlugVR.VRModule.PXRNameToLayer.DrawerInteractable
+  fullName: PlugVR.VRModule.PXRNameToLayer.DrawerInteractable
+  nameWithType: PXRNameToLayer.DrawerInteractable
+- uid: PlugVR.VRModule.PXRNameToLayer.IgnoreAvatar
+  name: IgnoreAvatar
+  href: api/PlugVR.VRModule.PXRNameToLayer.html#PlugVR_VRModule_PXRNameToLayer_IgnoreAvatar
+  commentId: F:PlugVR.VRModule.PXRNameToLayer.IgnoreAvatar
+  fullName: PlugVR.VRModule.PXRNameToLayer.IgnoreAvatar
+  nameWithType: PXRNameToLayer.IgnoreAvatar
+- uid: PlugVR.VRModule.PXRNameToLayer.IgnoreMirror
+  name: IgnoreMirror
+  href: api/PlugVR.VRModule.PXRNameToLayer.html#PlugVR_VRModule_PXRNameToLayer_IgnoreMirror
+  commentId: F:PlugVR.VRModule.PXRNameToLayer.IgnoreMirror
+  fullName: PlugVR.VRModule.PXRNameToLayer.IgnoreMirror
+  nameWithType: PXRNameToLayer.IgnoreMirror
+- uid: PlugVR.VRModule.PXRNameToLayer.IgnorePointerCollider
+  name: IgnorePointerCollider
+  href: api/PlugVR.VRModule.PXRNameToLayer.html#PlugVR_VRModule_PXRNameToLayer_IgnorePointerCollider
+  commentId: F:PlugVR.VRModule.PXRNameToLayer.IgnorePointerCollider
+  fullName: PlugVR.VRModule.PXRNameToLayer.IgnorePointerCollider
+  nameWithType: PXRNameToLayer.IgnorePointerCollider
+- uid: PlugVR.VRModule.PXRNameToLayer.IgnoreRaycast
+  name: IgnoreRaycast
+  href: api/PlugVR.VRModule.PXRNameToLayer.html#PlugVR_VRModule_PXRNameToLayer_IgnoreRaycast
+  commentId: F:PlugVR.VRModule.PXRNameToLayer.IgnoreRaycast
+  fullName: PlugVR.VRModule.PXRNameToLayer.IgnoreRaycast
+  nameWithType: PXRNameToLayer.IgnoreRaycast
+- uid: PlugVR.VRModule.PXRNameToLayer.IgnoreTeleport
+  name: IgnoreTeleport
+  href: api/PlugVR.VRModule.PXRNameToLayer.html#PlugVR_VRModule_PXRNameToLayer_IgnoreTeleport
+  commentId: F:PlugVR.VRModule.PXRNameToLayer.IgnoreTeleport
+  fullName: PlugVR.VRModule.PXRNameToLayer.IgnoreTeleport
+  nameWithType: PXRNameToLayer.IgnoreTeleport
+- uid: PlugVR.VRModule.PXRNameToLayer.Interactable
+  name: Interactable
+  href: api/PlugVR.VRModule.PXRNameToLayer.html#PlugVR_VRModule_PXRNameToLayer_Interactable
+  commentId: F:PlugVR.VRModule.PXRNameToLayer.Interactable
+  fullName: PlugVR.VRModule.PXRNameToLayer.Interactable
+  nameWithType: PXRNameToLayer.Interactable
+- uid: PlugVR.VRModule.PXRNameToLayer.PrivateInteractable
+  name: PrivateInteractable
+  href: api/PlugVR.VRModule.PXRNameToLayer.html#PlugVR_VRModule_PXRNameToLayer_PrivateInteractable
+  commentId: F:PlugVR.VRModule.PXRNameToLayer.PrivateInteractable
+  fullName: PlugVR.VRModule.PXRNameToLayer.PrivateInteractable
+  nameWithType: PXRNameToLayer.PrivateInteractable
+- uid: PlugVR.VRModule.PXRNameToLayer.TeleportArea
+  name: TeleportArea
+  href: api/PlugVR.VRModule.PXRNameToLayer.html#PlugVR_VRModule_PXRNameToLayer_TeleportArea
+  commentId: F:PlugVR.VRModule.PXRNameToLayer.TeleportArea
+  fullName: PlugVR.VRModule.PXRNameToLayer.TeleportArea
+  nameWithType: PXRNameToLayer.TeleportArea
+- uid: PlugVR.VRModule.PXRNameToLayer.TeleportNotArea
+  name: TeleportNotArea
+  href: api/PlugVR.VRModule.PXRNameToLayer.html#PlugVR_VRModule_PXRNameToLayer_TeleportNotArea
+  commentId: F:PlugVR.VRModule.PXRNameToLayer.TeleportNotArea
+  fullName: PlugVR.VRModule.PXRNameToLayer.TeleportNotArea
+  nameWithType: PXRNameToLayer.TeleportNotArea
+- uid: PlugVR.VRModule.PXRNameToLayer.TeleportPoint
+  name: TeleportPoint
+  href: api/PlugVR.VRModule.PXRNameToLayer.html#PlugVR_VRModule_PXRNameToLayer_TeleportPoint
+  commentId: F:PlugVR.VRModule.PXRNameToLayer.TeleportPoint
+  fullName: PlugVR.VRModule.PXRNameToLayer.TeleportPoint
+  nameWithType: PXRNameToLayer.TeleportPoint
+- uid: PlugVR.VRModule.PXRNameToLayer.UILayer
+  name: UILayer
+  href: api/PlugVR.VRModule.PXRNameToLayer.html#PlugVR_VRModule_PXRNameToLayer_UILayer
+  commentId: F:PlugVR.VRModule.PXRNameToLayer.UILayer
+  fullName: PlugVR.VRModule.PXRNameToLayer.UILayer
+  nameWithType: PXRNameToLayer.UILayer
+- uid: PlugVR.VRModule.PXRNameToLayer.Water
+  name: Water
+  href: api/PlugVR.VRModule.PXRNameToLayer.html#PlugVR_VRModule_PXRNameToLayer_Water
+  commentId: F:PlugVR.VRModule.PXRNameToLayer.Water
+  fullName: PlugVR.VRModule.PXRNameToLayer.Water
+  nameWithType: PXRNameToLayer.Water
 - uid: PlugVR.VRModule.PXRNativeBuffer
   name: PXRNativeBuffer
   href: api/PlugVR.VRModule.PXRNativeBuffer.html
@@ -12159,24 +11550,24 @@ references:
   isSpec: "True"
   fullName: PlugVR.VRModule.PXRPlayerController.ActiveHandRenderer
   nameWithType: PXRPlayerController.ActiveHandRenderer
-- uid: PlugVR.VRModule.PXRPlayerController.AfterChangeRigScale
-  name: AfterChangeRigScale
-  href: api/PlugVR.VRModule.PXRPlayerController.html#PlugVR_VRModule_PXRPlayerController_AfterChangeRigScale
-  commentId: E:PlugVR.VRModule.PXRPlayerController.AfterChangeRigScale
-  fullName: PlugVR.VRModule.PXRPlayerController.AfterChangeRigScale
-  nameWithType: PXRPlayerController.AfterChangeRigScale
-- uid: PlugVR.VRModule.PXRPlayerController.AfterDeactivatedAll
-  name: AfterDeactivatedAll
-  href: api/PlugVR.VRModule.PXRPlayerController.html#PlugVR_VRModule_PXRPlayerController_AfterDeactivatedAll
-  commentId: E:PlugVR.VRModule.PXRPlayerController.AfterDeactivatedAll
-  fullName: PlugVR.VRModule.PXRPlayerController.AfterDeactivatedAll
-  nameWithType: PXRPlayerController.AfterDeactivatedAll
-- uid: PlugVR.VRModule.PXRPlayerController.AfterForceMoving
-  name: AfterForceMoving
-  href: api/PlugVR.VRModule.PXRPlayerController.html#PlugVR_VRModule_PXRPlayerController_AfterForceMoving
-  commentId: E:PlugVR.VRModule.PXRPlayerController.AfterForceMoving
-  fullName: PlugVR.VRModule.PXRPlayerController.AfterForceMoving
-  nameWithType: PXRPlayerController.AfterForceMoving
+- uid: PlugVR.VRModule.PXRPlayerController.AfterChangeRigScaleEvent
+  name: AfterChangeRigScaleEvent
+  href: api/PlugVR.VRModule.PXRPlayerController.html#PlugVR_VRModule_PXRPlayerController_AfterChangeRigScaleEvent
+  commentId: E:PlugVR.VRModule.PXRPlayerController.AfterChangeRigScaleEvent
+  fullName: PlugVR.VRModule.PXRPlayerController.AfterChangeRigScaleEvent
+  nameWithType: PXRPlayerController.AfterChangeRigScaleEvent
+- uid: PlugVR.VRModule.PXRPlayerController.AfterDeactivatedAllEvent
+  name: AfterDeactivatedAllEvent
+  href: api/PlugVR.VRModule.PXRPlayerController.html#PlugVR_VRModule_PXRPlayerController_AfterDeactivatedAllEvent
+  commentId: E:PlugVR.VRModule.PXRPlayerController.AfterDeactivatedAllEvent
+  fullName: PlugVR.VRModule.PXRPlayerController.AfterDeactivatedAllEvent
+  nameWithType: PXRPlayerController.AfterDeactivatedAllEvent
+- uid: PlugVR.VRModule.PXRPlayerController.AfterForceMovingEvent
+  name: AfterForceMovingEvent
+  href: api/PlugVR.VRModule.PXRPlayerController.html#PlugVR_VRModule_PXRPlayerController_AfterForceMovingEvent
+  commentId: E:PlugVR.VRModule.PXRPlayerController.AfterForceMovingEvent
+  fullName: PlugVR.VRModule.PXRPlayerController.AfterForceMovingEvent
+  nameWithType: PXRPlayerController.AfterForceMovingEvent
 - uid: PlugVR.VRModule.PXRPlayerController.CanChangeEyeHeight
   name: CanChangeEyeHeight
   href: api/PlugVR.VRModule.PXRPlayerController.html#PlugVR_VRModule_PXRPlayerController_CanChangeEyeHeight
@@ -13134,19 +12525,19 @@ references:
   isSpec: "True"
   fullName: PlugVR.VRModule.PXRScreenFade.IsFrontFading
   nameWithType: PXRScreenFade.IsFrontFading
-- uid: PlugVR.VRModule.PXRScreenFade.IsStuning
-  name: IsStuning
-  href: api/PlugVR.VRModule.PXRScreenFade.html#PlugVR_VRModule_PXRScreenFade_IsStuning
-  commentId: P:PlugVR.VRModule.PXRScreenFade.IsStuning
-  fullName: PlugVR.VRModule.PXRScreenFade.IsStuning
-  nameWithType: PXRScreenFade.IsStuning
-- uid: PlugVR.VRModule.PXRScreenFade.IsStuning*
-  name: IsStuning
-  href: api/PlugVR.VRModule.PXRScreenFade.html#PlugVR_VRModule_PXRScreenFade_IsStuning_
-  commentId: Overload:PlugVR.VRModule.PXRScreenFade.IsStuning
+- uid: PlugVR.VRModule.PXRScreenFade.IsStunning
+  name: IsStunning
+  href: api/PlugVR.VRModule.PXRScreenFade.html#PlugVR_VRModule_PXRScreenFade_IsStunning
+  commentId: P:PlugVR.VRModule.PXRScreenFade.IsStunning
+  fullName: PlugVR.VRModule.PXRScreenFade.IsStunning
+  nameWithType: PXRScreenFade.IsStunning
+- uid: PlugVR.VRModule.PXRScreenFade.IsStunning*
+  name: IsStunning
+  href: api/PlugVR.VRModule.PXRScreenFade.html#PlugVR_VRModule_PXRScreenFade_IsStunning_
+  commentId: Overload:PlugVR.VRModule.PXRScreenFade.IsStunning
   isSpec: "True"
-  fullName: PlugVR.VRModule.PXRScreenFade.IsStuning
-  nameWithType: PXRScreenFade.IsStuning
+  fullName: PlugVR.VRModule.PXRScreenFade.IsStunning
+  nameWithType: PXRScreenFade.IsStunning
 - uid: PlugVR.VRModule.PXRScreenFade.StopFade
   name: StopFade()
   href: api/PlugVR.VRModule.PXRScreenFade.html#PlugVR_VRModule_PXRScreenFade_StopFade
@@ -13427,34 +12818,3 @@ references:
   commentId: F:PlugVR.VRModule.RotationAxis.Z
   fullName: PlugVR.VRModule.RotationAxis.Z
   nameWithType: RotationAxis.Z
-- uid: PlugVR.VRModule.YieldInstructionCache
-  name: YieldInstructionCache
-  href: api/PlugVR.VRModule.YieldInstructionCache.html
-  commentId: T:PlugVR.VRModule.YieldInstructionCache
-  fullName: PlugVR.VRModule.YieldInstructionCache
-  nameWithType: YieldInstructionCache
-- uid: PlugVR.VRModule.YieldInstructionCache.WaitForEndOfFrame
-  name: WaitForEndOfFrame
-  href: api/PlugVR.VRModule.YieldInstructionCache.html#PlugVR_VRModule_YieldInstructionCache_WaitForEndOfFrame
-  commentId: F:PlugVR.VRModule.YieldInstructionCache.WaitForEndOfFrame
-  fullName: PlugVR.VRModule.YieldInstructionCache.WaitForEndOfFrame
-  nameWithType: YieldInstructionCache.WaitForEndOfFrame
-- uid: PlugVR.VRModule.YieldInstructionCache.WaitForFixedUpdate
-  name: WaitForFixedUpdate
-  href: api/PlugVR.VRModule.YieldInstructionCache.html#PlugVR_VRModule_YieldInstructionCache_WaitForFixedUpdate
-  commentId: F:PlugVR.VRModule.YieldInstructionCache.WaitForFixedUpdate
-  fullName: PlugVR.VRModule.YieldInstructionCache.WaitForFixedUpdate
-  nameWithType: YieldInstructionCache.WaitForFixedUpdate
-- uid: PlugVR.VRModule.YieldInstructionCache.WaitForSeconds(System.Single)
-  name: WaitForSeconds(Single)
-  href: api/PlugVR.VRModule.YieldInstructionCache.html#PlugVR_VRModule_YieldInstructionCache_WaitForSeconds_System_Single_
-  commentId: M:PlugVR.VRModule.YieldInstructionCache.WaitForSeconds(System.Single)
-  fullName: PlugVR.VRModule.YieldInstructionCache.WaitForSeconds(System.Single)
-  nameWithType: YieldInstructionCache.WaitForSeconds(Single)
-- uid: PlugVR.VRModule.YieldInstructionCache.WaitForSeconds*
-  name: WaitForSeconds
-  href: api/PlugVR.VRModule.YieldInstructionCache.html#PlugVR_VRModule_YieldInstructionCache_WaitForSeconds_
-  commentId: Overload:PlugVR.VRModule.YieldInstructionCache.WaitForSeconds
-  isSpec: "True"
-  fullName: PlugVR.VRModule.YieldInstructionCache.WaitForSeconds
-  nameWithType: YieldInstructionCache.WaitForSeconds

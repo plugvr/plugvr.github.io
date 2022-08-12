@@ -971,6 +971,25 @@ references:
   isSpec: "True"
   fullName: PlugVR.AvatarCustomizing.DressingTableColor.InitColor
   nameWithType: DressingTableColor.InitColor
+- uid: PlugVR.AvatarCustomizing.DressingTableColor.OnPointerClick(PointerEventData)
+  name: OnPointerClick(PointerEventData)
+  href: api/PlugVR.AvatarCustomizing.DressingTableColor.html#PlugVR_AvatarCustomizing_DressingTableColor_OnPointerClick_PointerEventData_
+  commentId: M:PlugVR.AvatarCustomizing.DressingTableColor.OnPointerClick(PointerEventData)
+  fullName: PlugVR.AvatarCustomizing.DressingTableColor.OnPointerClick(PointerEventData)
+  nameWithType: DressingTableColor.OnPointerClick(PointerEventData)
+- uid: PlugVR.AvatarCustomizing.DressingTableColor.OnPointerClick*
+  name: OnPointerClick
+  href: api/PlugVR.AvatarCustomizing.DressingTableColor.html#PlugVR_AvatarCustomizing_DressingTableColor_OnPointerClick_
+  commentId: Overload:PlugVR.AvatarCustomizing.DressingTableColor.OnPointerClick
+  isSpec: "True"
+  fullName: PlugVR.AvatarCustomizing.DressingTableColor.OnPointerClick
+  nameWithType: DressingTableColor.OnPointerClick
+- uid: PlugVR.AvatarCustomizing.DressingTableColor.PointerClick
+  name: PointerClick
+  href: api/PlugVR.AvatarCustomizing.DressingTableColor.html#PlugVR_AvatarCustomizing_DressingTableColor_PointerClick
+  commentId: E:PlugVR.AvatarCustomizing.DressingTableColor.PointerClick
+  fullName: PlugVR.AvatarCustomizing.DressingTableColor.PointerClick
+  nameWithType: DressingTableColor.PointerClick
 - uid: PlugVR.AvatarCustomizing.DressingTableColor.SetColor(PlugVR.AvatarCustomizing.Appearance,System.Int32)
   name: SetColor(Appearance, Int32)
   href: api/PlugVR.AvatarCustomizing.DressingTableColor.html#PlugVR_AvatarCustomizing_DressingTableColor_SetColor_PlugVR_AvatarCustomizing_Appearance_System_Int32_
@@ -1106,6 +1125,25 @@ references:
   commentId: F:PlugVR.AvatarCustomizing.DressingTableItemPoint.itemBase
   fullName: PlugVR.AvatarCustomizing.DressingTableItemPoint.itemBase
   nameWithType: DressingTableItemPoint.itemBase
+- uid: PlugVR.AvatarCustomizing.DressingTableItemPoint.OnPointerClick(PointerEventData)
+  name: OnPointerClick(PointerEventData)
+  href: api/PlugVR.AvatarCustomizing.DressingTableItemPoint.html#PlugVR_AvatarCustomizing_DressingTableItemPoint_OnPointerClick_PointerEventData_
+  commentId: M:PlugVR.AvatarCustomizing.DressingTableItemPoint.OnPointerClick(PointerEventData)
+  fullName: PlugVR.AvatarCustomizing.DressingTableItemPoint.OnPointerClick(PointerEventData)
+  nameWithType: DressingTableItemPoint.OnPointerClick(PointerEventData)
+- uid: PlugVR.AvatarCustomizing.DressingTableItemPoint.OnPointerClick*
+  name: OnPointerClick
+  href: api/PlugVR.AvatarCustomizing.DressingTableItemPoint.html#PlugVR_AvatarCustomizing_DressingTableItemPoint_OnPointerClick_
+  commentId: Overload:PlugVR.AvatarCustomizing.DressingTableItemPoint.OnPointerClick
+  isSpec: "True"
+  fullName: PlugVR.AvatarCustomizing.DressingTableItemPoint.OnPointerClick
+  nameWithType: DressingTableItemPoint.OnPointerClick
+- uid: PlugVR.AvatarCustomizing.DressingTableItemPoint.PointerClick
+  name: PointerClick
+  href: api/PlugVR.AvatarCustomizing.DressingTableItemPoint.html#PlugVR_AvatarCustomizing_DressingTableItemPoint_PointerClick
+  commentId: E:PlugVR.AvatarCustomizing.DressingTableItemPoint.PointerClick
+  fullName: PlugVR.AvatarCustomizing.DressingTableItemPoint.PointerClick
+  nameWithType: DressingTableItemPoint.PointerClick
 - uid: PlugVR.AvatarCustomizing.DressingTableItemPoint.SetItemBase(GameObject)
   name: SetItemBase(GameObject)
   href: api/PlugVR.AvatarCustomizing.DressingTableItemPoint.html#PlugVR_AvatarCustomizing_DressingTableItemPoint_SetItemBase_GameObject_
@@ -4095,6 +4133,54 @@ references:
   commentId: N:PlugVR.Network
   fullName: PlugVR.Network
   nameWithType: PlugVR.Network
+- uid: PlugVR.Network.CreateOrJoin
+  name: CreateOrJoin
+  href: api/PlugVR.Network.CreateOrJoin.html
+  commentId: T:PlugVR.Network.CreateOrJoin
+  fullName: PlugVR.Network.CreateOrJoin
+  nameWithType: CreateOrJoin
+- uid: PlugVR.Network.CreateOrJoin.AlreadyConnectedToRoom
+  name: AlreadyConnectedToRoom
+  href: api/PlugVR.Network.CreateOrJoin.html#PlugVR_Network_CreateOrJoin_AlreadyConnectedToRoom
+  commentId: F:PlugVR.Network.CreateOrJoin.AlreadyConnectedToRoom
+  fullName: PlugVR.Network.CreateOrJoin.AlreadyConnectedToRoom
+  nameWithType: CreateOrJoin.AlreadyConnectedToRoom
+- uid: PlugVR.Network.CreateOrJoin.CanOnlyBeSetEqualToOrHigherThan0
+  name: CanOnlyBeSetEqualToOrHigherThan0
+  href: api/PlugVR.Network.CreateOrJoin.html#PlugVR_Network_CreateOrJoin_CanOnlyBeSetEqualToOrHigherThan0
+  commentId: F:PlugVR.Network.CreateOrJoin.CanOnlyBeSetEqualToOrHigherThan0
+  fullName: PlugVR.Network.CreateOrJoin.CanOnlyBeSetEqualToOrHigherThan0
+  nameWithType: CreateOrJoin.CanOnlyBeSetEqualToOrHigherThan0
+- uid: PlugVR.Network.CreateOrJoin.PasswordContainsSpecialCharacters
+  name: PasswordContainsSpecialCharacters
+  href: api/PlugVR.Network.CreateOrJoin.html#PlugVR_Network_CreateOrJoin_PasswordContainsSpecialCharacters
+  commentId: F:PlugVR.Network.CreateOrJoin.PasswordContainsSpecialCharacters
+  fullName: PlugVR.Network.CreateOrJoin.PasswordContainsSpecialCharacters
+  nameWithType: CreateOrJoin.PasswordContainsSpecialCharacters
+- uid: PlugVR.Network.CreateOrJoin.RoomNameContainsSpecialCharacters
+  name: RoomNameContainsSpecialCharacters
+  href: api/PlugVR.Network.CreateOrJoin.html#PlugVR_Network_CreateOrJoin_RoomNameContainsSpecialCharacters
+  commentId: F:PlugVR.Network.CreateOrJoin.RoomNameContainsSpecialCharacters
+  fullName: PlugVR.Network.CreateOrJoin.RoomNameContainsSpecialCharacters
+  nameWithType: CreateOrJoin.RoomNameContainsSpecialCharacters
+- uid: PlugVR.Network.CreateOrJoin.RoomNameIsNotSet
+  name: RoomNameIsNotSet
+  href: api/PlugVR.Network.CreateOrJoin.html#PlugVR_Network_CreateOrJoin_RoomNameIsNotSet
+  commentId: F:PlugVR.Network.CreateOrJoin.RoomNameIsNotSet
+  fullName: PlugVR.Network.CreateOrJoin.RoomNameIsNotSet
+  nameWithType: CreateOrJoin.RoomNameIsNotSet
+- uid: PlugVR.Network.CreateOrJoin.RoomNumberWasIncorrectlyAssigned
+  name: RoomNumberWasIncorrectlyAssigned
+  href: api/PlugVR.Network.CreateOrJoin.html#PlugVR_Network_CreateOrJoin_RoomNumberWasIncorrectlyAssigned
+  commentId: F:PlugVR.Network.CreateOrJoin.RoomNumberWasIncorrectlyAssigned
+  fullName: PlugVR.Network.CreateOrJoin.RoomNumberWasIncorrectlyAssigned
+  nameWithType: CreateOrJoin.RoomNumberWasIncorrectlyAssigned
+- uid: PlugVR.Network.CreateOrJoin.Success
+  name: Success
+  href: api/PlugVR.Network.CreateOrJoin.html#PlugVR_Network_CreateOrJoin_Success
+  commentId: F:PlugVR.Network.CreateOrJoin.Success
+  fullName: PlugVR.Network.CreateOrJoin.Success
+  nameWithType: CreateOrJoin.Success
 - uid: PlugVR.Network.ErrorResult
   name: ErrorResult
   href: api/PlugVR.Network.ErrorResult.html
@@ -4790,6 +4876,12 @@ references:
   commentId: E:PlugVR.Network.NetworkManager.OnConnectedEvent
   fullName: PlugVR.Network.NetworkManager.OnConnectedEvent
   nameWithType: NetworkManager.OnConnectedEvent
+- uid: PlugVR.Network.NetworkManager.OnCreateOrJoinEvent
+  name: OnCreateOrJoinEvent
+  href: api/PlugVR.Network.NetworkManager.html#PlugVR_Network_NetworkManager_OnCreateOrJoinEvent
+  commentId: E:PlugVR.Network.NetworkManager.OnCreateOrJoinEvent
+  fullName: PlugVR.Network.NetworkManager.OnCreateOrJoinEvent
+  nameWithType: NetworkManager.OnCreateOrJoinEvent
 - uid: PlugVR.Network.NetworkManager.OnInRoomEvent
   name: OnInRoomEvent
   href: api/PlugVR.Network.NetworkManager.html#PlugVR_Network_NetworkManager_OnInRoomEvent
@@ -7789,12 +7881,6 @@ references:
   isSpec: "True"
   fullName: PlugVR.VRModule.PVRSliderPointer.OnPointerUp
   nameWithType: PVRSliderPointer.OnPointerUp
-- uid: PlugVR.VRModule.PXRAutoLayer
-  name: PXRAutoLayer
-  href: api/PlugVR.VRModule.PXRAutoLayer.html
-  commentId: T:PlugVR.VRModule.PXRAutoLayer
-  fullName: PlugVR.VRModule.PXRAutoLayer
-  nameWithType: PXRAutoLayer
 - uid: PlugVR.VRModule.PXRBaseController
   name: PXRBaseController
   href: api/PlugVR.VRModule.PXRBaseController.html
@@ -8869,6 +8955,19 @@ references:
   isSpec: "True"
   fullName: PlugVR.VRModule.PXRGrabbable.HasOverrideRotation
   nameWithType: PXRGrabbable.HasOverrideRotation
+- uid: PlugVR.VRModule.PXRGrabbable.ImmediatelyAttachedWithStaticPose
+  name: ImmediatelyAttachedWithStaticPose
+  href: api/PlugVR.VRModule.PXRGrabbable.html#PlugVR_VRModule_PXRGrabbable_ImmediatelyAttachedWithStaticPose
+  commentId: P:PlugVR.VRModule.PXRGrabbable.ImmediatelyAttachedWithStaticPose
+  fullName: PlugVR.VRModule.PXRGrabbable.ImmediatelyAttachedWithStaticPose
+  nameWithType: PXRGrabbable.ImmediatelyAttachedWithStaticPose
+- uid: PlugVR.VRModule.PXRGrabbable.ImmediatelyAttachedWithStaticPose*
+  name: ImmediatelyAttachedWithStaticPose
+  href: api/PlugVR.VRModule.PXRGrabbable.html#PlugVR_VRModule_PXRGrabbable_ImmediatelyAttachedWithStaticPose_
+  commentId: Overload:PlugVR.VRModule.PXRGrabbable.ImmediatelyAttachedWithStaticPose
+  isSpec: "True"
+  fullName: PlugVR.VRModule.PXRGrabbable.ImmediatelyAttachedWithStaticPose
+  nameWithType: PXRGrabbable.ImmediatelyAttachedWithStaticPose
 - uid: PlugVR.VRModule.PXRGrabbable.isActiveAttachHandCollider
   name: isActiveAttachHandCollider
   href: api/PlugVR.VRModule.PXRGrabbable.html#PlugVR_VRModule_PXRGrabbable_isActiveAttachHandCollider
@@ -10329,6 +10428,32 @@ references:
   isSpec: "True"
   fullName: PlugVR.VRModule.PXRInteractableBase.EnableHasNotInteractColor
   nameWithType: PXRInteractableBase.EnableHasNotInteractColor
+- uid: PlugVR.VRModule.PXRInteractableBase.ExecuteOnGrabberEnter
+  name: ExecuteOnGrabberEnter()
+  href: api/PlugVR.VRModule.PXRInteractableBase.html#PlugVR_VRModule_PXRInteractableBase_ExecuteOnGrabberEnter
+  commentId: M:PlugVR.VRModule.PXRInteractableBase.ExecuteOnGrabberEnter
+  fullName: PlugVR.VRModule.PXRInteractableBase.ExecuteOnGrabberEnter()
+  nameWithType: PXRInteractableBase.ExecuteOnGrabberEnter()
+- uid: PlugVR.VRModule.PXRInteractableBase.ExecuteOnGrabberEnter*
+  name: ExecuteOnGrabberEnter
+  href: api/PlugVR.VRModule.PXRInteractableBase.html#PlugVR_VRModule_PXRInteractableBase_ExecuteOnGrabberEnter_
+  commentId: Overload:PlugVR.VRModule.PXRInteractableBase.ExecuteOnGrabberEnter
+  isSpec: "True"
+  fullName: PlugVR.VRModule.PXRInteractableBase.ExecuteOnGrabberEnter
+  nameWithType: PXRInteractableBase.ExecuteOnGrabberEnter
+- uid: PlugVR.VRModule.PXRInteractableBase.ExecuteOnGrabberExit
+  name: ExecuteOnGrabberExit()
+  href: api/PlugVR.VRModule.PXRInteractableBase.html#PlugVR_VRModule_PXRInteractableBase_ExecuteOnGrabberExit
+  commentId: M:PlugVR.VRModule.PXRInteractableBase.ExecuteOnGrabberExit
+  fullName: PlugVR.VRModule.PXRInteractableBase.ExecuteOnGrabberExit()
+  nameWithType: PXRInteractableBase.ExecuteOnGrabberExit()
+- uid: PlugVR.VRModule.PXRInteractableBase.ExecuteOnGrabberExit*
+  name: ExecuteOnGrabberExit
+  href: api/PlugVR.VRModule.PXRInteractableBase.html#PlugVR_VRModule_PXRInteractableBase_ExecuteOnGrabberExit_
+  commentId: Overload:PlugVR.VRModule.PXRInteractableBase.ExecuteOnGrabberExit
+  isSpec: "True"
+  fullName: PlugVR.VRModule.PXRInteractableBase.ExecuteOnGrabberExit
+  nameWithType: PXRInteractableBase.ExecuteOnGrabberExit
 - uid: PlugVR.VRModule.PXRInteractableBase.ExecuteOnPointerEnter
   name: ExecuteOnPointerEnter()
   href: api/PlugVR.VRModule.PXRInteractableBase.html#PlugVR_VRModule_PXRInteractableBase_ExecuteOnPointerEnter
@@ -10381,6 +10506,18 @@ references:
   isSpec: "True"
   fullName: PlugVR.VRModule.PXRInteractableBase.GetCanNotInteractColor
   nameWithType: PXRInteractableBase.GetCanNotInteractColor
+- uid: PlugVR.VRModule.PXRInteractableBase.GrabberEnter
+  name: GrabberEnter
+  href: api/PlugVR.VRModule.PXRInteractableBase.html#PlugVR_VRModule_PXRInteractableBase_GrabberEnter
+  commentId: E:PlugVR.VRModule.PXRInteractableBase.GrabberEnter
+  fullName: PlugVR.VRModule.PXRInteractableBase.GrabberEnter
+  nameWithType: PXRInteractableBase.GrabberEnter
+- uid: PlugVR.VRModule.PXRInteractableBase.GrabberExit
+  name: GrabberExit
+  href: api/PlugVR.VRModule.PXRInteractableBase.html#PlugVR_VRModule_PXRInteractableBase_GrabberExit
+  commentId: E:PlugVR.VRModule.PXRInteractableBase.GrabberExit
+  fullName: PlugVR.VRModule.PXRInteractableBase.GrabberExit
+  nameWithType: PXRInteractableBase.GrabberExit
 - uid: PlugVR.VRModule.PXRInteractableBase.hasInteractColor
   name: hasInteractColor
   href: api/PlugVR.VRModule.PXRInteractableBase.html#PlugVR_VRModule_PXRInteractableBase_hasInteractColor
@@ -12175,6 +12312,32 @@ references:
   isSpec: "True"
   fullName: PlugVR.VRModule.PXRPointerVR.CanProcess
   nameWithType: PXRPointerVR.CanProcess
+- uid: PlugVR.VRModule.PXRPointerVR.ForcePointerEnterInGrabbable
+  name: ForcePointerEnterInGrabbable()
+  href: api/PlugVR.VRModule.PXRPointerVR.html#PlugVR_VRModule_PXRPointerVR_ForcePointerEnterInGrabbable
+  commentId: M:PlugVR.VRModule.PXRPointerVR.ForcePointerEnterInGrabbable
+  fullName: PlugVR.VRModule.PXRPointerVR.ForcePointerEnterInGrabbable()
+  nameWithType: PXRPointerVR.ForcePointerEnterInGrabbable()
+- uid: PlugVR.VRModule.PXRPointerVR.ForcePointerEnterInGrabbable*
+  name: ForcePointerEnterInGrabbable
+  href: api/PlugVR.VRModule.PXRPointerVR.html#PlugVR_VRModule_PXRPointerVR_ForcePointerEnterInGrabbable_
+  commentId: Overload:PlugVR.VRModule.PXRPointerVR.ForcePointerEnterInGrabbable
+  isSpec: "True"
+  fullName: PlugVR.VRModule.PXRPointerVR.ForcePointerEnterInGrabbable
+  nameWithType: PXRPointerVR.ForcePointerEnterInGrabbable
+- uid: PlugVR.VRModule.PXRPointerVR.ForcePointerExitInGrabbable
+  name: ForcePointerExitInGrabbable()
+  href: api/PlugVR.VRModule.PXRPointerVR.html#PlugVR_VRModule_PXRPointerVR_ForcePointerExitInGrabbable
+  commentId: M:PlugVR.VRModule.PXRPointerVR.ForcePointerExitInGrabbable
+  fullName: PlugVR.VRModule.PXRPointerVR.ForcePointerExitInGrabbable()
+  nameWithType: PXRPointerVR.ForcePointerExitInGrabbable()
+- uid: PlugVR.VRModule.PXRPointerVR.ForcePointerExitInGrabbable*
+  name: ForcePointerExitInGrabbable
+  href: api/PlugVR.VRModule.PXRPointerVR.html#PlugVR_VRModule_PXRPointerVR_ForcePointerExitInGrabbable_
+  commentId: Overload:PlugVR.VRModule.PXRPointerVR.ForcePointerExitInGrabbable
+  isSpec: "True"
+  fullName: PlugVR.VRModule.PXRPointerVR.ForcePointerExitInGrabbable
+  nameWithType: PXRPointerVR.ForcePointerExitInGrabbable
 - uid: PlugVR.VRModule.PXRPointerVR.GetDistanceOnPointedObject
   name: GetDistanceOnPointedObject()
   href: api/PlugVR.VRModule.PXRPointerVR.html#PlugVR_VRModule_PXRPointerVR_GetDistanceOnPointedObject

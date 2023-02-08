@@ -10,7 +10,7 @@
       <meta name="viewport" content="width=device-width">
       <meta name="title" content="Struct FinishedInfo
      | PlugVR documentation ">
-      <meta name="generator" content="docfx 2.59.3.0">
+      <meta name="generator" content="docfx 2.59.4.0">
       
       <link rel="shortcut icon" href="../resources/favicon.png">
       <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
@@ -96,12 +96,12 @@
   
   
   <a id="PlugVR_BoardGame_FinishedInfo__ctor_" data-uid="PlugVR.BoardGame.FinishedInfo.#ctor*"></a>
-  <h4 id="PlugVR_BoardGame_FinishedInfo__ctor_System_Int32_System_Int32_" data-uid="PlugVR.BoardGame.FinishedInfo.#ctor(System.Int32,System.Int32)">FinishedInfo(Int32, Int32)</h4>
+  <h4 id="PlugVR_BoardGame_FinishedInfo__ctor_System_Int32_System_Int32_System_String_" data-uid="PlugVR.BoardGame.FinishedInfo.#ctor(System.Int32,System.Int32,System.String)">FinishedInfo(Int32, Int32, String)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public FinishedInfo(int playerNumber, int finishedTimeStamp)</code></pre>
+    <pre><code class="lang-csharp hljs">public FinishedInfo(int playerNumber, int finishedTimeStamp, string finishedMessage)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -114,19 +114,49 @@
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">Int32</a></td>
         <td><span class="parametername">playerNumber</span></td>
         <td></td>
       </tr>
       <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">Int32</a></td>
         <td><span class="parametername">finishedTimeStamp</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td><span class="parametername">finishedMessage</span></td>
         <td></td>
       </tr>
     </tbody>
   </table>
   <h3 id="properties">Properties
   </h3>
+  
+  
+  <a id="PlugVR_BoardGame_FinishedInfo_FinishedMessage_" data-uid="PlugVR.BoardGame.FinishedInfo.FinishedMessage*"></a>
+  <h4 id="PlugVR_BoardGame_FinishedInfo_FinishedMessage" data-uid="PlugVR.BoardGame.FinishedInfo.FinishedMessage">FinishedMessage</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string FinishedMessage { readonly get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
   
   
   <a id="PlugVR_BoardGame_FinishedInfo_FinishedTimeStamp_" data-uid="PlugVR.BoardGame.FinishedInfo.FinishedTimeStamp*"></a>
@@ -147,7 +177,7 @@
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">Int32</a></td>
         <td></td>
       </tr>
     </tbody>
@@ -172,7 +202,7 @@
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">Int32</a></td>
         <td></td>
       </tr>
     </tbody>
@@ -200,7 +230,7 @@
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.byte">Byte</a>[]</td>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">Byte</a>[]</td>
         <td><span class="parametername">data</span></td>
         <td></td>
       </tr>
@@ -241,7 +271,7 @@
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.byte">Byte</a>[]</td>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">Byte</a>[]</td>
         <td></td>
       </tr>
     </tbody>

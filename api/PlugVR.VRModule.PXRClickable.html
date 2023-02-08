@@ -10,7 +10,7 @@
       <meta name="viewport" content="width=device-width">
       <meta name="title" content="Class PXRClickable
      | PlugVR documentation ">
-      <meta name="generator" content="docfx 2.59.3.0">
+      <meta name="generator" content="docfx 2.59.4.0">
       
       <link rel="shortcut icon" href="../resources/favicon.png">
       <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
@@ -87,7 +87,7 @@
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
     <h5>Inheritance</h5>
-    <div class="level0"><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object">Object</a></div>
+    <div class="level0"><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">Object</a></div>
     <div class="level1"><a class="xref" href="PlugVR.VRModule.PXRInteractableBase.html">PXRInteractableBase</a></div>
     <div class="level2"><span class="xref">PXRClickable</span></div>
   </div>
@@ -112,6 +112,9 @@
       <a class="xref" href="PlugVR.VRModule.PXRInteractableBase.html#PlugVR_VRModule_PXRInteractableBase_canInteract">PXRInteractableBase.canInteract</a>
     </div>
     <div>
+      <a class="xref" href="PlugVR.VRModule.PXRInteractableBase.html#PlugVR_VRModule_PXRInteractableBase_transferState">PXRInteractableBase.transferState</a>
+    </div>
+    <div>
       <a class="xref" href="PlugVR.VRModule.PXRInteractableBase.html#PlugVR_VRModule_PXRInteractableBase_PointerEnter">PXRInteractableBase.PointerEnter</a>
     </div>
     <div>
@@ -134,6 +137,9 @@
     </div>
     <div>
       <a class="xref" href="PlugVR.VRModule.PXRInteractableBase.html#PlugVR_VRModule_PXRInteractableBase_CanInteract">PXRInteractableBase.CanInteract</a>
+    </div>
+    <div>
+      <a class="xref" href="PlugVR.VRModule.PXRInteractableBase.html#PlugVR_VRModule_PXRInteractableBase_TransferState">PXRInteractableBase.TransferState</a>
     </div>
     <div>
       <a class="xref" href="PlugVR.VRModule.PXRInteractableBase.html#PlugVR_VRModule_PXRInteractableBase_Awake">PXRInteractableBase.Awake()</a>
@@ -320,12 +326,12 @@
   </h3>
   
   
-  <h4 id="PlugVR_VRModule_PXRClickable_pointerDown" data-uid="PlugVR.VRModule.PXRClickable.pointerDown">pointerDown</h4>
+  <h4 id="PlugVR_VRModule_PXRClickable_PointerDownEvent" data-uid="PlugVR.VRModule.PXRClickable.PointerDownEvent">PointerDownEvent</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public event Action&lt;PointerEventData&gt; pointerDown</code></pre>
+    <pre><code class="lang-csharp hljs">public event Action&lt;PointerEventData&gt; PointerDownEvent</code></pre>
   </div>
   <h5 class="eventType">Event Type</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -344,12 +350,12 @@
   </table>
   
   
-  <h4 id="PlugVR_VRModule_PXRClickable_PointerStay" data-uid="PlugVR.VRModule.PXRClickable.PointerStay">PointerStay</h4>
+  <h4 id="PlugVR_VRModule_PXRClickable_PointerStayEvent" data-uid="PlugVR.VRModule.PXRClickable.PointerStayEvent">PointerStayEvent</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public event Action PointerStay</code></pre>
+    <pre><code class="lang-csharp hljs">public event Action PointerStayEvent</code></pre>
   </div>
   <h5 class="eventType">Event Type</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -368,12 +374,12 @@
   </table>
   
   
-  <h4 id="PlugVR_VRModule_PXRClickable_pointerUp" data-uid="PlugVR.VRModule.PXRClickable.pointerUp">pointerUp</h4>
+  <h4 id="PlugVR_VRModule_PXRClickable_PointerUpEvent" data-uid="PlugVR.VRModule.PXRClickable.PointerUpEvent">PointerUpEvent</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public event Action&lt;PointerEventData&gt; pointerUp</code></pre>
+    <pre><code class="lang-csharp hljs">public event Action&lt;PointerEventData&gt; PointerUpEvent</code></pre>
   </div>
   <h5 class="eventType">Event Type</h5>
   <table class="table table-bordered table-striped table-condensed">

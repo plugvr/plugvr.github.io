@@ -5,12 +5,12 @@
     <head>
       <meta charset="utf-8">
       <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-      <title>Class BoardGameExtensions
+      <title>Class PXRDirectInteractableBase
      | PlugVR documentation </title>
       <meta name="viewport" content="width=device-width">
-      <meta name="title" content="Class BoardGameExtensions
+      <meta name="title" content="Class PXRDirectInteractableBase
      | PlugVR documentation ">
-      <meta name="generator" content="docfx 2.59.3.0">
+      <meta name="generator" content="docfx 2.59.4.0">
       
       <link rel="shortcut icon" href="../resources/favicon.png">
       <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
@@ -78,78 +78,165 @@
                           </div>
                         </div>
 
-                    <article class="content wrap" id="_content" data-uid="PlugVR.BoardGame.BoardGameExtensions">
+                    <article class="content wrap" id="_content" data-uid="PlugVR.VRModule.PXRDirectInteractableBase">
   
   
-  <h1 id="PlugVR_BoardGame_BoardGameExtensions" data-uid="PlugVR.BoardGame.BoardGameExtensions" class="text-break">Class BoardGameExtensions
+  <h1 id="PlugVR_VRModule_PXRDirectInteractableBase" data-uid="PlugVR.VRModule.PXRDirectInteractableBase" class="text-break">Class PXRDirectInteractableBase
   </h1>
-  <div class="markdown level0 summary"></div>
+  <div class="markdown level0 summary"><p>직접 상호작용 오브젝트 클래스</p>
+</div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
     <h5>Inheritance</h5>
-    <div class="level0"><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object">Object</a></div>
-    <div class="level1"><span class="xref">BoardGameExtensions</span></div>
+    <div class="level0"><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">Object</a></div>
+    <div class="level1"><span class="xref">PXRDirectInteractableBase</span></div>
+      <div class="level2"><a class="xref" href="PlugVR.VRModule.PXRDirect3DButton.html">PXRDirect3DButton</a></div>
   </div>
-  <h6><strong>Namespace</strong>: <a class="xref" href="PlugVR.BoardGame.html">PlugVR.BoardGame</a></h6>
+  <h6><strong>Namespace</strong>: <a class="xref" href="PlugVR.VRModule.html">PlugVR.VRModule</a></h6>
   <h6><strong>Assembly</strong>: cs.temp.dll.dll</h6>
-  <h5 id="PlugVR_BoardGame_BoardGameExtensions_syntax">Syntax</h5>
+  <h5 id="PlugVR_VRModule_PXRDirectInteractableBase_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static class BoardGameExtensions</code></pre>
+    <pre><code class="lang-csharp hljs">public class PXRDirectInteractableBase : MonoBehaviour</code></pre>
   </div>
-  <h3 id="methods">Methods
+  <h3 id="fields">Fields
   </h3>
   
   
-  <a id="PlugVR_BoardGame_BoardGameExtensions_GetPlayerInfo_" data-uid="PlugVR.BoardGame.BoardGameExtensions.GetPlayerInfo*"></a>
-  <h4 id="PlugVR_BoardGame_BoardGameExtensions_GetPlayerInfo_Player_" data-uid="PlugVR.BoardGame.BoardGameExtensions.GetPlayerInfo(Player)">GetPlayerInfo(Player)</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static PlayerInfo GetPlayerInfo(this Player photonPlayer)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">Player</span></td>
-        <td><span class="parametername">photonPlayer</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="PlugVR.BoardGame.PlayerInfo.html">PlayerInfo</a></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <a id="PlugVR_BoardGame_BoardGameExtensions_GetPlayerNumber_" data-uid="PlugVR.BoardGame.BoardGameExtensions.GetPlayerNumber*"></a>
-  <h4 id="PlugVR_BoardGame_BoardGameExtensions_GetPlayerNumber_Player_" data-uid="PlugVR.BoardGame.BoardGameExtensions.GetPlayerNumber(Player)">GetPlayerNumber(Player)</h4>
-  <div class="markdown level1 summary"><p>플레이어 번호 (1부터 시작)</p>
+  <h4 id="PlugVR_VRModule_PXRDirectInteractableBase_CanInteract" data-uid="PlugVR.VRModule.PXRDirectInteractableBase.CanInteract">CanInteract</h4>
+  <div class="markdown level1 summary"><p>누르기 활성화 비활성화 제어</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static int GetPlayerNumber(this Player photonPlayer)</code></pre>
+    <pre><code class="lang-csharp hljs">public bool CanInteract</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="PlugVR_VRModule_PXRDirectInteractableBase_handSide" data-uid="PlugVR.VRModule.PXRDirectInteractableBase.handSide">handSide</h4>
+  <div class="markdown level1 summary"><p>현재 상호작용중인 손의 방향</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected HandSide handSide</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="PlugVR.VRModule.HandSide.html">HandSide</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="PlugVR_VRModule_PXRDirectInteractableBase_interactor" data-uid="PlugVR.VRModule.PXRDirectInteractableBase.interactor">interactor</h4>
+  <div class="markdown level1 summary"><p>Direct Interactor</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected PXRDirectInteractor interactor</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="PlugVR.VRModule.PXRDirectInteractor.html">PXRDirectInteractor</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="PlugVR_VRModule_PXRDirectInteractableBase_isPressing" data-uid="PlugVR.VRModule.PXRDirectInteractableBase.isPressing">isPressing</h4>
+  <div class="markdown level1 summary"><p>누르고 있는 상태인지 판단</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected bool isPressing</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="PlugVR_VRModule_PXRDirectInteractableBase_PressEvent" data-uid="PlugVR.VRModule.PXRDirectInteractableBase.PressEvent">PressEvent</h4>
+  <div class="markdown level1 summary"><p>눌러진 상태의 액션</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Action PressEvent</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Action</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="methods">Methods
+  </h3>
+  
+  
+  <a id="PlugVR_VRModule_PXRDirectInteractableBase_Hover_" data-uid="PlugVR.VRModule.PXRDirectInteractableBase.Hover*"></a>
+  <h4 id="PlugVR_VRModule_PXRDirectInteractableBase_Hover_PlugVR_VRModule_PXRDirectInteractor_" data-uid="PlugVR.VRModule.PXRDirectInteractableBase.Hover(PlugVR.VRModule.PXRDirectInteractor)">Hover(PXRDirectInteractor)</h4>
+  <div class="markdown level1 summary"><p>누르기</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual void Hover(PXRDirectInteractor interactor)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -162,147 +249,65 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">Player</span></td>
-        <td><span class="parametername">photonPlayer</span></td>
+        <td><a class="xref" href="PlugVR.VRModule.PXRDirectInteractor.html">PXRDirectInteractor</a></td>
+        <td><span class="parametername">interactor</span></td>
         <td></td>
       </tr>
     </tbody>
   </table>
-  <h5 class="returns">Returns</h5>
+  
+  
+  <a id="PlugVR_VRModule_PXRDirectInteractableBase_SetInteractHand_" data-uid="PlugVR.VRModule.PXRDirectInteractableBase.SetInteractHand*"></a>
+  <h4 id="PlugVR_VRModule_PXRDirectInteractableBase_SetInteractHand_PlugVR_VRModule_HandSide_" data-uid="PlugVR.VRModule.PXRDirectInteractableBase.SetInteractHand(PlugVR.VRModule.HandSide)">SetInteractHand(HandSide)</h4>
+  <div class="markdown level1 summary"><p>현재 상호작용중인 손을 설정</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SetInteractHand(HandSide handSide)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
       <tr>
         <th>Type</th>
+        <th>Name</th>
         <th>Description</th>
       </tr>
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
-        <td><p>지정된 번호가 없을경우 -1을 반환</p>
+        <td><a class="xref" href="PlugVR.VRModule.HandSide.html">HandSide</a></td>
+        <td><span class="parametername">handSide</span></td>
+        <td><p>손의 방향</p>
 </td>
       </tr>
     </tbody>
   </table>
   
   
-  <a id="PlugVR_BoardGame_BoardGameExtensions_IsParticipate_" data-uid="PlugVR.BoardGame.BoardGameExtensions.IsParticipate*"></a>
-  <h4 id="PlugVR_BoardGame_BoardGameExtensions_IsParticipate_Player_" data-uid="PlugVR.BoardGame.BoardGameExtensions.IsParticipate(Player)">IsParticipate(Player)</h4>
-  <div class="markdown level1 summary"><p>해당 게임에 참여중인지 확인</p>
+  <a id="PlugVR_VRModule_PXRDirectInteractableBase_UnHover_" data-uid="PlugVR.VRModule.PXRDirectInteractableBase.UnHover*"></a>
+  <h4 id="PlugVR_VRModule_PXRDirectInteractableBase_UnHover" data-uid="PlugVR.VRModule.PXRDirectInteractableBase.UnHover">UnHover()</h4>
+  <div class="markdown level1 summary"><p>떼기</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static bool IsParticipate(this Player photonPlayer)</code></pre>
+    <pre><code class="lang-csharp hljs">public virtual void UnHover()</code></pre>
   </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">Player</span></td>
-        <td><span class="parametername">photonPlayer</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
+  <h3 id="events">Events
+  </h3>
   
   
-  <a id="PlugVR_BoardGame_BoardGameExtensions_IsParticipate_" data-uid="PlugVR.BoardGame.BoardGameExtensions.IsParticipate*"></a>
-  <h4 id="PlugVR_BoardGame_BoardGameExtensions_IsParticipate_Player_PlugVR_BoardGame_BoardGameManager_" data-uid="PlugVR.BoardGame.BoardGameExtensions.IsParticipate(Player,PlugVR.BoardGame.BoardGameManager)">IsParticipate(Player, BoardGameManager)</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static bool IsParticipate(this Player photonPlayer, BoardGameManager boardGame)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">Player</span></td>
-        <td><span class="parametername">photonPlayer</span></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td><a class="xref" href="PlugVR.BoardGame.BoardGameManager.html">BoardGameManager</a></td>
-        <td><span class="parametername">boardGame</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <a id="PlugVR_BoardGame_BoardGameExtensions_IsPlayer_" data-uid="PlugVR.BoardGame.BoardGameExtensions.IsPlayer*"></a>
-  <h4 id="PlugVR_BoardGame_BoardGameExtensions_IsPlayer_Player_" data-uid="PlugVR.BoardGame.BoardGameExtensions.IsPlayer(Player)">IsPlayer(Player)</h4>
-  <div class="markdown level1 summary"><p>게임에 참여할 수 있는지 확인</p>
+  <h4 id="PlugVR_VRModule_PXRDirectInteractableBase_HoverEvent" data-uid="PlugVR.VRModule.PXRDirectInteractableBase.HoverEvent">HoverEvent</h4>
+  <div class="markdown level1 summary"><p>누르고 있는 상태의 이벤트</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static bool IsPlayer(this Player photonPlayer)</code></pre>
+    <pre><code class="lang-csharp hljs">public event Action HoverEvent</code></pre>
   </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">Player</span></td>
-        <td><span class="parametername">photonPlayer</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
+  <h5 class="eventType">Event Type</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
       <tr>
@@ -312,34 +317,32 @@
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+        <td><span class="xref">Action</span></td>
         <td></td>
       </tr>
     </tbody>
   </table>
   
   
-  <a id="PlugVR_BoardGame_BoardGameExtensions_RemovePlayerInfo_" data-uid="PlugVR.BoardGame.BoardGameExtensions.RemovePlayerInfo*"></a>
-  <h4 id="PlugVR_BoardGame_BoardGameExtensions_RemovePlayerInfo_Player_" data-uid="PlugVR.BoardGame.BoardGameExtensions.RemovePlayerInfo(Player)">RemovePlayerInfo(Player)</h4>
-  <div class="markdown level1 summary"></div>
+  <h4 id="PlugVR_VRModule_PXRDirectInteractableBase_UnHoverEvent" data-uid="PlugVR.VRModule.PXRDirectInteractableBase.UnHoverEvent">UnHoverEvent</h4>
+  <div class="markdown level1 summary"><p>떼고 있는 상태의 이벤트</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static void RemovePlayerInfo(this Player photonPlayer)</code></pre>
+    <pre><code class="lang-csharp hljs">public event Action UnHoverEvent</code></pre>
   </div>
-  <h5 class="parameters">Parameters</h5>
+  <h5 class="eventType">Event Type</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
       <tr>
         <th>Type</th>
-        <th>Name</th>
         <th>Description</th>
       </tr>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">Player</span></td>
-        <td><span class="parametername">photonPlayer</span></td>
+        <td><span class="xref">Action</span></td>
         <td></td>
       </tr>
     </tbody>

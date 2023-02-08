@@ -10,7 +10,7 @@
       <meta name="viewport" content="width=device-width">
       <meta name="title" content="Class NetworkManager
      | PlugVR documentation ">
-      <meta name="generator" content="docfx 2.59.3.0">
+      <meta name="generator" content="docfx 2.59.4.0">
       
       <link rel="shortcut icon" href="../resources/favicon.png">
       <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
@@ -88,17 +88,42 @@
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
     <h5>Inheritance</h5>
-    <div class="level0"><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object">Object</a></div>
+    <div class="level0"><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">Object</a></div>
     <div class="level1"><span class="xref">NetworkManager</span></div>
   </div>
   <h6><strong>Namespace</strong>: <a class="xref" href="PlugVR.Network.html">PlugVR.Network</a></h6>
   <h6><strong>Assembly</strong>: cs.temp.dll.dll</h6>
   <h5 id="PlugVR_Network_NetworkManager_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class NetworkManager : MonoBehaviour</code></pre>
+    <pre><code class="lang-csharp hljs">public class NetworkManager : IConnectionCallbacks</code></pre>
   </div>
   <h3 id="properties">Properties
   </h3>
+  
+  
+  <a id="PlugVR_Network_NetworkManager_AutoJoinLobby_" data-uid="PlugVR.Network.NetworkManager.AutoJoinLobby*"></a>
+  <h4 id="PlugVR_Network_NetworkManager_AutoJoinLobby" data-uid="PlugVR.Network.NetworkManager.AutoJoinLobby">AutoJoinLobby</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool AutoJoinLobby { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
   
   
   <a id="PlugVR_Network_NetworkManager_CurrentTimeStamp_" data-uid="PlugVR.Network.NetworkManager.CurrentTimeStamp*"></a>
@@ -120,59 +145,7 @@
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int64">Int64</a></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <a id="PlugVR_Network_NetworkManager_EntityId_" data-uid="PlugVR.Network.NetworkManager.EntityId*"></a>
-  <h4 id="PlugVR_Network_NetworkManager_EntityId" data-uid="PlugVR.Network.NetworkManager.EntityId">EntityId</h4>
-  <div class="markdown level1 summary"><a class="xref" href="PlugVR.Network.PlayFabBase.html#PlugVR_Network_PlayFabBase_EntityId">EntityId</a>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static string EntityId { get; }</code></pre>
-  </div>
-  <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <a id="PlugVR_Network_NetworkManager_EntityType_" data-uid="PlugVR.Network.NetworkManager.EntityType*"></a>
-  <h4 id="PlugVR_Network_NetworkManager_EntityType" data-uid="PlugVR.Network.NetworkManager.EntityType">EntityType</h4>
-  <div class="markdown level1 summary"><a class="xref" href="PlugVR.Network.PlayFabBase.html#PlugVR_Network_PlayFabBase_EntityType">EntityType</a>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static string EntityType { get; }</code></pre>
-  </div>
-  <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int64">Int64</a></td>
         <td></td>
       </tr>
     </tbody>
@@ -198,7 +171,7 @@
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
         <td></td>
       </tr>
     </tbody>
@@ -224,7 +197,7 @@
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
         <td></td>
       </tr>
     </tbody>
@@ -250,7 +223,7 @@
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
         <td></td>
       </tr>
     </tbody>
@@ -276,33 +249,7 @@
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <a id="PlugVR_Network_NetworkManager_IsLogin_" data-uid="PlugVR.Network.NetworkManager.IsLogin*"></a>
-  <h4 id="PlugVR_Network_NetworkManager_IsLogin" data-uid="PlugVR.Network.NetworkManager.IsLogin">IsLogin</h4>
-  <div class="markdown level1 summary"><p>로그인 여부</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static bool IsLogin { get; }</code></pre>
-  </div>
-  <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
         <td></td>
       </tr>
     </tbody>
@@ -328,7 +275,32 @@
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="PlugVR_Network_NetworkManager_LobbyRegion_" data-uid="PlugVR.Network.NetworkManager.LobbyRegion*"></a>
+  <h4 id="PlugVR_Network_NetworkManager_LobbyRegion" data-uid="PlugVR.Network.NetworkManager.LobbyRegion">LobbyRegion</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static string LobbyRegion { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">String</a></td>
         <td></td>
       </tr>
     </tbody>
@@ -363,14 +335,14 @@
   </h3>
   
   
-  <a id="PlugVR_Network_NetworkManager_AcceptFriendRequest_" data-uid="PlugVR.Network.NetworkManager.AcceptFriendRequest*"></a>
-  <h4 id="PlugVR_Network_NetworkManager_AcceptFriendRequest_System_String_" data-uid="PlugVR.Network.NetworkManager.AcceptFriendRequest(System.String)">AcceptFriendRequest(String)</h4>
-  <div class="markdown level1 summary"><p>친구 요청 수락</p>
+  <a id="PlugVR_Network_NetworkManager_ChangeRegion_" data-uid="PlugVR.Network.NetworkManager.ChangeRegion*"></a>
+  <h4 id="PlugVR_Network_NetworkManager_ChangeRegion_PlugVR_Network_NetworkManager_Region_" data-uid="PlugVR.Network.NetworkManager.ChangeRegion(PlugVR.Network.NetworkManager.Region)">ChangeRegion(NetworkManager.Region)</h4>
+  <div class="markdown level1 summary"><p>서버 지역 설정</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static void AcceptFriendRequest(string friendPlayFabId)</code></pre>
+    <pre><code class="lang-csharp hljs">public static async void ChangeRegion(NetworkManager.Region region)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -383,9 +355,10 @@
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
-        <td><span class="parametername">friendPlayFabId</span></td>
-        <td></td>
+        <td><a class="xref" href="PlugVR.Network.NetworkManager.Region.html">NetworkManager.Region</a></td>
+        <td><span class="parametername">region</span></td>
+        <td><p>지역</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -402,14 +375,25 @@
   </div>
   
   
-  <a id="PlugVR_Network_NetworkManager_CreateOrJoinRoom_" data-uid="PlugVR.Network.NetworkManager.CreateOrJoinRoom*"></a>
-  <h4 id="PlugVR_Network_NetworkManager_CreateOrJoinRoom_System_Int32_System_String_System_String_System_Int32_System_Byte_PlugVR_Network_RoomPermission_" data-uid="PlugVR.Network.NetworkManager.CreateOrJoinRoom(System.Int32,System.String,System.String,System.Int32,System.Byte,PlugVR.Network.RoomPermission)">CreateOrJoinRoom(Int32, String, String, Int32, Byte, RoomPermission)</h4>
-  <div class="markdown level1 summary"><p>방을 생성하거나 접속</p>
+  <a id="PlugVR_Network_NetworkManager_ConnectRegionLobby_" data-uid="PlugVR.Network.NetworkManager.ConnectRegionLobby*"></a>
+  <h4 id="PlugVR_Network_NetworkManager_ConnectRegionLobby" data-uid="PlugVR.Network.NetworkManager.ConnectRegionLobby">ConnectRegionLobby()</h4>
+  <div class="markdown level1 summary"><p>설정된 지역으로 로비 접속</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static bool CreateOrJoinRoom(int roomType, string roomName, string password, int customType, byte maxCount, RoomPermission permission = null)</code></pre>
+    <pre><code class="lang-csharp hljs">public static void ConnectRegionLobby()</code></pre>
+  </div>
+  
+  
+  <a id="PlugVR_Network_NetworkManager_CreateOrJoinRoom_" data-uid="PlugVR.Network.NetworkManager.CreateOrJoinRoom*"></a>
+  <h4 id="PlugVR_Network_NetworkManager_CreateOrJoinRoom_System_Int32_System_String_System_Int32_System_Byte_" data-uid="PlugVR.Network.NetworkManager.CreateOrJoinRoom(System.Int32,System.String,System.Int32,System.Byte)">CreateOrJoinRoom(Int32, String, Int32, Byte)</h4>
+  <div class="markdown level1 summary"><p>랜덤한 방을 생성하거나 접속</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool CreateOrJoinRoom(int roomType, string option, int customType, byte maxCount)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -422,39 +406,27 @@
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">Int32</a></td>
         <td><span class="parametername">roomType</span></td>
         <td><p>방의 타입번호</p>
 </td>
       </tr>
       <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
-        <td><span class="parametername">roomName</span></td>
-        <td><p>방 이름</p>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td><span class="parametername">option</span></td>
+        <td><p>방 검색시 사용하는 추가 옵션</p>
 </td>
       </tr>
       <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
-        <td><span class="parametername">password</span></td>
-        <td><p>비밀번호</p>
-</td>
-      </tr>
-      <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">Int32</a></td>
         <td><span class="parametername">customType</span></td>
         <td><p>커스텀 타입</p>
 </td>
       </tr>
       <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.byte">Byte</a></td>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">Byte</a></td>
         <td><span class="parametername">maxCount</span></td>
         <td><p>방 생성시 최대 인원</p>
-</td>
-      </tr>
-      <tr>
-        <td><a class="xref" href="PlugVR.Network.RoomPermission.html">RoomPermission</a></td>
-        <td><span class="parametername">permission</span></td>
-        <td><p>방 권한</p>
 </td>
       </tr>
     </tbody>
@@ -469,7 +441,7 @@
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
         <td><p>방 생성 및 접속 성공 여부</p>
 </td>
       </tr>
@@ -478,13 +450,88 @@
   
   
   <a id="PlugVR_Network_NetworkManager_CreateOrJoinRoom_" data-uid="PlugVR.Network.NetworkManager.CreateOrJoinRoom*"></a>
-  <h4 id="PlugVR_Network_NetworkManager_CreateOrJoinRoom__1___0_System_String_System_String_System_Int32_System_Byte_PlugVR_Network_RoomPermission_" data-uid="PlugVR.Network.NetworkManager.CreateOrJoinRoom``1(``0,System.String,System.String,System.Int32,System.Byte,PlugVR.Network.RoomPermission)">CreateOrJoinRoom&lt;T&gt;(T, String, String, Int32, Byte, RoomPermission)</h4>
+  <h4 id="PlugVR_Network_NetworkManager_CreateOrJoinRoom_System_Int32_System_String_System_String_System_String_System_Int32_System_Byte_" data-uid="PlugVR.Network.NetworkManager.CreateOrJoinRoom(System.Int32,System.String,System.String,System.String,System.Int32,System.Byte)">CreateOrJoinRoom(Int32, String, String, String, Int32, Byte)</h4>
   <div class="markdown level1 summary"><p>방을 생성하거나 접속</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static bool CreateOrJoinRoom&lt;T&gt;(T roomType, string roomName, string password, int customType, byte maxCount, RoomPermission permission = null)
+    <pre><code class="lang-csharp hljs">public static bool CreateOrJoinRoom(int roomType, string roomName, string password, string option, int customType, byte maxCount)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+        <td><span class="parametername">roomType</span></td>
+        <td><p>방의 타입번호</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td><span class="parametername">roomName</span></td>
+        <td><p>방 이름</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td><span class="parametername">password</span></td>
+        <td><p>비밀번호</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td><span class="parametername">option</span></td>
+        <td><p>방 검색시 사용하는 추가 옵션</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+        <td><span class="parametername">customType</span></td>
+        <td><p>커스텀 타입</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">Byte</a></td>
+        <td><span class="parametername">maxCount</span></td>
+        <td><p>방 생성시 최대 인원</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+        <td><p>방 생성 및 접속 성공 여부</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="PlugVR_Network_NetworkManager_CreateOrJoinRoom_" data-uid="PlugVR.Network.NetworkManager.CreateOrJoinRoom*"></a>
+  <h4 id="PlugVR_Network_NetworkManager_CreateOrJoinRoom__1___0_System_String_System_Int32_System_Byte_" data-uid="PlugVR.Network.NetworkManager.CreateOrJoinRoom``1(``0,System.String,System.Int32,System.Byte)">CreateOrJoinRoom&lt;T&gt;(T, String, Int32, Byte)</h4>
+  <div class="markdown level1 summary"><p>랜덤한 방을 생성하거나 접속</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool CreateOrJoinRoom&lt;T&gt;(T roomType, string option, int customType, byte maxCount)
     where T : struct, IConvertible</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
@@ -504,33 +551,21 @@
 </td>
       </tr>
       <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
-        <td><span class="parametername">roomName</span></td>
-        <td><p>방 이름</p>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td><span class="parametername">option</span></td>
+        <td><p>방 검색시 사용하는 추가 옵션</p>
 </td>
       </tr>
       <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
-        <td><span class="parametername">password</span></td>
-        <td><p>비밀번호</p>
-</td>
-      </tr>
-      <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">Int32</a></td>
         <td><span class="parametername">customType</span></td>
         <td><p>커스텀 타입</p>
 </td>
       </tr>
       <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.byte">Byte</a></td>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">Byte</a></td>
         <td><span class="parametername">maxCount</span></td>
         <td><p>방 생성시 최대 인원</p>
-</td>
-      </tr>
-      <tr>
-        <td><a class="xref" href="PlugVR.Network.RoomPermission.html">RoomPermission</a></td>
-        <td><span class="parametername">permission</span></td>
-        <td><p>방 권한</p>
 </td>
       </tr>
     </tbody>
@@ -545,7 +580,98 @@
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+        <td><p>방 생성 및 접속 성공 여부</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">T</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="PlugVR_Network_NetworkManager_CreateOrJoinRoom_" data-uid="PlugVR.Network.NetworkManager.CreateOrJoinRoom*"></a>
+  <h4 id="PlugVR_Network_NetworkManager_CreateOrJoinRoom__1___0_System_String_System_String_System_String_System_Int32_System_Byte_" data-uid="PlugVR.Network.NetworkManager.CreateOrJoinRoom``1(``0,System.String,System.String,System.String,System.Int32,System.Byte)">CreateOrJoinRoom&lt;T&gt;(T, String, String, String, Int32, Byte)</h4>
+  <div class="markdown level1 summary"><p>방을 생성하거나 접속</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool CreateOrJoinRoom&lt;T&gt;(T roomType, string roomName, string password, string option, int customType, byte maxCount)
+    where T : struct, IConvertible</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">T</span></td>
+        <td><span class="parametername">roomType</span></td>
+        <td><p>방의 타입</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td><span class="parametername">roomName</span></td>
+        <td><p>방 이름</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td><span class="parametername">password</span></td>
+        <td><p>비밀번호</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td><span class="parametername">option</span></td>
+        <td><p>방 검색시 사용하는 추가 옵션</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+        <td><span class="parametername">customType</span></td>
+        <td><p>커스텀 타입</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">Byte</a></td>
+        <td><span class="parametername">maxCount</span></td>
+        <td><p>방 생성시 최대 인원</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
         <td><p>방 생성 및 접속 성공 여부</p>
 </td>
       </tr>
@@ -569,13 +695,13 @@
   
   
   <a id="PlugVR_Network_NetworkManager_CreateOrJoinStackRoom_" data-uid="PlugVR.Network.NetworkManager.CreateOrJoinStackRoom*"></a>
-  <h4 id="PlugVR_Network_NetworkManager_CreateOrJoinStackRoom_System_Int32_System_String_System_String_System_Int32_System_Byte_PlugVR_Network_RoomPermission_" data-uid="PlugVR.Network.NetworkManager.CreateOrJoinStackRoom(System.Int32,System.String,System.String,System.Int32,System.Byte,PlugVR.Network.RoomPermission)">CreateOrJoinStackRoom(Int32, String, String, Int32, Byte, RoomPermission)</h4>
+  <h4 id="PlugVR_Network_NetworkManager_CreateOrJoinStackRoom_System_Int32_System_String_System_String_System_String_System_Int32_System_Byte_" data-uid="PlugVR.Network.NetworkManager.CreateOrJoinStackRoom(System.Int32,System.String,System.String,System.String,System.Int32,System.Byte)">CreateOrJoinStackRoom(Int32, String, String, String, Int32, Byte)</h4>
   <div class="markdown level1 summary"><p>오래된 방부터 접속을 시도하며 접속 실패시 새로운 방을 만듬</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static bool CreateOrJoinStackRoom(int roomType, string roomName, string password, int customType, byte maxCount, RoomPermission permission = null)</code></pre>
+    <pre><code class="lang-csharp hljs">public static bool CreateOrJoinStackRoom(int roomType, string roomName, string password, string option, int customType, byte maxCount)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -588,39 +714,39 @@
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">Int32</a></td>
         <td><span class="parametername">roomType</span></td>
         <td><p>방의 타입번호</p>
 </td>
       </tr>
       <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">String</a></td>
         <td><span class="parametername">roomName</span></td>
         <td><p>방 이름</p>
 </td>
       </tr>
       <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">String</a></td>
         <td><span class="parametername">password</span></td>
         <td><p>비밀번호</p>
 </td>
       </tr>
       <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td><span class="parametername">option</span></td>
+        <td><p>방 검색시 사용하는 추가 옵션</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">Int32</a></td>
         <td><span class="parametername">customType</span></td>
         <td><p>커스텀 타입</p>
 </td>
       </tr>
       <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.byte">Byte</a></td>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">Byte</a></td>
         <td><span class="parametername">maxCount</span></td>
         <td><p>방 생성시 최대 인원</p>
-</td>
-      </tr>
-      <tr>
-        <td><a class="xref" href="PlugVR.Network.RoomPermission.html">RoomPermission</a></td>
-        <td><span class="parametername">permission</span></td>
-        <td><p>방 권한</p>
 </td>
       </tr>
     </tbody>
@@ -635,7 +761,7 @@
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
         <td><p>방 생성 및 접속 성공 여부</p>
 </td>
       </tr>
@@ -644,13 +770,13 @@
   
   
   <a id="PlugVR_Network_NetworkManager_CreateOrJoinStackRoom_" data-uid="PlugVR.Network.NetworkManager.CreateOrJoinStackRoom*"></a>
-  <h4 id="PlugVR_Network_NetworkManager_CreateOrJoinStackRoom__1___0_System_String_System_String_System_Int32_System_Byte_PlugVR_Network_RoomPermission_" data-uid="PlugVR.Network.NetworkManager.CreateOrJoinStackRoom``1(``0,System.String,System.String,System.Int32,System.Byte,PlugVR.Network.RoomPermission)">CreateOrJoinStackRoom&lt;T&gt;(T, String, String, Int32, Byte, RoomPermission)</h4>
+  <h4 id="PlugVR_Network_NetworkManager_CreateOrJoinStackRoom__1___0_System_String_System_String_System_String_System_Int32_System_Byte_" data-uid="PlugVR.Network.NetworkManager.CreateOrJoinStackRoom``1(``0,System.String,System.String,System.String,System.Int32,System.Byte)">CreateOrJoinStackRoom&lt;T&gt;(T, String, String, String, Int32, Byte)</h4>
   <div class="markdown level1 summary"><p>오래된 방부터 접속을 시도하며 접속 실패시 새로운 방을 만듬</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static bool CreateOrJoinStackRoom&lt;T&gt;(T roomType, string roomName, string password, int customType, byte maxCount, RoomPermission permission = null)
+    <pre><code class="lang-csharp hljs">public static bool CreateOrJoinStackRoom&lt;T&gt;(T roomType, string roomName, string password, string option, int customType, byte maxCount)
     where T : struct, IConvertible</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
@@ -670,33 +796,33 @@
 </td>
       </tr>
       <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">String</a></td>
         <td><span class="parametername">roomName</span></td>
         <td><p>방 이름</p>
 </td>
       </tr>
       <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">String</a></td>
         <td><span class="parametername">password</span></td>
         <td><p>비밀번호</p>
 </td>
       </tr>
       <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td><span class="parametername">option</span></td>
+        <td><p>방 검색시 사용하는 추가 옵션</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">Int32</a></td>
         <td><span class="parametername">customType</span></td>
         <td><p>커스텀 타입</p>
 </td>
       </tr>
       <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.byte">Byte</a></td>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">Byte</a></td>
         <td><span class="parametername">maxCount</span></td>
         <td><p>방 생성시 최대 인원</p>
-</td>
-      </tr>
-      <tr>
-        <td><a class="xref" href="PlugVR.Network.RoomPermission.html">RoomPermission</a></td>
-        <td><span class="parametername">permission</span></td>
-        <td><p>방 권한</p>
 </td>
       </tr>
     </tbody>
@@ -711,7 +837,7 @@
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
         <td><p>방 생성 및 접속 성공 여부</p>
 </td>
       </tr>
@@ -735,13 +861,13 @@
   
   
   <a id="PlugVR_Network_NetworkManager_CreateRoom_" data-uid="PlugVR.Network.NetworkManager.CreateRoom*"></a>
-  <h4 id="PlugVR_Network_NetworkManager_CreateRoom_System_Int32_System_String_System_String_System_Int32_System_Byte_PlugVR_Network_RoomPermission_" data-uid="PlugVR.Network.NetworkManager.CreateRoom(System.Int32,System.String,System.String,System.Int32,System.Byte,PlugVR.Network.RoomPermission)">CreateRoom(Int32, String, String, Int32, Byte, RoomPermission)</h4>
-  <div class="markdown level1 summary"><p>방 생성</p>
+  <h4 id="PlugVR_Network_NetworkManager_CreateRoom_System_Int32_System_String_System_Int32_System_Byte_" data-uid="PlugVR.Network.NetworkManager.CreateRoom(System.Int32,System.String,System.Int32,System.Byte)">CreateRoom(Int32, String, Int32, Byte)</h4>
+  <div class="markdown level1 summary"><p>랜덤한 방을 생성</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static bool CreateRoom(int roomType, string roomName, string password, int customType, byte maxCount, RoomPermission permission = null)</code></pre>
+    <pre><code class="lang-csharp hljs">public static bool CreateRoom(int roomType, string option, int customType, byte maxCount)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -754,39 +880,27 @@
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">Int32</a></td>
         <td><span class="parametername">roomType</span></td>
         <td><p>방의 타입번호</p>
 </td>
       </tr>
       <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
-        <td><span class="parametername">roomName</span></td>
-        <td><p>방 이름</p>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td><span class="parametername">option</span></td>
+        <td><p>방 검색시 사용하는 추가 옵션</p>
 </td>
       </tr>
       <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
-        <td><span class="parametername">password</span></td>
-        <td><p>비밀번호</p>
-</td>
-      </tr>
-      <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">Int32</a></td>
         <td><span class="parametername">customType</span></td>
         <td><p>커스텀 타입</p>
 </td>
       </tr>
       <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.byte">Byte</a></td>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">Byte</a></td>
         <td><span class="parametername">maxCount</span></td>
         <td><p>방 생성시 최대 인원</p>
-</td>
-      </tr>
-      <tr>
-        <td><a class="xref" href="PlugVR.Network.RoomPermission.html">RoomPermission</a></td>
-        <td><span class="parametername">permission</span></td>
-        <td><p>방 권한</p>
 </td>
       </tr>
     </tbody>
@@ -801,7 +915,82 @@
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+        <td><p>방 생성 및 접속 성공 여부</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="PlugVR_Network_NetworkManager_CreateRoom_" data-uid="PlugVR.Network.NetworkManager.CreateRoom*"></a>
+  <h4 id="PlugVR_Network_NetworkManager_CreateRoom_System_Int32_System_String_System_String_System_String_System_Int32_System_Byte_" data-uid="PlugVR.Network.NetworkManager.CreateRoom(System.Int32,System.String,System.String,System.String,System.Int32,System.Byte)">CreateRoom(Int32, String, String, String, Int32, Byte)</h4>
+  <div class="markdown level1 summary"><p>방 생성</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool CreateRoom(int roomType, string roomName, string password, string option, int customType, byte maxCount)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+        <td><span class="parametername">roomType</span></td>
+        <td><p>방의 타입번호</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td><span class="parametername">roomName</span></td>
+        <td><p>방 이름</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td><span class="parametername">password</span></td>
+        <td><p>비밀번호</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td><span class="parametername">option</span></td>
+        <td><p>방 검색시 사용하는 추가 옵션</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+        <td><span class="parametername">customType</span></td>
+        <td><p>커스텀 타입</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">Byte</a></td>
+        <td><span class="parametername">maxCount</span></td>
+        <td><p>방 생성시 최대 인원</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
         <td><p>방 생성 성공 여부</p>
 </td>
       </tr>
@@ -810,13 +999,13 @@
   
   
   <a id="PlugVR_Network_NetworkManager_CreateRoom_" data-uid="PlugVR.Network.NetworkManager.CreateRoom*"></a>
-  <h4 id="PlugVR_Network_NetworkManager_CreateRoom__1___0_System_String_System_String_System_Int32_System_Byte_PlugVR_Network_RoomPermission_" data-uid="PlugVR.Network.NetworkManager.CreateRoom``1(``0,System.String,System.String,System.Int32,System.Byte,PlugVR.Network.RoomPermission)">CreateRoom&lt;T&gt;(T, String, String, Int32, Byte, RoomPermission)</h4>
-  <div class="markdown level1 summary"><p>방 생성</p>
+  <h4 id="PlugVR_Network_NetworkManager_CreateRoom__1___0_System_String_System_Int32_System_Byte_" data-uid="PlugVR.Network.NetworkManager.CreateRoom``1(``0,System.String,System.Int32,System.Byte)">CreateRoom&lt;T&gt;(T, String, Int32, Byte)</h4>
+  <div class="markdown level1 summary"><p>랜덤한 방을 생성</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static bool CreateRoom&lt;T&gt;(T roomType, string roomName, string password, int customType, byte maxCount, RoomPermission permission = null)
+    <pre><code class="lang-csharp hljs">public static bool CreateRoom&lt;T&gt;(T roomType, string option, int customType, byte maxCount)
     where T : struct, IConvertible</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
@@ -836,33 +1025,21 @@
 </td>
       </tr>
       <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
-        <td><span class="parametername">roomName</span></td>
-        <td><p>방 이름</p>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td><span class="parametername">option</span></td>
+        <td><p>방 검색시 사용하는 추가 옵션</p>
 </td>
       </tr>
       <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
-        <td><span class="parametername">password</span></td>
-        <td><p>비밀번호</p>
-</td>
-      </tr>
-      <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">Int32</a></td>
         <td><span class="parametername">customType</span></td>
         <td><p>커스텀 타입</p>
 </td>
       </tr>
       <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.byte">Byte</a></td>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">Byte</a></td>
         <td><span class="parametername">maxCount</span></td>
         <td><p>방 생성시 최대 인원</p>
-</td>
-      </tr>
-      <tr>
-        <td><a class="xref" href="PlugVR.Network.RoomPermission.html">RoomPermission</a></td>
-        <td><span class="parametername">permission</span></td>
-        <td><p>방 권한</p>
 </td>
       </tr>
     </tbody>
@@ -877,8 +1054,8 @@
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
-        <td><p>방 생성 성공 여부</p>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+        <td><p>방 생성 및 접속 성공 여부</p>
 </td>
       </tr>
     </tbody>
@@ -900,14 +1077,15 @@
   </table>
   
   
-  <a id="PlugVR_Network_NetworkManager_DenyFriendRequest_" data-uid="PlugVR.Network.NetworkManager.DenyFriendRequest*"></a>
-  <h4 id="PlugVR_Network_NetworkManager_DenyFriendRequest_System_String_" data-uid="PlugVR.Network.NetworkManager.DenyFriendRequest(System.String)">DenyFriendRequest(String)</h4>
-  <div class="markdown level1 summary"><p>친구 요청 거절</p>
+  <a id="PlugVR_Network_NetworkManager_CreateRoom_" data-uid="PlugVR.Network.NetworkManager.CreateRoom*"></a>
+  <h4 id="PlugVR_Network_NetworkManager_CreateRoom__1___0_System_String_System_String_System_String_System_Int32_System_Byte_" data-uid="PlugVR.Network.NetworkManager.CreateRoom``1(``0,System.String,System.String,System.String,System.Int32,System.Byte)">CreateRoom&lt;T&gt;(T, String, String, String, Int32, Byte)</h4>
+  <div class="markdown level1 summary"><p>방 생성</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static void DenyFriendRequest(string friendPlayFabId)</code></pre>
+    <pre><code class="lang-csharp hljs">public static bool CreateRoom&lt;T&gt;(T roomType, string roomName, string password, string option, int customType, byte maxCount)
+    where T : struct, IConvertible</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -920,8 +1098,70 @@
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
-        <td><span class="parametername">friendPlayFabId</span></td>
+        <td><span class="xref">T</span></td>
+        <td><span class="parametername">roomType</span></td>
+        <td><p>방의 타입</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td><span class="parametername">roomName</span></td>
+        <td><p>방 이름</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td><span class="parametername">password</span></td>
+        <td><p>비밀번호</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td><span class="parametername">option</span></td>
+        <td><p>방 검색시 사용하는 추가 옵션</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+        <td><span class="parametername">customType</span></td>
+        <td><p>커스텀 타입</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">Byte</a></td>
+        <td><span class="parametername">maxCount</span></td>
+        <td><p>방 생성시 최대 인원</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+        <td><p>방 생성 성공 여부</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">T</span></td>
         <td></td>
       </tr>
     </tbody>
@@ -939,45 +1179,14 @@
   </div>
   
   
-  <a id="PlugVR_Network_NetworkManager_ExecuteCloudScript_" data-uid="PlugVR.Network.NetworkManager.ExecuteCloudScript*"></a>
-  <h4 id="PlugVR_Network_NetworkManager_ExecuteCloudScript_System_String_System_Object_Action_System_Object__" data-uid="PlugVR.Network.NetworkManager.ExecuteCloudScript(System.String,System.Object,Action{System.Object})">ExecuteCloudScript(String, Object, Action&lt;Object&gt;)</h4>
-  <div class="markdown level1 summary"><p>클라우드 스크립트 실행</p>
-</div>
+  <a id="PlugVR_Network_NetworkManager_ForceJoinLobby_" data-uid="PlugVR.Network.NetworkManager.ForceJoinLobby*"></a>
+  <h4 id="PlugVR_Network_NetworkManager_ForceJoinLobby" data-uid="PlugVR.Network.NetworkManager.ForceJoinLobby">ForceJoinLobby()</h4>
+  <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static void ExecuteCloudScript(string functionName, object functionParameters, Action&lt;object&gt; resultAction)</code></pre>
+    <pre><code class="lang-csharp hljs">public static void ForceJoinLobby()</code></pre>
   </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
-        <td><span class="parametername">functionName</span></td>
-        <td><p>함수 이름</p>
-</td>
-      </tr>
-      <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object">Object</a></td>
-        <td><span class="parametername">functionParameters</span></td>
-        <td><p>매개변수</p>
-</td>
-      </tr>
-      <tr>
-        <td><span class="xref">Action</span>&lt;<a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object">Object</a>&gt;</td>
-        <td><span class="parametername">resultAction</span></td>
-        <td><p>결과</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
   
   
   <a id="PlugVR_Network_NetworkManager_GeneratePassword_" data-uid="PlugVR.Network.NetworkManager.GeneratePassword*"></a>
@@ -1000,7 +1209,7 @@
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">String</a></td>
         <td><span class="parametername">password</span></td>
         <td><p>원본</p>
 </td>
@@ -1017,7 +1226,7 @@
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">Int32</a></td>
         <td><p>변환된 값</p>
 </td>
       </tr>
@@ -1025,108 +1234,26 @@
   </table>
   
   
-  <a id="PlugVR_Network_NetworkManager_GetFriendsList_" data-uid="PlugVR.Network.NetworkManager.GetFriendsList*"></a>
-  <h4 id="PlugVR_Network_NetworkManager_GetFriendsList_Action_List_FriendInfo___" data-uid="PlugVR.Network.NetworkManager.GetFriendsList(Action{List{FriendInfo}})">GetFriendsList(Action&lt;List&lt;FriendInfo&gt;&gt;)</h4>
-  <div class="markdown level1 summary"><p>친구 목록을 불러옵니다.</p>
-</div>
+  <a id="PlugVR_Network_NetworkManager_GetRegionAsync_" data-uid="PlugVR.Network.NetworkManager.GetRegionAsync*"></a>
+  <h4 id="PlugVR_Network_NetworkManager_GetRegionAsync" data-uid="PlugVR.Network.NetworkManager.GetRegionAsync">GetRegionAsync()</h4>
+  <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static void GetFriendsList(Action&lt;List&lt;FriendInfo&gt;&gt; result)</code></pre>
+    <pre><code class="lang-csharp hljs">public static async UniTask&lt;Dictionary&lt;string, int&gt;&gt; GetRegionAsync()</code></pre>
   </div>
-  <h5 class="parameters">Parameters</h5>
+  <h5 class="returns">Returns</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
       <tr>
         <th>Type</th>
-        <th>Name</th>
         <th>Description</th>
       </tr>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">Action</span>&lt;<span class="xref">List</span>&lt;<span class="xref">FriendInfo</span>&gt;&gt;</td>
-        <td><span class="parametername">result</span></td>
+        <td><span class="xref">UniTask</span>&lt;<span class="xref">Dictionary</span>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">String</a>, <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">Int32</a>&gt;&gt;</td>
         <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <a id="PlugVR_Network_NetworkManager_GetObjects_" data-uid="PlugVR.Network.NetworkManager.GetObjects*"></a>
-  <h4 id="PlugVR_Network_NetworkManager_GetObjects_Action_GetObjectsResponse__System_String_System_String_" data-uid="PlugVR.Network.NetworkManager.GetObjects(Action{GetObjectsResponse},System.String,System.String)">GetObjects(Action&lt;GetObjectsResponse&gt;, String, String)</h4>
-  <div class="markdown level1 summary"><p>데이터 불러오기</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static void GetObjects(Action&lt;GetObjectsResponse&gt; resultAction, string id = &quot;&quot;, string type = &quot;&quot;)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">Action</span>&lt;<span class="xref">GetObjectsResponse</span>&gt;</td>
-        <td><span class="parametername">resultAction</span></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
-        <td><span class="parametername">id</span></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
-        <td><span class="parametername">type</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <a id="PlugVR_Network_NetworkManager_GetPlayFabIDsFromGenericIDs_" data-uid="PlugVR.Network.NetworkManager.GetPlayFabIDsFromGenericIDs*"></a>
-  <h4 id="PlugVR_Network_NetworkManager_GetPlayFabIDsFromGenericIDs_System_String_IEnumerable_System_String__Action_Dictionary_System_String_System_String___" data-uid="PlugVR.Network.NetworkManager.GetPlayFabIDsFromGenericIDs(System.String,IEnumerable{System.String},Action{Dictionary{System.String,System.String}})">GetPlayFabIDsFromGenericIDs(String, IEnumerable&lt;String&gt;, Action&lt;Dictionary&lt;String, String&gt;&gt;)</h4>
-  <div class="markdown level1 summary"><p>일반 아이디를 이용해 PlayFab Id 가져오기</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static void GetPlayFabIDsFromGenericIDs(string serviceName, IEnumerable&lt;string&gt; userIds, Action&lt;Dictionary&lt;string, string&gt;&gt; genericPlayFabIdPair)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
-        <td><span class="parametername">serviceName</span></td>
-        <td><p>서비스 이름</p>
-</td>
-      </tr>
-      <tr>
-        <td><span class="xref">IEnumerable</span>&lt;<a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a>&gt;</td>
-        <td><span class="parametername">userIds</span></td>
-        <td><p>일반 id</p>
-</td>
-      </tr>
-      <tr>
-        <td><span class="xref">Action</span>&lt;<span class="xref">Dictionary</span>&lt;<a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a>, <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a>&gt;&gt;</td>
-        <td><span class="parametername">genericPlayFabIdPair</span></td>
-        <td><p>일반 id, playFab id</p>
-</td>
       </tr>
     </tbody>
   </table>
@@ -1151,7 +1278,7 @@
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">Int32</a></td>
         <td><p>인덱스 값</p>
 </td>
       </tr>
@@ -1224,7 +1351,7 @@
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">String</a></td>
         <td><span class="parametername">roomName</span></td>
         <td><p>방 이름</p>
 </td>
@@ -1241,7 +1368,7 @@
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">Int32</a></td>
         <td><p>번호</p>
 </td>
       </tr>
@@ -1268,7 +1395,7 @@
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">Int32</a></td>
         <td><span class="parametername">timestamp</span></td>
         <td></td>
       </tr>
@@ -1284,7 +1411,7 @@
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.single">Single</a></td>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">Single</a></td>
         <td></td>
       </tr>
     </tbody>
@@ -1310,7 +1437,7 @@
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">Int32</a></td>
         <td><span class="parametername">timestamp</span></td>
         <td></td>
       </tr>
@@ -1326,7 +1453,7 @@
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">String</a></td>
         <td></td>
       </tr>
     </tbody>
@@ -1344,14 +1471,13 @@
   </div>
   
   
-  <a id="PlugVR_Network_NetworkManager_JoinRoom_" data-uid="PlugVR.Network.NetworkManager.JoinRoom*"></a>
-  <h4 id="PlugVR_Network_NetworkManager_JoinRoom_System_Int32_System_String_System_String_" data-uid="PlugVR.Network.NetworkManager.JoinRoom(System.Int32,System.String,System.String)">JoinRoom(Int32, String, String)</h4>
-  <div class="markdown level1 summary"><p>방 접속</p>
-</div>
+  <a id="PlugVR_Network_NetworkManager_JoinRandomRoom_" data-uid="PlugVR.Network.NetworkManager.JoinRandomRoom*"></a>
+  <h4 id="PlugVR_Network_NetworkManager_JoinRandomRoom_System_Int32_System_String_" data-uid="PlugVR.Network.NetworkManager.JoinRandomRoom(System.Int32,System.String)">JoinRandomRoom(Int32, String)</h4>
+  <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static bool JoinRoom(int roomType, string roomName, string password)</code></pre>
+    <pre><code class="lang-csharp hljs">public static bool JoinRandomRoom(int roomType, string option)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -1364,21 +1490,75 @@
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+        <td><span class="parametername">roomType</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td><span class="parametername">option</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="PlugVR_Network_NetworkManager_JoinRoom_" data-uid="PlugVR.Network.NetworkManager.JoinRoom*"></a>
+  <h4 id="PlugVR_Network_NetworkManager_JoinRoom_System_Int32_System_String_System_String_System_String_" data-uid="PlugVR.Network.NetworkManager.JoinRoom(System.Int32,System.String,System.String,System.String)">JoinRoom(Int32, String, String, String)</h4>
+  <div class="markdown level1 summary"><p>방 접속</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool JoinRoom(int roomType, string roomName, string password, string option)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">Int32</a></td>
         <td><span class="parametername">roomType</span></td>
         <td><p>방의 타입번호</p>
 </td>
       </tr>
       <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">String</a></td>
         <td><span class="parametername">roomName</span></td>
         <td><p>방 이름</p>
 </td>
       </tr>
       <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">String</a></td>
         <td><span class="parametername">password</span></td>
         <td><p>비밀번호</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td><span class="parametername">option</span></td>
+        <td><p>방 검색시 사용하는 추가 옵션</p>
 </td>
       </tr>
     </tbody>
@@ -1393,7 +1573,7 @@
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
         <td><p>방 접속 성공 여부</p>
 </td>
       </tr>
@@ -1402,13 +1582,13 @@
   
   
   <a id="PlugVR_Network_NetworkManager_JoinRoom_" data-uid="PlugVR.Network.NetworkManager.JoinRoom*"></a>
-  <h4 id="PlugVR_Network_NetworkManager_JoinRoom__1___0_System_String_System_String_" data-uid="PlugVR.Network.NetworkManager.JoinRoom``1(``0,System.String,System.String)">JoinRoom&lt;T&gt;(T, String, String)</h4>
+  <h4 id="PlugVR_Network_NetworkManager_JoinRoom__1___0_System_String_System_String_System_String_" data-uid="PlugVR.Network.NetworkManager.JoinRoom``1(``0,System.String,System.String,System.String)">JoinRoom&lt;T&gt;(T, String, String, String)</h4>
   <div class="markdown level1 summary"><p>방 접속</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static bool JoinRoom&lt;T&gt;(T roomType, string roomName, string password)
+    <pre><code class="lang-csharp hljs">public static bool JoinRoom&lt;T&gt;(T roomType, string roomName, string password, string option)
     where T : struct, IConvertible</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
@@ -1428,15 +1608,21 @@
 </td>
       </tr>
       <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">String</a></td>
         <td><span class="parametername">roomName</span></td>
         <td><p>방 이름</p>
 </td>
       </tr>
       <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">String</a></td>
         <td><span class="parametername">password</span></td>
         <td><p>비밀번호</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td><span class="parametername">option</span></td>
+        <td><p>방 검색시 사용하는 추가 옵션</p>
 </td>
       </tr>
     </tbody>
@@ -1451,7 +1637,7 @@
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
         <td><p>방 접속 성공 여부</p>
 </td>
       </tr>
@@ -1481,8 +1667,65 @@
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static void LeaveRoom()</code></pre>
+    <pre><code class="lang-csharp hljs">public static bool LeaveRoom()</code></pre>
   </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="PlugVR_Network_NetworkManager_LeaveRoom_" data-uid="PlugVR.Network.NetworkManager.LeaveRoom*"></a>
+  <h4 id="PlugVR_Network_NetworkManager_LeaveRoom_System_Boolean_" data-uid="PlugVR.Network.NetworkManager.LeaveRoom(System.Boolean)">LeaveRoom(Boolean)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static async UniTask&lt;bool&gt; LeaveRoom(bool isCallback)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+        <td><span class="parametername">isCallback</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UniTask</span>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">Boolean</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
   
   
   <a id="PlugVR_Network_NetworkManager_LeaveRoom_" data-uid="PlugVR.Network.NetworkManager.LeaveRoom*"></a>
@@ -1505,8 +1748,114 @@
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">Int32</a></td>
         <td><span class="parametername">actorNumber</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="PlugVR_Network_NetworkManager_Load_" data-uid="PlugVR.Network.NetworkManager.Load*"></a>
+  <h4 id="PlugVR_Network_NetworkManager_Load__1_System_String_Action___0__" data-uid="PlugVR.Network.NetworkManager.Load``1(System.String,Action{``0})">Load&lt;T&gt;(String, Action&lt;T&gt;)</h4>
+  <div class="markdown level1 summary"><p>데이터 로드</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void Load&lt;T&gt;(string key, Action&lt;T&gt; action)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td><span class="parametername">key</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">Action</span>&lt;T&gt;</td>
+        <td><span class="parametername">action</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">T</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="PlugVR_Network_NetworkManager_LoadAsync_" data-uid="PlugVR.Network.NetworkManager.LoadAsync*"></a>
+  <h4 id="PlugVR_Network_NetworkManager_LoadAsync__1_System_String_" data-uid="PlugVR.Network.NetworkManager.LoadAsync``1(System.String)">LoadAsync&lt;T&gt;(String)</h4>
+  <div class="markdown level1 summary"><p>데이터 비동기 로드</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static async UniTask&lt;T&gt; LoadAsync&lt;T&gt;(string key)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td><span class="parametername">key</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UniTask</span>&lt;T&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">T</span></td>
         <td></td>
       </tr>
     </tbody>
@@ -1524,6 +1873,31 @@
   </div>
   
   
+  <a id="PlugVR_Network_NetworkManager_LoginAndConnect_" data-uid="PlugVR.Network.NetworkManager.LoginAndConnect*"></a>
+  <h4 id="PlugVR_Network_NetworkManager_LoginAndConnect" data-uid="PlugVR.Network.NetworkManager.LoginAndConnect">LoginAndConnect()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static async UniTaskVoid LoginAndConnect()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UniTaskVoid</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
   <a id="PlugVR_Network_NetworkManager_Logout_" data-uid="PlugVR.Network.NetworkManager.Logout*"></a>
   <h4 id="PlugVR_Network_NetworkManager_Logout" data-uid="PlugVR.Network.NetworkManager.Logout">Logout()</h4>
   <div class="markdown level1 summary"><p>로그아웃</p>
@@ -1535,14 +1909,43 @@
   </div>
   
   
-  <a id="PlugVR_Network_NetworkManager_SendFriendRequest_" data-uid="PlugVR.Network.NetworkManager.SendFriendRequest*"></a>
-  <h4 id="PlugVR_Network_NetworkManager_SendFriendRequest_System_String_" data-uid="PlugVR.Network.NetworkManager.SendFriendRequest(System.String)">SendFriendRequest(String)</h4>
-  <div class="markdown level1 summary"><p>친구 요청</p>
-</div>
+  <a id="PlugVR_Network_NetworkManager_OnConnected_" data-uid="PlugVR.Network.NetworkManager.OnConnected*"></a>
+  <h4 id="PlugVR_Network_NetworkManager_OnConnected" data-uid="PlugVR.Network.NetworkManager.OnConnected">OnConnected()</h4>
+  <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static void SendFriendRequest(string friendPlayFabId)</code></pre>
+    <pre><code class="lang-csharp hljs">public void OnConnected()</code></pre>
+  </div>
+  
+  
+  <a id="PlugVR_Network_NetworkManager_OnConnectedToMaster_" data-uid="PlugVR.Network.NetworkManager.OnConnectedToMaster*"></a>
+  <h4 id="PlugVR_Network_NetworkManager_OnConnectedToMaster" data-uid="PlugVR.Network.NetworkManager.OnConnectedToMaster">OnConnectedToMaster()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void OnConnectedToMaster()</code></pre>
+  </div>
+  
+  
+  <a id="PlugVR_Network_NetworkManager_OnCreatedRoom_" data-uid="PlugVR.Network.NetworkManager.OnCreatedRoom*"></a>
+  <h4 id="PlugVR_Network_NetworkManager_OnCreatedRoom" data-uid="PlugVR.Network.NetworkManager.OnCreatedRoom">OnCreatedRoom()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void OnCreatedRoom()</code></pre>
+  </div>
+  
+  
+  <a id="PlugVR_Network_NetworkManager_OnCreateRoomFailed_" data-uid="PlugVR.Network.NetworkManager.OnCreateRoomFailed*"></a>
+  <h4 id="PlugVR_Network_NetworkManager_OnCreateRoomFailed_System_Int16_System_String_" data-uid="PlugVR.Network.NetworkManager.OnCreateRoomFailed(System.Int16,System.String)">OnCreateRoomFailed(Int16, String)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void OnCreateRoomFailed(short returnCode, string message)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -1555,22 +1958,26 @@
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
-        <td><span class="parametername">friendPlayFabId</span></td>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int16">Int16</a></td>
+        <td><span class="parametername">returnCode</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td><span class="parametername">message</span></td>
         <td></td>
       </tr>
     </tbody>
   </table>
   
   
-  <a id="PlugVR_Network_NetworkManager_SetNickname_" data-uid="PlugVR.Network.NetworkManager.SetNickname*"></a>
-  <h4 id="PlugVR_Network_NetworkManager_SetNickname_System_String_Action_System_Boolean_PlugVR_Network_ErrorResult__" data-uid="PlugVR.Network.NetworkManager.SetNickname(System.String,Action{System.Boolean,PlugVR.Network.ErrorResult})">SetNickname(String, Action&lt;Boolean, ErrorResult&gt;)</h4>
-  <div class="markdown level1 summary"><p>닉네임 설정</p>
-</div>
+  <a id="PlugVR_Network_NetworkManager_OnCustomAuthenticationFailed_" data-uid="PlugVR.Network.NetworkManager.OnCustomAuthenticationFailed*"></a>
+  <h4 id="PlugVR_Network_NetworkManager_OnCustomAuthenticationFailed_System_String_" data-uid="PlugVR.Network.NetworkManager.OnCustomAuthenticationFailed(System.String)">OnCustomAuthenticationFailed(String)</h4>
+  <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static void SetNickname(string nickname, Action&lt;bool, ErrorResult&gt; callback)</code></pre>
+    <pre><code class="lang-csharp hljs">public void OnCustomAuthenticationFailed(string debugMessage)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -1583,29 +1990,21 @@
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
-        <td><span class="parametername">nickname</span></td>
-        <td><p>닉네임</p>
-</td>
-      </tr>
-      <tr>
-        <td><span class="xref">Action</span>&lt;<a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a>, <a class="xref" href="PlugVR.Network.ErrorResult.html">ErrorResult</a>&gt;</td>
-        <td><span class="parametername">callback</span></td>
-        <td><p>콜백</p>
-</td>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td><span class="parametername">debugMessage</span></td>
+        <td></td>
       </tr>
     </tbody>
   </table>
   
   
-  <a id="PlugVR_Network_NetworkManager_SetObject_" data-uid="PlugVR.Network.NetworkManager.SetObject*"></a>
-  <h4 id="PlugVR_Network_NetworkManager_SetObject_System_String_System_Object_Action_SetObjectsResponse__System_String_System_String_" data-uid="PlugVR.Network.NetworkManager.SetObject(System.String,System.Object,Action{SetObjectsResponse},System.String,System.String)">SetObject(String, Object, Action&lt;SetObjectsResponse&gt;, String, String)</h4>
-  <div class="markdown level1 summary"><p>데이터 저장하기</p>
-</div>
+  <a id="PlugVR_Network_NetworkManager_OnCustomAuthenticationResponse_" data-uid="PlugVR.Network.NetworkManager.OnCustomAuthenticationResponse*"></a>
+  <h4 id="PlugVR_Network_NetworkManager_OnCustomAuthenticationResponse_Dictionary_System_String_System_Object__" data-uid="PlugVR.Network.NetworkManager.OnCustomAuthenticationResponse(Dictionary{System.String,System.Object})">OnCustomAuthenticationResponse(Dictionary&lt;String, Object&gt;)</h4>
+  <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static void SetObject(string key, object data, Action&lt;SetObjectsResponse&gt; resultAction, string id = &quot;&quot;, string type = &quot;&quot;)</code></pre>
+    <pre><code class="lang-csharp hljs">public void OnCustomAuthenticationResponse(Dictionary&lt;string, object&gt; data)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -1618,106 +2017,463 @@
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td><span class="xref">Dictionary</span>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">String</a>, <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">Object</a>&gt;</td>
+        <td><span class="parametername">data</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="PlugVR_Network_NetworkManager_OnDisconnected_" data-uid="PlugVR.Network.NetworkManager.OnDisconnected*"></a>
+  <h4 id="PlugVR_Network_NetworkManager_OnDisconnected_DisconnectCause_" data-uid="PlugVR.Network.NetworkManager.OnDisconnected(DisconnectCause)">OnDisconnected(DisconnectCause)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public async void OnDisconnected(DisconnectCause cause)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">DisconnectCause</span></td>
+        <td><span class="parametername">cause</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="PlugVR_Network_NetworkManager_OnEvent_" data-uid="PlugVR.Network.NetworkManager.OnEvent*"></a>
+  <h4 id="PlugVR_Network_NetworkManager_OnEvent_EventData_" data-uid="PlugVR.Network.NetworkManager.OnEvent(EventData)">OnEvent(EventData)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void OnEvent(EventData photonEvent)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">EventData</span></td>
+        <td><span class="parametername">photonEvent</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="PlugVR_Network_NetworkManager_OnFriendListUpdate_" data-uid="PlugVR.Network.NetworkManager.OnFriendListUpdate*"></a>
+  <h4 id="PlugVR_Network_NetworkManager_OnFriendListUpdate_List_FriendInfo__" data-uid="PlugVR.Network.NetworkManager.OnFriendListUpdate(List{FriendInfo})">OnFriendListUpdate(List&lt;FriendInfo&gt;)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void OnFriendListUpdate(List&lt;FriendInfo&gt; friendList)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">List</span>&lt;<span class="xref">FriendInfo</span>&gt;</td>
+        <td><span class="parametername">friendList</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="PlugVR_Network_NetworkManager_OnJoinedLobby_" data-uid="PlugVR.Network.NetworkManager.OnJoinedLobby*"></a>
+  <h4 id="PlugVR_Network_NetworkManager_OnJoinedLobby" data-uid="PlugVR.Network.NetworkManager.OnJoinedLobby">OnJoinedLobby()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void OnJoinedLobby()</code></pre>
+  </div>
+  
+  
+  <a id="PlugVR_Network_NetworkManager_OnJoinedRoom_" data-uid="PlugVR.Network.NetworkManager.OnJoinedRoom*"></a>
+  <h4 id="PlugVR_Network_NetworkManager_OnJoinedRoom" data-uid="PlugVR.Network.NetworkManager.OnJoinedRoom">OnJoinedRoom()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void OnJoinedRoom()</code></pre>
+  </div>
+  
+  
+  <a id="PlugVR_Network_NetworkManager_OnJoinRandomFailed_" data-uid="PlugVR.Network.NetworkManager.OnJoinRandomFailed*"></a>
+  <h4 id="PlugVR_Network_NetworkManager_OnJoinRandomFailed_System_Int16_System_String_" data-uid="PlugVR.Network.NetworkManager.OnJoinRandomFailed(System.Int16,System.String)">OnJoinRandomFailed(Int16, String)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void OnJoinRandomFailed(short returnCode, string message)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int16">Int16</a></td>
+        <td><span class="parametername">returnCode</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td><span class="parametername">message</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="PlugVR_Network_NetworkManager_OnJoinRoomFailed_" data-uid="PlugVR.Network.NetworkManager.OnJoinRoomFailed*"></a>
+  <h4 id="PlugVR_Network_NetworkManager_OnJoinRoomFailed_System_Int16_System_String_" data-uid="PlugVR.Network.NetworkManager.OnJoinRoomFailed(System.Int16,System.String)">OnJoinRoomFailed(Int16, String)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void OnJoinRoomFailed(short returnCode, string message)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int16">Int16</a></td>
+        <td><span class="parametername">returnCode</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td><span class="parametername">message</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="PlugVR_Network_NetworkManager_OnLeftLobby_" data-uid="PlugVR.Network.NetworkManager.OnLeftLobby*"></a>
+  <h4 id="PlugVR_Network_NetworkManager_OnLeftLobby" data-uid="PlugVR.Network.NetworkManager.OnLeftLobby">OnLeftLobby()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void OnLeftLobby()</code></pre>
+  </div>
+  
+  
+  <a id="PlugVR_Network_NetworkManager_OnLeftRoom_" data-uid="PlugVR.Network.NetworkManager.OnLeftRoom*"></a>
+  <h4 id="PlugVR_Network_NetworkManager_OnLeftRoom" data-uid="PlugVR.Network.NetworkManager.OnLeftRoom">OnLeftRoom()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void OnLeftRoom()</code></pre>
+  </div>
+  
+  
+  <a id="PlugVR_Network_NetworkManager_OnLobbyStatisticsUpdate_" data-uid="PlugVR.Network.NetworkManager.OnLobbyStatisticsUpdate*"></a>
+  <h4 id="PlugVR_Network_NetworkManager_OnLobbyStatisticsUpdate_List_TypedLobbyInfo__" data-uid="PlugVR.Network.NetworkManager.OnLobbyStatisticsUpdate(List{TypedLobbyInfo})">OnLobbyStatisticsUpdate(List&lt;TypedLobbyInfo&gt;)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void OnLobbyStatisticsUpdate(List&lt;TypedLobbyInfo&gt; lobbyStatistics)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">List</span>&lt;<span class="xref">TypedLobbyInfo</span>&gt;</td>
+        <td><span class="parametername">lobbyStatistics</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="PlugVR_Network_NetworkManager_OnMasterClientSwitched_" data-uid="PlugVR.Network.NetworkManager.OnMasterClientSwitched*"></a>
+  <h4 id="PlugVR_Network_NetworkManager_OnMasterClientSwitched_Player_" data-uid="PlugVR.Network.NetworkManager.OnMasterClientSwitched(Player)">OnMasterClientSwitched(Player)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void OnMasterClientSwitched(Player newMasterClient)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Player</span></td>
+        <td><span class="parametername">newMasterClient</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="PlugVR_Network_NetworkManager_OnPlayerEnteredRoom_" data-uid="PlugVR.Network.NetworkManager.OnPlayerEnteredRoom*"></a>
+  <h4 id="PlugVR_Network_NetworkManager_OnPlayerEnteredRoom_Player_" data-uid="PlugVR.Network.NetworkManager.OnPlayerEnteredRoom(Player)">OnPlayerEnteredRoom(Player)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void OnPlayerEnteredRoom(Player newPlayer)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Player</span></td>
+        <td><span class="parametername">newPlayer</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="PlugVR_Network_NetworkManager_OnPlayerLeftRoom_" data-uid="PlugVR.Network.NetworkManager.OnPlayerLeftRoom*"></a>
+  <h4 id="PlugVR_Network_NetworkManager_OnPlayerLeftRoom_Player_" data-uid="PlugVR.Network.NetworkManager.OnPlayerLeftRoom(Player)">OnPlayerLeftRoom(Player)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void OnPlayerLeftRoom(Player otherPlayer)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Player</span></td>
+        <td><span class="parametername">otherPlayer</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="PlugVR_Network_NetworkManager_OnPlayerPropertiesUpdate_" data-uid="PlugVR.Network.NetworkManager.OnPlayerPropertiesUpdate*"></a>
+  <h4 id="PlugVR_Network_NetworkManager_OnPlayerPropertiesUpdate_Player_Hashtable_" data-uid="PlugVR.Network.NetworkManager.OnPlayerPropertiesUpdate(Player,Hashtable)">OnPlayerPropertiesUpdate(Player, Hashtable)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void OnPlayerPropertiesUpdate(Player targetPlayer, Hashtable changedProps)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Player</span></td>
+        <td><span class="parametername">targetPlayer</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">Hashtable</span></td>
+        <td><span class="parametername">changedProps</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="PlugVR_Network_NetworkManager_OnRegionListReceived_" data-uid="PlugVR.Network.NetworkManager.OnRegionListReceived*"></a>
+  <h4 id="PlugVR_Network_NetworkManager_OnRegionListReceived_RegionHandler_" data-uid="PlugVR.Network.NetworkManager.OnRegionListReceived(RegionHandler)">OnRegionListReceived(RegionHandler)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void OnRegionListReceived(RegionHandler regionHandler)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">RegionHandler</span></td>
+        <td><span class="parametername">regionHandler</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="PlugVR_Network_NetworkManager_OnRoomListUpdate_" data-uid="PlugVR.Network.NetworkManager.OnRoomListUpdate*"></a>
+  <h4 id="PlugVR_Network_NetworkManager_OnRoomListUpdate_List_Photon_Realtime_RoomInfo__" data-uid="PlugVR.Network.NetworkManager.OnRoomListUpdate(List{Photon.Realtime.RoomInfo})">OnRoomListUpdate(List&lt;RoomInfo&gt;)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void OnRoomListUpdate(List&lt;RoomInfo&gt; roomList)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">List</span>&lt;<span class="xref">Photon.Realtime.RoomInfo</span>&gt;</td>
+        <td><span class="parametername">roomList</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="PlugVR_Network_NetworkManager_OnRoomPropertiesUpdate_" data-uid="PlugVR.Network.NetworkManager.OnRoomPropertiesUpdate*"></a>
+  <h4 id="PlugVR_Network_NetworkManager_OnRoomPropertiesUpdate_Hashtable_" data-uid="PlugVR.Network.NetworkManager.OnRoomPropertiesUpdate(Hashtable)">OnRoomPropertiesUpdate(Hashtable)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void OnRoomPropertiesUpdate(Hashtable propertiesThatChanged)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Hashtable</span></td>
+        <td><span class="parametername">propertiesThatChanged</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="PlugVR_Network_NetworkManager_Save_" data-uid="PlugVR.Network.NetworkManager.Save*"></a>
+  <h4 id="PlugVR_Network_NetworkManager_Save__1_System_String___0_" data-uid="PlugVR.Network.NetworkManager.Save``1(System.String,``0)">Save&lt;T&gt;(String, T)</h4>
+  <div class="markdown level1 summary"><p>데이터 저장</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void Save&lt;T&gt;(string key, T data)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">String</a></td>
         <td><span class="parametername">key</span></td>
         <td></td>
       </tr>
       <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object">Object</a></td>
+        <td><span class="xref">T</span></td>
         <td><span class="parametername">data</span></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td><span class="xref">Action</span>&lt;<span class="xref">SetObjectsResponse</span>&gt;</td>
-        <td><span class="parametername">resultAction</span></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
-        <td><span class="parametername">id</span></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
-        <td><span class="parametername">type</span></td>
         <td></td>
       </tr>
     </tbody>
   </table>
-  
-  
-  <a id="PlugVR_Network_NetworkManager_SetObjects_" data-uid="PlugVR.Network.NetworkManager.SetObjects*"></a>
-  <h4 id="PlugVR_Network_NetworkManager_SetObjects_System_String___System_Object___Action_SetObjectsResponse__System_String_System_String_" data-uid="PlugVR.Network.NetworkManager.SetObjects(System.String[],System.Object[],Action{SetObjectsResponse},System.String,System.String)">SetObjects(String[], Object[], Action&lt;SetObjectsResponse&gt;, String, String)</h4>
-  <div class="markdown level1 summary"><p>여러 데이터 저장하기</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static void SetObjects(string[] keys, object[] data, Action&lt;SetObjectsResponse&gt; resultAction, string id = &quot;&quot;, string type = &quot;&quot;)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
+  <h5 class="typeParameters">Type Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
       <tr>
-        <th>Type</th>
         <th>Name</th>
         <th>Description</th>
       </tr>
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a>[]</td>
-        <td><span class="parametername">keys</span></td>
+        <td><span class="parametername">T</span></td>
         <td></td>
-      </tr>
-      <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object">Object</a>[]</td>
-        <td><span class="parametername">data</span></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td><span class="xref">Action</span>&lt;<span class="xref">SetObjectsResponse</span>&gt;</td>
-        <td><span class="parametername">resultAction</span></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
-        <td><span class="parametername">id</span></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
-        <td><span class="parametername">type</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <a id="PlugVR_Network_NetworkManager_SetRegion_" data-uid="PlugVR.Network.NetworkManager.SetRegion*"></a>
-  <h4 id="PlugVR_Network_NetworkManager_SetRegion_PlugVR_Network_NetworkManager_Region_" data-uid="PlugVR.Network.NetworkManager.SetRegion(PlugVR.Network.NetworkManager.Region)">SetRegion(NetworkManager.Region)</h4>
-  <div class="markdown level1 summary"><p>서버 지역 설정</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static void SetRegion(NetworkManager.Region region)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="PlugVR.Network.NetworkManager.Region.html">NetworkManager.Region</a></td>
-        <td><span class="parametername">region</span></td>
-        <td><p>지역</p>
-</td>
       </tr>
     </tbody>
   </table>
@@ -1775,6 +2531,31 @@
   </table>
   
   
+  <h4 id="PlugVR_Network_NetworkManager_OnDisconnectedEvent" data-uid="PlugVR.Network.NetworkManager.OnDisconnectedEvent">OnDisconnectedEvent</h4>
+  <div class="markdown level1 summary"><p>서버 연결 해제시 실행되는 이벤트</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static event Action OnDisconnectedEvent</code></pre>
+  </div>
+  <h5 class="eventType">Event Type</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Action</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
   <h4 id="PlugVR_Network_NetworkManager_OnInRoomEvent" data-uid="PlugVR.Network.NetworkManager.OnInRoomEvent">OnInRoomEvent</h4>
   <div class="markdown level1 summary"><p>룸에서 실행되는 이벤트</p>
 </div>
@@ -1825,13 +2606,12 @@
   </table>
   
   
-  <h4 id="PlugVR_Network_NetworkManager_OnLoginResultEvent" data-uid="PlugVR.Network.NetworkManager.OnLoginResultEvent">OnLoginResultEvent</h4>
-  <div class="markdown level1 summary"><p>로그인시 실행되는 이벤트</p>
-</div>
+  <h4 id="PlugVR_Network_NetworkManager_OnLoginFailedEvent" data-uid="PlugVR.Network.NetworkManager.OnLoginFailedEvent">OnLoginFailedEvent</h4>
+  <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static event Action&lt;LoginResult&gt; OnLoginResultEvent</code></pre>
+    <pre><code class="lang-csharp hljs">public static event Action&lt;string&gt; OnLoginFailedEvent</code></pre>
   </div>
   <h5 class="eventType">Event Type</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -1843,7 +2623,7 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">Action</span>&lt;<a class="xref" href="PlugVR.Network.LoginResult.html">LoginResult</a>&gt;</td>
+        <td><span class="xref">Action</span>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">String</a>&gt;</td>
         <td></td>
       </tr>
     </tbody>

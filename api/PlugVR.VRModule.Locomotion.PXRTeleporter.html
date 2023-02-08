@@ -10,7 +10,7 @@
       <meta name="viewport" content="width=device-width">
       <meta name="title" content="Class PXRTeleporter
      | PlugVR documentation ">
-      <meta name="generator" content="docfx 2.59.3.0">
+      <meta name="generator" content="docfx 2.59.4.0">
       
       <link rel="shortcut icon" href="../resources/favicon.png">
       <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
@@ -88,7 +88,7 @@
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
     <h5>Inheritance</h5>
-    <div class="level0"><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object">Object</a></div>
+    <div class="level0"><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">Object</a></div>
     <div class="level1"><span class="xref">PXRTeleporter</span></div>
   </div>
   <h6><strong>Namespace</strong>: <a class="xref" href="PlugVR.VRModule.Locomotion.html">PlugVR.VRModule.Locomotion</a></h6>
@@ -118,7 +118,7 @@
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
         <td></td>
       </tr>
     </tbody>
@@ -172,7 +172,7 @@
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
         <td></td>
       </tr>
     </tbody>
@@ -418,12 +418,12 @@
   </h3>
   
   
-  <h4 id="PlugVR_VRModule_Locomotion_PXRTeleporter_onAfterTeleport" data-uid="PlugVR.VRModule.Locomotion.PXRTeleporter.onAfterTeleport">onAfterTeleport</h4>
+  <h4 id="PlugVR_VRModule_Locomotion_PXRTeleporter_AfterTeleportEvent" data-uid="PlugVR.VRModule.Locomotion.PXRTeleporter.AfterTeleportEvent">AfterTeleportEvent</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public event Action onAfterTeleport</code></pre>
+    <pre><code class="lang-csharp hljs">public event Action AfterTeleportEvent</code></pre>
   </div>
   <h5 class="eventType">Event Type</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -435,19 +435,19 @@
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.action">Action</a></td>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.action">Action</a></td>
         <td></td>
       </tr>
     </tbody>
   </table>
   
   
-  <h4 id="PlugVR_VRModule_Locomotion_PXRTeleporter_onBeforeTeleport" data-uid="PlugVR.VRModule.Locomotion.PXRTeleporter.onBeforeTeleport">onBeforeTeleport</h4>
+  <h4 id="PlugVR_VRModule_Locomotion_PXRTeleporter_BeforeTeleportEvent" data-uid="PlugVR.VRModule.Locomotion.PXRTeleporter.BeforeTeleportEvent">BeforeTeleportEvent</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public event Action onBeforeTeleport</code></pre>
+    <pre><code class="lang-csharp hljs">public event Action BeforeTeleportEvent</code></pre>
   </div>
   <h5 class="eventType">Event Type</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -459,19 +459,19 @@
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.action">Action</a></td>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.action">Action</a></td>
         <td></td>
       </tr>
     </tbody>
   </table>
   
   
-  <h4 id="PlugVR_VRModule_Locomotion_PXRTeleporter_onExecuteTeleport" data-uid="PlugVR.VRModule.Locomotion.PXRTeleporter.onExecuteTeleport">onExecuteTeleport</h4>
+  <h4 id="PlugVR_VRModule_Locomotion_PXRTeleporter_CancelTeleportEvent" data-uid="PlugVR.VRModule.Locomotion.PXRTeleporter.CancelTeleportEvent">CancelTeleportEvent</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public event Action onExecuteTeleport</code></pre>
+    <pre><code class="lang-csharp hljs">public event Action CancelTeleportEvent</code></pre>
   </div>
   <h5 class="eventType">Event Type</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -483,7 +483,31 @@
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.action">Action</a></td>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.action">Action</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="PlugVR_VRModule_Locomotion_PXRTeleporter_ExecuteTeleportEvent" data-uid="PlugVR.VRModule.Locomotion.PXRTeleporter.ExecuteTeleportEvent">ExecuteTeleportEvent</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public event Action ExecuteTeleportEvent</code></pre>
+  </div>
+  <h5 class="eventType">Event Type</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.action">Action</a></td>
         <td></td>
       </tr>
     </tbody>

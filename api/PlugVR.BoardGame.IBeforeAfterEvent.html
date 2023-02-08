@@ -5,12 +5,12 @@
     <head>
       <meta charset="utf-8">
       <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-      <title>Enum PermissionType
+      <title>Interface IBeforeAfterEvent
      | PlugVR documentation </title>
       <meta name="viewport" content="width=device-width">
-      <meta name="title" content="Enum PermissionType
+      <meta name="title" content="Interface IBeforeAfterEvent
      | PlugVR documentation ">
-      <meta name="generator" content="docfx 2.59.3.0">
+      <meta name="generator" content="docfx 2.59.4.0">
       
       <link rel="shortcut icon" href="../resources/favicon.png">
       <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
@@ -78,52 +78,43 @@
                           </div>
                         </div>
 
-                    <article class="content wrap" id="_content" data-uid="PlugVR.Network.PermissionType">
+                    <article class="content wrap" id="_content" data-uid="PlugVR.BoardGame.IBeforeAfterEvent">
   
   
-  <h1 id="PlugVR_Network_PermissionType" data-uid="PlugVR.Network.PermissionType" class="text-break">Enum PermissionType
+  <h1 id="PlugVR_BoardGame_IBeforeAfterEvent" data-uid="PlugVR.BoardGame.IBeforeAfterEvent" class="text-break">Interface IBeforeAfterEvent
   </h1>
-  <div class="markdown level0 summary"><p>방 권한 설정에 사용되는 타입</p>
-</div>
+  <div class="markdown level0 summary"></div>
   <div class="markdown level0 conceptual"></div>
-  <h6><strong>Namespace</strong>: <a class="xref" href="PlugVR.Network.html">PlugVR.Network</a></h6>
+  <h6><strong>Namespace</strong>: <a class="xref" href="PlugVR.BoardGame.html">PlugVR.BoardGame</a></h6>
   <h6><strong>Assembly</strong>: cs.temp.dll.dll</h6>
-  <h5 id="PlugVR_Network_PermissionType_syntax">Syntax</h5>
+  <h5 id="PlugVR_BoardGame_IBeforeAfterEvent_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public enum PermissionType</code></pre>
+    <pre><code class="lang-csharp hljs">public interface IBeforeAfterEvent</code></pre>
   </div>
-  <h3 id="fields">Fields
+  <h3 id="methods">Methods
   </h3>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    <thead>
-    <tbody>
-      <tr>
-        <td id="PlugVR_Network_PermissionType_AllowAll">AllowAll</td>
-        <td><p>허용된 상태로 시작하며 권한을 변경할 수 있음</p>
-</td>
-      </tr>
-      <tr>
-        <td id="PlugVR_Network_PermissionType_None">None</td>
-        <td><p>기능을 사용하지 않음</p>
-</td>
-      </tr>
-      <tr>
-        <td id="PlugVR_Network_PermissionType_NoPermission">NoPermission</td>
-        <td><p>거부된 상태로 시작하며 권한을 변경할 수 없음</p>
-</td>
-      </tr>
-      <tr>
-        <td id="PlugVR_Network_PermissionType_Restrictions">Restrictions</td>
-        <td><p>거부된 상태로 시작하며 권한을 변경할 수 있음</p>
-</td>
-      </tr>
-    </tbody>
-  </thead></thead></table>
+  
+  
+  <a id="PlugVR_BoardGame_IBeforeAfterEvent_OnAfterEndGame_" data-uid="PlugVR.BoardGame.IBeforeAfterEvent.OnAfterEndGame*"></a>
+  <h4 id="PlugVR_BoardGame_IBeforeAfterEvent_OnAfterEndGame" data-uid="PlugVR.BoardGame.IBeforeAfterEvent.OnAfterEndGame">OnAfterEndGame()</h4>
+  <div class="markdown level1 summary"><p>게임이 끝나고 초기화 한 후에 실행되는 이벤트</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void OnAfterEndGame()</code></pre>
+  </div>
+  
+  
+  <a id="PlugVR_BoardGame_IBeforeAfterEvent_OnBeforeStartGame_" data-uid="PlugVR.BoardGame.IBeforeAfterEvent.OnBeforeStartGame*"></a>
+  <h4 id="PlugVR_BoardGame_IBeforeAfterEvent_OnBeforeStartGame" data-uid="PlugVR.BoardGame.IBeforeAfterEvent.OnBeforeStartGame">OnBeforeStartGame()</h4>
+  <div class="markdown level1 summary"><p>순서를 정하기 전에 실행되는 이벤트</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void OnBeforeStartGame()</code></pre>
+  </div>
 </article>
                 </div>
 

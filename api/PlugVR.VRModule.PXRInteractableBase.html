@@ -104,7 +104,8 @@
   
   
   <h4 id="PlugVR_VRModule_PXRInteractableBase_canInteract" data-uid="PlugVR.VRModule.PXRInteractableBase.canInteract">canInteract</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>상호작용 가능한 상태를 나타냄 (현재는 미사용)</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
@@ -128,7 +129,8 @@
   
   
   <h4 id="PlugVR_VRModule_PXRInteractableBase_hasInteractColor" data-uid="PlugVR.VRModule.PXRInteractableBase.hasInteractColor">hasInteractColor</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>개별 Interact 아웃라인 색상 지정</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
@@ -152,7 +154,8 @@
   
   
   <h4 id="PlugVR_VRModule_PXRInteractableBase_hasNotInteractColor" data-uid="PlugVR.VRModule.PXRInteractableBase.hasNotInteractColor">hasNotInteractColor</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>개별 NotInteract 아웃라인 색상 지정</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
@@ -176,7 +179,8 @@
   
   
   <h4 id="PlugVR_VRModule_PXRInteractableBase_interactColor" data-uid="PlugVR.VRModule.PXRInteractableBase.interactColor">interactColor</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>상호작용 색상</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
@@ -199,8 +203,34 @@
   </table>
   
   
+  <h4 id="PlugVR_VRModule_PXRInteractableBase_luxOutline" data-uid="PlugVR.VRModule.PXRInteractableBase.luxOutline">luxOutline</h4>
+  <div class="markdown level1 summary"><p>오브젝트의 아웃라인</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected LuxOutline luxOutline</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">LuxOutline</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
   <h4 id="PlugVR_VRModule_PXRInteractableBase_notInteractColor" data-uid="PlugVR.VRModule.PXRInteractableBase.notInteractColor">notInteractColor</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>비상호작용 색상</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
@@ -223,12 +253,13 @@
   </table>
   
   
-  <h4 id="PlugVR_VRModule_PXRInteractableBase_quickOutline" data-uid="PlugVR.VRModule.PXRInteractableBase.quickOutline">quickOutline</h4>
-  <div class="markdown level1 summary"></div>
+  <h4 id="PlugVR_VRModule_PXRInteractableBase_savedLuxOutline" data-uid="PlugVR.VRModule.PXRInteractableBase.savedLuxOutline">savedLuxOutline</h4>
+  <div class="markdown level1 summary"><p>이전에 사용한 Outline값을 저장하는 변수</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">protected QuickOutline quickOutline</code></pre>
+    <pre><code class="lang-csharp hljs">protected LuxOutline savedLuxOutline</code></pre>
   </div>
   <h5 class="fieldValue">Field Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -240,31 +271,7 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">QuickOutline</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <h4 id="PlugVR_VRModule_PXRInteractableBase_savedQuickOutline" data-uid="PlugVR.VRModule.PXRInteractableBase.savedQuickOutline">savedQuickOutline</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">protected QuickOutline savedQuickOutline</code></pre>
-  </div>
-  <h5 class="fieldValue">Field Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">QuickOutline</span></td>
+        <td><span class="xref">LuxOutline</span></td>
         <td></td>
       </tr>
     </tbody>
@@ -272,7 +279,8 @@
   
   
   <h4 id="PlugVR_VRModule_PXRInteractableBase_transferState" data-uid="PlugVR.VRModule.PXRInteractableBase.transferState">transferState</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>상호작용 상태를 나타냄</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
@@ -322,13 +330,14 @@
   </table>
   
   
-  <a id="PlugVR_VRModule_PXRInteractableBase_IsQuickOutline_" data-uid="PlugVR.VRModule.PXRInteractableBase.IsQuickOutline*"></a>
-  <h4 id="PlugVR_VRModule_PXRInteractableBase_IsQuickOutline" data-uid="PlugVR.VRModule.PXRInteractableBase.IsQuickOutline">IsQuickOutline</h4>
-  <div class="markdown level1 summary"></div>
+  <a id="PlugVR_VRModule_PXRInteractableBase_IsLuxOutline_" data-uid="PlugVR.VRModule.PXRInteractableBase.IsLuxOutline*"></a>
+  <h4 id="PlugVR_VRModule_PXRInteractableBase_IsLuxOutline" data-uid="PlugVR.VRModule.PXRInteractableBase.IsLuxOutline">IsLuxOutline</h4>
+  <div class="markdown level1 summary"><p>상호작용 가능한 상태를 나타냄 (현재는 미사용)</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public bool IsQuickOutline { get; }</code></pre>
+    <pre><code class="lang-csharp hljs">public bool IsLuxOutline { get; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -349,7 +358,9 @@
   
   <a id="PlugVR_VRModule_PXRInteractableBase_TransferState_" data-uid="PlugVR.VRModule.PXRInteractableBase.TransferState*"></a>
   <h4 id="PlugVR_VRModule_PXRInteractableBase_TransferState" data-uid="PlugVR.VRModule.PXRInteractableBase.TransferState">TransferState</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>상호작용 상태를 나타냄
+상태에 따라 아웃라인 색상 변경</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
@@ -376,7 +387,8 @@
   
   <a id="PlugVR_VRModule_PXRInteractableBase_ActivateOutline_" data-uid="PlugVR.VRModule.PXRInteractableBase.ActivateOutline*"></a>
   <h4 id="PlugVR_VRModule_PXRInteractableBase_ActivateOutline" data-uid="PlugVR.VRModule.PXRInteractableBase.ActivateOutline">ActivateOutline()</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>아웃라인 컴포넌트 활성화</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
@@ -386,7 +398,8 @@
   
   <a id="PlugVR_VRModule_PXRInteractableBase_Awake_" data-uid="PlugVR.VRModule.PXRInteractableBase.Awake*"></a>
   <h4 id="PlugVR_VRModule_PXRInteractableBase_Awake" data-uid="PlugVR.VRModule.PXRInteractableBase.Awake">Awake()</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>레이어 초기화</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
@@ -396,7 +409,8 @@
   
   <a id="PlugVR_VRModule_PXRInteractableBase_ChangeHasNotInteractColor_" data-uid="PlugVR.VRModule.PXRInteractableBase.ChangeHasNotInteractColor*"></a>
   <h4 id="PlugVR_VRModule_PXRInteractableBase_ChangeHasNotInteractColor_Color_" data-uid="PlugVR.VRModule.PXRInteractableBase.ChangeHasNotInteractColor(Color)">ChangeHasNotInteractColor(Color)</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>개별적으로 상호작용 불가능한 오브젝트의 아웃라인 색상을 변경하는 함수</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
@@ -415,7 +429,8 @@
       <tr>
         <td><span class="xref">Color</span></td>
         <td><span class="parametername">color</span></td>
-        <td></td>
+        <td><p>변경할 색상</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -423,7 +438,8 @@
   
   <a id="PlugVR_VRModule_PXRInteractableBase_ConvertOutlineToNull_" data-uid="PlugVR.VRModule.PXRInteractableBase.ConvertOutlineToNull*"></a>
   <h4 id="PlugVR_VRModule_PXRInteractableBase_ConvertOutlineToNull" data-uid="PlugVR.VRModule.PXRInteractableBase.ConvertOutlineToNull">ConvertOutlineToNull()</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>아웃라인을 컴포넌트를 Null로 바꿈</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
@@ -433,7 +449,8 @@
   
   <a id="PlugVR_VRModule_PXRInteractableBase_DeactivateOutline_" data-uid="PlugVR.VRModule.PXRInteractableBase.DeactivateOutline*"></a>
   <h4 id="PlugVR_VRModule_PXRInteractableBase_DeactivateOutline" data-uid="PlugVR.VRModule.PXRInteractableBase.DeactivateOutline">DeactivateOutline()</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>아웃라인 컴포넌트 비활성화</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
@@ -443,7 +460,8 @@
   
   <a id="PlugVR_VRModule_PXRInteractableBase_DisableHasNotInteractColor_" data-uid="PlugVR.VRModule.PXRInteractableBase.DisableHasNotInteractColor*"></a>
   <h4 id="PlugVR_VRModule_PXRInteractableBase_DisableHasNotInteractColor" data-uid="PlugVR.VRModule.PXRInteractableBase.DisableHasNotInteractColor">DisableHasNotInteractColor()</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>개별적으로 상호작용 불가능한 오브젝트의 아웃라인 색상을 비활성화하는 함수</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
@@ -453,7 +471,8 @@
   
   <a id="PlugVR_VRModule_PXRInteractableBase_EnableHasNotInteractColor_" data-uid="PlugVR.VRModule.PXRInteractableBase.EnableHasNotInteractColor*"></a>
   <h4 id="PlugVR_VRModule_PXRInteractableBase_EnableHasNotInteractColor" data-uid="PlugVR.VRModule.PXRInteractableBase.EnableHasNotInteractColor">EnableHasNotInteractColor()</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>개별적으로 상호작용 불가능한 오브젝트의 아웃라인 색상을 활성화하는 함수</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
@@ -463,7 +482,8 @@
   
   <a id="PlugVR_VRModule_PXRInteractableBase_ExecuteOnGrabberEnter_" data-uid="PlugVR.VRModule.PXRInteractableBase.ExecuteOnGrabberEnter*"></a>
   <h4 id="PlugVR_VRModule_PXRInteractableBase_ExecuteOnGrabberEnter" data-uid="PlugVR.VRModule.PXRInteractableBase.ExecuteOnGrabberEnter">ExecuteOnGrabberEnter()</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>OnGrabberEnter 이벤트를 강제로 실행</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
@@ -473,7 +493,8 @@
   
   <a id="PlugVR_VRModule_PXRInteractableBase_ExecuteOnGrabberExit_" data-uid="PlugVR.VRModule.PXRInteractableBase.ExecuteOnGrabberExit*"></a>
   <h4 id="PlugVR_VRModule_PXRInteractableBase_ExecuteOnGrabberExit" data-uid="PlugVR.VRModule.PXRInteractableBase.ExecuteOnGrabberExit">ExecuteOnGrabberExit()</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>OnGrabberExit 이벤트를 강제로 실행</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
@@ -483,7 +504,8 @@
   
   <a id="PlugVR_VRModule_PXRInteractableBase_ExecuteOnPointerEnter_" data-uid="PlugVR.VRModule.PXRInteractableBase.ExecuteOnPointerEnter*"></a>
   <h4 id="PlugVR_VRModule_PXRInteractableBase_ExecuteOnPointerEnter" data-uid="PlugVR.VRModule.PXRInteractableBase.ExecuteOnPointerEnter">ExecuteOnPointerEnter()</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>OnPointerEnter 이벤트를 강제로 실행</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
@@ -493,7 +515,8 @@
   
   <a id="PlugVR_VRModule_PXRInteractableBase_ExecuteOnPointerExit_" data-uid="PlugVR.VRModule.PXRInteractableBase.ExecuteOnPointerExit*"></a>
   <h4 id="PlugVR_VRModule_PXRInteractableBase_ExecuteOnPointerExit" data-uid="PlugVR.VRModule.PXRInteractableBase.ExecuteOnPointerExit">ExecuteOnPointerExit()</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>OnPointerExit 이벤트를 강제로 실행</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
@@ -503,7 +526,8 @@
   
   <a id="PlugVR_VRModule_PXRInteractableBase_GetCanInteractColor_" data-uid="PlugVR.VRModule.PXRInteractableBase.GetCanInteractColor*"></a>
   <h4 id="PlugVR_VRModule_PXRInteractableBase_GetCanInteractColor" data-uid="PlugVR.VRModule.PXRInteractableBase.GetCanInteractColor">GetCanInteractColor()</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>상호작용 가능한 오브젝트의 색 반환</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
@@ -528,7 +552,8 @@
   
   <a id="PlugVR_VRModule_PXRInteractableBase_GetCanNotInteractColor_" data-uid="PlugVR.VRModule.PXRInteractableBase.GetCanNotInteractColor*"></a>
   <h4 id="PlugVR_VRModule_PXRInteractableBase_GetCanNotInteractColor" data-uid="PlugVR.VRModule.PXRInteractableBase.GetCanNotInteractColor">GetCanNotInteractColor()</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>상호작용 불가능한 오브젝트의 색 반환</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
@@ -553,7 +578,8 @@
   
   <a id="PlugVR_VRModule_PXRInteractableBase_OnPointerClick_" data-uid="PlugVR.VRModule.PXRInteractableBase.OnPointerClick*"></a>
   <h4 id="PlugVR_VRModule_PXRInteractableBase_OnPointerClick_PointerEventData_" data-uid="PlugVR.VRModule.PXRInteractableBase.OnPointerClick(PointerEventData)">OnPointerClick(PointerEventData)</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>포인터로 오브젝트를 클릭했을 때의 이벤트 함수</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
@@ -580,7 +606,8 @@
   
   <a id="PlugVR_VRModule_PXRInteractableBase_OnPointerEnter_" data-uid="PlugVR.VRModule.PXRInteractableBase.OnPointerEnter*"></a>
   <h4 id="PlugVR_VRModule_PXRInteractableBase_OnPointerEnter_PointerEventData_" data-uid="PlugVR.VRModule.PXRInteractableBase.OnPointerEnter(PointerEventData)">OnPointerEnter(PointerEventData)</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>포인터가 오브젝트에 들어왔을 때의 이벤트 함수</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
@@ -607,7 +634,8 @@
   
   <a id="PlugVR_VRModule_PXRInteractableBase_OnPointerExit_" data-uid="PlugVR.VRModule.PXRInteractableBase.OnPointerExit*"></a>
   <h4 id="PlugVR_VRModule_PXRInteractableBase_OnPointerExit_PointerEventData_" data-uid="PlugVR.VRModule.PXRInteractableBase.OnPointerExit(PointerEventData)">OnPointerExit(PointerEventData)</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>포인터가 오브젝트를 나갔을을 때의 이벤트 함수</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
@@ -642,19 +670,10 @@
   </div>
   
   
-  <a id="PlugVR_VRModule_PXRInteractableBase_SetOutline_" data-uid="PlugVR.VRModule.PXRInteractableBase.SetOutline*"></a>
-  <h4 id="PlugVR_VRModule_PXRInteractableBase_SetOutline" data-uid="PlugVR.VRModule.PXRInteractableBase.SetOutline">SetOutline()</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">protected void SetOutline()</code></pre>
-  </div>
-  
-  
   <a id="PlugVR_VRModule_PXRInteractableBase_Start_" data-uid="PlugVR.VRModule.PXRInteractableBase.Start*"></a>
   <h4 id="PlugVR_VRModule_PXRInteractableBase_Start" data-uid="PlugVR.VRModule.PXRInteractableBase.Start">Start()</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>아웃라인 초기화</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
@@ -665,7 +684,8 @@
   
   
   <h4 id="PlugVR_VRModule_PXRInteractableBase_GrabberEnter" data-uid="PlugVR.VRModule.PXRInteractableBase.GrabberEnter">GrabberEnter</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Grabber로 오브젝트에 들어왔을 때 이벤트</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
@@ -689,7 +709,8 @@
   
   
   <h4 id="PlugVR_VRModule_PXRInteractableBase_GrabberExit" data-uid="PlugVR.VRModule.PXRInteractableBase.GrabberExit">GrabberExit</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Grabber로 오브젝트에 나갔을 때 이벤트</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
@@ -713,7 +734,8 @@
   
   
   <h4 id="PlugVR_VRModule_PXRInteractableBase_PointerClick" data-uid="PlugVR.VRModule.PXRInteractableBase.PointerClick">PointerClick</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>포인터로 오브젝트를 클릭했을 때 이벤트</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
@@ -737,7 +759,8 @@
   
   
   <h4 id="PlugVR_VRModule_PXRInteractableBase_PointerEnter" data-uid="PlugVR.VRModule.PXRInteractableBase.PointerEnter">PointerEnter</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>포인터가 오브젝트에 들어왔을 때의 이벤트</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
@@ -761,7 +784,8 @@
   
   
   <h4 id="PlugVR_VRModule_PXRInteractableBase_PointerExit" data-uid="PlugVR.VRModule.PXRInteractableBase.PointerExit">PointerExit</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>포인터가 오브젝트를 나갔을 때 이벤트</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">

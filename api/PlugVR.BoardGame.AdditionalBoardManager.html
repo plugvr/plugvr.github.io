@@ -130,7 +130,8 @@
   
   <a id="PlugVR_BoardGame_AdditionalBoardManager_GetParticipatingPlayers_" data-uid="PlugVR.BoardGame.AdditionalBoardManager.GetParticipatingPlayers*"></a>
   <h4 id="PlugVR_BoardGame_AdditionalBoardManager_GetParticipatingPlayers" data-uid="PlugVR.BoardGame.AdditionalBoardManager.GetParticipatingPlayers">GetParticipatingPlayers()</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>게임에 참가할 플레이어를 가져오기 위한 함수</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
@@ -250,6 +251,17 @@
   </table>
   
   
+  <a id="PlugVR_BoardGame_AdditionalBoardManager_OnBeforeSearching_" data-uid="PlugVR.BoardGame.AdditionalBoardManager.OnBeforeSearching*"></a>
+  <h4 id="PlugVR_BoardGame_AdditionalBoardManager_OnBeforeSearching" data-uid="PlugVR.BoardGame.AdditionalBoardManager.OnBeforeSearching">OnBeforeSearching()</h4>
+  <div class="markdown level1 summary"><p>플레이어를 검색하기전 호출되는 함수</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public abstract void OnBeforeSearching()</code></pre>
+  </div>
+  
+  
   <a id="PlugVR_BoardGame_AdditionalBoardManager_OnEndComplete_" data-uid="PlugVR.BoardGame.AdditionalBoardManager.OnEndComplete*"></a>
   <h4 id="PlugVR_BoardGame_AdditionalBoardManager_OnEndComplete" data-uid="PlugVR.BoardGame.AdditionalBoardManager.OnEndComplete">OnEndComplete()</h4>
   <div class="markdown level1 summary"><p>게임 종료후 모든 데이터가 초기화 된 후에 호출되는 이벤트</p>
@@ -300,53 +312,14 @@
   </table>
   
   
-  <a id="PlugVR_BoardGame_AdditionalBoardManager_OnResetGame_" data-uid="PlugVR.BoardGame.AdditionalBoardManager.OnResetGame*"></a>
-  <h4 id="PlugVR_BoardGame_AdditionalBoardManager_OnResetGame_System_String_" data-uid="PlugVR.BoardGame.AdditionalBoardManager.OnResetGame(System.String)">OnResetGame(String)</h4>
-  <div class="markdown level1 summary"><p>게임이 리셋되었을때 호출되는 이벤트</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public abstract void OnResetGame(string message)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">String</a></td>
-        <td><span class="parametername">message</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
   <a id="PlugVR_BoardGame_AdditionalBoardManager_OnStartReady_" data-uid="PlugVR.BoardGame.AdditionalBoardManager.OnStartReady*"></a>
   <h4 id="PlugVR_BoardGame_AdditionalBoardManager_OnStartReady" data-uid="PlugVR.BoardGame.AdditionalBoardManager.OnStartReady">OnStartReady()</h4>
-  <div class="markdown level1 summary"><p>게임 순서를 정하기 전에 호출되는 이벤트</p>
+  <div class="markdown level1 summary"><p>플레이어 목록이 동기화 된고 게임 순서를 정하기 전에 호출되는 이벤트</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public abstract void OnStartReady()</code></pre>
-  </div>
-  
-  
-  <a id="PlugVR_BoardGame_AdditionalBoardManager_OnStartSetPoint_" data-uid="PlugVR.BoardGame.AdditionalBoardManager.OnStartSetPoint*"></a>
-  <h4 id="PlugVR_BoardGame_AdditionalBoardManager_OnStartSetPoint" data-uid="PlugVR.BoardGame.AdditionalBoardManager.OnStartSetPoint">OnStartSetPoint()</h4>
-  <div class="markdown level1 summary"><p>플레이어 목록이 동기화 된 후에 호출되는 이벤트</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public abstract void OnStartSetPoint()</code></pre>
   </div>
   
   

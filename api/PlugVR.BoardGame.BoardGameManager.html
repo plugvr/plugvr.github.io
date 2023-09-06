@@ -179,31 +179,6 @@
   </table>
   
   
-  <a id="PlugVR_BoardGame_BoardGameManager_GameID_" data-uid="PlugVR.BoardGame.BoardGameManager.GameID*"></a>
-  <h4 id="PlugVR_BoardGame_BoardGameManager_GameID" data-uid="PlugVR.BoardGame.BoardGameManager.GameID">GameID</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public string GameID { get; }</code></pre>
-  </div>
-  <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">String</a></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
   <a id="PlugVR_BoardGame_BoardGameManager_GameInfo_" data-uid="PlugVR.BoardGame.BoardGameManager.GameInfo*"></a>
   <h4 id="PlugVR_BoardGame_BoardGameManager_GameInfo" data-uid="PlugVR.BoardGame.BoardGameManager.GameInfo">GameInfo</h4>
   <div class="markdown level1 summary"></div>
@@ -288,31 +263,6 @@
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public bool IsPlaying { get; }</code></pre>
-  </div>
-  <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <a id="PlugVR_BoardGame_BoardGameManager_IsRound_" data-uid="PlugVR.BoardGame.BoardGameManager.IsRound*"></a>
-  <h4 id="PlugVR_BoardGame_BoardGameManager_IsRound" data-uid="PlugVR.BoardGame.BoardGameManager.IsRound">IsRound</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">protected bool IsRound { get; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -434,7 +384,8 @@
   
   <a id="PlugVR_BoardGame_BoardGameManager_ParticipatePlayerCount_" data-uid="PlugVR.BoardGame.BoardGameManager.ParticipatePlayerCount*"></a>
   <h4 id="PlugVR_BoardGame_BoardGameManager_ParticipatePlayerCount" data-uid="PlugVR.BoardGame.BoardGameManager.ParticipatePlayerCount">ParticipatePlayerCount</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>참여중인 플레이어 수</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
@@ -488,7 +439,7 @@
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public PointBase[] PointBases { get; }</code></pre>
+    <pre><code class="lang-csharp hljs">public List&lt;PointBase&gt; PointBases { get; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -500,7 +451,7 @@
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="PlugVR.BoardGame.PointBase.html">PointBase</a>[]</td>
+        <td><span class="xref">List</span>&lt;<a class="xref" href="PlugVR.BoardGame.PointBase.html">PointBase</a>&gt;</td>
         <td></td>
       </tr>
     </tbody>
@@ -534,7 +485,8 @@
   
   <a id="PlugVR_BoardGame_BoardGameManager_RemainingPlayerCount_" data-uid="PlugVR.BoardGame.BoardGameManager.RemainingPlayerCount*"></a>
   <h4 id="PlugVR_BoardGame_BoardGameManager_RemainingPlayerCount" data-uid="PlugVR.BoardGame.BoardGameManager.RemainingPlayerCount">RemainingPlayerCount</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>아직 게임이 끝나지 않은 플레이어 수</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
@@ -584,53 +536,6 @@
   </h3>
   
   
-  <a id="PlugVR_BoardGame_BoardGameManager_AddEvent_" data-uid="PlugVR.BoardGame.BoardGameManager.AddEvent*"></a>
-  <h4 id="PlugVR_BoardGame_BoardGameManager_AddEvent_UniTask_System_String_" data-uid="PlugVR.BoardGame.BoardGameManager.AddEvent(UniTask,System.String)">AddEvent(UniTask, String)</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">protected async UniTaskVoid AddEvent(UniTask task, string methodName)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">UniTask</span></td>
-        <td><span class="parametername">task</span></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">String</a></td>
-        <td><span class="parametername">methodName</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">UniTaskVoid</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
   <a id="PlugVR_BoardGame_BoardGameManager_AddScore_" data-uid="PlugVR.BoardGame.BoardGameManager.AddScore*"></a>
   <h4 id="PlugVR_BoardGame_BoardGameManager_AddScore_System_Int32_System_Int32_" data-uid="PlugVR.BoardGame.BoardGameManager.AddScore(System.Int32,System.Int32)">AddScore(Int32, Int32)</h4>
   <div class="markdown level1 summary"><p>점수 추가</p>
@@ -660,6 +565,108 @@
         <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">Int32</a></td>
         <td><span class="parametername">addScore</span></td>
         <td><p>추가할 점수</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="PlugVR_BoardGame_BoardGameManager_BoardRaiseEventBuffer_" data-uid="PlugVR.BoardGame.BoardGameManager.BoardRaiseEventBuffer*"></a>
+  <h4 id="PlugVR_BoardGame_BoardGameManager_BoardRaiseEventBuffer_System_Byte_ReceiverGroup_System_Object_" data-uid="PlugVR.BoardGame.BoardGameManager.BoardRaiseEventBuffer(System.Byte,ReceiverGroup,System.Object)">BoardRaiseEventBuffer(Byte, ReceiverGroup, Object)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected void BoardRaiseEventBuffer(byte code, ReceiverGroup group, object content)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">Byte</a></td>
+        <td><span class="parametername">code</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">ReceiverGroup</span></td>
+        <td><span class="parametername">group</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">Object</a></td>
+        <td><span class="parametername">content</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="PlugVR_BoardGame_BoardGameManager_CalculateRank_" data-uid="PlugVR.BoardGame.BoardGameManager.CalculateRank*"></a>
+  <h4 id="PlugVR_BoardGame_BoardGameManager_CalculateRank_Dictionary_System_Int32_System_Int32__System_Boolean_System_String_" data-uid="PlugVR.BoardGame.BoardGameManager.CalculateRank(Dictionary{System.Int32,System.Int32},System.Boolean,System.String)">CalculateRank(Dictionary&lt;Int32, Int32&gt;, Boolean, String)</h4>
+  <div class="markdown level1 summary"><p>입력받은 값에 따라서 순위를 계산하는 기능 <br></p>
+<ul>
+<li>먼저 끝난 플레이어 순서대로 순위가 결정됨 <br></li>
+<li>끝났지만 GiveUp, Leave 인 경우 가장 낮은 순위로 변경 <br></li>
+<li>그외에는 IsDescending에 따라 점수 순서대로 순위가 결정됨 <br></li>
+<li>만약 같은 점수가 있을 경우 같은 순위로 처리 <br></li>
+<li>Ignore 는 끝난 플레이어 순서가 아닌 점수 순서대로 순위가 결정됨 <br></li>
+<li>CustomKey 를 사용해 GiveUp, Leave와 같이 가장 낮은 순위로 변경 할 수 있음</li>
+</ul>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Dictionary&lt;int, int&gt; CalculateRank(Dictionary&lt;int, int&gt; indexScoreDic, bool isDescending, string customKey = &quot;CustomKey&quot;)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Dictionary</span>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">Int32</a>, <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">Int32</a>&gt;</td>
+        <td><span class="parametername">indexScoreDic</span></td>
+        <td><p>입력받은 인덱스, 점수 딕셔너리 값</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+        <td><span class="parametername">isDescending</span></td>
+        <td><p>점수 정렬 방식</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td><span class="parametername">customKey</span></td>
+        <td><p>GiveUp, Leave 와 같음</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Dictionary</span>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">Int32</a>, <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">Int32</a>&gt;</td>
+        <td><p>[PointIndex, Rank]</p>
 </td>
       </tr>
     </tbody>
@@ -734,13 +741,32 @@
   
   
   <a id="PlugVR_BoardGame_BoardGameManager_EndRound_" data-uid="PlugVR.BoardGame.BoardGameManager.EndRound*"></a>
-  <h4 id="PlugVR_BoardGame_BoardGameManager_EndRound" data-uid="PlugVR.BoardGame.BoardGameManager.EndRound">EndRound()</h4>
-  <div class="markdown level1 summary"></div>
+  <h4 id="PlugVR_BoardGame_BoardGameManager_EndRound_PlugVR_BoardGame_BoardPlayer_" data-uid="PlugVR.BoardGame.BoardGameManager.EndRound(PlugVR.BoardGame.BoardPlayer)">EndRound(BoardPlayer)</h4>
+  <div class="markdown level1 summary"><p>라운드가 끝냅니다.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public bool EndRound()</code></pre>
+    <pre><code class="lang-csharp hljs">public bool EndRound(BoardPlayer player = null)</code></pre>
   </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="PlugVR.BoardGame.BoardPlayer.html">BoardPlayer</a></td>
+        <td><span class="parametername">player</span></td>
+        <td><p>라운드를 끝낸 플레이어(null 일경우 로컬 플레이어로 변경)</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
   <h5 class="returns">Returns</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
@@ -752,6 +778,56 @@
     <tbody>
       <tr>
         <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="PlugVR_BoardGame_BoardGameManager_FirstActivePlayerActorNumber_" data-uid="PlugVR.BoardGame.BoardGameManager.FirstActivePlayerActorNumber*"></a>
+  <h4 id="PlugVR_BoardGame_BoardGameManager_FirstActivePlayerActorNumber" data-uid="PlugVR.BoardGame.BoardGameManager.FirstActivePlayerActorNumber">FirstActivePlayerActorNumber()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected int FirstActivePlayerActorNumber()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="PlugVR_BoardGame_BoardGameManager_FirstPlayerNotFinished_" data-uid="PlugVR.BoardGame.BoardGameManager.FirstPlayerNotFinished*"></a>
+  <h4 id="PlugVR_BoardGame_BoardGameManager_FirstPlayerNotFinished" data-uid="PlugVR.BoardGame.BoardGameManager.FirstPlayerNotFinished">FirstPlayerNotFinished()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected int FirstPlayerNotFinished()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">Int32</a></td>
         <td></td>
       </tr>
     </tbody>
@@ -1347,7 +1423,7 @@
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public virtual void OnEvent(EventData photonEvent)</code></pre>
+    <pre><code class="lang-csharp hljs">public void OnEvent(EventData photonEvent)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -1487,7 +1563,7 @@
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public virtual void OnRoomPropertiesUpdate(Hashtable propertiesThatChanged)</code></pre>
+    <pre><code class="lang-csharp hljs">public void OnRoomPropertiesUpdate(Hashtable propertiesThatChanged)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -1517,91 +1593,6 @@
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public abstract void OnStartGame()</code></pre>
   </div>
-  
-  
-  <a id="PlugVR_BoardGame_BoardGameManager_OnUpdateScore_" data-uid="PlugVR.BoardGame.BoardGameManager.OnUpdateScore*"></a>
-  <h4 id="PlugVR_BoardGame_BoardGameManager_OnUpdateScore_System_Int32_System_Int32_" data-uid="PlugVR.BoardGame.BoardGameManager.OnUpdateScore(System.Int32,System.Int32)">OnUpdateScore(Int32, Int32)</h4>
-  <div class="markdown level1 summary"><p>점수가 업데이트 될 때 마다 호출되는 이벤트</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public virtual void OnUpdateScore(int pointIndex, int score)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">Int32</a></td>
-        <td><span class="parametername">pointIndex</span></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">Int32</a></td>
-        <td><span class="parametername">score</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <a id="PlugVR_BoardGame_BoardGameManager_OpEndGame_" data-uid="PlugVR.BoardGame.BoardGameManager.OpEndGame*"></a>
-  <h4 id="PlugVR_BoardGame_BoardGameManager_OpEndGame" data-uid="PlugVR.BoardGame.BoardGameManager.OpEndGame">OpEndGame()</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">protected virtual void OpEndGame()</code></pre>
-  </div>
-  
-  
-  <a id="PlugVR_BoardGame_BoardGameManager_OpEndRoundEvent_" data-uid="PlugVR.BoardGame.BoardGameManager.OpEndRoundEvent*"></a>
-  <h4 id="PlugVR_BoardGame_BoardGameManager_OpEndRoundEvent_System_Int32_" data-uid="PlugVR.BoardGame.BoardGameManager.OpEndRoundEvent(System.Int32)">OpEndRoundEvent(Int32)</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">protected virtual async UniTask OpEndRoundEvent(int playerNumber)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">Int32</a></td>
-        <td><span class="parametername">playerNumber</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">UniTask</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
   
   
   <a id="PlugVR_BoardGame_BoardGameManager_OpStartGameEvent_" data-uid="PlugVR.BoardGame.BoardGameManager.OpStartGameEvent*"></a>
@@ -1636,13 +1627,13 @@
   </table>
   
   
-  <a id="PlugVR_BoardGame_BoardGameManager_OpStartRoundEvent_" data-uid="PlugVR.BoardGame.BoardGameManager.OpStartRoundEvent*"></a>
-  <h4 id="PlugVR_BoardGame_BoardGameManager_OpStartRoundEvent_System_Int32_" data-uid="PlugVR.BoardGame.BoardGameManager.OpStartRoundEvent(System.Int32)">OpStartRoundEvent(Int32)</h4>
+  <a id="PlugVR_BoardGame_BoardGameManager_ProcessOnEvent_" data-uid="PlugVR.BoardGame.BoardGameManager.ProcessOnEvent*"></a>
+  <h4 id="PlugVR_BoardGame_BoardGameManager_ProcessOnEvent_System_Byte_System_Object_System_Int32_" data-uid="PlugVR.BoardGame.BoardGameManager.ProcessOnEvent(System.Byte,System.Object,System.Int32)">ProcessOnEvent(Byte, Object, Int32)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">protected virtual bool OpStartRoundEvent(int playerNumber)</code></pre>
+    <pre><code class="lang-csharp hljs">protected virtual void ProcessOnEvent(byte eventCode, object content, int senderId)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -1654,37 +1645,32 @@
       </tr>
     </thead>
     <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">Byte</a></td>
+        <td><span class="parametername">eventCode</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">Object</a></td>
+        <td><span class="parametername">content</span></td>
+        <td></td>
+      </tr>
       <tr>
         <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">Int32</a></td>
-        <td><span class="parametername">playerNumber</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+        <td><span class="parametername">senderId</span></td>
         <td></td>
       </tr>
     </tbody>
   </table>
   
   
-  <a id="PlugVR_BoardGame_BoardGameManager_RaiseEvent_" data-uid="PlugVR.BoardGame.BoardGameManager.RaiseEvent*"></a>
-  <h4 id="PlugVR_BoardGame_BoardGameManager_RaiseEvent_System_Byte_Player_System_Object_" data-uid="PlugVR.BoardGame.BoardGameManager.RaiseEvent(System.Byte,Player,System.Object)">RaiseEvent(Byte, Player, Object)</h4>
+  <a id="PlugVR_BoardGame_BoardGameManager_ResetAndException_" data-uid="PlugVR.BoardGame.BoardGameManager.ResetAndException*"></a>
+  <h4 id="PlugVR_BoardGame_BoardGameManager_ResetAndException_Exception_" data-uid="PlugVR.BoardGame.BoardGameManager.ResetAndException(Exception)">ResetAndException(Exception)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">protected void RaiseEvent(byte eventCode, Player player, object content)</code></pre>
+    <pre><code class="lang-csharp hljs">protected virtual void ResetAndException(Exception exception)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -1697,109 +1683,8 @@
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">Byte</a></td>
-        <td><span class="parametername">eventCode</span></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td><span class="xref">Player</span></td>
-        <td><span class="parametername">player</span></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">Object</a></td>
-        <td><span class="parametername">content</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <a id="PlugVR_BoardGame_BoardGameManager_RaiseEvent_" data-uid="PlugVR.BoardGame.BoardGameManager.RaiseEvent*"></a>
-  <h4 id="PlugVR_BoardGame_BoardGameManager_RaiseEvent_System_Byte_ReceiverGroup_System_Object_" data-uid="PlugVR.BoardGame.BoardGameManager.RaiseEvent(System.Byte,ReceiverGroup,System.Object)">RaiseEvent(Byte, ReceiverGroup, Object)</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">protected void RaiseEvent(byte eventCode, ReceiverGroup group, object content)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">Byte</a></td>
-        <td><span class="parametername">eventCode</span></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td><span class="xref">ReceiverGroup</span></td>
-        <td><span class="parametername">group</span></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">Object</a></td>
-        <td><span class="parametername">content</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <a id="PlugVR_BoardGame_BoardGameManager_ResetGame_" data-uid="PlugVR.BoardGame.BoardGameManager.ResetGame*"></a>
-  <h4 id="PlugVR_BoardGame_BoardGameManager_ResetGame_System_String_" data-uid="PlugVR.BoardGame.BoardGameManager.ResetGame(System.String)">ResetGame(String)</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">protected virtual void ResetGame(string message)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">String</a></td>
-        <td><span class="parametername">message</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <a id="PlugVR_BoardGame_BoardGameManager_SetCallbackTarget_" data-uid="PlugVR.BoardGame.BoardGameManager.SetCallbackTarget*"></a>
-  <h4 id="PlugVR_BoardGame_BoardGameManager_SetCallbackTarget_PlugVR_BoardGame_AdditionalBoardManager_" data-uid="PlugVR.BoardGame.BoardGameManager.SetCallbackTarget(PlugVR.BoardGame.AdditionalBoardManager)">SetCallbackTarget(AdditionalBoardManager)</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void SetCallbackTarget(AdditionalBoardManager additionalBoardManager)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="PlugVR.BoardGame.AdditionalBoardManager.html">AdditionalBoardManager</a></td>
-        <td><span class="parametername">additionalBoardManager</span></td>
+        <td><span class="xref">Exception</span></td>
+        <td><span class="parametername">exception</span></td>
         <td></td>
       </tr>
     </tbody>
@@ -1834,7 +1719,7 @@
       <tr>
         <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
         <td><span class="parametername">isFinished</span></td>
-        <td><p>종료한 시간</p>
+        <td><p>종료 여부</p>
 </td>
       </tr>
       <tr>
@@ -1847,9 +1732,38 @@
   </table>
   
   
+  <a id="PlugVR_BoardGame_BoardGameManager_SetFinishedOverride_" data-uid="PlugVR.BoardGame.BoardGameManager.SetFinishedOverride*"></a>
+  <h4 id="PlugVR_BoardGame_BoardGameManager_SetFinishedOverride_System_Int32_" data-uid="PlugVR.BoardGame.BoardGameManager.SetFinishedOverride(System.Int32)">SetFinishedOverride(Int32)</h4>
+  <div class="markdown level1 summary"><p>특정 플레이어를 종료후 점수를 재설정합니다.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SetFinishedOverride(int playerNumber)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+        <td><span class="parametername">playerNumber</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
   <a id="PlugVR_BoardGame_BoardGameManager_SetGiveUp_" data-uid="PlugVR.BoardGame.BoardGameManager.SetGiveUp*"></a>
   <h4 id="PlugVR_BoardGame_BoardGameManager_SetGiveUp_System_Int32_" data-uid="PlugVR.BoardGame.BoardGameManager.SetGiveUp(System.Int32)">SetGiveUp(Int32)</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>특정 플레이어를 기권시킵니다.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
@@ -1868,7 +1782,8 @@
       <tr>
         <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">Int32</a></td>
         <td><span class="parametername">playerNumber</span></td>
-        <td></td>
+        <td><p>플레이어 번호</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -2092,13 +2007,32 @@
   
   
   <a id="PlugVR_BoardGame_BoardGameManager_StartRound_" data-uid="PlugVR.BoardGame.BoardGameManager.StartRound*"></a>
-  <h4 id="PlugVR_BoardGame_BoardGameManager_StartRound" data-uid="PlugVR.BoardGame.BoardGameManager.StartRound">StartRound()</h4>
-  <div class="markdown level1 summary"></div>
+  <h4 id="PlugVR_BoardGame_BoardGameManager_StartRound_PlugVR_BoardGame_BoardPlayer_" data-uid="PlugVR.BoardGame.BoardGameManager.StartRound(PlugVR.BoardGame.BoardPlayer)">StartRound(BoardPlayer)</h4>
+  <div class="markdown level1 summary"><p>라운드를 시작합니다.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public bool StartRound()</code></pre>
+    <pre><code class="lang-csharp hljs">public bool StartRound(BoardPlayer player = null)</code></pre>
   </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="PlugVR.BoardGame.BoardPlayer.html">BoardPlayer</a></td>
+        <td><span class="parametername">player</span></td>
+        <td><p>라운드를 시작시킨 플레이어(null일 경우 로컬 플레이어로 변경)</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
   <h5 class="returns">Returns</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
@@ -2110,6 +2044,48 @@
     <tbody>
       <tr>
         <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="PlugVR_BoardGame_BoardGameManager_TestCalculatePoint_" data-uid="PlugVR.BoardGame.BoardGameManager.TestCalculatePoint*"></a>
+  <h4 id="PlugVR_BoardGame_BoardGameManager_TestCalculatePoint_List_System_Int32___" data-uid="PlugVR.BoardGame.BoardGameManager.TestCalculatePoint(List{System.Int32}@)">TestCalculatePoint(out List&lt;Int32&gt;)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Dictionary&lt;int, int&gt; TestCalculatePoint(out List&lt;int&gt; remainingPointIndex)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">List</span>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">Int32</a>&gt;</td>
+        <td><span class="parametername">remainingPointIndex</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Dictionary</span>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">Int32</a>, <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">Int32</a>&gt;</td>
         <td></td>
       </tr>
     </tbody>
